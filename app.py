@@ -82,9 +82,9 @@ if not st.session_state.autenticado:
                 else:
                     st.error("Usuario o contraseña incorrectos.")
             else:
-            st.error("Error al cargar la base de datos de usuarios.")
-            # Imprime el contenido para ver por qué vino vacío
-            st.write("Estado actual de df_users:", df_users)
+                st.error("Error al cargar la base de datos de usuarios.")
+                # Imprime el contenido para ver por qué vino vacío
+                st.write("Estado actual de df_users:", df_users)
 
 # --- BARRA LATERAL (MENÚ Y PERFIL) ---
 st.sidebar.write(f"👤 **{st.session_state.nombre}** ({st.session_state.rol})")
