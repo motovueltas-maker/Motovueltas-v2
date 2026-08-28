@@ -9,7 +9,7 @@ import urllib.parse
 st.set_page_config(page_title="MotoVueltas v2", page_icon="🏍️", layout="wide")
 
 # --- CREDENCIALES GITHUB (Desde Streamlit Secrets o Variables) ---
-GITHUB_TOKEN = st.secrets.get("GITHUB_TOKEN", "")
+GITHUB_TOKEN = st.secrets.get("GITHUB_TOKEN", "TU_TOKEN_REAL_AQUI")
 GITHUB_REPO = st.secrets.get("GITHUB_REPO", "motovueltas-maker/Motovueltas-v2")
 BRANCH = "main"
 
