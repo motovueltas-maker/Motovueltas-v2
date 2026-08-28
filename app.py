@@ -26,15 +26,12 @@ headers_gh = {
 
 # --- FUNCIONES DE PERSISTENCIA GITHUB ---
 def cargar_csv_desde_github(file_path):
-    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{file_path}?ref={BRANCH}"
-    r = requests.get(url, headers=headers_gh)
-    if r.status_code == 200:
-        content = base64.b64decode(r.json()['content']).decode('utf-8')
-        from io import StringIO
-        df = pd.read_csv(StringIO(content))
+    url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/{BRANCH}/{file_path}"
+    try:
+        df = pd.read_csv(url)
         df.columns = [c.strip().lower() for c in df.columns]
-        return df, r.json()['sha']
-    else:
+        return df, None
+    except Exception:
         return pd.DataFrame(), None
 
 def guardar_csv_en_github(file_path, df, sha_actual, mensaje_commit):
