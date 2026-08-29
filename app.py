@@ -76,14 +76,22 @@ if not st.session_state.autenticado:
     st.stop()
 
 # --- BARRA LATERAL (MENÚ Y PERFIL) ---
-st.sidebar.write(f"👤 **{st.session_state.usuario.capitalize()}**")
+# Asegurar asignación de rol si la sesión ya existía
+if "rol" not in st.session_state:
+    st.session_state.rol = "Admin" if st.session_state.usuario == "esneyder" else "Motorizado"
+
+st.sidebar.write(f"👤 **{st.session_state.usuario.capitalize()}** ({st.session_state.rol})")
 if st.sidebar.button("Cerrar Sesión"):
     st.session_state.autenticado = False
     st.rerun()
 
 st.sidebar.markdown("---")
-opciones = [" Validar Vueltas", " Registrar Vuelta", " Corte Clientes", " Corte Motorizados", " Directorio Clientes", " Perfiles Motorizados"]
-opcion_menu = st.sidebar.radio("Módulo:", opciones)
+
+# Menú según el rol del usuario
+if st.session_state.get("rol", "Motorizado") == "Admin":
+    opciones = [" Validar Vueltas", " Registrar Vuelta", " Corte Clientes", " Corte Motorizados", " Directorio Clientes", " Perfiles Motorizados"]
+else:
+    opciones = [" Registrar Vuelta"]
 
 # --- CARGA GENERAL DE DATOS ---
 df_motos, sha_motos = cargar_csv_desde_github(FILE_MOTORIZADOS)
