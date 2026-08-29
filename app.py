@@ -251,7 +251,13 @@ elif opcion_menu == " Directorio Clientes":
                     df_clientes.at[idx, 'nombre'] = edit_nom_c
                     df_clientes.at[idx, 'telefono'] = edit_tel_c
                     df_clientes.at[idx, 'ubicacion'] = edit_ubi_c
-
+                    
+                    # Ejecutar el guardado y refrescar dentro del click del botón
+                    if guardar_csv_en_github(FILE_CLIENTES, df_clientes, sha_clientes, f"Editar cliente {edit_nom_c}"):
+                        st.success(f"Cliente {edit_nom_c} actualizado exitosamente.")
+                        st.rerun()
+                    else:
+                        st.error("Error al guardar la actualización en GitHub.")
 # --- MÓDULO 4: PERFILES MOTORIZADOS ---
 elif opcion_menu == " Perfiles Motorizados":
     st.header("🏍️ Gestión de Motorizados")
