@@ -53,38 +53,27 @@ def guardar_csv_en_github(file_path, df, sha_actual, mensaje_commit):
     r = requests.put(url, json=data, headers=headers_gh)
     return r.status_code in [200, 201]
 
-# --- INICIALIZACIÓN DE SESIÓN ---
+# --- INICIALIZACIÓN DE SESIÓN Y LOGIN CON SECRETS ---
 if "autenticado" not in st.session_state:
     st.session_state.autenticado = False
     st.session_state.usuario = ""
-    st.session_state.nombre = ""
-    st.session_state.rol = ""
 
-# --- LOGIN ---
 if not st.session_state.autenticado:
     st.title("🏍️ MotoVueltas - Acceso al Sistema")
-    df_users, _ = cargar_csv_desde_github(FILE_USUARIOS)
-    
     with st.form("form_login"):
-        user_input = st.text_input("Usuario")
-        pass_input = st.text_input("Contraseña", type="password")
+        user_input = st.text_input("Usuario (ej: esneyder, omar)").strip().lower()
+        pass_input = st.text_input("Contraseña", type="password").strip()
         btn_login = st.form_submit_button("Iniciar Sesión", type="primary")
         
         if btn_login:
-            if not df_users.empty and 'usuario' in df_users.columns:
-                user_row = df_users[(df_users['usuario'].astype(str) == user_input) & (df_users['clave'].astype(str) == pass_input)]
-                if not user_row.empty:
-                    st.session_state.autenticado = True
-                    st.session_state.usuario = user_input
-                    st.session_state.nombre = user_row.iloc[0]['nombre']
-                    st.session_state.rol = user_row.iloc[0]['rol']
-                    st.rerun()
-                else:
-                    st.error("Usuario o contraseña incorrectos.")
+            usuarios_validos = st.secrets.get("passwords", {})
+            if user_input in usuarios_validos and str(usuarios_validos[user_input]) == pass_input:
+                st.session_state.autenticado = True
+                st.session_state.usuario = user_input
+                st.rerun()
             else:
-                st.error("Error al cargar la base de datos de usuarios.")
-                # Imprime el contenido para ver por qué vino vacío
-                st.write("Estado actual de df_users:", df_users)
+                st.error("⚠️ Usuario o contraseña incorrectos.")
+    st.stop()
 
 # --- BARRA LATERAL (MENÚ Y PERFIL) ---
 st.sidebar.write(f"👤 **{st.session_state.nombre}** ({st.session_state.rol})")
