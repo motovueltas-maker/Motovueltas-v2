@@ -198,9 +198,8 @@ elif opcion_menu == " Validar Vueltas":
 # --- MÓDULO 3: DIRECTORIO CLIENTES ---
 elif opcion_menu == " Directorio Clientes":
     st.header("👥 Gestión de Clientes")
-    if not df_clientes.empty:
-        st.dataframe(df_clientes, use_container_width=True)
-        
+
+    # 1. RECUADRO PARA AGREGAR CLIENTE
     with st.form("form_agregar_cliente", clear_on_submit=True):
         st.subheader("➕ Agregar Cliente")
         nom_c = st.text_input("Nombre")
@@ -216,13 +215,17 @@ elif opcion_menu == " Directorio Clientes":
                 st.success("Cliente agregado exitosamente.")
                 st.rerun()
 
-    # --- SECCIÓN EDITAR CLIENTE ---
+    # 2. TABLA VISUAL DE LOS CLIENTES YA AGREGADOS
+    if not df_clientes.empty:
+        st.markdown("---")
+        st.dataframe(df_clientes, use_container_width=True)
+
+    # 3. RECUADRO PARA EDITAR CLIENTE
     if not df_clientes.empty:
         st.markdown("---")
         st.subheader("✏️ Editar Cliente Existente")
         opciones_clientes = {f"{row['nombre']} (ID: {row['id']})": row['id'] for _, row in df_clientes.iterrows()}
         
-        # Selector con cuadro vacío por defecto
         cli_sel_label = st.selectbox(
             "Selecciona el cliente a editar",
             list(opciones_clientes.keys()),
@@ -230,7 +233,6 @@ elif opcion_menu == " Directorio Clientes":
             placeholder="Escribe o selecciona un cliente..."
         )
         
-        # Solo muestra el formulario si hay un cliente seleccionado
         if cli_sel_label:
             id_cli_sel = opciones_clientes[cli_sel_label]
             datos_cli = df_clientes[df_clientes['id'] == id_cli_sel].iloc[0]
@@ -243,7 +245,6 @@ elif opcion_menu == " Directorio Clientes":
                 if st.form_submit_button("Actualizar Cliente"):
                     idx = df_clientes[df_clientes['id'] == id_cli_sel].index[0]
                     
-                    # Convertir columnas a tipo texto para evitar errores con signos o guiones
                     df_clientes['nombre'] = df_clientes['nombre'].astype(str)
                     df_clientes['telefono'] = df_clientes['telefono'].astype(str)
                     df_clientes['ubicacion'] = df_clientes['ubicacion'].astype(str)
@@ -252,12 +253,12 @@ elif opcion_menu == " Directorio Clientes":
                     df_clientes.at[idx, 'telefono'] = edit_tel_c
                     df_clientes.at[idx, 'ubicacion'] = edit_ubi_c
                     
-                    # Ejecutar el guardado y refrescar dentro del click del botón
                     if guardar_csv_en_github(FILE_CLIENTES, df_clientes, sha_clientes, f"Editar cliente {edit_nom_c}"):
                         st.success(f"Cliente {edit_nom_c} actualizado exitosamente.")
                         st.rerun()
                     else:
                         st.error("Error al guardar la actualización en GitHub.")
+                        
 # --- MÓDULO 4: PERFILES MOTORIZADOS ---
 elif opcion_menu == " Perfiles Motorizados":
     st.header("🏍️ Gestión de Motorizados")
