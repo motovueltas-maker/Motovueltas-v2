@@ -242,12 +242,15 @@ elif opcion_menu == " Directorio Clientes":
                 
                 if st.form_submit_button("Actualizar Cliente"):
                     idx = df_clientes[df_clientes['id'] == id_cli_sel].index[0]
+                    
+                    # Convertir columnas a tipo texto para evitar errores con signos o guiones
+                    df_clientes['nombre'] = df_clientes['nombre'].astype(str)
+                    df_clientes['telefono'] = df_clientes['telefono'].astype(str)
+                    df_clientes['ubicacion'] = df_clientes['ubicacion'].astype(str)
+                    
                     df_clientes.at[idx, 'nombre'] = edit_nom_c
                     df_clientes.at[idx, 'telefono'] = edit_tel_c
                     df_clientes.at[idx, 'ubicacion'] = edit_ubi_c
-                    if guardar_csv_en_github(FILE_CLIENTES, df_clientes, sha_clientes, f"Editar cliente {edit_nom_c}"):
-                        st.success(f"Cliente {edit_nom_c} actualizado exitosamente.")
-                        st.rerun()
 
 # --- MÓDULO 4: PERFILES MOTORIZADOS ---
 elif opcion_menu == " Perfiles Motorizados":
