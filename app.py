@@ -76,18 +76,13 @@ if not st.session_state.autenticado:
     st.stop()
 
 # --- BARRA LATERAL (MENÚ Y PERFIL) ---
-st.sidebar.write(f"👤 **{st.session_state.nombre}** ({st.session_state.rol})")
+st.sidebar.write(f"👤 **{st.session_state.usuario.capitalize()}**")
 if st.sidebar.button("Cerrar Sesión"):
     st.session_state.autenticado = False
     st.rerun()
 
 st.sidebar.markdown("---")
-
-if st.session_state.rol == "Admin":
-    opciones = [" Validar Vueltas", " Registrar Vuelta", " Corte Clientes", " Corte Motorizados", " Directorio Clientes", " Perfiles Motorizados"]
-else:
-    opciones = [" Registrar Vuelta"]
-
+opciones = [" Validar Vueltas", " Registrar Vuelta", " Corte Clientes", " Corte Motorizados", " Directorio Clientes", " Perfiles Motorizados"]
 opcion_menu = st.sidebar.radio("Módulo:", opciones)
 
 # --- CARGA GENERAL DE DATOS ---
