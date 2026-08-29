@@ -237,28 +237,26 @@ elif opcion_menu == " Perfiles Motorizados":
                 st.success("Motorizado agregado exitosamente.")
                 st.rerun()
 
-        # --- SECCIÓN EDITAR MOTORIZADO ---
-        if not df_motos.empty:
-            st.markdown("---")
-            st.subheader("✏️ Editar Motorizado Existente")
+    # --- SECCIÓN EDITAR MOTORIZADO (FUERA DEL FORMULARIO DE AGREGAR) ---
+    if not df_motos.empty:
+        st.markdown("---")
+        st.subheader("✏️ Editar Motorizado Existente")
+        
+        opciones_motos = {f"{row['nombre']} (ID: {row['id']})": row['id'] for _, row in df_motos.iterrows()}
+        moto_sel_label = st.selectbox("Selecciona el motorizado a editar", list(opciones_motos.keys()))
+        id_moto_sel = opciones_motos[moto_sel_label]
+        datos_moto = df_motos[df_motos['id'] == id_moto_sel].iloc[0]
+        
+        with st.form("form_editar_moto"):
+            edit_nombre = st.text_input("Nombre del Chofer", value=str(datos_moto['nombre']))
+            edit_tel = st.text_input("Teléfono", value=str(datos_moto['telefono']) if pd.notna(datos_moto['telefono']) else "")
+            edit_pct = st.number_input("% Ganancia Base", value=float(datos_moto['porcentaje_ganancia']), step=0.1)
             
-            opciones_motos = {f"{row['nombre']} (ID: {row['id']})": row['id'] for _, row in df_motos.iterrows()}
-            moto_sel_label = st.selectbox("Selecciona el motorizado a editar", list(opciones_motos.keys()))
-            id_moto_sel = opciones_motos[moto_sel_label]
-            
-            datos_moto = df_motos[df_motos['id'] == id_moto_sel].iloc[0]
-            
-            with st.form("form_editar_moto"):
-                edit_nombre = st.text_input("Nombre del Chofer", value=str(datos_moto['nombre']))
-                edit_tel = st.text_input("Teléfono", value=str(datos_moto['telefono']) if pd.notna(datos_moto['telefono']) else "")
-                edit_pct = st.number_input("% Ganancia Base", value=float(datos_moto['porcentaje_ganancia']), step=0.1)
-                
-                if st.form_submit_button("Actualizar Motorizado"):
-                    idx = df_motos[df_motos['id'] == id_moto_sel].index[0]
-                    df_motos.at[idx, 'nombre'] = edit_nombre
-                    df_motos.at[idx, 'telefono'] = edit_tel
-                    df_motos.at[idx, 'porcentaje_ganancia'] = edit_pct
-                    
-                    if guardar_csv_en_github(FILE_MOTORIZADOS, df_motos, sha_motos, f"Editar motorizado {edit_nombre}"):
-                        st.success(f"Motorizado {edit_nombre} actualizado exitosamente.")
-                        st.rerun()
+            if st.form_submit_button("Actualizar Motorizado"):
+                idx = df_motos[df_motos['id'] == id_moto_sel].index[0]
+                df_motos.at[idx, 'nombre'] = edit_nombre
+                df_motos.at[idx, 'telefono'] = edit_tel
+                df_motos.at[idx, 'porcentaje_ganancia'] = edit_pct
+                if guardar_csv_en_github(FILE_MOTORIZADOS, df_motos, sha_motos, f"Editar motorizado {edit_nombre}"):
+                    st.success(f"Motorizado {edit_nombre} actualizado exitosamente.")
+                    st.rerun()
