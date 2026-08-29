@@ -199,21 +199,40 @@ elif opcion_menu == " Validar Vueltas":
 elif opcion_menu == " Directorio Clientes":
     st.header("👥 Gestión de Clientes")
 
-    # 1. RECUADRO PARA AGREGAR CLIENTE
+    # 1. RECUADRO PARA AGREGAR CLIENTE (TELÉFONO COMO ID ÚNICO)
     with st.form("form_agregar_cliente", clear_on_submit=True):
         st.subheader("➕ Agregar Cliente")
         nom_c = st.text_input("Nombre")
-        tel_c = st.text_input("Teléfono / WhatsApp")
+        tel_c = st.text_input("Teléfono / WhatsApp (Servirá como ID Único)")
         ubi_c = st.text_input("Ubicación Principal")
         btn_c = st.form_submit_button("Guardar Cliente")
         
-        if btn_c and nom_c:
-            nuevo_id_c = len(df_clientes) + 1 if not df_clientes.empty else 1
-            nueva_c = pd.DataFrame([{"id": nuevo_id_c, "nombre": nom_c, "telefono": tel_c, "ubicacion": ubi_c, "saldo_pendiente": 0.0}])
-            df_clientes = pd.concat([df_clientes, nueva_c], ignore_index=True)
-            if guardar_csv_en_github(FILE_CLIENTES, df_clientes, sha_clientes, f"Nuevo cliente {nom_c}"):
-                st.success("Cliente agregado exitosamente.")
-                st.rerun()
+        if btn_c:
+            # Limpieza básica del teléfono para usar como ID
+            tel_clean = str(tel_c).strip()
+            
+            if not nom_c or not tel_clean:
+                st.warning("⚠️ El nombre y el teléfono son obligatorios.")
+            else:
+                # Verificar si ya existe un cliente con ese mismo teléfono/ID
+                telefonos_existentes = df_clientes['id'].astype(str).str.strip().tolist() if not df_clientes.empty and 'id' in df_clientes.columns else []
+                
+                if tel_clean in telefonos_existentes:
+                    st.error(f"❌ Ya existe un cliente registrado con el número/ID: {tel_clean}")
+                else:
+                    nueva_c = pd.DataFrame([{
+                        "id": tel_clean,
+                        "nombre": nom_c,
+                        "telefono": tel_clean,
+                        "ubicacion": ubi_c,
+                        "saldo_pendiente": 0.0
+                    }])
+                    df_clientes = pd.concat([df_clientes, nueva_c], ignore_index=True)
+                    if guardar_csv_en_github(FILE_CLIENTES, df_clientes, sha_clientes, f"Nuevo cliente {nom_c}"):
+                        st.success(f"✅ Cliente {nom_c} registrado exitosamente.")
+                        st.rerun()
+                    else:
+                        st.error("Error al guardar en GitHub.")
 
     # 2. TABLA VISUAL DE LOS CLIENTES YA AGREGADOS
     if not df_clientes.empty:
