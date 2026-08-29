@@ -93,6 +93,8 @@ if st.session_state.get("rol", "Motorizado") == "Admin":
 else:
     opciones = [" Registrar Vuelta"]
 
+opcion_menu = st.sidebar.radio("Módulo:", opciones)
+
 # --- CARGA GENERAL DE DATOS ---
 df_motos, sha_motos = cargar_csv_desde_github(FILE_MOTORIZADOS)
 df_clientes, sha_clientes = cargar_csv_desde_github(FILE_CLIENTES)
