@@ -216,6 +216,32 @@ elif opcion_menu == " Directorio Clientes":
                 st.success("Cliente agregado exitosamente.")
                 st.rerun()
 
+# --- SECCIÓN EDITAR CLIENTE ---
+    if not df_clientes.empty:
+        st.markdown("---")
+        st.subheader("✏️ Editar Cliente Existente")
+        
+        opciones_clientes = {f"{row['nombre']} (ID: {row['id']})": row['id'] for _, row in df_clientes.iterrows()}
+        cli_sel_label = st.selectbox("Selecciona el cliente a editar", list(opciones_clientes.keys()))
+        id_cli_sel = opciones_clientes[cli_sel_label]
+        
+        datos_cli = df_clientes[df_clientes['id'] == id_cli_sel].iloc[0]
+        
+        with st.form("form_editar_cliente"):
+            edit_nom_c = st.text_input("Nombre", value=str(datos_cli['nombre']))
+            edit_tel_c = st.text_input("Teléfono / WhatsApp", value=str(datos_cli['telefono']) if pd.notna(datos_cli['telefono']) else "")
+            edit_ubi_c = st.text_input("Ubicación Principal", value=str(datos_cli['ubicacion']) if pd.notna(datos_cli['ubicacion']) else "")
+            
+            if st.form_submit_button("Actualizar Cliente"):
+                idx = df_clientes[df_clientes['id'] == id_cli_sel].index[0]
+                df_clientes.at[idx, 'nombre'] = edit_nom_c
+                df_clientes.at[idx, 'telefono'] = edit_tel_c
+                df_clientes.at[idx, 'ubicacion'] = edit_ubi_c
+                
+                if guardar_csv_en_github(FILE_CLIENTES, df_clientes, sha_clientes, f"Editar cliente {edit_nom_c}"):
+                    st.success(f"Cliente {edit_nom_c} actualizado exitosamente.")
+                    st.rerun()
+
 # --- MÓDULO 4: PERFILES MOTORIZADOS ---
 elif opcion_menu == " Perfiles Motorizados":
     st.header("🏍️ Gestión de Motorizados")
