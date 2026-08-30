@@ -102,3 +102,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 101,2026-08-24 19:55,Esneyder,Monkey,Local,37 con 18,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 102,2026-08-24 19:56,Esneyder,Monkey,Compra Pollera,Beffsteak,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 103,2026-08-24 19:56,Esneyder,Monkey,Local,Aeropuerto,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
+104,2026-08-24 19:57,Esneyder,Monkey,Compras UNIPREC,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
