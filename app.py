@@ -444,54 +444,40 @@ elif opcion_menu == " Corte Clientes":
                             col_e1, col_e2 = st.columns(2)
                             
                             with col_e1:
-                                # Editar Cliente
                                 idx_cli = nom_clientes.index(row_sel['cliente']) if row_sel['cliente'] in nom_clientes else 0
                                 n_cliente = st.selectbox("Cliente", nom_clientes, index=idx_cli)
                                 
-                                # Editar Motorizado
                                 idx_mot = nom_motos.index(row_sel['motorizado']) if row_sel['motorizado'] in nom_motos else 0
                                 n_motorizado = st.selectbox("Motorizado", nom_motos, index=idx_mot)
                                 
-                                # Editar Origen (Desde)
                                 n_origen = st.text_input("Desde (Origen)", value=str(row_sel['origen']))
-                                
-                                # Editar Precio Cliente
                                 n_precio = st.number_input("Precio Cliente ($)", min_value=0.0, value=float(row_sel['precio_cliente']), step=0.5)
 
                             with col_e2:
-                                # Editar Fecha corta
                                 n_fecha = st.date_input("Fecha", value=f_val, format="DD/MM/YYYY")
                                 
-                                # Obtenemos la comisión prefijada del motorizado seleccionado si cambia
                                 comision_default = float(row_sel.get('porcentaje_comision', 66.67))
                                 if not df_motos.empty and 'porcentaje_ganancia' in df_motos.columns:
                                     m_data = df_motos[df_motos['nombre'].str.strip().str.lower() == n_motorizado.strip().lower()]
                                     if not m_data.empty:
                                         comision_default = float(m_data.iloc[0]['porcentaje_ganancia'])
 
-                                # Editar Comisión del Motorizado
                                 n_comision = st.number_input("% Ganancia Motorizado", min_value=0.0, max_value=100.0, value=comision_default, step=0.5)
-                                
-                                # Editar Destino (Hasta)
                                 n_destino = st.text_input("Hasta (Destino)", value=str(row_sel['destino']))
-                                
-                                # Editar Estado Pago Cliente
                                 n_est_cli = st.selectbox("Estado Pago Cliente", ["Pendiente", "Pagado"], index=0 if str(row_sel['estado_cliente']) != "Pagado" else 1)
 
                             st.markdown("---")
-                            col_btn1, col_btn2 = st.columns(2)
-                            with col_btn1:
-                                btn_guardar_edit = st.form_submit_button("💾 Guardar Cambios", type="primary", use_container_width=True)
+                            btn_guardar_edit = st.form_submit_button("💾 Guardar Cambios", type="primary", use_container_width=True)
 
-                        with col_btn2:
-                            if st.button(f"🗑️ Eliminar Vuelta #{id_vuelta_sel}", type="secondary", use_container_width=True):
-                                df_servicios = df_servicios.drop(idx_orig).reset_index(drop=True)
-                                if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Eliminada vuelta #{id_vuelta_sel}"):
-                                    st.success(f"🗑️ Vuelta #{id_vuelta_sel} eliminada exitosamente.")
-                                    st.rerun()
+                        # Botón de eliminar FUERA del st.form para evitar el error de Streamlit
+                        st.markdown("")
+                        if st.button(f"🗑️ Eliminar Vuelta #{id_vuelta_sel}", type="secondary", use_container_width=True):
+                            df_servicios = df_servicios.drop(idx_orig).reset_index(drop=True)
+                            if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Eliminada vuelta #{id_vuelta_sel}"):
+                                st.success(f"🗑️ Vuelta #{id_vuelta_sel} eliminada exitosamente.")
+                                st.rerun()
 
                         if btn_guardar_edit:
-                            # Recalcular montos de motorizado y empresa automáticamente
                             m_mot = round(n_precio * (n_comision / 100.0), 2)
                             m_emp = round(n_precio - m_mot, 2)
 
