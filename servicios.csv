@@ -46,3 +46,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 45,2026-07-30 18:29,Esneyder,Clinivet,Tamaca Dra Rizotto ,Local,,5.0,100.0,5.0,0.0,Validado,Pendiente,Pendiente
 46,2026-07-31 18:30,Esneyder,Clinivet,Dra Neida Muestra,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 47,2026-07-31 18:30,Esneyder,Clinivet,Dra Neida Medicamento ,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+48,2026-08-01 18:31,Esneyder,Clinivet,Dra Rizotto ,Local,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
