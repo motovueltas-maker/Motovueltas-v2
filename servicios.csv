@@ -34,3 +34,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 33,2026-07-21 18:21,Esneyder,Clinivet,Vida Pet,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 34,2026-07-21 18:21,Esneyder,Clinivet,BioVet,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 35,2026-07-22 18:22,Esneyder,Clinivet,Agromascotas ,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+36,2026-07-23 18:22,Esneyder,Clinivet,Dra Rizotto ,Local,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
