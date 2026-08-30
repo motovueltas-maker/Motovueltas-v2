@@ -112,3 +112,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 111,2026-08-27 20:00,Esneyder,Monkey,Compra Molino,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 112,2026-08-28 20:01,Esneyder,Monkey,Local,Torre Changan,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 113,2026-08-28 20:01,Esneyder,Monkey,Local,Hospital,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+114,2026-08-28 20:01,Esneyder,Monkey,Local,CC Los Próceres,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
