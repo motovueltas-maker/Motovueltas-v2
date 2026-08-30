@@ -140,21 +140,21 @@ if opcion_menu == " Registrar Vuelta":
             placeholder="Selecciona un cliente..."
         )
 
-        # Campos en columnas compactas
+        # Campos en columnas compactas con texto fantasma (placeholder)
         if st.session_state.rol == "Admin":
             c_orig, c_dest, c_prec = st.columns([1, 1, 1])
             with c_orig:
-                origen = st.text_input("Desde", value="Local")
+                origen = st.text_input("Desde", placeholder="Local")
             with c_dest:
-                destino = st.text_input("Hasta", value="Local")
+                destino = st.text_input("Hasta", placeholder="Local")
             with c_prec:
                 precio_ingresado = st.number_input("Precio ($) *", min_value=0.0, step=0.5, value=0.0)
         else:
             c_orig, c_dest = st.columns(2)
             with c_orig:
-                origen = st.text_input("Desde", value="Local")
+                origen = st.text_input("Desde", placeholder="Local")
             with c_dest:
-                destino = st.text_input("Hasta", value="Local")
+                destino = st.text_input("Hasta", placeholder="Local")
             precio_ingresado = 0.0
 
         btn_guardar = st.form_submit_button("🚀 Precargar / Registrar Vuelta", type="primary", use_container_width=True)
