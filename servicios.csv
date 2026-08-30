@@ -80,3 +80,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 79,2026-08-28 18:45,Esneyder,Clinivet,Dra Pire ,Local,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 80,2026-08-28 18:45,Esneyder,Clinivet,Agromascotas PM,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 81,2026-08-29 18:45,Esneyder,Clinivet,Dra Neida,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+82,2026-08-16 19:26,Esneyder,Monkey,Valle Hondo,Local,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
