@@ -379,4 +379,3 @@ elif opcion_menu == " Corte Clientes":
                 st.info("No hay servicios registrados en la base de datos.")
     else:
         st.warning("No hay clientes registrados en el sistema.")
-            st.rerun()
