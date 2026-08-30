@@ -360,9 +360,27 @@ elif opcion_menu == " Corte Clientes":
                     
                     st.markdown("### 📋 Detalle de Servicios Pendientes")
                     if not pendientes.empty:
-                        # Formatear la fecha a DD/MM/AA
-                        pendientes_view = pendientes.copy()
-                        pendientes_view['fecha_corta'] = pd.to_datetime(pendientes_view['fecha'], errors='coerce').dt.strftime('%d/%m/%y')
+                        # Formatear la fecha a DD/MM/AA garantizando que nunca devuelva None
+                        def formatear_fecha_corta(val):
+                            if pd.isna(val) or not str(val).strip():
+                                return ""
+                            try:
+                                # Intenta parsear la fecha y extraer solo el día/mes/año
+                                dt = pd.to_datetime(val, errors='coerce')
+                                if pd.notnull(dt):
+                                    return dt.strftime('%d/%m/%y')
+                                # Si no se pudo parsear, toma los primeros 10 caracteres (AAAA-MM-DD) y reformatea si es posible
+                                val_str = str(val)[:10]
+                                parts = val_str.split('-')
+                                if len(parts) == 3:
+                                    return f"{parts[2]}/{parts[1]}/{parts[0][2:]}"
+                                return val_str
+                            except:
+                                return str(val)[:10]
+
+pendientes_view = pendientes.copy()
+pendientes_view['fecha_corta'] = pendientes_view['fecha'].apply(formatear_fecha_corta)
+                        
                         st.dataframe(pendientes_view[['id', 'fecha_corta', 'motorizado', 'origen', 'destino', 'precio_cliente']], use_container_width=True)
                         
                         msg_whatsapp = f"🧾 *REPORTE DE CUENTA - MOTOVUELTAS*\nCliente: *{cliente_sel}*\n\n"
