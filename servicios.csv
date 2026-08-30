@@ -16,3 +16,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 15,2026-07-10 18:11,Esneyder,Clinivet,Dra Pire,Local,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 16,2026-07-10 18:12,Esneyder,Clinivet,Dra Neida,Local,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 17,2026-07-10 18:13,Esneyder,Clinivet,Dra Rizotto,Local,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
+18,2026-07-11 18:13,Esneyder,Clinivet,Dra Neida,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
