@@ -3,17 +3,15 @@ import pandas as pd
 import requests
 import base64
 from datetime import datetime
-import urllib.parse
 
 # --- CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="MotoVueltas v2", page_icon="🏍️", layout="wide")
 
-# --- CREDENCIALES GITHUB (Desde Streamlit Secrets o Variables) ---
+# --- CREDENCIALES GITHUB ---
 GITHUB_TOKEN = st.secrets.get("GITHUB_TOKEN", "")
 GITHUB_REPO = st.secrets.get("GITHUB_REPO", "motovueltas-maker/Motovueltas-v2")
 BRANCH = "main"
 
-# Nombres de archivos CSV
 FILE_MOTORIZADOS = "motorizados.csv"
 FILE_CLIENTES = "clientes.csv"
 FILE_USUARIOS = "usuarios.csv"
@@ -41,7 +39,6 @@ def guardar_csv_en_github(file_path, df, sha_actual, mensaje_commit):
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{file_path}"
     csv_data = df.to_csv(index=False)
     encoded_content = base64.b64encode(csv_data.encode('utf-8')).decode('utf-8')
-    
     data = {
         "message": mensaje_commit,
         "content": encoded_content,
@@ -49,14 +46,14 @@ def guardar_csv_en_github(file_path, df, sha_actual, mensaje_commit):
     }
     if sha_actual:
         data["sha"] = sha_actual
-        
     r = requests.put(url, json=data, headers=headers_gh)
     return r.status_code in [200, 201]
 
-# --- INICIALIZACIÓN DE SESIÓN Y LOGIN CON SECRETS ---
+# --- CONTROL DE SESIÓN ---
 if "autenticado" not in st.session_state:
     st.session_state.autenticado = False
     st.session_state.usuario = ""
+    st.session_state.rol = "Motorizado"
 
 if not st.session_state.autenticado:
     st.title("🏍️ MotoVueltas - Acceso al Sistema")
@@ -70,13 +67,13 @@ if not st.session_state.autenticado:
             if user_input in usuarios_validos and str(usuarios_validos[user_input]) == pass_input:
                 st.session_state.autenticado = True
                 st.session_state.usuario = user_input
+                st.session_state.rol = "Admin" if user_input == "esneyder" else "Motorizado"
                 st.rerun()
             else:
                 st.error("⚠️ Usuario o contraseña incorrectos.")
     st.stop()
 
 # --- BARRA LATERAL (MENÚ Y PERFIL) ---
-# Asegurar asignación de rol si la sesión ya existía
 if "rol" not in st.session_state:
     st.session_state.rol = "Admin" if st.session_state.usuario == "esneyder" else "Motorizado"
 
@@ -87,7 +84,6 @@ if st.sidebar.button("Cerrar Sesión"):
 
 st.sidebar.markdown("---")
 
-# Menú según el rol del usuario
 if st.session_state.get("rol", "Motorizado") == "Admin":
     opciones = [" Validar Vueltas", " Registrar Vuelta", " Corte Clientes", " Corte Motorizados", " Directorio Clientes", " Perfiles Motorizados"]
 else:
@@ -100,76 +96,130 @@ df_motos, sha_motos = cargar_csv_desde_github(FILE_MOTORIZADOS)
 df_clientes, sha_clientes = cargar_csv_desde_github(FILE_CLIENTES)
 df_servicios, sha_servicios = cargar_csv_desde_github(FILE_SERVICIOS)
 
-# --- MÓDULO 1: REGISTRAR VUELTA ---
+# --- MÓDULO: REGISTRAR VUELTA (COMPACTO) ---
 if opcion_menu == " Registrar Vuelta":
-    st.header("➕ Registrar Nueva Vuelta / Carrera")
+    st.subheader("⚡ Registrar Nueva Vuelta / Carrera")
     
-    with st.form("form_nueva_vuelta", clear_on_submit=True):
-        if st.session_state.rol == "Admin":
+    # === PARAMETROS FIJOS (FUERA DEL RECUADRO REFRESCABLE) ===
+    if st.session_state.rol == "Admin":
+        col_f1, col_f2, col_f3 = st.columns([1, 1, 1])
+        with col_f1:
+            fecha_fija = st.date_input("📅 Fecha", value=datetime.today())
+        with col_f2:
             nom_motos = df_motos['nombre'].tolist() if not df_motos.empty else []
-            mot_sel = st.selectbox("Motorizado", nom_motos)
+            mot_sel_fijo = st.selectbox("🏍️ Motorizado", nom_motos)
+        with col_f3:
+            # Obtener porcentaje por defecto del motorizado seleccionado
+            com_def = 66.67
+            if not df_motos.empty and mot_sel_fijo in df_motos['nombre'].values:
+                com_def = float(df_motos[df_motos['nombre'] == mot_sel_fijo]['porcentaje_ganancia'].values[0])
+            comision_fija = st.number_input("% Ganancia Moto", min_value=0.0, max_value=100.0, value=com_def, step=0.5)
+    else:
+        # Para Motorizado no Admin solo la fecha queda fuera
+        col_f1, _ = st.columns([1, 2])
+        with col_f1:
+            fecha_fija = st.date_input("📅 Fecha", value=datetime.today())
+        mot_sel_fijo = st.session_state.usuario.capitalize()
+        comision_fija = 66.67
+        
+        # Buscar comisión base si existe en base de datos
+        if not df_motos.empty and mot_sel_fijo in df_motos['nombre'].values:
+            comision_fija = float(df_motos[df_motos['nombre'] == mot_sel_fijo]['porcentaje_ganancia'].values[0])
+
+    fecha_str = fecha_fija.strftime("%Y-%m-%d")
+
+    # === FORMULARIO QUE SE REFRESCA AL REGISTRAR ===
+    with st.form("form_nueva_vuelta_compacta", clear_on_submit=True):
+        nom_clientes = df_clientes['nombre'].tolist() if not df_clientes.empty else []
+        
+        # Selección de cliente siempre vacía por defecto
+        cli_sel = st.selectbox(
+            "Cliente *", 
+            nom_clientes, 
+            index=None, 
+            placeholder="Selecciona un cliente..."
+        )
+
+        # Campos en columnas compactas
+        if st.session_state.rol == "Admin":
+            c_orig, c_dest, c_prec = st.columns([1, 1, 1])
+            with c_orig:
+                origen = st.text_input("Desde", value="Local")
+            with c_dest:
+                destino = st.text_input("Hasta", value="Local")
+            with c_prec:
+                precio_ingresado = st.number_input("Precio ($) *", min_value=0.0, step=0.5, value=0.0)
         else:
-            mot_sel = st.session_state.nombre
-            
-        nom_clientes = df_clientes['nombre'].tolist() if not df_clientes.empty else ["Cliente General"]
-        cli_sel = st.selectbox("Cliente", nom_clientes)
-        
-        origen = st.text_input("Origen")
-        destino = st.text_input("Destino")
-        detalle = st.text_area("Detalles / Observaciones")
-        
-        btn_guardar = st.form_submit_button("Guardar Vuelta", type="primary")
-        
+            c_orig, c_dest = st.columns(2)
+            with c_orig:
+                origen = st.text_input("Desde", value="Local")
+            with c_dest:
+                destino = st.text_input("Hasta", value="Local")
+            precio_ingresado = 0.0
+
+        btn_guardar = st.form_submit_button("🚀 Precargar / Registrar Vuelta", type="primary", use_container_width=True)
+
         if btn_guardar:
-            if not origen or not destino:
-                st.error("El origen y destino son obligatorios.")
+            if not cli_sel:
+                st.error("⚠️ Debes seleccionar un cliente de la lista.")
+            elif st.session_state.rol == "Admin" and precio_ingresado <= 0:
+                st.error("⚠️ Por favor ingresa un precio válido mayor a 0.")
             else:
                 nuevo_id = len(df_servicios) + 1 if not df_servicios.empty else 1
-                fecha_actual = datetime.now().strftime("%Y-%m-%d %H:%M")
-                
+                hora_actual = datetime.now().strftime("%H:%M")
+                fecha_completa = f"{fecha_str} {hora_actual}"
+
+                # Lógica de Validación automática para Admin
+                if st.session_state.rol == "Admin":
+                    est_val = "Validado"
+                    precio_val = float(precio_ingresado)
+                    monto_mot = round(precio_val * (comision_fija / 100.0), 2)
+                    monto_emp = round(precio_val - monto_mot, 2)
+                else:
+                    est_val = "Pendiente"
+                    precio_val = 0.0
+                    monto_mot = 0.0
+                    monto_emp = 0.0
+
                 nueva_fila = pd.DataFrame([{
                     "id": nuevo_id,
-                    "fecha": fecha_actual,
-                    "motorizado": mot_sel,
+                    "fecha": fecha_completa,
+                    "motorizado": mot_sel_fijo,
                     "cliente": cli_sel,
-                    "origen": origen,
-                    "destino": destino,
-                    "detalle": detalle,
-                    "precio_cliente": 0.0,
-                    "porcentaje_comision": 66.67,
-                    "monto_motorizado": 0.0,
-                    "ganancia_empresa": 0.0,
-                    "estado_validacion": "Pendiente",
+                    "origen": origen if origen else "Local",
+                    "destino": destino if destino else "Local",
+                    "detalle": "",
+                    "precio_cliente": precio_val,
+                    "porcentaje_comision": comision_fija,
+                    "monto_motorizado": monto_mot,
+                    "ganancia_empresa": monto_emp,
+                    "estado_validacion": est_val,
                     "estado_cliente": "Pendiente",
                     "estado_motorizado": "Pendiente"
                 }])
-                
+
                 df_servicios = pd.concat([df_servicios, nueva_fila], ignore_index=True)
-                if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Nueva vuelta #{nuevo_id}"):
-                    st.success("✅ Vuelta registrada exitosamente (Pendiente de Validación).")
+                if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Vuelta #{nuevo_id} cargada por {st.session_state.usuario}"):
+                    st.success(f"✅ Vuelta #{nuevo_id} guardada exitosamente ({est_val}).")
                     st.rerun()
                 else:
-                    st.error("Error al guardar en GitHub.")
+                    st.error("❌ Error al guardar los datos en GitHub.")
 
-# --- MÓDULO 2: VALIDAR VUELTAS (Solo Admin) ---
+# --- MÓDULO: VALIDAR VUELTAS (Solo Admin) ---
 elif opcion_menu == " Validar Vueltas":
     st.header("⚙️ Validar y Asignar Precios")
-    
     if not df_servicios.empty:
         pendientes = df_servicios[df_servicios['estado_validacion'] == "Pendiente"]
         if pendientes.empty:
             st.info("No hay vueltas pendientes por validar.")
         else:
             for idx, row in pendientes.iterrows():
-                with st.expander(f"Vuelta #{row['id']} - {row['motorizado']} ({row['cliente']})"):
-                    st.write(f"**Fecha:** {row['fecha']} | **Ruta:** {row['origen']} ➡️ {row['destino']}")
-                    st.write(f"**Detalle:** {row['detalle']}")
-                    
+                with st.expander(f"Vuelta #{row['id']} - {row['motorizado']} ({row['cliente']}) - Fecha: {row['fecha']}"):
+                    st.write(f"**Ruta:** {row['origen']} ➡️ {row['destino']}")
                     c1, c2 = st.columns(2)
                     with c1:
                         precio = st.number_input(f"Precio Cliente ($) #{row['id']}", min_value=0.0, value=float(row['precio_cliente']), step=0.5)
                     with c2:
-                        # Obtener comision base del motorizado
                         com_def = 66.67
                         if not df_motos.empty and row['motorizado'] in df_motos['nombre'].values:
                             com_def = float(df_motos[df_motos['nombre'] == row['motorizado']]['porcentaje_ganancia'].values[0])
@@ -189,130 +239,35 @@ elif opcion_menu == " Validar Vueltas":
                             st.success(f"Vuelta #{row['id']} validada correctamente.")
                             st.rerun()
 
-# --- MÓDULO 3: DIRECTORIO CLIENTES ---
+# --- MÓDULO: DIRECTORIO CLIENTES ---
 elif opcion_menu == " Directorio Clientes":
     st.header("👥 Gestión de Clientes")
-
-    # 1. RECUADRO PARA AGREGAR CLIENTE (TELÉFONO COMO ID ÚNICO)
     with st.form("form_agregar_cliente", clear_on_submit=True):
         st.subheader("➕ Agregar Cliente")
         nom_c = st.text_input("Nombre")
-        tel_c = st.text_input("Teléfono / WhatsApp (Servirá como ID Único)")
+        tel_c = st.text_input("Teléfono / WhatsApp")
         ubi_c = st.text_input("Ubicación Principal")
-        btn_c = st.form_submit_button("Guardar Cliente")
-        
-        if btn_c:
-            # Limpieza básica del teléfono para usar como ID
-            tel_clean = str(tel_c).strip()
-            
-            if not nom_c or not tel_clean:
-                st.warning("⚠️ El nombre y el teléfono son obligatorios.")
-            else:
-                # Verificar si ya existe un cliente con ese mismo teléfono/ID
-                telefonos_existentes = df_clientes['id'].astype(str).str.strip().tolist() if not df_clientes.empty and 'id' in df_clientes.columns else []
-                
-                if tel_clean in telefonos_existentes:
-                    st.error(f"❌ Ya existe un cliente registrado con el número/ID: {tel_clean}")
-                else:
-                    nueva_c = pd.DataFrame([{
-                        "id": tel_clean,
-                        "nombre": nom_c,
-                        "telefono": tel_clean,
-                        "ubicacion": ubi_c,
-                        "saldo_pendiente": 0.0
-                    }])
-                    df_clientes = pd.concat([df_clientes, nueva_c], ignore_index=True)
-                    if guardar_csv_en_github(FILE_CLIENTES, df_clientes, sha_clientes, f"Nuevo cliente {nom_c}"):
-                        st.success(f"✅ Cliente {nom_c} registrado exitosamente.")
-                        st.rerun()
-                    else:
-                        st.error("Error al guardar en GitHub.")
-
-    # 2. TABLA VISUAL DE LOS CLIENTES YA AGREGADOS
+        if st.form_submit_button("Guardar Cliente") and nom_c and tel_c:
+            nueva_c = pd.DataFrame([{"id": tel_c.strip(), "nombre": nom_c, "telefono": tel_c.strip(), "ubicacion": ubi_c, "saldo_pendiente": 0.0}])
+            df_clientes = pd.concat([df_clientes, nueva_c], ignore_index=True)
+            guardar_csv_en_github(FILE_CLIENTES, df_clientes, sha_clientes, f"Nuevo cliente {nom_c}")
+            st.rerun()
     if not df_clientes.empty:
-        st.markdown("---")
         st.dataframe(df_clientes, use_container_width=True)
 
-    # 3. RECUADRO PARA EDITAR CLIENTE
-    if not df_clientes.empty:
-        st.markdown("---")
-        st.subheader("✏️ Editar Cliente Existente")
-        opciones_clientes = {f"{row['nombre']} (ID: {row['id']})": row['id'] for _, row in df_clientes.iterrows()}
-        
-        cli_sel_label = st.selectbox(
-            "Selecciona el cliente a editar",
-            list(opciones_clientes.keys()),
-            index=None,
-            placeholder="Escribe o selecciona un cliente..."
-        )
-        
-        if cli_sel_label:
-            id_cli_sel = opciones_clientes[cli_sel_label]
-            datos_cli = df_clientes[df_clientes['id'] == id_cli_sel].iloc[0]
-            
-            with st.form("form_editar_cliente"):
-                edit_nom_c = st.text_input("Nombre", value=str(datos_cli['nombre']))
-                edit_tel_c = st.text_input("Teléfono / WhatsApp", value=str(datos_cli['telefono']) if pd.notna(datos_cli['telefono']) else "")
-                edit_ubi_c = st.text_input("Ubicación Principal", value=str(datos_cli['ubicacion']) if pd.notna(datos_cli['ubicacion']) else "")
-                
-                if st.form_submit_button("Actualizar Cliente"):
-                    idx = df_clientes[df_clientes['id'] == id_cli_sel].index[0]
-                    
-                    df_clientes['nombre'] = df_clientes['nombre'].astype(str)
-                    df_clientes['telefono'] = df_clientes['telefono'].astype(str)
-                    df_clientes['ubicacion'] = df_clientes['ubicacion'].astype(str)
-                    
-                    df_clientes.at[idx, 'nombre'] = edit_nom_c
-                    df_clientes.at[idx, 'telefono'] = edit_tel_c
-                    df_clientes.at[idx, 'ubicacion'] = edit_ubi_c
-                    
-                    if guardar_csv_en_github(FILE_CLIENTES, df_clientes, sha_clientes, f"Editar cliente {edit_nom_c}"):
-                        st.success(f"Cliente {edit_nom_c} actualizado exitosamente.")
-                        st.rerun()
-                    else:
-                        st.error("Error al guardar la actualización en GitHub.")
-                        
-# --- MÓDULO 4: PERFILES MOTORIZADOS ---
+# --- MÓDULO: PERFILES MOTORIZADOS ---
 elif opcion_menu == " Perfiles Motorizados":
     st.header("🏍️ Gestión de Motorizados")
     if not df_motos.empty:
         st.dataframe(df_motos, use_container_width=True)
-        
     with st.form("form_agregar_moto", clear_on_submit=True):
         st.subheader("➕ Agregar Motorizado")
         nom_m = st.text_input("Nombre del Chofer")
         tel_m = st.text_input("Teléfono")
-        com_m = st.number_input("% Ganancia Base", min_value=0.0, max_value=100.0, value=66.67)
-        btn_m = st.form_submit_button("Guardar Motorizado")
-        
-        if btn_m and nom_m:
+        com_m = st.number_input("% Ganancia Base", value=66.67)
+        if st.form_submit_button("Guardar Motorizado") and nom_m:
             nuevo_id_m = len(df_motos) + 1 if not df_motos.empty else 1
             nueva_m = pd.DataFrame([{"id": nuevo_id_m, "nombre": nom_m, "telefono": tel_m, "porcentaje_ganancia": com_m, "saldo_pendiente": 0.0}])
             df_motos = pd.concat([df_motos, nueva_m], ignore_index=True)
-            if guardar_csv_en_github(FILE_MOTORIZADOS, df_motos, sha_motos, f"Nuevo motorizado {nom_m}"):
-                st.success("Motorizado agregado exitosamente.")
-                st.rerun()
-
-    # --- SECCIÓN EDITAR MOTORIZADO (FUERA DEL FORMULARIO DE AGREGAR) ---
-    if not df_motos.empty:
-        st.markdown("---")
-        st.subheader("✏️ Editar Motorizado Existente")
-        
-        opciones_motos = {f"{row['nombre']} (ID: {row['id']})": row['id'] for _, row in df_motos.iterrows()}
-        moto_sel_label = st.selectbox("Selecciona el motorizado a editar", list(opciones_motos.keys()))
-        id_moto_sel = opciones_motos[moto_sel_label]
-        datos_moto = df_motos[df_motos['id'] == id_moto_sel].iloc[0]
-        
-        with st.form("form_editar_moto"):
-            edit_nombre = st.text_input("Nombre del Chofer", value=str(datos_moto['nombre']))
-            edit_tel = st.text_input("Teléfono", value=str(datos_moto['telefono']) if pd.notna(datos_moto['telefono']) else "")
-            edit_pct = st.number_input("% Ganancia Base", value=float(datos_moto['porcentaje_ganancia']), step=0.1)
-            
-            if st.form_submit_button("Actualizar Motorizado"):
-                idx = df_motos[df_motos['id'] == id_moto_sel].index[0]
-                df_motos.at[idx, 'nombre'] = edit_nombre
-                df_motos.at[idx, 'telefono'] = edit_tel
-                df_motos.at[idx, 'porcentaje_ganancia'] = edit_pct
-                if guardar_csv_en_github(FILE_MOTORIZADOS, df_motos, sha_motos, f"Editar motorizado {edit_nombre}"):
-                    st.success(f"Motorizado {edit_nombre} actualizado exitosamente.")
-                    st.rerun()
+            guardar_csv_en_github(FILE_MOTORIZADOS, df_motos, sha_motos, f"Nuevo motorizado {nom_m}")
+            st.rerun()
