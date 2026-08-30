@@ -239,22 +239,84 @@ elif opcion_menu == " Validar Vueltas":
                             st.success(f"Vuelta #{row['id']} validada correctamente.")
                             st.rerun()
 
-# --- MÓDULO: DIRECTORIO CLIENTES ---
+# --- MÓDULO: DIRECTORIO Y EDICIÓN DE CLIENTES ---
 elif opcion_menu == " Directorio Clientes":
-    st.header("👥 Gestión de Clientes")
-    with st.form("form_agregar_cliente", clear_on_submit=True):
-        st.subheader("➕ Agregar Cliente")
-        nom_c = st.text_input("Nombre")
-        tel_c = st.text_input("Teléfono / WhatsApp")
-        ubi_c = st.text_input("Ubicación Principal")
-        if st.form_submit_button("Guardar Cliente") and nom_c and tel_c:
-            nueva_c = pd.DataFrame([{"id": tel_c.strip(), "nombre": nom_c, "telefono": tel_c.strip(), "ubicacion": ubi_c, "saldo_pendiente": 0.0}])
-            df_clientes = pd.concat([df_clientes, nueva_c], ignore_index=True)
-            guardar_csv_en_github(FILE_CLIENTES, df_clientes, sha_clientes, f"Nuevo cliente {nom_c}")
-            st.rerun()
-    if not df_clientes.empty:
-        st.dataframe(df_clientes, use_container_width=True)
+    st.header("👥 Gestión y Directorio de Clientes")
+    
+    col_c1, col_c2 = st.columns([1, 1])
+    
+    # 1. FORMULARIO ULTRACOMPACTO: AGREGAR CLIENTE
+    with col_c1:
+        st.subheader("➕ Agregar Nuevo Cliente")
+        with st.form("form_agregar_cliente", clear_on_submit=True):
+            tel_c = st.text_input("Teléfono / WhatsApp (ID Único) *").strip()
+            nom_c = st.text_input("Nombre / Negocio *").strip()
+            ubi_c = st.text_input("Ubicación Principal *").strip()
+            
+            btn_guardar_c = st.form_submit_button("Guardar Cliente", type="primary", use_container_width=True)
+            
+            if btn_guardar_c:
+                if not tel_c or not nom_c:
+                    st.error("⚠️ El teléfono y el nombre son obligatorios.")
+                elif not df_clientes.empty and tel_c in df_clientes['telefono'].astype(str).values:
+                    st.error(f"⚠️ El número {tel_c} ya pertenece a un cliente registrado.")
+                else:
+                    nueva_c = pd.DataFrame([{
+                        "id": tel_c, 
+                        "nombre": nom_c, 
+                        "telefono": tel_c, 
+                        "ubicacion": ubi_c if ubi_c else "Local", 
+                        "saldo_pendiente": 0.0
+                    }])
+                    df_clientes = pd.concat([df_clientes, nueva_c], ignore_index=True)
+                    if guardar_csv_en_github(FILE_CLIENTES, df_clientes, sha_clientes, f"Nuevo cliente {nom_c}"):
+                        st.success(f"✅ Cliente '{nom_c}' agregado exitosamente.")
+                        st.rerun()
 
+    # 2. FORMULARIO: EDITAR CLIENTE EXISTENTE (BUSCADOR VACÍO POR DEFECTO)
+    with col_c2:
+        st.subheader("✏️ Editar Cliente Existente")
+        nom_clientes_lista = df_clientes['nombre'].tolist() if not df_clientes.empty else []
+        
+        # Campo de búsqueda completamente vacío por defecto
+        cliente_a_editar = st.selectbox(
+            "Seleccionar Cliente a Modificar", 
+            nom_clientes_lista, 
+            index=None, 
+            placeholder="Buscar o seleccionar cliente..."
+        )
+        
+        if cliente_a_editar:
+            datos_actuales = df_clientes[df_clientes['nombre'] == cliente_a_editar].iloc[0]
+            
+            with st.form("form_editar_cliente"):
+                st.info(f"📱 Teléfono / ID: **{datos_actuales['telefono']}** (No editable)")
+                nuevo_nombre = st.text_input("Nombre / Negocio", value=str(datos_actuales['nombre']))
+                nueva_ubicacion = st.text_input("Ubicación", value=str(datos_actuales['ubicacion']))
+                
+                btn_actualizar = st.form_submit_button("Actualizar Datos", type="primary", use_container_width=True)
+                
+                if btn_actualizar:
+                    idx_edit = df_clientes[df_clientes['nombre'] == cliente_a_editar].index[0]
+                    df_clientes.at[idx_edit, 'nombre'] = nuevo_nombre.strip()
+                    df_clientes.at[idx_edit, 'ubicacion'] = nueva_ubicacion.strip()
+                    
+                    if guardar_csv_en_github(FILE_CLIENTES, df_clientes, sha_clientes, f"Actualizado cliente {nuevo_nombre}"):
+                        st.success(f"✅ Datos de '{nuevo_nombre}' actualizados correctamente.")
+                        st.rerun()
+
+    st.markdown("---")
+    
+    # 3. TABLA VISUAL DE CLIENTES (SIN MOSTRAR ID SEPARADO)
+    st.subheader("📋 Lista de Clientes Registrados")
+    if not df_clientes.empty:
+        # Se muestra una vista limpia con Nombre, Teléfono y Ubicación
+        df_mostrar = df_clientes[['nombre', 'telefono', 'ubicacion']].copy()
+        df_mostrar.columns = ["Nombre / Negocio", "Teléfono / WhatsApp", "Ubicación"]
+        st.dataframe(df_mostrar, use_container_width=True)
+    else:
+        st.info("No hay clientes registrados en la base de datos.")
+        
 # --- MÓDULO: PERFILES MOTORIZADOS ---
 elif opcion_menu == " Perfiles Motorizados":
     st.header("🏍️ Gestión de Motorizados")
