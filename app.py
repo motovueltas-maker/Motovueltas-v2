@@ -341,6 +341,7 @@ elif opcion_menu == " Corte Clientes":
     
     if not df_clientes.empty:
         nom_clientes = df_clientes['nombre'].tolist()
+        nom_motos = df_motos['nombre'].tolist() if not df_motos.empty else []
         
         # --- TAB 1: BALANCE DE CUENTA (CORTE TRADICIONAL) ---
         with tab_corte:
@@ -359,11 +360,15 @@ elif opcion_menu == " Corte Clientes":
                     
                     st.markdown("### 📋 Detalle de Servicios Pendientes")
                     if not pendientes.empty:
-                        st.dataframe(pendientes[['id', 'fecha', 'motorizado', 'origen', 'destino', 'precio_cliente']], use_container_width=True)
+                        # Formatear la fecha a DD/MM/AA
+                        pendientes_view = pendientes.copy()
+                        pendientes_view['fecha_corta'] = pd.to_datetime(pendientes_view['fecha'], errors='coerce').dt.strftime('%d/%m/%y')
+                        st.dataframe(pendientes_view[['id', 'fecha_corta', 'motorizado', 'origen', 'destino', 'precio_cliente']], use_container_width=True)
                         
                         msg_whatsapp = f"🧾 *REPORTE DE CUENTA - MOTOVUELTAS*\nCliente: *{cliente_sel}*\n\n"
                         for _, r in pendientes.iterrows():
-                            msg_whatsapp += f"• {r['fecha']} | {r['origen']} ➡️ {r['destino']} = *${float(r['precio_cliente']):.2f}*\n"
+                            f_corta = pd.to_datetime(r['fecha'], errors='coerce').strftime('%d/%m/%y') if pd.notnull(r['fecha']) else str(r['fecha'])[:10]
+                            msg_whatsapp += f"• {f_corta} | {r['origen']} ➡️ {r['destino']} = *${float(r['precio_cliente']):.2f}*\n"
                         msg_whatsapp += f"\n💰 *TOTAL A PAGAR: ${total_deuda:.2f}*"
                         
                         st.markdown("#### 📱 Mensaje para enviar por WhatsApp:")
@@ -380,35 +385,40 @@ elif opcion_menu == " Corte Clientes":
                 else:
                     st.info("No hay servicios registrados en la base de datos.")
 
-        # --- TAB 2: EDITAR Y ELIMINAR VUELTAS CON FILTROS ---
+        # --- TAB 2: EDITAR Y ELIMINAR VUELTAS CON FILTROS Y EDICIÓN LIMPIA ---
         with tab_gestion:
             st.subheader("🔍 Buscador y Corrección de Vueltas")
             
             if not df_servicios.empty:
-                # Filtros
+                # Filtros desplegables limpios
                 col_f1, col_f2, col_f3 = st.columns(3)
                 with col_f1:
-                    filtro_cli = st.selectbox("Filtrar por Cliente:", ["Todos"] + nom_clientes, index=0)
+                    filtro_cli = st.selectbox("Filtrar por Cliente:", ["Todos"] + nom_clientes, index=None, placeholder="Todos")
                 with col_f2:
-                    nom_motos = df_motos['nombre'].tolist() if not df_motos.empty else []
-                    filtro_mot = st.selectbox("Filtrar por Motorizado:", ["Todos"] + nom_motos, index=0)
+                    filtro_mot = st.selectbox("Filtrar por Motorizado:", ["Todos"] + nom_motos, index=None, placeholder="Todos")
                 with col_f3:
-                    filtro_fecha = st.date_input("Filtrar por Fecha (Opcional)", value=None)
+                    filtro_fecha = st.date_input("Filtrar por Fecha (Opcional)", value=None, format="DD/MM/YYYY")
 
                 # Aplicar filtros
                 df_filtrado = df_servicios.copy()
-                if filtro_cli != "Todos":
+                if filtro_cli and filtro_cli != "Todos":
                     df_filtrado = df_filtrado[df_filtrado['cliente'].astype(str).str.strip().str.lower() == filtro_cli.strip().lower()]
-                if filtro_mot != "Todos":
+                if filtro_mot and filtro_mot != "Todos":
                     df_filtrado = df_filtrado[df_filtrado['motorizado'].astype(str).str.strip().str.lower() == filtro_mot.strip().lower()]
                 if filtro_fecha:
                     fecha_str = filtro_fecha.strftime("%Y-%m-%d")
                     df_filtrado = df_filtrado[df_filtrado['fecha'].astype(str).str.startswith(fecha_str)]
 
+                # Formato de fecha corta para la tabla de visualización (DD/MM/AA)
+                df_filtrado['fecha_corta'] = pd.to_datetime(df_filtrado['fecha'], errors='coerce').dt.strftime('%d/%m/%y')
+
                 st.markdown(f"**Vueltas encontradas:** {len(df_filtrado)}")
 
                 if not df_filtrado.empty:
-                    st.dataframe(df_filtrado[['id', 'fecha', 'cliente', 'motorizado', 'origen', 'destino', 'precio_cliente', 'estado_validacion', 'estado_cliente']], use_container_width=True)
+                    st.dataframe(
+                        df_filtrado[['id', 'fecha_corta', 'cliente', 'motorizado', 'origen', 'destino', 'precio_cliente', 'estado_cliente']], 
+                        use_container_width=True
+                    )
                     
                     st.markdown("---")
                     st.subheader("🛠️ Modificar o Eliminar una Vuelta Específica")
@@ -417,53 +427,88 @@ elif opcion_menu == " Corte Clientes":
                         "Selecciona el ID de la Vuelta:", 
                         df_filtrado['id'].tolist(),
                         index=None,
-                        placeholder="Elige una vuelta por ID..."
+                        placeholder="Escribe o selecciona el número de ID de la vuelta..."
                     )
 
                     if id_vuelta_sel:
                         idx_orig = df_servicios[df_servicios['id'] == id_vuelta_sel].index[0]
                         row_sel = df_servicios.loc[idx_orig]
 
+                        # Obtener fecha actual de la vuelta para el widget
+                        try:
+                            f_val = pd.to_datetime(row_sel['fecha']).date()
+                        except:
+                            f_val = datetime.today().date()
+
                         with st.form(f"form_edit_{id_vuelta_sel}"):
                             col_e1, col_e2 = st.columns(2)
+                            
                             with col_e1:
-                                n_origen = st.text_input("Origen", value=str(row_sel['origen']))
+                                # Editar Cliente
+                                idx_cli = nom_clientes.index(row_sel['cliente']) if row_sel['cliente'] in nom_clientes else 0
+                                n_cliente = st.selectbox("Cliente", nom_clientes, index=idx_cli)
+                                
+                                # Editar Motorizado
+                                idx_mot = nom_motos.index(row_sel['motorizado']) if row_sel['motorizado'] in nom_motos else 0
+                                n_motorizado = st.selectbox("Motorizado", nom_motos, index=idx_mot)
+                                
+                                # Editar Origen (Desde)
+                                n_origen = st.text_input("Desde (Origen)", value=str(row_sel['origen']))
+                                
+                                # Editar Precio Cliente
                                 n_precio = st.number_input("Precio Cliente ($)", min_value=0.0, value=float(row_sel['precio_cliente']), step=0.5)
-                                n_est_cli = st.selectbox("Estado Pago Cliente", ["Pendiente", "Pagado"], index=0 if str(row_sel['estado_cliente']) != "Pagado" else 1)
+
                             with col_e2:
-                                n_destino = st.text_input("Destino", value=str(row_sel['destino']))
-                                n_comision = st.number_input("% Ganancia Motorizado", min_value=0.0, max_value=100.0, value=float(row_sel.get('porcentaje_comision', 66.67)), step=0.5)
-                                n_est_val = st.selectbox("Estado Validación", ["Pendiente", "Validado"], index=0 if str(row_sel['estado_validacion']) != "Validado" else 1)
+                                # Editar Fecha corta
+                                n_fecha = st.date_input("Fecha", value=f_val, format="DD/MM/YYYY")
+                                
+                                # Obtenemos la comisión prefijada del motorizado seleccionado si cambia
+                                comision_default = float(row_sel.get('porcentaje_comision', 66.67))
+                                if not df_motos.empty and 'porcentaje_ganancia' in df_motos.columns:
+                                    m_data = df_motos[df_motos['nombre'].str.strip().str.lower() == n_motorizado.strip().lower()]
+                                    if not m_data.empty:
+                                        comision_default = float(m_data.iloc[0]['porcentaje_ganancia'])
 
-                            c_btn1, c_btn2 = st.columns(2)
-                            btn_guardar_edit = st.form_submit_button("💾 Guardar Cambios", type="primary", use_container_width=True)
+                                # Editar Comisión del Motorizado
+                                n_comision = st.number_input("% Ganancia Motorizado", min_value=0.0, max_value=100.0, value=comision_default, step=0.5)
+                                
+                                # Editar Destino (Hasta)
+                                n_destino = st.text_input("Hasta (Destino)", value=str(row_sel['destino']))
+                                
+                                # Editar Estado Pago Cliente
+                                n_est_cli = st.selectbox("Estado Pago Cliente", ["Pendiente", "Pagado"], index=0 if str(row_sel['estado_cliente']) != "Pagado" else 1)
 
-                        col_del1, col_del2 = st.columns([1, 1])
-                        with col_del1:
-                            if btn_guardar_edit:
-                                # Recalcular montos
-                                m_mot = round(n_precio * (n_comision / 100.0), 2)
-                                m_emp = round(n_precio - m_mot, 2)
+                            st.markdown("---")
+                            col_btn1, col_btn2 = st.columns(2)
+                            with col_btn1:
+                                btn_guardar_edit = st.form_submit_button("💾 Guardar Cambios", type="primary", use_container_width=True)
 
-                                df_servicios.at[idx_orig, 'origen'] = n_origen.strip()
-                                df_servicios.at[idx_orig, 'destino'] = n_destino.strip()
-                                df_servicios.at[idx_orig, 'precio_cliente'] = n_precio
-                                df_servicios.at[idx_orig, 'porcentaje_comision'] = n_comision
-                                df_servicios.at[idx_orig, 'monto_motorizado'] = m_mot
-                                df_servicios.at[idx_orig, 'ganancia_empresa'] = m_emp
-                                df_servicios.at[idx_orig, 'estado_cliente'] = n_est_cli
-                                df_servicios.at[idx_orig, 'estado_validacion'] = n_est_val
-
-                                if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Modificada vuelta #{id_vuelta_sel}"):
-                                    st.success(f"✅ Vuelta #{id_vuelta_sel} actualizada correctamente.")
-                                    st.rerun()
-
-                        with col_del2:
+                        with col_btn2:
                             if st.button(f"🗑️ Eliminar Vuelta #{id_vuelta_sel}", type="secondary", use_container_width=True):
                                 df_servicios = df_servicios.drop(idx_orig).reset_index(drop=True)
                                 if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Eliminada vuelta #{id_vuelta_sel}"):
                                     st.success(f"🗑️ Vuelta #{id_vuelta_sel} eliminada exitosamente.")
                                     st.rerun()
+
+                        if btn_guardar_edit:
+                            # Recalcular montos de motorizado y empresa automáticamente
+                            m_mot = round(n_precio * (n_comision / 100.0), 2)
+                            m_emp = round(n_precio - m_mot, 2)
+
+                            df_servicios.at[idx_orig, 'cliente'] = n_cliente
+                            df_servicios.at[idx_orig, 'motorizado'] = n_motorizado
+                            df_servicios.at[idx_orig, 'fecha'] = n_fecha.strftime("%Y-%m-%d")
+                            df_servicios.at[idx_orig, 'origen'] = n_origen.strip()
+                            df_servicios.at[idx_orig, 'destino'] = n_destino.strip()
+                            df_servicios.at[idx_orig, 'precio_cliente'] = n_precio
+                            df_servicios.at[idx_orig, 'porcentaje_comision'] = n_comision
+                            df_servicios.at[idx_orig, 'monto_motorizado'] = m_mot
+                            df_servicios.at[idx_orig, 'ganancia_empresa'] = m_emp
+                            df_servicios.at[idx_orig, 'estado_cliente'] = n_est_cli
+
+                            if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Modificada vuelta #{id_vuelta_sel}"):
+                                st.success(f"✅ Vuelta #{id_vuelta_sel} actualizada correctamente.")
+                                st.rerun()
                 else:
                     st.info("No hay vueltas que coincidan con los filtros seleccionados.")
             else:
