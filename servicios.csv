@@ -158,3 +158,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 157,2026-08-28 21:41,Omar,Chalong Detalles,Local,Calle 40 con 29,,3.5,66.66,2.33,1.17,Validado,Pendiente,Pendiente
 158,2026-08-29 21:42,Deiby,Chalong Detalles,Local,Cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 159,2026-08-29 21:43,Esneyder,Chalong Detalles,Local,Santa Rosa,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
+160,2026-08-29 21:43,Esneyder,Chalong Detalles,Local,Metropolitano Javier,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
