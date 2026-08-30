@@ -1,4 +1,4 @@
 id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_comision,monto_motorizado,ganancia_empresa,estado_validacion,estado_cliente,estado_motorizado
 1,2026-07-16,Omar,Flores Sonrisa Inyerly,Local,Carr 23 con 20,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
-2,2026-08-16,Omar,Flores Sonrisa Inyerly,Local,Vzla con Bracamonte,,3.5,66.66,2.33,1.17,Validado,Pendiente,Pendiente
+2,2026-07-16,Omar,Flores Sonrisa Inyerly,Local,Vzla con Bracamonte,,3.5,66.66,2.33,1.17,Validado,Pendiente,Pendiente
 3,2026-07-27 16:56,Esneyder,Flores Sonrisa Inyerly,Local,Santa Isabel,,5.0,100.0,5.0,0.0,Validado,Pendiente,Pendiente
