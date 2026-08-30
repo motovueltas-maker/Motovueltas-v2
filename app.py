@@ -378,8 +378,8 @@ elif opcion_menu == " Corte Clientes":
                             except:
                                 return str(val)[:10]
 
-pendientes_view = pendientes.copy()
-pendientes_view['fecha_corta'] = pendientes_view['fecha'].apply(formatear_fecha_corta)
+                        pendientes_view = pendientes.copy()
+                        pendientes_view['fecha_corta'] = pendientes_view['fecha'].apply(formatear_fecha_corta)
                         
                         st.dataframe(pendientes_view[['id', 'fecha_corta', 'motorizado', 'origen', 'destino', 'precio_cliente']], use_container_width=True)
                         
