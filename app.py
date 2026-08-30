@@ -332,4 +332,51 @@ elif opcion_menu == " Perfiles Motorizados":
             nueva_m = pd.DataFrame([{"id": nuevo_id_m, "nombre": nom_m, "telefono": tel_m, "porcentaje_ganancia": com_m, "saldo_pendiente": 0.0}])
             df_motos = pd.concat([df_motos, nueva_m], ignore_index=True)
             guardar_csv_en_github(FILE_MOTORIZADOS, df_motos, sha_motos, f"Nuevo motorizado {nom_m}")
+
+            # --- MÓDULO: CORTE CLIENTES ---
+elif opcion_menu == " Corte Clientes":
+    st.header("📊 Balance y Corte de Cuentas - Clientes")
+    if not df_clientes.empty:
+        nom_clientes = df_clientes['nombre'].tolist()
+        cliente_sel = st.selectbox("Seleccionar Cliente para ver Balance:", nom_clientes, index=None, placeholder="Selecciona un cliente...")
+        
+        if cliente_sel:
+            if not df_servicios.empty:
+                # Filtrar vueltas del cliente sin importar mayúsculas/minúsculas
+                serv_cli = df_servicios[df_servicios['cliente'].astype(str).str.strip().str.lower() == cliente_sel.strip().lower()]
+                
+                # Considerar pendientes las que no digan 'Pagado'
+                pendientes = serv_cli[serv_cli['estado_cliente'].astype(str).str.strip().str.capitalize() != "Pagado"]
+                
+                total_deuda = pendientes['precio_cliente'].astype(float).sum() if not pendientes.empty else 0.0
+                
+                col_b1, col_b2 = st.columns(2)
+                col_b1.metric("Pendiente por Cobrar ($)", f"${total_deuda:.2f}")
+                col_b2.metric("Vueltas Pendientes", len(pendientes))
+                
+                st.markdown("### 📋 Detalle de Servicios Pendientes")
+                if not pendientes.empty:
+                    st.dataframe(pendientes[['id', 'fecha', 'motorizado', 'origen', 'destino', 'precio_cliente']], use_container_width=True)
+                    
+                    # Mensaje listo para WhatsApp
+                    msg_whatsapp = f"🧾 *REPORTE DE CUENTA - MOTOVUELTAS*\nCliente: *{cliente_sel}*\n\n"
+                    for _, r in pendientes.iterrows():
+                        msg_whatsapp += f"• {r['fecha']} | {r['origen']} ➡️ {r['destino']} = *${float(r['precio_cliente']):.2f}*\n"
+                    msg_whatsapp += f"\n💰 *TOTAL A PAGAR: ${total_deuda:.2f}*"
+                    
+                    st.markdown("#### 📱 Mensaje para enviar por WhatsApp:")
+                    st.code(msg_whatsapp, language="text")
+                    
+                    if st.button(f"✅ Marcar todas las vueltas de {cliente_sel} como PAGADAS", type="primary"):
+                        indices = df_servicios[df_servicios['cliente'].astype(str).str.strip().str.lower() == cliente_sel.strip().lower()].index
+                        df_servicios.loc[indices, 'estado_cliente'] = "Pagado"
+                        if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Corte realizado cliente {cliente_sel}"):
+                            st.success(f"Corte realizado para {cliente_sel}. ¡Cuenta al día!")
+                            st.rerun()
+                else:
+                    st.info("Este cliente está al día. No tiene servicios pendientes de pago.")
+            else:
+                st.info("No hay servicios registrados en la base de datos.")
+    else:
+        st.warning("No hay clientes registrados en el sistema.")
             st.rerun()
