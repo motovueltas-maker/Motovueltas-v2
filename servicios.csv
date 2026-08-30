@@ -86,3 +86,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 85,2026-08-19 19:28,Esneyder,Monkey,Local,Metropolitano Javier,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
 86,2026-08-19 19:28,Esneyder,Monkey,Local,Hotel Príncipe,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 87,2026-08-19 19:29,Esneyder,Monkey,Local,San José,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
+88,2026-08-19 19:29,Esneyder,Monkey,Local,Carr 19 con 12,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
