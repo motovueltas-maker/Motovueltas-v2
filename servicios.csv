@@ -105,3 +105,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 104,2026-08-24 19:57,Esneyder,Monkey,Compras UNIPREC,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 105,2026-08-24 19:57,Esneyder,Monkey,Local,42 con 34,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 106,2026-08-26 19:57,Esneyder,Monkey,Local,Nueva Segovia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+107,2026-08-26 19:58,Esneyder,Monkey,Local,Cruz Blanca ,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
