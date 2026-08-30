@@ -13,3 +13,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 12,2026-08-29 18:01,Jhoiner,Flores Sonrisa Inyerly,Local,Restaurant Madeita,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
 13,2026-07-08 18:10,Esneyder,Clinivet,El Ujano,Dra Rizotto,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
 14,2026-07-09 18:10,Esneyder,Clinivet,Agromascotas ,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+15,2026-07-10 18:11,Esneyder,Clinivet,Dra Pire,Local,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
