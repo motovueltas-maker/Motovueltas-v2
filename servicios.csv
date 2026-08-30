@@ -27,3 +27,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 26,2026-07-15 18:18,Esneyder,Clinivet,Cabudare,Local,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 27,2026-07-15 18:18,Esneyder,Clinivet,Agromascotas  AM,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 28,2026-07-15 18:19,Esneyder,Clinivet,Agromascotas PM,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+29,2026-07-16 18:19,Esneyder,Clinivet,Dra Pire,Local,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
