@@ -65,3 +65,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 64,2026-08-15 18:39,Esneyder,Clinivet,Agromascotas ,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 65,2026-08-15 18:39,Esneyder,Clinivet,Dra Rizotto,Local,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
 66,2026-08-15 18:40,Esneyder,Clinivet,Dra Pire,Local,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
+67,2026-08-18 18:40,Esneyder,Clinivet,Agromascotas AM,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
