@@ -5,3 +5,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 4,2026-08-30 17:18,Omar,Flores Sonrisa Inyerly,Local,Colegio Abogados,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
 5,2026-08-30 17:18,Omar,Flores Sonrisa Inyerly,Local,Pueblo Nuevo,,4.0,66.66,2.67,1.33,Validado,Pendiente,Pendiente
 6,2026-07-31 17:19,Jhoiner,Flores Sonrisa Inyerly,Local,Carucieña,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pendiente
+7,2026-07-31 17:23,Esneyder,Flores Sonrisa Inyerly,Local,Salon Versalles,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
