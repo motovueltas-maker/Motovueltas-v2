@@ -1,3 +1,3 @@
 id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_comision,monto_motorizado,ganancia_empresa,estado_validacion,estado_cliente,estado_motorizado
-1,2026-08-30 01:32,Esneyder,Flores Sonrisa Inyerly,Local,Carr 23 con 20,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+1,2026-08-16,Esneyder,Flores Sonrisa Inyerly,Local,Carr 23 con 20,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 2,2026-08-30 01:33,Esneyder,Flores Sonrisa Inyerly,Local,Vzla con Bracamonte,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
