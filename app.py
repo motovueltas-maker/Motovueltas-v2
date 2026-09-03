@@ -416,22 +416,26 @@ elif opcion_menu == " Corte Clientes":
                 with col_f2:
                     filtro_mot = st.selectbox("Motorizado:", ["Todos"] + nom_motos, index=None, placeholder="Todos")
                 with col_f3:
-                    f_desde = st.date_input("Fecha Desde:", value=datetime.today(), format="DD/MM/YYYY")
+                    f_desde = st.date_input("Fecha Desde (Opcional):", value=None, format="DD/MM/YYYY")
                 with col_f4:
                     f_hasta = st.date_input("Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY")
 
-                # Lógica de filtro flexible
+                # Lógica de filtro flexible e insensible a la hora
                 df_filtrado = df_servicios.copy()
                 
-                # Convertir fechas a objeto fecha estandar sin importar la hora
-                fechas_dt = pd.to_datetime(df_filtrado['fecha'], errors='coerce').dt.date
+                # Convertir fechas a texto YYYY-MM-DD para comparar sin que afecte la hora
+                fechas_str = pd.to_datetime(df_filtrado['fecha'], errors='coerce').dt.strftime('%Y-%m-%d')
 
                 if f_desde and f_hasta:
-                    df_filtrado = df_filtrado[(fechas_dt >= f_desde) & (fechas_dt <= f_hasta)]
+                    f_ini_str = f_desde.strftime('%Y-%m-%d')
+                    f_fin_str = f_hasta.strftime('%Y-%m-%d')
+                    df_filtrado = df_filtrado[(fechas_str >= f_ini_str) & (fechas_str <= f_fin_str)]
                 elif f_desde:
-                    df_filtrado = df_filtrado[fechas_dt == f_desde]
+                    f_ini_str = f_desde.strftime('%Y-%m-%d')
+                    df_filtrado = df_filtrado[fechas_str == f_ini_str]
                 elif f_hasta:
-                    df_filtrado = df_filtrado[fechas_dt == f_hasta]
+                    f_fin_str = f_hasta.strftime('%Y-%m-%d')
+                    df_filtrado = df_filtrado[fechas_str == f_fin_str]
                     
                 # Filtros por Cliente y Motorizado
                 if filtro_cli and filtro_cli != "Todos":
