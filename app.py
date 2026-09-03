@@ -420,16 +420,19 @@ elif opcion_menu == " Corte Clientes":
                 with col_f4:
                     f_hasta = st.date_input("Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY")
 
-                # Lógica de filtro por fecha inteligente (Día único o Rango)
+                # Lógica de filtro flexible
                 df_filtrado = df_servicios.copy()
                 
+                # Convertir fechas a objeto fecha estandar sin importar la hora
                 fechas_dt = pd.to_datetime(df_filtrado['fecha'], errors='coerce').dt.date
 
-                if f_desde and not f_hasta:
-                    df_filtrado = df_filtrado[fechas_dt == f_desde]
-                elif f_desde and f_hasta:
+                if f_desde and f_hasta:
                     df_filtrado = df_filtrado[(fechas_dt >= f_desde) & (fechas_dt <= f_hasta)]
-
+                elif f_desde:
+                    df_filtrado = df_filtrado[fechas_dt == f_desde]
+                elif f_hasta:
+                    df_filtrado = df_filtrado[fechas_dt == f_hasta]
+                    
                 # Filtros por Cliente y Motorizado
                 if filtro_cli and filtro_cli != "Todos":
                     df_filtrado = df_filtrado[df_filtrado['cliente'].astype(str).str.strip().str.lower() == filtro_cli.strip().lower()]
