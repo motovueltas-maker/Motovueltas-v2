@@ -465,8 +465,8 @@ elif opcion_menu == " Corte Clientes " or opcion_menu == "Cuentas de Clientes":
         else:
             st.info("No hay servicios registrados en la base de datos.")
 
-        # --- TAB 2: BUSCADOR Y EDICIÓN DIRECTA EN TABLA ---
-        with tab_gestion:
+    # --- TAB 2: BUSCADOR Y EDICIÓN DIRECTA EN TABLA ---
+    with tab_gestion:
             st.markdown("##### 🔎 Buscar y Modificar Vueltas")
             if not df_servicios.empty:
                 col_f1, col_f2, col_f3, col_f4 = st.columns([1.5, 1.5, 1.5, 1.5])
