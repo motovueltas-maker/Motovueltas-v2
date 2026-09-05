@@ -334,74 +334,135 @@ elif opcion_menu == " Perfiles Motorizados":
             guardar_csv_en_github(FILE_MOTORIZADOS, df_motos, sha_motos, f"Nuevo motorizado {nom_m}")
 
 # --- MÓDULO: CORTE CLIENTES Y GESTIÓN DE VUELTAS ---
-elif opcion_menu == " Corte Clientes":
-    st.header("📊 Balance y Corte de Cuentas - Clientes")
-    
-    tab_corte, tab_gestion = st.tabs(["💰 Balance de Cuenta", "✏️ Editar / Eliminar Vueltas"])
-    
-    if not df_clientes.empty:
-        nom_clientes = df_clientes['nombre'].tolist()
-        nom_motos = df_motos['nombre'].tolist() if not df_motos.empty else []
-        
-        # --- TAB 1: BALANCE DE CUENTA (CORTE TRADICIONAL) ---
-        with tab_corte:
-            cliente_sel = st.selectbox("Seleccionar Cliente para ver Balance:", nom_clientes, index=None, placeholder="Selecciona un cliente...", key="sel_corte_cli")
-            
-            if cliente_sel:
-                if not df_servicios.empty:
-                    serv_cli = df_servicios[df_servicios['cliente'].astype(str).str.strip().str.lower() == cliente_sel.strip().lower()]
-                    pendientes = serv_cli[serv_cli['estado_cliente'].astype(str).str.strip().str.capitalize() != "Pagado"]
-                    
-                    total_deuda = pendientes['precio_cliente'].astype(float).sum() if not pendientes.empty else 0.0
-                    
-                    col_b1, col_b2 = st.columns(2)
-                    col_b1.metric("Pendiente por Cobrar ($)", f"${total_deuda:.2f}")
-                    col_b2.metric("Vueltas Pendientes", len(pendientes))
-                    
-                    st.markdown("### 📋 Detalle de Servicios Pendientes")
-                    if not pendientes.empty:
-                        # Formatear la fecha a DD/MM/AA garantizando que nunca devuelva None
-                        def formatear_fecha_corta(val):
-                            if pd.isna(val) or not str(val).strip():
-                                return ""
-                            try:
-                                # Intenta parsear la fecha y extraer solo el día/mes/año
-                                dt = pd.to_datetime(val, errors='coerce')
-                                if pd.notnull(dt):
-                                    return dt.strftime('%d/%m/%y')
-                                # Si no se pudo parsear, toma los primeros 10 caracteres (AAAA-MM-DD) y reformatea si es posible
-                                val_str = str(val)[:10]
-                                parts = val_str.split('-')
-                                if len(parts) == 3:
-                                    return f"{parts[2]}/{parts[1]}/{parts[0][2:]}"
-                                return val_str
-                            except:
-                                return str(val)[:10]
+elif opcion_menu == " Corte Clientes " or opcion_menu == "Cuentas de Clientes":
+        st.subheader("📊 Balance y Corte de Cuentas - Clientes")
 
-                        pendientes_view = pendientes.copy()
-                        pendientes_view['fecha_corta'] = pendientes_view['fecha'].apply(formatear_fecha_corta)
-                        
-                        st.dataframe(pendientes_view[['id', 'fecha_corta', 'motorizado', 'origen', 'destino', 'precio_cliente']], use_container_width=True)
-                        
-                        msg_whatsapp = f"🧾 *REPORTE DE CUENTA - MOTOVUELTAS*\nCliente: *{cliente_sel}*\n\n"
-                        for _, r in pendientes.iterrows():
-                            f_corta = pd.to_datetime(r['fecha'], errors='coerce').strftime('%d/%m/%y') if pd.notnull(r['fecha']) else str(r['fecha'])[:10]
-                            msg_whatsapp += f"• {f_corta} | {r['origen']} ➡️ {r['destino']} = *${float(r['precio_cliente']):.2f}*\n"
-                        msg_whatsapp += f"\n💰 *TOTAL A PAGAR: ${total_deuda:.2f}*"
-                        
-                        st.markdown("#### 📱 Mensaje para enviar por WhatsApp:")
-                        st.code(msg_whatsapp, language="text")
-                        
-                        if st.button(f"✅ Marcar todas las vueltas de {cliente_sel} como PAGADAS", type="primary"):
-                            indices = df_servicios[df_servicios['cliente'].astype(str).str.strip().str.lower() == cliente_sel.strip().lower()].index
-                            df_servicios.loc[indices, 'estado_cliente'] = "Pagado"
-                            if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Corte realizado cliente {cliente_sel}"):
-                                st.success(f"Corte realizado para {cliente_sel}. ¡Cuenta al día!")
-                                st.rerun()
-                    else:
-                        st.info("Este cliente está al día. No tiene servicios pendientes de pago.")
+        if not df_servicios.empty:
+            tab_balance, tab_gestion = st.tabs(["💰 Balance de Cuenta", "✏️ Editar / Eliminar Vueltas"])
+
+            with tab_balance:
+                cliente_sel = st.selectbox("Seleccionar Cliente para ver Balance:", nom_clientes, index=0)
+
+                # Filtrar servicios del cliente seleccionado
+                df_cli_all = df_servicios[df_servicios['cliente'].astype(str).str.strip().str.lower() == str(cliente_sel).strip().lower()].copy()
+
+                # 1. FILTRO POR FECHAS (DESDE - HASTA OPCIONAL)
+                st.markdown("##### 📅 Filtrar Reporte por Fechas")
+                col_f1, col_f2 = st.columns(2)
+                with col_f1:
+                    f_desde_c = st.date_input("Fecha Desde (Opcional):", value=None, format="DD/MM/YYYY", key="f_desde_corte")
+                with col_f2:
+                    f_hasta_c = st.date_input("Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", key="f_hasta_corte")
+
+                # Aplicar filtro de fecha
+                fechas_cli_str = pd.to_datetime(df_cli_all['fecha'], errors='coerce').dt.strftime('%Y-%m-%d')
+                
+                if f_desde_c and f_hasta_c:
+                    f_ini_s = f_desde_c.strftime('%Y-%m-%d')
+                    f_fin_s = f_hasta_c.strftime('%Y-%m-%d')
+                    pendientes = df_cli_all[(fechas_cli_str >= f_ini_s) & (fechas_cli_str <= f_fin_s)].copy()
+                elif f_desde_c:
+                    f_ini_s = f_desde_c.strftime('%Y-%m-%d')
+                    pendientes = df_cli_all[fechas_cli_str == f_ini_s].copy()
+                elif f_hasta_c:
+                    f_fin_s = f_hasta_c.strftime('%Y-%m-%d')
+                    pendientes = df_cli_all[fechas_cli_str == f_fin_s].copy()
                 else:
-                    st.info("No hay servicios registrados en la base de datos.")
+                    # SI NO HAY FECHAS, MUESTRA TODAS LAS VUELTAS PENDIENTES
+                    pendientes = df_cli_all[df_cli_all['estado_cliente'] == 'Pendiente'].copy()
+
+                # Función para formatear fecha a DD/MM (super corta)
+                def formatear_dd_mm(val):
+                    if pd.isna(val) or not str(val).strip() or str(str(val)).lower() == 'none':
+                        return ""
+                    try:
+                        dt = pd.to_datetime(val, errors='coerce')
+                        if pd.notnull(dt):
+                            return dt.strftime('%d/%m')
+                        val_str = str(val)[:10]
+                        parts = val_str.split('-')
+                        if len(parts) == 3:
+                            return f"{parts[2]}/{parts[1]}"
+                        return val_str[:5]
+                    except:
+                        return str(val)[:5]
+
+                pendientes['fecha_corta'] = pendientes['fecha'].apply(formatear_dd_mm)
+                total_deuda = pendientes['precio_cliente'].astype(float).sum()
+
+                # Métricas Rápidas
+                c_m1, c_m2 = st.columns(2)
+                c_m1.metric("Pendiente por Cobrar ($)", f"${total_deuda:.2f}")
+                c_m2.metric("Vueltas Filtradas / Pendientes", len(pendientes))
+
+                st.markdown("---")
+
+                # 2. SECCIÓN DE ABONOS Y CHAT DIRECTO WHATSAPP
+                col_abono, col_wa = st.columns([2, 1])
+                
+                with col_abono:
+                    abono_cliente = st.number_input("💵 Registrar Abono / Descuento ($):", min_value=0.0, max_value=float(total_deuda) if total_deuda > 0 else 0.0, value=0.0, step=0.5)
+
+                # Obtener teléfono del cliente si existe
+                tel_cliente = ""
+                if not df_clientes.empty and 'telefono' in df_clientes.columns:
+                    c_info = df_clientes[df_clientes['nombre'].astype(str).str.strip().str.lower() == str(cliente_sel).strip().lower()]
+                    if not c_info.empty:
+                        tel_cliente = str(c_info.iloc[0]['telefono']).replace("+", "").replace(" ", "").replace("-", "")
+
+                with col_wa:
+                    st.write("")
+                    st.write("")
+                    if tel_cliente:
+                        st.link_button("📲 Abrir Chat WhatsApp", f"https://wa.me/{tel_cliente}", use_container_width=True)
+                    else:
+                        st.caption("⚠️ Cliente sin teléfono registrado")
+
+                st.markdown("### 📋 Detalle de Servicios")
+                if not pendientes.empty:
+                    st.dataframe(pendientes[['id', 'fecha_corta', 'motorizado', 'origen', 'destino', 'precio_cliente', 'estado_cliente']], use_container_width=True)
+
+                    # 3. GENERACIÓN DEL MENSAJE PARA WHATSAPP (AGRUPADO POR FECHA DD/MM Y CON VIÑETAS)
+                    total_neto = max(0.0, total_deuda - abono_cliente)
+
+                    msg_whatsapp = f"🧾 *REPORTE DE CUENTA - MOTOVUELTAS*\n"
+                    msg_whatsapp += f"Cliente: *{cliente_sel}*\n\n"
+
+                    # Agrupar vueltas por Fecha Corta (DD/MM)
+                    fechas_unicas = pendientes['fecha_corta'].unique()
+
+                    for f_corta in fechas_unicas:
+                        if f_corta:
+                            msg_whatsapp += f"📅 *{f_corta}*\n"
+                            vueltas_dia = pendientes[pendientes['fecha_corta'] == f_corta]
+                            for _, r in vueltas_dia.iterrows():
+                                msg_whatsapp += f"▪ {r['origen']} ➡️ {r['destino']} = *${float(r['precio_cliente']):.2f}*\n"
+                            msg_whatsapp += "\n"
+
+                    msg_whatsapp += "───────────────\n"
+                    msg_whatsapp += f"💵 *Subtotal Vueltas:* ${total_deuda:.2f}\n"
+                    if abono_cliente > 0:
+                        msg_whatsapp += f"📉 *Abono Registrado:* -${abono_cliente:.2f}\n"
+                    msg_whatsapp += f"💰 *TOTAL A PAGAR: ${total_neto:.2f}*"
+
+                    st.markdown("📱 **Mensaje de Control para WhatsApp:**")
+                    st.code(msg_whatsapp, language="text")
+
+                    st.markdown("---")
+
+                    # 4. BOTÓN DE LIQUIDAR CON VERIFICACIÓN DE SEGURIDAD
+                    st.markdown("##### ⚙️ Liquidación de Servicios")
+                    confirmar_pago = st.checkbox(f"⚠️ Confirmar que deseas marcar estas {len(pendientes)} vueltas como PAGADAS.", key="check_pago_seguro")
+
+                    if st.button(f"✅ Marcar todas estas vueltas de {cliente_sel} como PAGADAS", type="primary", disabled=not confirmar_pago, use_container_width=True):
+                        ids_a_pagar = pendientes['id'].tolist()
+                        df_servicios.loc[df_servicios['id'].isin(ids_a_pagar), 'estado_cliente'] = 'Pagado'
+
+                        if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Liquidacion de vueltas para {cliente_sel}"):
+                            st.success(f"✅ ¡Se han marcado {len(ids_a_pagar)} vueltas de {cliente_sel} como PAGADAS correctamente!")
+                            st.rerun()
+                else:
+                    st.info(f"No hay servicios pendientes o dentro del rango seleccionado para {cliente_sel}.")
 
         # --- TAB 2: BUSCADOR Y EDICIÓN DIRECTA EN TABLA ---
         with tab_gestion:
