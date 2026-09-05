@@ -592,7 +592,7 @@ elif opcion_menu == " Corte Clientes " or opcion_menu == "Cuentas de Clientes":
                                 df_servicios.at[i, 'ganancia_empresa'] = m_emp
 
                         if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, "Edicion directa desde la tabla de vueltas"):
-                            st.success("✅ ¡Cambios guardados en GitHub!")
+                            st.success("✅ ¡Cambios guardados en GitHub correctamente!")
                             st.rerun()
                 else:
                     st.info("No hay vueltas que coincidan con los criterios seleccionados.")
