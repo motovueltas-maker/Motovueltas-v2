@@ -199,3 +199,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 198,2026-09-04 22:25,Omar,Fresas Delivery Rebeca,Local,Los Camagos (Adami),,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
 199,2026-09-04 22:25,Jhoiner,Fresas Delivery Rebeca,Local,48 con 29 (Genesis),,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
 200,2026-09-04 22:26,Esneyder,Fresas Delivery Rebeca,Local,Villa Esmeralda (Amanda),,5.0,100.0,5.0,0.0,Validado,Pendiente,Pendiente
+201,2026-09-04 22:26,Esneyder,Fresas Delivery Rebeca,Local,Ascardio (Raquel),,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
