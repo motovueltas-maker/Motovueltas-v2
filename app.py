@@ -460,8 +460,8 @@ elif opcion_menu == " Corte Clientes " or opcion_menu == "Cuentas de Clientes":
                     if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Liquidacion de vueltas para {cliente_sel}"):
                         st.success(f"✅ ¡Se han marcado {len(ids_a_pagar)} vueltas de {cliente_sel} como PAGADAS correctamente!")
                         st.rerun()
-            else:
-                st.info(f"No hay servicios pendientes o dentro del rango seleccionado para {cliente_sel}.")
+                else:
+                    st.info(f"No hay servicios pendientes o dentro del rango seleccionado para {cliente_sel}.")
         else:
             st.info("No hay servicios registrados en la base de datos.")
 
