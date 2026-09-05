@@ -334,7 +334,7 @@ elif opcion_menu == " Perfiles Motorizados":
             guardar_csv_en_github(FILE_MOTORIZADOS, df_motos, sha_motos, f"Nuevo motorizado {nom_m}")
 
 # --- MÓDULO: CORTE CLIENTES Y GESTIÓN DE VUELTAS ---
-elif opcion_menu == "Corte Clientes" or opcion_menu == "Cuentas de Clientes":
+elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
     st.subheader("📊 Balance y Corte de Cuentas - Clientes")
 
     nom_clientes = df_clientes['nombre'].tolist() if not df_clientes.empty else []
