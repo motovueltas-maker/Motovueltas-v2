@@ -463,12 +463,16 @@ elif opcion_menu == " Corte Clientes " or opcion_menu == "Cuentas de Clientes":
                             st.rerun()
                 else:
                     st.info(f"No hay servicios pendientes o dentro del rango seleccionado para {cliente_sel}.")
-        else:
-            st.info("No hay servicios registrados en la base de datos.")
+            else:
+                st.info("No hay servicios registrados en la base de datos.")
 
     # --- TAB 2: BUSCADOR Y EDICIÓN DIRECTA EN TABLA ---
     with tab_gestion:
-            st.subheader("🔍 Buscador y Corrección de Vueltas")
+        st.markdown("##### 🔎 Buscar y Modificar Vueltas")
+        if not df_servicios.empty:
+            st.dataframe(df_servicios, use_container_width=True)
+        else:
+            st.info("No hay servicios registrados.")
             
             if not df_servicios.empty:
                 # 1. FILTROS RÁPIDOS (CLIENTE, MOTORIZADO Y FECHA DESDE / HASTA)
