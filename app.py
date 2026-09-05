@@ -591,12 +591,12 @@ elif opcion_menu == " Corte Clientes " or opcion_menu == "Cuentas de Clientes":
                                 df_servicios.at[i, 'monto_motorizado'] = m_mot
                                 df_servicios.at[i, 'ganancia_empresa'] = m_emp
 
-                    if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Liquidacion de vueltas para {cliente_sel}"):
-                        st.success(f"✅ ¡Se han marcado {len(ids_a_pagar)} vueltas de {cliente_sel} como PAGADAS correctamente!")
-                        st.rerun()
+                    if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, "Edicion directa desde la tabla de vueltas"):
+                            st.success("✅ ¡Cambios guardados correctamente!")
+                            st.rerun()
+                else:
+                    st.info("No hay vueltas que coincidan con los criterios seleccionados.")
             else:
-                st.info(f"No hay servicios pendientes o dentro del rango seleccionado para {cliente_sel}.")
-        else:
-            st.info("No hay servicios registrados en la base de datos.")
-else:
-    st.warning("No hay clientes registrados en el sistema.")
+                st.info("No hay servicios registrados en la base de datos.")
+    else:
+        st.warning("No hay clientes registrados en el sistema.")
