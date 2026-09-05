@@ -582,27 +582,25 @@ elif opcion_menu == " Corte Clientes " or opcion_menu == "Cuentas de Clientes":
                                 df_servicios.at[i, 'precio_cliente'] = row['precio_cliente']
                                 df_servicios.at[i, 'estado_cliente'] = row['estado_cliente']
 
-                                # Recalcular ganancias
-                                comision = 66.67
-                                if not df_motos.empty and 'porcentaje_ganancia' in df_motos.columns:
-                                    m_data = df_motos[df_motos['nombre'].str.strip().str.lower() == str(row['motorizado']).strip().lower()]
-                                    if not m_data.empty:
-                                        comision = float(m_data.iloc[0]['porcentaje_ganancia'])
-                                
-                                precio = float(row['precio_cliente'])
-                                m_mot = round(precio * (comision / 100.0), 2)
-                                m_emp = round(precio - m_mot, 2)
+                        # Recalcular ganancias
+                        comision = 66.67
+                        if not df_motos.empty and 'porcentaje_ganancia' in df_motos.columns:
+                            m_data = df_motos[df_motos['nombre'].astype(str).str.strip().str.lower() == str(row['motorizado']).strip().lower()]
+                            if not m_data.empty:
+                                comision = float(m_data.iloc[0]['porcentaje_ganancia'])
 
-                                df_servicios.at[i, 'porcentaje_comision'] = comision
-                                df_servicios.at[i, 'monto_motorizado'] = m_mot
-                                df_servicios.at[i, 'ganancia_empresa'] = m_emp
+                        precio = float(row['precio_cliente'])
+                        m_mot = round(precio * (comision / 100.0), 2)
+                        m_emp = round(precio - m_mot, 2)
+
+                        df_servicios.at[i, 'porcentaje_comision'] = comision
+                        df_servicios.at[i, 'monto_motorizado'] = m_mot
+                        df_servicios.at[i, 'ganancia_empresa'] = m_emp
 
                     if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, "Edicion directa desde la tabla de vueltas"):
-                            st.success("✅ ¡Cambios guardados correctamente!")
-                            st.rerun()
-                else:
-                    st.info("No hay vueltas que coincidan con los criterios seleccionados.")
+                        st.success("✅ ¡Cambios guardados correctamente!")
+                        st.rerun()
             else:
-                st.info("No hay servicios registrados en la base de datos.")
-    else:
-        st.warning("No hay clientes registrados en el sistema.")
+                st.info("No hay vueltas que coincidan con los criterios seleccionados.")
+        else:
+            st.info("No hay servicios registrados en la base de datos.")
