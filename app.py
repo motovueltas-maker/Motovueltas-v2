@@ -337,7 +337,9 @@ elif opcion_menu == " Perfiles Motorizados":
 elif opcion_menu == " Corte Clientes " or opcion_menu == "Cuentas de Clientes":
     st.subheader("📊 Balance y Corte de Cuentas - Clientes")
 
-    if not df_servicios.empty:
+    nom_clientes = df_clientes['nombre'].tolist() if not df_clientes.empty else []
+
+    if not df_servicios.empty and nom_clientes:
         tab_balance, tab_gestion = st.tabs(["💰 Balance de Cuenta", "✏️ Editar / Eliminar Vueltas"])
 
         with tab_balance:
