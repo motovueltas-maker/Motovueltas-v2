@@ -512,9 +512,9 @@ elif opcion_menu == " Corte Motorizados":
         st.markdown("##### 📅 Filtrar por Rango de Fechas")
         col_fm1, col_fm2, col_fm3 = st.columns([1, 1, 1])
         with col_fm1:
-            f_desde_m = st.date_input("Fecha Desde (Opcional):", value=None, format="DD/MM/YYYY", min_value=datetime(2024, 1, 1), max_value=datetime(2030, 12, 31), key="fd_moto")
+            f_desde_m = st.date_input("Fecha Desde (Opcional):", value=datetime.today(), format="DD/MM/YYYY", min_value=datetime(2024, 1, 1), max_value=datetime(2030, 12, 31), key="fd_moto")
         with col_fm2:
-            f_hasta_m = st.date_input("Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", min_value=datetime(2024, 1, 1), max_value=datetime(2030, 12, 31), key="fh_moto")
+            f_hasta_m = st.date_input("Fecha Hasta (Opcional):", value=datetime.today(), format="DD/MM/YYYY", min_value=datetime(2024, 1, 1), max_value=datetime(2030, 12, 31), key="fh_moto")
         with col_fm3:
             estado_filtro_m = st.selectbox("Estado de Vueltas:", ["Pendientes", "Pagadas", "Todas"], index=0)
 
