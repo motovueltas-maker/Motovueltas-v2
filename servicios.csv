@@ -333,3 +333,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 332,2026-08-18 14:09,Jhoiner,Chalong Case,Local,Vzla con 20,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
 333,2026-08-18 14:09,Jhoiner,Harmonia Skarlet,Local,Rio Lama,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 334,2026-08-18 14:10,Jhoiner,Acor Daniela,Calle 13,Local,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pendiente
+335,2026-08-18 14:11,Jhoiner,Chalong Case,Local,CC El Recreo,,4.0,66.66,2.67,1.33,Validado,Pendiente,Pendiente
