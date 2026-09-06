@@ -584,7 +584,7 @@ elif opcion_menu == " Corte Motorizados":
         else:
             total_avances = 0.0
 
-        saldo_neto_pagar = max(0.0, total_comision - total_avances)
+        saldo_neto_pagar = total_comision - total_avances
 
         # 4. MÉTRICAS PRINCIPALES
         c_m1, c_m2, c_m3, c_m4 = st.columns(4)
