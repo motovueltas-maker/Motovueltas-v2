@@ -568,8 +568,8 @@ elif opcion_menu == " Corte Motorizados":
         df_avances_moto = df_avances[(df_avances['motorizado'].astype(str).str.strip().str.lower() == str(moto_sel).strip().lower())].copy() if not df_avances.empty else pd.DataFrame()
         
         if not df_avances_moto.empty:
-            # Convertir cualquier formato de fecha a YYYY-MM-DD para el filtro
-            av_dt = pd.to_datetime(df_avances_moto['fecha'], dayfirst=True, errors='coerce')
+            # Convertir cualquier formato de fecha a YYYY-MM-DD
+            av_dt = pd.to_datetime(df_avances_moto['fecha'], errors='coerce')
             av_str = av_dt.dt.strftime('%Y-%m-%d').fillna(df_avances_moto['fecha'].astype(str).str[:10])
 
             if f_desde_m and f_hasta_m:
@@ -577,7 +577,7 @@ elif opcion_menu == " Corte Motorizados":
             elif f_desde_m:
                 df_avances_moto = df_avances_moto[av_str == f_desde_m.strftime('%Y-%m-%d')]
             elif f_hasta_m:
-                df_avances_moto = df_avances_moto[av_str == f_hasta_m.strftime('%Y-%m-%d')]
+                df_avances_moto = df_avances_moto[av_str <= f_hasta_m.strftime('%Y-%m-%d')]
 
             df_avances_moto['fecha_corta'] = df_avances_moto['fecha'].apply(formatear_dd_mm)
             total_avances = df_avances_moto['monto'].astype(float).sum()
