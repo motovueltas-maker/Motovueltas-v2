@@ -191,93 +191,93 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 192,2026-08-18 00:35,Esneyder,Acor Daniela,Bordados Mett,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 193,2026-07-21 00:39,Esneyder,Marianella K Beauty,Local,Plaza Macario Yepez,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 194,2026-08-01 00:40,Esneyder,Marianella K Beauty,Local,Santa Elena,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-195,2026-08-07 12:00,Jhoiner,Marianella K Beauty,Local,Parque Las Trinitarias,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
+195,2026-08-07 12:00,Jhoiner,Marianella K Beauty,Local,Parque Las Trinitarias,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 196,2026-08-18 00:42,Esneyder,Marianella K Beauty,Local,i Company,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-197,2026-08-06 12:00,Jhoiner,Chalong Case,Local,Barquisimeto III,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
+197,2026-08-06 12:00,Jhoiner,Chalong Case,Local,Barquisimeto III,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
 198,2026-09-04 22:25,Omar,Fresas Delivery Rebeca,Local,Los Camagos (Adami),,2.0,66.66,1.33,0.67,Validado,Pagado,Pendiente
 199,2026-09-04 12:00,Jhoiner,Fresas Delivery Rebeca,Local,48 con 29 (Genesis),,2.5,33.33,0.83,1.67,Validado,Pagado,Pendiente
 200,2026-09-04 22:26,Esneyder,Fresas Delivery Rebeca,Local,Villa Esmeralda (Amanda),,5.0,100.0,5.0,0.0,Validado,Pagado,Pendiente
 201,2026-09-04 22:26,Esneyder,Fresas Delivery Rebeca,Local,Ascardio (Raquel),,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
 202,2026-09-04 22:26,Omar,Fresas Delivery Rebeca,Local,Marie Claire (Celene),,2.0,66.66,1.33,0.67,Validado,Pagado,Pendiente
 203,2026-09-04 22:27,Omar,Fresas Delivery Rebeca,Local,Monte Real (Desire),,2.0,66.66,1.33,0.67,Validado,Pagado,Pendiente
-204,2026-08-06 12:00,Jhoiner,Greychit Contreras,Entrega de Dinero,Local,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
-205,2026-08-06 12:00,Jhoiner,Harmonia Skarlet,Carr 22 con 34,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-206,2026-08-06 05:00,Jhoiner,Monkey,Local,Calle 14 con 20,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-207,2026-08-06 05:01,Jhoiner,Monkey,Local,Av Lara,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-208,2026-08-06 05:01,Jhoiner,Chalong Case,Local,Centro Ejec Los Leones,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-209,2026-08-06 05:02,Jhoiner,Chalong Case,Local,Corpoelec Av Carabobo,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
-210,2026-08-07 12:00,Jhoiner,Chalong Case,Local,Arca del Norte,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-211,2026-08-07 12:00,Jhoiner,Chalong Case,Local,MRW/Zoom,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
-212,2026-08-07 12:00,Jhoiner,Harmonia Skarlet,Local,Insuservi,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-213,2026-08-07 05:07,Jhoiner,Acor Daniela,Local,Dusa,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-214,2026-08-07 05:08,Jhoiner,1313Bqto,Local,Cabudare,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pendiente
-215,2026-08-07 05:08,Jhoiner,1313Bqto,Local,Calle 28 cono 15,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-216,2026-08-07 05:11,Jhoiner,KingSport Maricela,Este,Los Próceres,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-217,2026-08-07 05:11,Jhoiner,Chalong Case,Local,Calle 24 con21,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
-218,2026-08-07 05:12,Jhoiner,Chalong Case,Local,Barquisimeto III,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
-219,2026-08-07 05:13,Jhoiner,Monkey,Compras Uniprec,Local,,1.5,33.33,0.5,1.0,Validado,Pendiente,Pendiente
-220,2026-08-07 05:15,Jhoiner,Dhamilet Ramírez,Charcutería y Frigorífico,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-221,2026-08-07 05:15,Jhoiner,Monkey,Local,45 con 28,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
-222,2026-08-07 05:16,Jhoiner,Monkey,Local,Calle 27 con 14,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-223,2026-08-07 05:16,Jhoiner,1313Bqto,Local,Ribereña con 13,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-224,2026-08-07 05:17,Jhoiner,Monkey,Local,30 con 19,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-225,2026-08-07 05:17,Jhoiner,Monkey,Local,40 con 30,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
-226,2026-08-07 05:17,Jhoiner,Monkey,Local,30 con 18,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-227,2026-08-07 05:18,Jhoiner,1313Bqto,Local,28 con 25,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-228,2026-08-07 05:19,Jhoiner,Maki House,Local,Pueblo Nuevo,,5.0,33.33,1.67,3.33,Validado,Pendiente,Pendiente
-229,2026-08-08 12:00,Jhoiner,KingSport Maricela,Este/Centro,24 con 21,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
-230,2026-08-08 12:00,Jhoiner,Chalong Case,Local,La Antena,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pendiente
-231,2026-08-08 12:00,Jhoiner,Clinivet,Agromascotas,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-231,2026-08-08 05:26,Jhoiner,Chalong Case,Local,El Tejar,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-232,2026-08-08 05:27,Jhoiner,Dr David Colmenarez,Local,Laboratorio,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
-233,2026-08-08 05:27,Jhoiner,1313Bqto,Local,16 con Vargas,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-234,2026-08-08 05:28,Jhoiner,Chalong Case,Local,Carr 25 entre 11 y 12,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-235,2026-08-08 05:28,Jhoiner,Monkey,Local,35 con 14,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-236,2026-08-08 05:30,Jhoiner,Pizzería Nels,Local,Rancho Bravo,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-237,2026-08-08 05:30,Jhoiner,Monkey,Local,Ascardio,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-238,2026-08-08 05:32,Jhoiner,1313Bqto,Local,La Concordia,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-239,2026-08-08 05:32,Jhoiner,1313Bqto,Local,36 con 24,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-240,2026-08-08 05:32,Jhoiner,Monkey,Local,30 con 24,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-241,2026-08-08 05:33,Jhoiner,Monkey,Local,51 con 27,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
-242,2026-08-08 05:34,Jhoiner,Angeles Guanipa,Compra Medicinas,La Pastora,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
-243,2026-08-08 05:35,Jhoiner,Monkey,Local,Hospital,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-244,2026-08-08 12:00,Jhoiner,Monkey,Local,40 con 30,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
-245,2026-08-08 12:00,Jhoiner,1313Bqto,Local,Carucieña,,4.5,33.33,1.5,3.0,Validado,Pendiente,Pendiente
-246,2026-08-08 12:01,Jhoiner,1313Bqto,Local,13 con 16,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-247,2026-08-08 12:02,Jhoiner,1313Bqto,Local,Urb del Este,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-248,2026-08-08 12:03,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-249,2026-08-09 12:00,Jhoiner,1313Bqto,Local,Santa Cecilia,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
-250,2026-08-09 12:00,Jhoiner,1313Bqto,Local,Tierra del Sol,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pendiente
-251,2026-08-09 12:00,Jhoiner,1313Bqto,Local,Luso Larense,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
-252,2026-08-09 12:00,Jhoiner,1313Bqto,Local,Chicolandia,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pendiente
-253,2026-08-09 12:00,Jhoiner,1313Bqto,Local,Carucieña,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pendiente
-254,2026-08-09 12:00,Jhoiner,Monkey,Local,36 con 18,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-255,2026-08-09 12:00,Jhoiner,1313Bqto,Local,Transporte DIana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-256,2026-08-10 12:00,Jhoiner,Cliente Eventual,MRW,Kingsport Este,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-257,2026-08-10 12:00,Jhoiner,Greychit Contreras,Cosmos,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-258,2026-08-10 12:00,Jhoiner,Acor Daniela,Local,Bordados Mett,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-258,2026-08-10 12:18,Jhoiner,Pinpanpon Vanessa Barraez,Metrop Javier,Tiffany y Local,,5.0,66.66,3.33,1.67,Validado,Pendiente,Pendiente
-259,2026-08-10 12:19,Jhoiner,Cliente Eventual,Calle 60 (Luis),Urb La Trinidad,,6.0,66.66,4.0,2.0,Validado,Pendiente,Pendiente
-260,2026-08-10 12:20,Jhoiner,1313Bqto,RIO,Local,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
-261,2026-08-10 12:22,Jhoiner,Chalong Detalles,Local,Vzla con 24,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
-262,2026-08-10 12:23,Jhoiner,Freddy Camejo,Andres Eloy,Local,,4.5,66.66,3.0,1.5,Validado,Pendiente,Pendiente
-263,2026-08-10 12:24,Jhoiner,Chalong Case,Local,Roca Terra,,4.0,66.66,2.67,1.33,Validado,Pendiente,Pendiente
-264,2026-08-10 12:24,Jhoiner,1313Bqto,Local,Las Alquerias,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
-265,2026-08-10 12:25,Jhoiner,Monkey,Local,Tarabana Plaza,,3.5,66.66,2.33,1.17,Validado,Pendiente,Pendiente
-266,2026-08-10 12:26,Jhoiner,1313Bqto,Local,47 con 18 y 19,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
-267,2026-08-10 12:26,Jhoiner,1313Bqto,Local,30 con 16,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
-268,2026-08-10 12:27,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
-269,2026-08-11 12:28,Jhoiner,Greychit Contreras,Local,Carr 23 con 38,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
-270,2026-08-11 12:30,Jhoiner,Rori,Local,Zona Industrial II,,5.0,66.66,3.33,1.67,Validado,Pendiente,Pendiente
-271,2026-08-11 12:32,Jhoiner,Marianelin Carrasco Contadora,Panad New York,Local,,1.5,66.66,1.0,0.5,Validado,Pendiente,Pendiente
-272,2026-08-11 12:32,Jhoiner,Clinivet,Local,Contadora,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
-273,2026-08-11 12:33,Jhoiner,1313Bqto,Local,Carr 17 con 14,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pendiente
-274,2026-08-11 12:33,Jhoiner,Freddy Camejo,Patarata,Local,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
-275,2026-08-11 12:35,Jhoiner,Ari Perrarina,Farmatodo,Terminal,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
-276,2026-08-11 12:36,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
-277,2026-08-12 12:38,Jhoiner,Rori,Local,Zona INdustrial II,,5.0,66.66,3.33,1.67,Validado,Pendiente,Pendiente
-278,2026-08-12 12:38,Jhoiner,Chalong Case,Local,Av Lara,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pendiente
-279,2026-08-12 12:39,Jhoiner,Chalong Case,Local,Calle 25 con 21,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
-280,2026-08-12 12:40,Jhoiner,Cliente Eventual,Don Mateo,Cabudare,,6.0,66.66,4.0,2.0,Validado,Pendiente,Pendiente
-281,2026-08-12 12:40,Jhoiner,1313Bqto,Local,Agua Viva,,4.0,66.66,2.67,1.33,Validado,Pendiente,Pendiente
-282,2026-08-12 12:41,Jhoiner,Cliente Eventual,Cabudare,Don Mateo,,6.0,66.66,4.0,2.0,Validado,Pendiente,Pendiente
+204,2026-08-06 12:00,Jhoiner,Greychit Contreras,Entrega de Dinero,Local,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
+205,2026-08-06 12:00,Jhoiner,Harmonia Skarlet,Carr 22 con 34,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+206,2026-08-06 05:00,Jhoiner,Monkey,Local,Calle 14 con 20,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+207,2026-08-06 05:01,Jhoiner,Monkey,Local,Av Lara,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+208,2026-08-06 05:01,Jhoiner,Chalong Case,Local,Centro Ejec Los Leones,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+209,2026-08-06 05:02,Jhoiner,Chalong Case,Local,Corpoelec Av Carabobo,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
+210,2026-08-07 12:00,Jhoiner,Chalong Case,Local,Arca del Norte,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+211,2026-08-07 12:00,Jhoiner,Chalong Case,Local,MRW/Zoom,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
+212,2026-08-07 12:00,Jhoiner,Harmonia Skarlet,Local,Insuservi,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+213,2026-08-07 05:07,Jhoiner,Acor Daniela,Local,Dusa,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+214,2026-08-07 05:08,Jhoiner,1313Bqto,Local,Cabudare,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pagado
+215,2026-08-07 05:08,Jhoiner,1313Bqto,Local,Calle 28 cono 15,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+216,2026-08-07 05:11,Jhoiner,KingSport Maricela,Este,Los Próceres,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+217,2026-08-07 05:11,Jhoiner,Chalong Case,Local,Calle 24 con21,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
+218,2026-08-07 05:12,Jhoiner,Chalong Case,Local,Barquisimeto III,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
+219,2026-08-07 05:13,Jhoiner,Monkey,Compras Uniprec,Local,,1.5,33.33,0.5,1.0,Validado,Pendiente,Pagado
+220,2026-08-07 05:15,Jhoiner,Dhamilet Ramírez,Charcutería y Frigorífico,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+221,2026-08-07 05:15,Jhoiner,Monkey,Local,45 con 28,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
+222,2026-08-07 05:16,Jhoiner,Monkey,Local,Calle 27 con 14,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+223,2026-08-07 05:16,Jhoiner,1313Bqto,Local,Ribereña con 13,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+224,2026-08-07 05:17,Jhoiner,Monkey,Local,30 con 19,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+225,2026-08-07 05:17,Jhoiner,Monkey,Local,40 con 30,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
+226,2026-08-07 05:17,Jhoiner,Monkey,Local,30 con 18,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+227,2026-08-07 05:18,Jhoiner,1313Bqto,Local,28 con 25,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+228,2026-08-07 05:19,Jhoiner,Maki House,Local,Pueblo Nuevo,,5.0,33.33,1.67,3.33,Validado,Pendiente,Pagado
+229,2026-08-08 12:00,Jhoiner,KingSport Maricela,Este/Centro,24 con 21,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
+230,2026-08-08 12:00,Jhoiner,Chalong Case,Local,La Antena,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pagado
+231,2026-08-08 12:00,Jhoiner,Clinivet,Agromascotas,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+231,2026-08-08 05:26,Jhoiner,Chalong Case,Local,El Tejar,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+232,2026-08-08 05:27,Jhoiner,Dr David Colmenarez,Local,Laboratorio,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
+233,2026-08-08 05:27,Jhoiner,1313Bqto,Local,16 con Vargas,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+234,2026-08-08 05:28,Jhoiner,Chalong Case,Local,Carr 25 entre 11 y 12,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+235,2026-08-08 05:28,Jhoiner,Monkey,Local,35 con 14,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+236,2026-08-08 05:30,Jhoiner,Pizzería Nels,Local,Rancho Bravo,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+237,2026-08-08 05:30,Jhoiner,Monkey,Local,Ascardio,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+238,2026-08-08 05:32,Jhoiner,1313Bqto,Local,La Concordia,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+239,2026-08-08 05:32,Jhoiner,1313Bqto,Local,36 con 24,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+240,2026-08-08 05:32,Jhoiner,Monkey,Local,30 con 24,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+241,2026-08-08 05:33,Jhoiner,Monkey,Local,51 con 27,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
+242,2026-08-08 05:34,Jhoiner,Angeles Guanipa,Compra Medicinas,La Pastora,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
+243,2026-08-08 05:35,Jhoiner,Monkey,Local,Hospital,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+244,2026-08-08 12:00,Jhoiner,Monkey,Local,40 con 30,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
+245,2026-08-08 12:00,Jhoiner,1313Bqto,Local,Carucieña,,4.5,33.33,1.5,3.0,Validado,Pendiente,Pagado
+246,2026-08-08 12:01,Jhoiner,1313Bqto,Local,13 con 16,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+247,2026-08-08 12:02,Jhoiner,1313Bqto,Local,Urb del Este,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+248,2026-08-08 12:03,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+249,2026-08-09 12:00,Jhoiner,1313Bqto,Local,Santa Cecilia,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
+250,2026-08-09 12:00,Jhoiner,1313Bqto,Local,Tierra del Sol,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pagado
+251,2026-08-09 12:00,Jhoiner,1313Bqto,Local,Luso Larense,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
+252,2026-08-09 12:00,Jhoiner,1313Bqto,Local,Chicolandia,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pagado
+253,2026-08-09 12:00,Jhoiner,1313Bqto,Local,Carucieña,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pagado
+254,2026-08-09 12:00,Jhoiner,Monkey,Local,36 con 18,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+255,2026-08-09 12:00,Jhoiner,1313Bqto,Local,Transporte DIana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+256,2026-08-10 12:00,Jhoiner,Cliente Eventual,MRW,Kingsport Este,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+257,2026-08-10 12:00,Jhoiner,Greychit Contreras,Cosmos,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+258,2026-08-10 12:00,Jhoiner,Acor Daniela,Local,Bordados Mett,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+258,2026-08-10 12:18,Jhoiner,Pinpanpon Vanessa Barraez,Metrop Javier,Tiffany y Local,,5.0,66.66,3.33,1.67,Validado,Pendiente,Pagado
+259,2026-08-10 12:19,Jhoiner,Cliente Eventual,Calle 60 (Luis),Urb La Trinidad,,6.0,66.66,4.0,2.0,Validado,Pendiente,Pagado
+260,2026-08-10 12:20,Jhoiner,1313Bqto,RIO,Local,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pagado
+261,2026-08-10 12:22,Jhoiner,Chalong Detalles,Local,Vzla con 24,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pagado
+262,2026-08-10 12:23,Jhoiner,Freddy Camejo,Andres Eloy,Local,,4.5,66.66,3.0,1.5,Validado,Pendiente,Pagado
+263,2026-08-10 12:24,Jhoiner,Chalong Case,Local,Roca Terra,,4.0,66.66,2.67,1.33,Validado,Pendiente,Pagado
+264,2026-08-10 12:24,Jhoiner,1313Bqto,Local,Las Alquerias,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pagado
+265,2026-08-10 12:25,Jhoiner,Monkey,Local,Tarabana Plaza,,3.5,66.66,2.33,1.17,Validado,Pendiente,Pagado
+266,2026-08-10 12:26,Jhoiner,1313Bqto,Local,47 con 18 y 19,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pagado
+267,2026-08-10 12:26,Jhoiner,1313Bqto,Local,30 con 16,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pagado
+268,2026-08-10 12:27,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pagado
+269,2026-08-11 12:28,Jhoiner,Greychit Contreras,Local,Carr 23 con 38,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pagado
+270,2026-08-11 12:30,Jhoiner,Rori,Local,Zona Industrial II,,5.0,66.66,3.33,1.67,Validado,Pendiente,Pagado
+271,2026-08-11 12:32,Jhoiner,Marianelin Carrasco Contadora,Panad New York,Local,,1.5,66.66,1.0,0.5,Validado,Pendiente,Pagado
+272,2026-08-11 12:32,Jhoiner,Clinivet,Local,Contadora,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pagado
+273,2026-08-11 12:33,Jhoiner,1313Bqto,Local,Carr 17 con 14,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pagado
+274,2026-08-11 12:33,Jhoiner,Freddy Camejo,Patarata,Local,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pagado
+275,2026-08-11 12:35,Jhoiner,Ari Perrarina,Farmatodo,Terminal,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pagado
+276,2026-08-11 12:36,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pagado
+277,2026-08-12 12:38,Jhoiner,Rori,Local,Zona INdustrial II,,5.0,66.66,3.33,1.67,Validado,Pendiente,Pagado
+278,2026-08-12 12:38,Jhoiner,Chalong Case,Local,Av Lara,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pagado
+279,2026-08-12 12:39,Jhoiner,Chalong Case,Local,Calle 25 con 21,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pagado
+280,2026-08-12 12:40,Jhoiner,Cliente Eventual,Don Mateo,Cabudare,,6.0,66.66,4.0,2.0,Validado,Pendiente,Pagado
+281,2026-08-12 12:40,Jhoiner,1313Bqto,Local,Agua Viva,,4.0,66.66,2.67,1.33,Validado,Pendiente,Pagado
+282,2026-08-12 12:41,Jhoiner,Cliente Eventual,Cabudare,Don Mateo,,6.0,66.66,4.0,2.0,Validado,Pendiente,Pagado
