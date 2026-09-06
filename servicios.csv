@@ -231,3 +231,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 231,2026-08-08 12:00,Jhoiner,Clinivet,Agromascotas,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
 231,2026-08-08 05:26,Jhoiner,Chalong Case,Local,El Tejar,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
 232,2026-08-08 05:27,Jhoiner,Dr David Colmenarez,Local,Laboratorio,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
+233,2026-08-08 05:27,Jhoiner,1313Bqto,Local,16 con Vargas,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
