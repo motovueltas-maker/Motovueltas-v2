@@ -254,3 +254,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 253,2026-08-09 12:05,Jhoiner,1313Bqto,Local,Carucieña,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pendiente
 254,2026-08-09 12:06,Jhoiner,Monkey,Local,36 con 18,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
 255,2026-08-09 12:06,Jhoiner,1313Bqto,Local,Transporte DIana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
+256,2026-08-09 12:10,Jhoiner,Cliente Eventual,MRW,Kingsport Este,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
