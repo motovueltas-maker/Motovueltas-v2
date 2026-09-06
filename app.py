@@ -668,6 +668,9 @@ elif opcion_menu == " Corte Motorizados":
                 if not m_info.empty:
                     tel_moto = str(m_info.iloc[0]['telefono']).replace("+", "").replace(" ", "").replace("-", "")
 
+            vueltas_mo['fecha_dt'] = pd.to_datetime(vueltas_mo['fecha'], errors='coerce')
+            vueltas_mo = vueltas_mo.sort_values(by='fecha_dt', ascending=True)
+
             msg_wa_m = f"🧾 *CORTE DE CUENTA - MOTOVUELTAS*\nMotorizado: *{moto_sel}*\n\n"
             for f_corta in vueltas_mo['fecha_corta'].unique():
                 if f_corta:
