@@ -324,3 +324,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 323,2026-08-16 13:59,Jhoiner,1313Bqto,Local,Luis Miguel ABC,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 324,2026-08-16 13:59,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 325,2026-08-17 14:01,Jhoiner,Greychit Contreras,Stiffano,Local,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
+326,2026-08-17 14:01,Jhoiner,Monkey,Compras Uniprec,Local,,1.5,66.66,1.0,0.5,Validado,Pendiente,Pendiente
