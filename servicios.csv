@@ -342,3 +342,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 341,2026-08-19 12:00,Jhoiner,Dra Gabriela Rizzotto,Local,Obelisco,,5.0,33.33,1.67,3.33,Validado,Pendiente,Pagado
 342,2026-08-19 12:00,Jhoiner,1313Bqto,Local,Cancha de la 13,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
 343,2026-08-19 12:00,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+344,2026-08-21 14:39,Jhoiner,Catas Food,Local,Capital,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
