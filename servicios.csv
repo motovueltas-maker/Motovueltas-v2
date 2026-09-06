@@ -246,3 +246,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 245,2026-08-08 12:00,Jhoiner,1313Bqto,Local,Carucieña,,4.5,33.33,1.5,3.0,Validado,Pendiente,Pendiente
 246,2026-08-08 12:01,Jhoiner,1313Bqto,Local,13 con 16,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
 247,2026-08-08 12:02,Jhoiner,1313Bqto,Local,Urb del Este,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
+248,2026-08-08 12:03,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
