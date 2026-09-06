@@ -311,3 +311,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 310,2026-08-15 13:51,Jhoiner,1313Bqto,Local,Los Apamates,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 311,2026-08-15 13:51,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 312,2026-08-16 13:55,Jhoiner,1313Bqto,Local,San Benito,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
+313,2026-08-16 13:56,Jhoiner,1313Bqto,Local,Yacural,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
