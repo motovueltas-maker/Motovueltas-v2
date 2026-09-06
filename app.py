@@ -568,6 +568,7 @@ elif opcion_menu == " Corte Motorizados":
         df_avances_moto = df_avances[(df_avances['motorizado'].astype(str).str.strip().str.lower() == str(moto_sel).strip().lower())].copy() if not df_avances.empty else pd.DataFrame()
         
         if not df_avances_moto.empty:
+            # Convertir fecha de avances a YYYY-MM-DD para comparar limpiamente
             av_dt = pd.to_datetime(df_avances_moto['fecha'], dayfirst=True, errors='coerce')
             av_str = av_dt.dt.strftime('%Y-%m-%d').fillna(df_avances_moto['fecha'].astype(str).str[:10])
 
