@@ -208,3 +208,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 207,2026-08-06 05:01,Jhoiner,Monkey,Local,Av Lara,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
 208,2026-08-06 05:01,Jhoiner,Chalong Case,Local,Centro Ejec Los Leones,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
 209,2026-08-06 05:02,Jhoiner,Chalong Case,Local,Corpoelec Av Carabobo,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
+210,2026-08-07 05:04,Jhoiner,Chalong Case,Local,Arca del Norte,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
