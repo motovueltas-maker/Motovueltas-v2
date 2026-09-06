@@ -203,3 +203,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 202,2026-09-04 22:26,Omar,Fresas Delivery Rebeca,Local,Marie Claire (Celene),,2.0,66.66,1.33,0.67,Validado,Pagado,Pendiente
 203,2026-09-04 22:27,Omar,Fresas Delivery Rebeca,Local,Monte Real (Desire),,2.0,66.66,1.33,0.67,Validado,Pagado,Pendiente
 204,2026-08-07 04:55,Jhoiner,Greychit Contreras,Entrega de Dinero,Local,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
+205,2026-08-07 04:57,Jhoiner,Harmonia Skarlet,Carr 22 con 34,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
