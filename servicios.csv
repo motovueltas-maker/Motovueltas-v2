@@ -234,3 +234,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 233,2026-08-08 05:27,Jhoiner,1313Bqto,Local,16 con Vargas,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
 234,2026-08-08 05:28,Jhoiner,Chalong Case,Local,Carr 25 entre 11 y 12,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
 235,2026-08-08 05:28,Jhoiner,Monkey,Local,35 con 14,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
+236,2026-08-08 05:30,Jhoiner,Pizzería Nels,Local,Rancho Bravo,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
