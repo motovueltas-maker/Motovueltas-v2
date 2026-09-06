@@ -563,13 +563,13 @@ elif opcion_menu == " Corte Motorizados":
                 btn_avance = st.form_submit_button("Guardar Avance Permanente", type="primary")
                 
                 if btn_avance and monto_avance > 0:
-                    nuevo_id = len(df_avances) + 1
                     nuevo_av = pd.DataFrame([{
                         "id": nuevo_id,
                         "fecha": f_avance.strftime("%Y-%m-%d"),
                         "motorizado": str(moto_sel).strip(),
                         "monto": float(monto_avance),
-                        "concepto": concepto_avance if concepto_avance else "Adelanto de dinero"
+                        "concepto": concepto_avance if concepto_avance else "Adelanto de dinero",
+                        "estado_avance": "Pendiente"
                     }])
                     df_avances_act = pd.concat([df_avances, nuevo_av], ignore_index=True)
                     if guardar_csv_en_github(FILE_AVANCES, df_avances_act, sha_avances, f"Nuevo avance a {moto_sel}"):
@@ -722,6 +722,15 @@ elif opcion_menu == " Corte Motorizados":
             if st.button(f"✅ Liquidar y Marcar Vueltas como PAGADAS", type="primary", disabled=not confirmar_corte_m, use_container_width=True):
                 ids_a_pagar = vueltas_mo['id'].tolist()
                 df_servicios.loc[df_servicios['id'].isin(ids_a_pagar), 'estado_motorizado'] = 'Pagado'
+    
+                # Marcar también los adelantos del periodo como pagados en avances.csv
+                if not df_avances_moto.empty:
+                    ids_avances_pagar = df_avances_moto['id'].tolist()
+                    if 'estado_avance' not in df_avances.columns:
+                        df_avances['estado_avance'] = 'Pendiente'
+                    df_avances.loc[df_avances['id'].isin(ids_avances_pagar), 'estado_avance'] = 'Pagado'
+                    guardar_csv_en_github(FILE_AVANCES, df_avances, sha_avances, f"Adelantos liquidados de {moto_sel}")
+
                 if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Liquidacion realizada a motorizado {moto_sel}"):
                     st.success(f"✅ ¡Se han liquidado {len(ids_a_pagar)} vueltas de {moto_sel} correctamente!")
                     st.rerun()
