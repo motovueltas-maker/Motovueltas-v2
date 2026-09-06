@@ -339,3 +339,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 338,2026-08-18 14:13,Jhoiner,1313Bqto,Local,38 con 20,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 339,2026-08-18 14:13,Jhoiner,1313Bqto,Local,Transporte DIana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 340,2026-08-19 14:17,Jhoiner,Dr David Colmenarez,Local,Laboratorio,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
+341,2026-08-19 14:20,Jhoiner,Dra Gabriela Rizzotto,Local,Obelisco,,5.0,66.66,3.33,1.67,Validado,Pendiente,Pendiente
