@@ -292,3 +292,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 292,2026-08-15 12:00,Jhoiner,Monkey,Pollera,Local,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
 293,2026-08-15 12:00,Jhoiner,Clinivet,Dra Pire Fundalara,Local,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
 293,2026-08-15 13:45,Jhoiner,Monkey,Local,Morán con 25,,1.5,66.66,1.0,0.5,Validado,Pendiente,Pendiente
+294,2026-08-15 13:45,Jhoiner,KingSport Maricela,Centro,Cabudare,,4.0,66.66,2.67,1.33,Validado,Pendiente,Pendiente
