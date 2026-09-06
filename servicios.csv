@@ -371,3 +371,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 370,2026-08-24 12:00,Jhoiner,Pizzería Nels,Local,Gil Fortoul,,2.0,66.6,1.33,0.67,Validado,Pendiente,Pendiente
 371,2026-08-24 12:00,Jhoiner,1313Bqto,Local,Abogados con 8,,2.0,66.6,1.33,0.67,Validado,Pendiente,Pendiente
 372,2026-08-25 15:23,Jhoiner,Cliente Eventual,Nathaly ,Sambil/Capital Plaza,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
+373,2026-08-25 15:23,Jhoiner,1313Bqto,Local,Macuto,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
