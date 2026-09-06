@@ -567,7 +567,7 @@ elif "Corte Motorizados" in opcion_menu:
         df_mot_serv = df_servicios[(df_servicios['motorizado'].astype(str).str.strip().str.lower() == str(moto_sel).strip().lower())].copy()
         
         if not df_mot_serv.empty:
-            df_mot_serv['fecha_corta'] = df_mot_serv['fecha'].apply(formatear_dd_mm)
+            df_mot_serv['fecha_corta'] = df_mot_serv['fecha'].astype(str).str[:10]
             
             # Filtro de pendientes
             pendientes_mot = df_mot_serv[df_mot_serv['estado_motorizado'] == 'Pendiente'].copy()
