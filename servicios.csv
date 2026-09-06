@@ -273,3 +273,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 272,2026-08-11 12:32,Jhoiner,Clinivet,Local,Contadora,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 273,2026-08-11 12:33,Jhoiner,1313Bqto,Local,Carr 17 con 14,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pendiente
 274,2026-08-11 12:33,Jhoiner,Freddy Camejo,Patarata,Local,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
+275,2026-08-11 12:35,Jhoiner,Ari Perrarina,Farmatodo,Terminal,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
