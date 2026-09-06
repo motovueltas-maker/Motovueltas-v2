@@ -221,3 +221,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 220,2026-08-07 05:15,Jhoiner,Dhamilet Ramírez,Charcutería y Frigorífico,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
 221,2026-08-07 05:15,Jhoiner,Monkey,Local,45 con 28,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
 222,2026-08-07 05:16,Jhoiner,Monkey,Local,Calle 27 con 14,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
+223,2026-08-07 05:16,Jhoiner,1313Bqto,Local,Ribereña con 13,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
