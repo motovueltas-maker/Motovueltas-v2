@@ -242,7 +242,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 241,2026-08-08 05:33,Jhoiner,Monkey,Local,51 con 27,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
 242,2026-08-08 05:34,Jhoiner,Angeles Guanipa,Compra Medicinas,La Pastora,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
 243,2026-08-08 05:35,Jhoiner,Monkey,Local,Hospital,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-244,2026-08-09 12:00,Jhoiner,Monkey,Local,40 con 30,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
-245,2026-08-09 12:01,Jhoiner,1313Bqto,Local,Carucieña,,4.5,33.33,1.5,3.0,Validado,Pendiente,Pendiente
+244,2026-08-08 12:00,Jhoiner,Monkey,Local,40 con 30,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
+245,2026-08-08 12:00,Jhoiner,1313Bqto,Local,Carucieña,,4.5,33.33,1.5,3.0,Validado,Pendiente,Pendiente
 246,2026-08-08 12:01,Jhoiner,1313Bqto,Local,13 con 16,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
 247,2026-08-08 12:02,Jhoiner,1313Bqto,Local,Urb del Este,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
