@@ -378,3 +378,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 377,2026-08-26 15:29,Jhoiner,Chalong Case,Local,Villa Paris A,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
 378,2026-08-26 15:29,Jhoiner,1313Bqto,Local,Residencias Atlas,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
 379,2026-08-26 15:30,Jhoiner,1313Bqto,Local,Nueva Segovia,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
+380,2026-08-26 15:30,Jhoiner,Angeles Guanipa,Local,Cancha de la 13,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pendiente
