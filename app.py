@@ -643,4 +643,4 @@ elif "Corte Motorizados" in opcion_menu:
         else:
             st.info("No se encontraron vueltas con el filtro seleccionado.")
     else:
-        st.info("No hay motorizados o servicios registrados.")
+        st.info("No hay motorizados o servicios registrados.") 
