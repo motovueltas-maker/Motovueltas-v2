@@ -258,3 +258,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 258,2026-08-10 12:00,Jhoiner,Acor Daniela,Local,Bordados Mett,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
 258,2026-08-10 12:18,Jhoiner,Pinpanpon Vanessa Barraez,Metrop Javier,Tiffany y Local,,5.0,66.66,3.33,1.67,Validado,Pendiente,Pendiente
 259,2026-08-10 12:19,Jhoiner,Cliente Eventual,Calle 60 (Luis),Urb La Trinidad,,6.0,66.66,4.0,2.0,Validado,Pendiente,Pendiente
+260,2026-08-10 12:20,Jhoiner,1313Bqto,RIO,Local,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
