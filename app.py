@@ -563,29 +563,62 @@ elif "Corte Motorizados" in opcion_menu:
     if not df_servicios.empty and nom_motos:
         moto_sel = st.selectbox("Seleccionar Motorizado para ver Balance:", nom_motos, index=0)
         
+        # 1. FILTRO DE FECHAS
+        st.markdown("##### 📅 Filtrar por Rango de Fechas")
+        col_fm1, col_fm2, col_fm3 = st.columns([1, 1, 1])
+        with col_fm1:
+            f_desde_m = st.date_input("Fecha Desde:", value=None, format="DD/MM/YYYY", key="fd_moto")
+        with col_fm2:
+            f_hasta_m = st.date_input("Fecha Hasta:", value=None, format="DD/MM/YYYY", key="fh_moto")
+        with col_fm3:
+            estado_filtro_m = st.selectbox("Estado de Vueltas:", ["Pendientes", "Pagadas", "Todas"], index=0)
+
         # Filtrar vueltas del motorizado
         df_mot_serv = df_servicios[(df_servicios['motorizado'].astype(str).str.strip().str.lower() == str(moto_sel).strip().lower())].copy()
         
-        if not df_mot_serv.empty:
-            df_mot_serv['fecha_corta'] = df_mot_serv['fecha'].astype(str).str[:10]
-            
-            # Filtro de pendientes
-            pendientes_mot = df_mot_serv[df_mot_serv['estado_motorizado'] == 'Pendiente'].copy()
-            total_moto = pendientes_mot['monto_motorizado'].astype(float).sum()
-            
-            st.metric("Total Pendiente por Pagar al Motorizado ($)", f"${total_moto:.2f}")
-            st.markdown("### 📋 Vueltas Pendientes de Pago")
-            st.dataframe(pendientes_mot[['id', 'fecha_corta', 'cliente', 'origen', 'destino', 'precio_cliente', 'monto_motorizado', 'estado_motorizado']], use_container_width=True)
-            
-            if not pendientes_mot.empty:
-                confirmar_pago_m = st.checkbox(f"⚠️ Confirmar pago a {moto_sel}", key="check_pago_mot")
-                if st.button(f"✅ Marcar saldo de {moto_sel} como PAGADO", type="primary", disabled=not confirmar_pago_m, use_container_width=True):
-                    ids_m = pendientes_mot['id'].tolist()
-                    df_servicios.loc[df_servicios['id'].isin(ids_m), 'estado_motorizado'] = 'Pagado'
-                    if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Pago a motorizado {moto_sel}"):
-                        st.success(f"✅ ¡Se han pagado {len(ids_m)} vueltas a {moto_sel}!")
-                        st.rerun()
+        # Aplicar filtro de fecha
+        fechas_mot_str = pd.to_datetime(df_mot_serv['fecha'], errors='coerce').dt.strftime('%Y-%m-%d')
+        if f_desde_m and f_hasta_m:
+            df_mot_serv = df_mot_serv[(fechas_mot_str >= f_desde_m.strftime('%Y-%m-%d')) & (fechas_mot_str <= f_hasta_m.strftime('%Y-%m-%d'))]
+        elif f_desde_m:
+            df_mot_serv = df_mot_serv[fechas_mot_str == f_desde_m.strftime('%Y-%m-%d')]
+        elif f_hasta_m:
+            df_mot_serv = df_mot_serv[fechas_mot_str == f_hasta_m.strftime('%Y-%m-%d')]
+
+        # Aplicar filtro de estado
+        if estado_filtro_m == "Pendientes":
+            vueltas_mo = df_mot_serv[df_mot_serv['estado_motorizado'] == 'Pendiente'].copy()
+        elif estado_filtro_m == "Pagadas":
+            vueltas_mo = df_mot_serv[df_mot_serv['estado_motorizado'] == 'Pagado'].copy()
         else:
-            st.info(f"No hay vueltas registradas para {moto_sel}.")
+            vueltas_mo = df_mot_serv.copy()
+
+        vueltas_mo['fecha_corta'] = vueltas_mo['fecha'].astype(str).str[:10]
+        total_comision = vueltas_mo['monto_motorizado'].astype(float).sum()
+
+        # METRICAS
+        c_m1, c_m2 = st.columns(2)
+        c_m1.metric("Total Comisiones Ganadas ($)", f"${total_comision:.2f}")
+        c_m2.metric("Vueltas Encontradas", len(vueltas_mo))
+
+        # 2. REGISTRO DE ADELANTO (AVANCE)
+        with st.expander("💵 Registrar Avance / Adelanto de Dinero"):
+            with st.form("form_avance_motorizado", clear_on_submit=True):
+                col_a1, col_a2 = st.columns(2)
+                with col_a1:
+                    f_avance = st.date_input("Fecha Avance", value=datetime.today())
+                with col_a2:
+                    monto_avance = st.number_input("Monto Avance ($)", min_value=0.0, step=0.5)
+                concepto_avance = st.text_input("Concepto / Nota (ej: Gasolina, Almuerzo)", placeholder="Detalle del avance...")
+                btn_avance = st.form_submit_button("Registrar Avance", type="primary")
+                if btn_avance and monto_avance > 0:
+                    st.success(f"✅ Avance de ${monto_avance:.2f} registrado para {moto_sel}.")
+
+        # 3. TABLA DE VUELTAS
+        st.markdown("### 📋 Detalle de Vueltas")
+        if not vueltas_mo.empty:
+            st.dataframe(vueltas_mo[['id', 'fecha_corta', 'cliente', 'origen', 'destino', 'precio_cliente', 'monto_motorizado', 'estado_motorizado']], use_container_width=True)
+        else:
+            st.info("No se encontraron vueltas con el filtro seleccionado.")
     else:
-        st.info("No hay motorizados o servicios registrados en la base de datos.")
+        st.info("No hay motorizados o servicios registrados.")
