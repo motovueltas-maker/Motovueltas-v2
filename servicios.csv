@@ -266,3 +266,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 265,2026-08-10 12:25,Jhoiner,Monkey,Local,Tarabana Plaza,,3.5,66.66,2.33,1.17,Validado,Pendiente,Pendiente
 266,2026-08-10 12:26,Jhoiner,1313Bqto,Local,47 con 18 y 19,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
 267,2026-08-10 12:26,Jhoiner,1313Bqto,Local,30 con 16,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
+268,2026-08-10 12:27,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
