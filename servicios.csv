@@ -369,3 +369,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 368,2026-08-23 14:55,Jhoiner,1313Bqto,Local,Calle 14 con 16,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
 369,2026-08-23 14:55,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
 370,2026-08-24 14:59,Omar,Pizzería Nels,Local,Gil Fortoul,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
+371,2026-08-24 15:01,Jhoiner,1313Bqto,Local,Abogados con 8,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
