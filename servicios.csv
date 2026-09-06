@@ -275,3 +275,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 274,2026-08-11 12:33,Jhoiner,Freddy Camejo,Patarata,Local,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 275,2026-08-11 12:35,Jhoiner,Ari Perrarina,Farmatodo,Terminal,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
 276,2026-08-11 12:36,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
+277,2026-08-12 12:38,Jhoiner,Rori,Local,Zona INdustrial II,,5.0,66.66,3.33,1.67,Validado,Pendiente,Pendiente
