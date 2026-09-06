@@ -375,3 +375,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 374,2026-08-25 15:24,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 375,2026-08-26 15:28,Jhoiner,KingSport Maricela,Este,41 con 29,,3.5,66.66,2.33,1.17,Validado,Pendiente,Pendiente
 376,2026-08-26 15:28,Jhoiner,Cliente Eventual,Mrw Calle 15,Kingsport Este,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
+377,2026-08-26 15:29,Jhoiner,Chalong Case,Local,Villa Paris A,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
