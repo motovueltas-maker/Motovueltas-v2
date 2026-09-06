@@ -229,3 +229,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 228,2026-08-07 05:19,Jhoiner,Maki House,Local,Pueblo Nuevo,,5.0,33.33,1.67,3.33,Validado,Pendiente,Pendiente
 229,2026-08-08 05:21,Jhoiner,KingSport Maricela,Este/Centro,24 con 21,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
 230,2026-08-08 05:23,Jhoiner,Chalong Case,Local,La Antena,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pendiente
+231,2026-08-08 05:23,Jhoiner,Clinivet,Agromascotas,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
