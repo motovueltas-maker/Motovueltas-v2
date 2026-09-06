@@ -366,3 +366,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 365,2026-08-23 14:54,Jhoiner,1313Bqto,Local,15 con 34,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
 366,2026-08-23 14:55,Jhoiner,1313Bqto,Local,Calle 16 con 19,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
 367,2026-08-23 14:55,Jhoiner,1313Bqto,Local,Hospital,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
+368,2026-08-23 14:55,Jhoiner,1313Bqto,Local,Calle 14 con 16,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
