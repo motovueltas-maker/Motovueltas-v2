@@ -604,11 +604,64 @@ elif opcion_menu == " Corte Motorizados":
 
         st.markdown("---")
 
-        # 6. DETALLE DE VUELTAS Y MENSAJE DE WHATSAPP
-        st.markdown("### 📋 Detalle de Vueltas")
+        # 6. DETALLE DE VUELTAS EDITABLE Y MENSAJE DE WHATSAPP
+        st.markdown("### 📋 Detalle de Vueltas (Editable)")
         if not vueltas_mo.empty:
-            st.dataframe(vueltas_mo[['id', 'fecha_corta', 'cliente', 'origen', 'destino', 'precio_cliente', 'monto_motorizado', 'estado_motorizado']], use_container_width=True)
+            # Seleccionar columnas para edición segura
+            cols_editables = ['id', 'fecha_corta', 'cliente', 'origen', 'destino', 'precio_cliente', 'porcentaje_comision', 'monto_motorizado', 'estado_motorizado']
             
+            # Asegurar columnas numéricas
+            vueltas_mo['porcentaje_comision'] = pd.to_numeric(vueltas_mo['porcentaje_comision'], errors='coerce').fillna(66.67)
+            vueltas_mo['monto_motorizado'] = pd.to_numeric(vueltas_mo['monto_motorizado'], errors='coerce').fillna(0.0)
+            vueltas_mo['precio_cliente'] = pd.to_numeric(vueltas_mo['precio_cliente'], errors='coerce').fillna(0.0)
+
+            column_config_m = {
+                "id": st.column_config.NumberColumn("ID", disabled=True),
+                "fecha_corta": st.column_config.TextColumn("Fecha", disabled=True),
+                "cliente": st.column_config.TextColumn("Cliente", disabled=True),
+                "origen": st.column_config.TextColumn("Desde", disabled=True),
+                "destino": st.column_config.TextColumn("Hasta", disabled=True),
+                "precio_cliente": st.column_config.NumberColumn("Precio Cliente ($)", format="$%.2f", step=0.5),
+                "porcentaje_comision": st.column_config.NumberColumn("% Ganancia Moto", min_value=0.0, max_value=100.0, step=0.5, format="%.1f%%"),
+                "monto_motorizado": st.column_config.NumberColumn("Monto Motorizado ($)", format="$%.2f", step=0.1),
+                "estado_motorizado": st.column_config.SelectboxColumn("Estado Pago", options=["Pendiente", "Pagado"])
+            }
+
+            vueltas_editadas = st.data_editor(
+                vueltas_mo[cols_editables],
+                column_config=column_config_m,
+                use_container_width=True,
+                hide_index=True,
+                key=f"editor_vueltas_{moto_sel}"
+            )
+
+            # Botón para recalcular y guardar cambios en las vueltas editadas
+            if st.button("💾 Guardar Cambios Realizados en Vueltas", type="secondary", use_container_width=True):
+                for _, r_edit in vueltas_editadas.iterrows():
+                    idx_v = df_servicios[df_servicios['id'] == r_edit['id']].index
+                    if not idx_v.empty:
+                        i = idx_v[0]
+                        precio_act = float(r_edit['precio_cliente'])
+                        com_act = float(r_edit['porcentaje_comision'])
+                        
+                        # Si cambió el precio o el porcentaje, recalcular monto
+                        monto_act = float(r_edit['monto_motorizado'])
+                        if com_act != float(df_servicios.at[i, 'porcentaje_comision']) or precio_act != float(df_servicios.at[i, 'precio_cliente']):
+                            monto_act = round(precio_act * (com_act / 100.0), 2)
+
+                        df_servicios.at[i, 'precio_cliente'] = precio_act
+                        df_servicios.at[i, 'porcentaje_comision'] = com_act
+                        df_servicios.at[i, 'monto_motorizado'] = monto_act
+                        df_servicios.at[i, 'ganancia_empresa'] = round(precio_act - monto_act, 2)
+                        df_servicios.at[i, 'estado_motorizado'] = r_edit['estado_motorizado']
+
+                if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Actualizadas comisiones/vueltas de {moto_sel}"):
+                    st.success("✅ ¡Cambios guardados en GitHub con éxito!")
+                    st.rerun()
+
+            st.markdown("---")
+
+            # Módulo de Teléfono y WhatsApp
             tel_moto = ""
             if not df_motos.empty and 'telefono' in df_motos.columns:
                 m_info = df_motos[df_motos['nombre'].astype(str).str.strip().str.lower() == str(moto_sel).strip().lower()]
