@@ -291,3 +291,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 290,2026-08-14 13:41,Jhoiner,1313Bqto,Local,Cabudare,,4.5,66.66,3.0,1.5,Validado,Pendiente,Pendiente
 291,2026-08-14 13:41,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 292,2026-08-15 13:41,Jhoiner,Monkey,Pollera,Local,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pendiente
+293,2026-08-15 13:42,Jhoiner,Clinivet,Dra Pire Fundalara,Local,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
