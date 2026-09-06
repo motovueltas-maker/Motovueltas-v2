@@ -329,3 +329,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 329,2026-08-17 12:00,Jhoiner,Acor Daniela,Calle 13,Local,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
 330,2026-08-17 12:00,Jhoiner,Chalong Case,Local,Barrio Union,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pendiente
 330,2026-08-17 14:06,Jhoiner,1313Bqto,Local,Luis Gomez Lopez,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pendiente
+331,2026-08-17 14:06,Jhoiner,1313Bqto,Local,23 Enero,,1.5,66.66,1.0,0.5,Validado,Pendiente,Pendiente
