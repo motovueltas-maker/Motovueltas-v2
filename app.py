@@ -85,9 +85,9 @@ if st.sidebar.button("Cerrar Sesión"):
 st.sidebar.markdown("---")
 
 if st.session_state.get("rol", "Motorizado") == "Admin":
-    opciones = ["Validar Vueltas", "Registrar Vuelta", "Corte Clientes", "Corte Motorizados", "Directorio Clientes", "Perfiles Motorizados"]
+    opciones = [" Validar Vueltas", " Registrar Vuelta", " Corte Clientes", " Corte Motorizados", " Directorio Clientes", " Perfiles Motorizados"]
 else:
-    opciones = ["Registrar Vuelta"]
+    opciones = [" Registrar Vuelta"]
 
 opcion_menu = st.sidebar.radio("Módulo:", opciones)
 
