@@ -8,7 +8,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 7,2026-07-31 17:23,Esneyder,Flores Sonrisa Inyerly,Local,Salon Versalles,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 8,2026-07-31 17:24,Omar,Flores Sonrisa Inyerly,Local,Ribereña con Uruguay,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
 9,2026-08-03 17:25,Omar,Flores Sonrisa Inyerly,Local,Res El Rosario,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
-10,nan,Jhoiner,Flores Sonrisa Inyerly,Local,Calle 42 con 25,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
+10,,Jhoiner,Flores Sonrisa Inyerly,Local,Calle 42 con 25,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
 11,2026-08-03 12:00,Jhoiner,Flores Sonrisa Inyerly,Local,Los Jabillos Patarata,,3.5,33.33,1.17,2.33,Validado,Pendiente,Pendiente
 12,2026-08-29 12:00,Jhoiner,Flores Sonrisa Inyerly,Local,Restaurant Madeita,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
 13,2026-07-08 18:10,Esneyder,Clinivet,El Ujano,Dra Rizotto,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
@@ -202,3 +202,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 201,2026-09-04 22:26,Esneyder,Fresas Delivery Rebeca,Local,Ascardio (Raquel),,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
 202,2026-09-04 22:26,Omar,Fresas Delivery Rebeca,Local,Marie Claire (Celene),,2.0,66.66,1.33,0.67,Validado,Pagado,Pendiente
 203,2026-09-04 22:27,Omar,Fresas Delivery Rebeca,Local,Monte Real (Desire),,2.0,66.66,1.33,0.67,Validado,Pagado,Pendiente
+204,2026-08-07 04:55,Jhoiner,Greychit Contreras,Entrega de Dinero,Local,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
