@@ -116,7 +116,9 @@ df_servicios, sha_servicios = cargar_csv_desde_github(FILE_SERVICIOS)
 df_avances, sha_avances = cargar_csv_desde_github(FILE_AVANCES)
 
 if df_avances.empty:
-    df_avances = pd.DataFrame(columns=['id', 'fecha', 'motorizado', 'monto', 'concepto'])
+    df_avances = pd.DataFrame(columns=['id', 'fecha', 'motorizado', 'monto', 'concepto', 'estado_avance'])
+elif 'estado_avance' not in df_avances.columns:
+    df_avances['estado_avance'] = 'Pendiente'
 
 # --- MÓDULO: REGISTRAR VUELTA (COMPACTO) ---
 if opcion_menu == " Registrar Vuelta":
