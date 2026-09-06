@@ -211,3 +211,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 210,2026-08-07 12:00,Jhoiner,Chalong Case,Local,Arca del Norte,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
 211,2026-08-07 12:00,Jhoiner,Chalong Case,Local,MRW/Zoom,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
 212,2026-08-07 12:00,Jhoiner,Harmonia Skarlet,Local,Insuservi,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
+213,2026-08-07 05:07,Jhoiner,Acor Daniela,Local,Dusa,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
