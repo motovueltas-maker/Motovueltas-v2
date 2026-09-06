@@ -219,3 +219,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 218,2026-08-07 05:12,Jhoiner,Chalong Case,Local,Barquisimeto III,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
 219,2026-08-07 05:13,Jhoiner,Monkey,Compras Uniprec,Local,,1.5,33.33,0.5,1.0,Validado,Pendiente,Pendiente
 220,2026-08-07 05:15,Jhoiner,Dhamilet Ramírez,Charcutería y Frigorífico,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
+221,2026-08-07 05:15,Jhoiner,Monkey,Local,45 con 28,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
