@@ -80,7 +80,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 81,2026-08-29 18:45,Esneyder,Clinivet,Dra Neida,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 82,2026-08-16 19:26,Esneyder,Monkey,Valle Hondo,Local,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 83,2026-08-19 12:00,Esneyder,Monkey,Local,Calle 37 con 30,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
-84,2026-08-19 12:00,Jhoiner,Monkey,Compras Uniprec,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
+84,2026-08-19 12:00,Jhoiner,Monkey,Compras Uniprec,Local,,1.5,33.33,0.5,1.0,Validado,Pendiente,Pendiente
 85,2026-08-19 12:00,Jhoiner,Monkey,Local,Metropolitano Javier,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
 86,2026-08-19 12:00,Esneyder,Monkey,Local,Hotel Príncipe,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 87,2026-08-19 12:00,Jhoiner,Monkey,Local,San José,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
@@ -338,7 +338,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 337,2026-08-18 14:12,Jhoiner,1313Bqto,Local,Moran con 28,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 338,2026-08-18 14:13,Jhoiner,1313Bqto,Local,38 con 20,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 339,2026-08-18 14:13,Jhoiner,1313Bqto,Local,Transporte DIana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
-340,2026-08-19 14:17,Jhoiner,Dr David Colmenarez,Local,Laboratorio,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
-341,2026-08-19 14:20,Jhoiner,Dra Gabriela Rizzotto,Local,Obelisco,,5.0,66.66,3.33,1.67,Validado,Pendiente,Pendiente
-342,2026-08-19 14:20,Jhoiner,1313Bqto,Local,Cancha de la 13,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pendiente
-343,2026-08-19 14:20,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
+340,2026-08-19 12:00,Jhoiner,Dr David Colmenarez,Local,Laboratorio,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
+341,2026-08-19 12:00,Jhoiner,Dra Gabriela Rizzotto,Local,Obelisco,,5.0,33.33,1.67,3.33,Validado,Pendiente,Pendiente
+342,2026-08-19 12:00,Jhoiner,1313Bqto,Local,Cancha de la 13,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
+343,2026-08-19 12:00,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
