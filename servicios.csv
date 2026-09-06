@@ -277,3 +277,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 276,2026-08-11 12:36,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 277,2026-08-12 12:38,Jhoiner,Rori,Local,Zona INdustrial II,,5.0,66.66,3.33,1.67,Validado,Pendiente,Pendiente
 278,2026-08-12 12:38,Jhoiner,Chalong Case,Local,Av Lara,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pendiente
+279,2026-08-12 12:39,Jhoiner,Chalong Case,Local,Calle 25 con 21,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
