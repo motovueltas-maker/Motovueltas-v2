@@ -554,3 +554,38 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
                         st.rerun()
         else:
             st.info("No hay servicios registrados.")
+
+# --- MÓDULO: CORTE MOTORIZADOS ---
+elif "Corte Motorizados" in opcion_menu:
+    st.subheader("🏍️ Balance y Corte de Cuentas - Motorizados")
+    nom_motos = df_motos['nombre'].tolist() if not df_motos.empty else []
+    
+    if not df_servicios.empty and nom_motos:
+        moto_sel = st.selectbox("Seleccionar Motorizado para ver Balance:", nom_motos, index=0)
+        
+        # Filtrar vueltas del motorizado
+        df_mot_serv = df_servicios[(df_servicios['motorizado'].astype(str).str.strip().str.lower() == str(moto_sel).strip().lower())].copy()
+        
+        if not df_mot_serv.empty:
+            df_mot_serv['fecha_corta'] = df_mot_serv['fecha'].apply(formatear_dd_mm)
+            
+            # Filtro de pendientes
+            pendientes_mot = df_mot_serv[df_mot_serv['estado_motorizado'] == 'Pendiente'].copy()
+            total_moto = pendientes_mot['monto_motorizado'].astype(float).sum()
+            
+            st.metric("Total Pendiente por Pagar al Motorizado ($)", f"${total_moto:.2f}")
+            st.markdown("### 📋 Vueltas Pendientes de Pago")
+            st.dataframe(pendientes_mot[['id', 'fecha_corta', 'cliente', 'origen', 'destino', 'precio_cliente', 'monto_motorizado', 'estado_motorizado']], use_container_width=True)
+            
+            if not pendientes_mot.empty:
+                confirmar_pago_m = st.checkbox(f"⚠️ Confirmar pago a {moto_sel}", key="check_pago_mot")
+                if st.button(f"✅ Marcar saldo de {moto_sel} como PAGADO", type="primary", disabled=not confirmar_pago_m, use_container_width=True):
+                    ids_m = pendientes_mot['id'].tolist()
+                    df_servicios.loc[df_servicios['id'].isin(ids_m), 'estado_motorizado'] = 'Pagado'
+                    if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Pago a motorizado {moto_sel}"):
+                        st.success(f"✅ ¡Se han pagado {len(ids_m)} vueltas a {moto_sel}!")
+                        st.rerun()
+        else:
+            st.info(f"No hay vueltas registradas para {moto_sel}.")
+    else:
+        st.info("No hay motorizados o servicios registrados en la base de datos.")
