@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import requests
 import base64
-from datetime import datetime
+from datetime import datetime, date
 
 # --- CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="MotoVueltas v2", page_icon="🏍️", layout="wide")
@@ -127,7 +127,7 @@ if opcion_menu == " Registrar Vuelta":
     if st.session_state.rol == "Admin":
         col_f1, col_f2, col_f3 = st.columns([1, 1, 1])
         with col_f1:
-            fecha_fija = st.date_input("📅 Fecha", value=datetime.today())
+            fecha_fija = st.date_input("📅 Fecha", value=date.today())
         with col_f2:
             nom_motos = df_motos['nombre'].tolist() if not df_motos.empty else []
             mot_sel_fijo = st.selectbox("🏍️ Motorizado", nom_motos)
@@ -139,7 +139,7 @@ if opcion_menu == " Registrar Vuelta":
     else:
         col_f1, _ = st.columns([1, 2])
         with col_f1:
-            fecha_fija = st.date_input("📅 Fecha", value=datetime.today())
+            fecha_fija = st.date_input("📅 Fecha", value=date.today())
         mot_sel_fijo = st.session_state.usuario.capitalize()
         comision_fija = 66.67
         if not df_motos.empty and mot_sel_fijo in df_motos['nombre'].values:
@@ -556,7 +556,7 @@ elif opcion_menu == " Corte Motorizados":
             with st.form("form_avance_motorizado", clear_on_submit=True):
                 col_a1, col_a2 = st.columns(2)
                 with col_a1:
-                    f_avance = st.date_input("Fecha Avance", value=datetime.today())
+                    f_avance = st.date_input("Fecha Avance", value=date.today())
                 with col_a2:
                     monto_avance = st.number_input("Monto Avance ($)", min_value=0.0, step=0.5)
                 concepto_avance = st.text_input("Concepto / Nota (ej: Gasolina, Almuerzo)", placeholder="Detalle del avance...")
