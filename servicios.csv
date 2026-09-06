@@ -288,3 +288,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 287,2026-08-14 13:39,Jhoiner,Fresas Delivery Rebeca,Local,Metropolitano Javier,,3.5,66.66,2.33,1.17,Validado,Pendiente,Pendiente
 288,2026-08-14 13:40,Jhoiner,1313Bqto,Local,Fundalara,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 289,2026-08-14 13:40,Jhoiner,1313Bqto,Local,Nueva Segovia,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
+290,2026-08-14 13:41,Jhoiner,1313Bqto,Local,Cabudare,,4.5,66.66,3.0,1.5,Validado,Pendiente,Pendiente
