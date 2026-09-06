@@ -327,3 +327,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 326,2026-08-17 14:01,Jhoiner,Monkey,Compras Uniprec,Local,,1.5,66.66,1.0,0.5,Validado,Pendiente,Pendiente
 327,2026-08-17 14:03,Jhoiner,Dennys Rivas,44 con 19,Local,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
 328,2026-08-17 14:03,Jhoiner,Harmonia Skarlet,Local,Todo Salud,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
+329,2026-08-17 14:03,Jhoiner,Acor Daniela,Calle 13,Local,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pendiente
