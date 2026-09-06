@@ -405,8 +405,11 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
                     f_hasta = st.date_input("Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", key="fh_tab2")
 
                 df_filtrado = df_servicios.copy()
-                fechas_str = pd.to_datetime(df_filtrado['fecha'], errors='coerce').dt.strftime('%Y-%m-%d')
-                
+
+                # Convertir la columna fecha soportando formatos DD/MM/YYYY y YYYY-MM-DD
+                fechas_dt = pd.to_datetime(df_filtrado['fecha'], dayfirst=True, errors='coerce')
+                fechas_str = fechas_dt.dt.strftime('%Y-%m-%d').fillna(df_filtrado['fecha'].astype(str).str[:10])
+
                 if f_desde and f_hasta:
                     df_filtrado = df_filtrado[(fechas_str >= f_desde.strftime('%Y-%m-%d')) & (fechas_str <= f_hasta.strftime('%Y-%m-%d'))]
                 elif f_desde:
