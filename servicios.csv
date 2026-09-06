@@ -281,3 +281,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 280,2026-08-12 12:40,Jhoiner,Cliente Eventual,Don Mateo,Cabudare,,6.0,66.66,4.0,2.0,Validado,Pendiente,Pagado
 281,2026-08-12 12:40,Jhoiner,1313Bqto,Local,Agua Viva,,4.0,66.66,2.67,1.33,Validado,Pendiente,Pagado
 282,2026-08-12 12:41,Jhoiner,Cliente Eventual,Cabudare,Don Mateo,,6.0,66.66,4.0,2.0,Validado,Pendiente,Pagado
+283,2026-08-14 13:35,Jhoiner,Greychit Contreras,Av 20 con 24,Local,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
