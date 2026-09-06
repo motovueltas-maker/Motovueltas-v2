@@ -261,3 +261,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 260,2026-08-10 12:20,Jhoiner,1313Bqto,RIO,Local,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 261,2026-08-10 12:22,Jhoiner,Chalong Detalles,Local,Vzla con 24,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
 262,2026-08-10 12:23,Jhoiner,Freddy Camejo,Andres Eloy,Local,,4.5,66.66,3.0,1.5,Validado,Pendiente,Pendiente
+263,2026-08-10 12:24,Jhoiner,Chalong Case,Local,Roca Terra,,4.0,66.66,2.67,1.33,Validado,Pendiente,Pendiente
