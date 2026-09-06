@@ -7,6 +7,16 @@ from datetime import datetime
 # --- CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="MotoVueltas v2", page_icon="🏍️", layout="wide")
 
+# --- OCULTAR ELEMENTOS DE CABECERA (BOTÓN DE GITHUB Y MENÚS) ---
+st.markdown("""
+    <style>
+    /* Oculta la barra superior de Streamlit y el botón de GitHub */
+    header {visibility: hidden;}
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    </style>
+""", unsafe_allow_html=True)
+
 # --- CREDENCIALES GITHUB ---
 GITHUB_TOKEN = st.secrets.get("GITHUB_TOKEN", "")
 GITHUB_REPO = st.secrets.get("GITHUB_REPO", "motovueltas-maker/Motovueltas-v2")
