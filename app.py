@@ -491,6 +491,7 @@ elif opcion_menu == " Corte Motorizados":
     if not df_servicios.empty and nom_motos:
         moto_sel = st.selectbox("Seleccionar Motorizado para ver Balance:", nom_motos, index=0)
         
+        # 1. FILTRO DE FECHAS Y ESTADO
         st.markdown("##### 📅 Filtrar por Rango de Fechas")
         col_fm1, col_fm2, col_fm3 = st.columns([1, 1, 1])
         with col_fm1:
@@ -500,8 +501,12 @@ elif opcion_menu == " Corte Motorizados":
         with col_fm3:
             estado_filtro_m = st.selectbox("Estado de Vueltas:", ["Pendientes", "Pagadas", "Todas"], index=0)
 
+        # Filtrar vueltas del motorizado seleccionado
         df_mot_serv = df_servicios[(df_servicios['motorizado'].astype(str).str.strip().str.lower() == str(moto_sel).strip().lower())].copy()
-        fechas_mot_str = pd.to_datetime(df_mot_serv['fecha'], errors='coerce').dt.strftime('%Y-%m-%d')
+        
+        # Formatear fecha segura
+        fechas_mot_dt = pd.to_datetime(df_mot_serv['fecha'], dayfirst=True, errors='coerce')
+        fechas_mot_str = fechas_mot_dt.dt.strftime('%Y-%m-%d').fillna(df_mot_serv['fecha'].astype(str).str[:10])
 
         if f_desde_m and f_hasta_m:
             df_mot_serv = df_mot_serv[(fechas_mot_str >= f_desde_m.strftime('%Y-%m-%d')) & (fechas_mot_str <= f_hasta_m.strftime('%Y-%m-%d'))]
@@ -517,12 +522,22 @@ elif opcion_menu == " Corte Motorizados":
         else:
             vueltas_mo = df_mot_serv.copy()
 
-        vueltas_mo['fecha_corta'] = vueltas_mo['fecha'].astype(str).str[:10]
+        def formatear_dd_mm(val):
+            if pd.isna(val) or not str(val).strip() or str(val).lower() == 'none': return ""
+            try:
+                dt = pd.to_datetime(val, dayfirst=True, errors='coerce')
+                if pd.notnull(dt): return dt.strftime('%d/%m')
+                parts = str(val)[:10].split('-')
+                if len(parts) == 3: return f"{parts[2]}/{parts[1]}"
+                return str(val)[:5]
+            except: return str(val)[:5]
+
+        vueltas_mo['fecha_corta'] = vueltas_mo['fecha'].apply(formatear_dd_mm)
         total_comision = vueltas_mo['monto_motorizado'].astype(float).sum()
 
-        c_m1, c_m2 = st.columns(2)
-        c_m1.metric("Total Comisiones Ganadas ($)", f"${total_comision:.2f}")
-        c_m2.metric("Vueltas Encontradas", len(vueltas_mo))
+        # 2. REGISTRO Y GESTIÓN DE AVANCES
+        if f"avances_lista_{moto_sel}" not in st.session_state:
+            st.session_state[f"avances_lista_{moto_sel}"] = []
 
         with st.expander("💵 Registrar Avance / Adelanto de Dinero"):
             with st.form("form_avance_motorizado", clear_on_submit=True):
@@ -533,14 +548,113 @@ elif opcion_menu == " Corte Motorizados":
                     monto_avance = st.number_input("Monto Avance ($)", min_value=0.0, step=0.5)
                 concepto_avance = st.text_input("Concepto / Nota (ej: Gasolina, Almuerzo)", placeholder="Detalle del avance...")
                 btn_avance = st.form_submit_button("Registrar Avance", type="primary")
+                
                 if btn_avance and monto_avance > 0:
-                    st.success(f"✅ Avance de ${monto_avance:.2f} registrado para {moto_sel}.")
+                    nuevo_av = {
+                        "fecha": f_avance.strftime("%Y-%m-%d"),
+                        "fecha_corta": f_avance.strftime("%d/%m"),
+                        "monto": float(monto_avance),
+                        "concepto": concepto_avance if concepto_avance else "Adelanto de dinero"
+                    }
+                    st.session_state[f"avances_lista_{moto_sel}"].append(nuevo_av)
+                    st.success(f"✅ Avance de ${monto_avance:.2f} registrado.")
 
+        # Filtrar avances registrados dentro del rango de fecha si existen filtros de fecha
+        avances_totales = st.session_state[f"avances_lista_{moto_sel}"]
+        avances_filtrados = []
+        for av in avances_totales:
+            av_f_str = av["fecha"]
+            if f_desde_m and f_hasta_m:
+                if f_desde_m.strftime('%Y-%m-%d') <= av_f_str <= f_hasta_m.strftime('%Y-%m-%d'):
+                    avances_filtrados.append(av)
+            elif f_desde_m:
+                if av_f_str == f_desde_m.strftime('%Y-%m-%d'):
+                    avances_filtrados.append(av)
+            elif f_hasta_m:
+                if av_f_str == f_hasta_m.strftime('%Y-%m-%d'):
+                    avances_filtrados.append(av)
+            else:
+                avances_filtrados.append(av)
+
+        df_avances = pd.DataFrame(avances_filtrados)
+        total_avances = df_avances['monto'].sum() if not df_avances.empty else 0.0
+        saldo_neto_pagar = max(0.0, total_comision - total_avances)
+
+        # 3. MÉTRICAS PRINCIPALES
+        c_m1, c_m2, c_m3, c_m4 = st.columns(4)
+        c_m1.metric("Comisiones Ganadas", f"${total_comision:.2f}")
+        c_m2.metric("Adelantos Registrados", f"-${total_avances:.2f}")
+        c_m3.metric("🔥 Saldo Neto a Pagar", f"${saldo_neto_pagar:.2f}")
+        c_m4.metric("Vueltas Encontradas", len(vueltas_mo))
+
+        # 4. TABLA VISUAL DE ADELANTOS REGISTRADOS
+        if not df_avances.empty:
+            st.markdown("##### 💵 Adelantos / Avances Registrados en el Periodo")
+            st.dataframe(df_avances[['fecha_corta', 'monto', 'concepto']].rename(columns={
+                'fecha_corta': 'Fecha',
+                'monto': 'Monto ($)',
+                'concepto': 'Concepto'
+            }), use_container_width=True)
+
+        st.markdown("---")
+
+        # 5. DETALLE DE VUELTAS
         st.markdown("### 📋 Detalle de Vueltas")
         if not vueltas_mo.empty:
             st.dataframe(vueltas_mo[['id', 'fecha_corta', 'cliente', 'origen', 'destino', 'precio_cliente', 'monto_motorizado', 'estado_motorizado']], use_container_width=True)
+            
+            # Obtener teléfono del motorizado para WhatsApp
+            tel_moto = ""
+            if not df_motos.empty and 'telefono' in df_motos.columns:
+                m_info = df_motos[df_motos['nombre'].astype(str).str.strip().str.lower() == str(moto_sel).strip().lower()]
+                if not m_info.empty:
+                    tel_moto = str(m_info.iloc[0]['telefono']).replace("+", "").replace(" ", "").replace("-", "")
+
+            # 6. CONSTRUCCIÓN DEL MENSAJE DE WHATSAPP
+            msg_wa_m = f"🧾 *CORTE DE CUENTA - MOTOVUELTAS*\nMotorizado: *{moto_sel}*\n\n"
+            for f_corta in vueltas_mo['fecha_corta'].unique():
+                if f_corta:
+                    msg_wa_m += f"📅 *{f_corta}*\n"
+                    for _, r in vueltas_mo[vueltas_mo['fecha_corta'] == f_corta].iterrows():
+                        msg_wa_m += f"▪ {r['origen']} ➡️ {r['destino']} = *${float(r['precio_cliente']):.2f}*\n"
+                    msg_wa_m += "\n"
+            
+            if not df_avances.empty:
+                msg_wa_m += "💵 *ADELANTOS RECIBIDOS:*\n"
+                for _, av_row in df_avances.iterrows():
+                    msg_wa_m += f"▪ {av_row['fecha_corta']}: -${float(av_row['monto']):.2f} ({av_row['concepto']})\n"
+                msg_wa_m += "\n"
+                
+            msg_wa_m += "───────────────\n"
+            msg_wa_m += f"💵 *Total Comisiones:* ${total_comision:.2f}\n"
+            if total_avances > 0:
+                msg_wa_m += f"📉 *Adelantos Restados:* -${total_avances:.2f}\n"
+            msg_wa_m += f"💰 *TOTAL NETO A COBRAR: ${saldo_neto_pagar:.2f}*"
+
+            col_wa_m, col_bot_m = st.columns([2, 1])
+            with col_wa_m:
+                st.markdown("📱 **Mensaje de Control para WhatsApp:**")
+                st.code(msg_wa_m, language="text")
+            with col_bot_m:
+                st.write("")
+                st.write("")
+                if tel_moto:
+                    st.link_button("📲 Abrir Chat WhatsApp", f"https://wa.me/{tel_moto}", use_container_width=True)
+                else:
+                    st.caption("⚠️ Motorizado sin teléfono registrado")
+
+            st.markdown("---")
+
+            # 7. BOTÓN PARA CAMBIAR STATUS Y LIQUIDAR
+            confirmar_corte_m = st.checkbox(f"⚠️ Confirmar pago y cambio de status de estas {len(vueltas_mo)} vueltas a PAGADAS para {moto_sel}.", key="check_pago_moto")
+            if st.button(f"✅ Liquidar y Marcar Vueltas como PAGADAS", type="primary", disabled=not confirmar_corte_m, use_container_width=True):
+                ids_a_pagar = vueltas_mo['id'].tolist()
+                df_servicios.loc[df_servicios['id'].isin(ids_a_pagar), 'estado_motorizado'] = 'Pagado'
+                st.session_state[f"avances_lista_{moto_sel}"] = [] # Limpiar avances procesados
+                if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Liquidacion realizada a motorizado {moto_sel}"):
+                    st.success(f"✅ ¡Se han liquidado {len(ids_a_pagar)} vueltas de {moto_sel} correctamente!")
+                    st.rerun()
         else:
             st.info("No se encontraron vueltas con el filtro seleccionado.")
     else:
         st.info("No hay motorizados o servicios registrados.")
-    
