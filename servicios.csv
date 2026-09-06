@@ -143,8 +143,8 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 145,2026-08-25 12:00,Esneyder,Chalong Detalles,Local,Calle 11 con 25,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
 146,2026-08-25 12:00,Esneyder,Chalong Detalles,Local,Gobernación,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
 147,2026-08-25 12:00,Esneyder,Chalong Detalles,Local,Nueva Segovia,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
-148,2026-08-25 12:00,Jhoiner,Chalong Detalles,Local,CC París,,1.5,33.33,0.5,1.0,Validado,Pagado,Pendiente
-149,2026-08-25 12:00,Jhoiner,Chalong Detalles,Local,Hospital,,2.5,33.33,0.83,1.67,Validado,Pagado,Pendiente
+148,2026-08-25 12:00,Jhoiner,Chalong Detalles,Local,CC París,,1.5,66.6,1.0,0.5,Validado,Pagado,Pendiente
+149,2026-08-25 12:00,Jhoiner,Chalong Detalles,Local,Hospital,,2.5,66.6,1.66,0.84,Validado,Pagado,Pendiente
 150,2026-08-26,Esneyder,Chalong Detalles,Local,CC El Recreo,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
 151,2026-08-27,Esneyder,Chalong Detalles,Local,Metrópolis,,5.0,100.0,5.0,0.0,Validado,Pagado,Pendiente
 152,2026-08-27,Esneyder,Chalong Detalles,Local,35 con 18,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
@@ -159,8 +159,8 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 161,2026-08-24 12:00,Esneyder,Chalong Case,Local,Villa Paris,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
 162,2026-08-24 12:00,Jhoiner,Chalong Case,Local,Metropolitano Javier,,4.0,66.6,2.66,1.34,Validado,Pendiente,Pendiente
 163,2026-08-24 12:00,Jhoiner,Chalong Case,Local,Las Acacias,,3.5,66.6,2.33,1.17,Validado,Pendiente,Pendiente
-164,2026-08-25 12:00,Jhoiner,Chalong Case,Local,MRW y ZOOM,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
-165,2026-08-25 12:00,Jhoiner,Chalong Case,Local,Carr 19 con 22,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
+164,2026-08-25 12:00,Jhoiner,Chalong Case,Local,MRW y ZOOM,,3.0,66.6,2.0,1.0,Validado,Pendiente,Pendiente
+165,2026-08-25 12:00,Jhoiner,Chalong Case,Local,Carr 19 con 22,,2.5,66.6,1.66,0.84,Validado,Pendiente,Pendiente
 166,,Esneyder,Chalong Case,Local,Monte Real Casa 12,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 167,2026-08-26,Esneyder,Chalong Case,Local,Monte Real Casa 71,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 168,2026-08-26,Esneyder,Chalong Case,Local,Carr 23 con 27,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
@@ -372,4 +372,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 371,2026-08-24 12:00,Jhoiner,1313Bqto,Local,Abogados con 8,,2.0,66.6,1.33,0.67,Validado,Pendiente,Pendiente
 372,2026-08-25 15:23,Jhoiner,Cliente Eventual,Nathaly ,Sambil/Capital Plaza,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 373,2026-08-25 15:23,Jhoiner,1313Bqto,Local,Macuto,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
-374,2026-08-25 15:24,Jhoiner,1313Bqto,Local,Transporte Diana,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
+374,2026-08-25 15:24,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
