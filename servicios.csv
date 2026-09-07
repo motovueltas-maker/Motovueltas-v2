@@ -388,3 +388,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 387,2026-09-01 23:41,Esneyder,Chalong Case,Local,Centro Ejec Los Leones,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 388,2026-09-02 23:42,Esneyder,Chalong Case,Local,Santa Elena,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 389,2026-09-03 23:42,Esneyder,Chalong Case,Local,MRW,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
+390,2026-09-03 23:43,Esneyder,Chalong Case,Local,Ambulatorio Cabudare,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
