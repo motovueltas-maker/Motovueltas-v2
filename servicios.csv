@@ -381,3 +381,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 380,2026-08-26 15:30,Jhoiner,Angeles Guanipa,Local,Cancha de la 13,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pagado
 381,2026-08-26 15:30,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pagado
 382,2026-09-07 12:15,Genesis,Cliente Eventual,Casa,Trabajo,,0.0,70.0,0.0,0.0,Pendiente,Pendiente,Pendiente
+383,2026-09-07 12:15,Genesis,Cliente Eventual,Centro comercial ,Casa,,0.0,70.0,0.0,0.0,Pendiente,Pendiente,Pendiente
