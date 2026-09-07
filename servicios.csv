@@ -399,3 +399,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 398,2026-09-05 23:47,Omar,Chalong Case,Local,Av Vzla con 20,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
 399,2026-08-31 23:54,Jhoiner,Chalong Detalles,Local,Villa Paris J,,3.5,33.33,1.17,2.33,Validado,Pendiente,Pendiente
 400,2026-09-02 23:55,Omar,Chalong Detalles,Local,Fundación Mendoza,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
+401,2026-09-03 23:56,Esneyder,Chalong Detalles,Local,Calle 47 con 27,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
