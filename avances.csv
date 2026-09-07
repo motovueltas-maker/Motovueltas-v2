@@ -1,21 +1,21 @@
-id,fecha,motorizado,monto,concepto
-1,2026-08-08,Jhoiner,20.0,"Avance 15.134,17"
-2,2026-08-10,Jhoiner,1.06,Saldo 800 Bs
-3,2026-08-10,Jhoiner,15.0,"Avance 11.363,11"
-4,2026-08-12,Jhoiner,10.0,Avance 7.644
-5,2026-08-13,Jhoiner,5.0,"3.834,30"
-6,2026-08-13,Jhoiner,40.0,"Bolso 30.674,41"
-7,2026-08-15,Jhoiner,5.0,"Gasolina EK 3.855,36"
-8,2026-08-16,Jhoiner,40.0,"Bolso 30.842,86"
-9,2026-08-16,Jhoiner,5.0,"Avance 3.862,72"
-10,2026-08-17,Jhoiner,5.0,"Avance 3.862,72"
-11,2026-08-18,Jhoiner,10.0,"Avance 7.733,13"
-12,2026-08-20,Jhoiner,10.0,"Avance 7.774,16"
-13,2026-08-22,Jhoiner,5.0,Avance 3.900
-14,2026-08-22,Jhoiner,3.0,Abono Efectivo 2.400
-15,2026-08-23,Jhoiner,10.0,Cena 7.800
-16,2026-08-24,Jhoiner,10.0,"Avance 7.846,63"
-17,2026-08-25,Jhoiner,5.0,Gasolina EK 3.926
-18,2026-08-26,Jhoiner,10.0,"Farmatodo 7.875,20"
-19,2026-08-27,Jhoiner,20.0,"Avance 15.826,50"
-20,2026-08-20,Jhoiner,7.0,2 Hamburguesas Crispi 1313
+id,fecha,motorizado,monto,concepto,estado_avance
+1,2026-08-08,Jhoiner,20.0,"Avance 15.134,17",Pagado
+2,2026-08-10,Jhoiner,1.06,Saldo 800 Bs,Pagado
+3,2026-08-10,Jhoiner,15.0,"Avance 11.363,11",Pagado
+4,2026-08-12,Jhoiner,10.0,Avance 7.644,Pagado
+5,2026-08-13,Jhoiner,5.0,"3.834,30",Pagado
+6,2026-08-13,Jhoiner,40.0,"Bolso 30.674,41",Pagado
+7,2026-08-15,Jhoiner,5.0,"Gasolina EK 3.855,36",Pagado
+8,2026-08-16,Jhoiner,40.0,"Bolso 30.842,86",Pagado
+9,2026-08-16,Jhoiner,5.0,"Avance 3.862,72",Pagado
+10,2026-08-17,Jhoiner,5.0,"Avance 3.862,72",Pagado
+11,2026-08-18,Jhoiner,10.0,"Avance 7.733,13",Pagado
+12,2026-08-20,Jhoiner,10.0,"Avance 7.774,16",Pagado
+13,2026-08-22,Jhoiner,5.0,Avance 3.900,Pagado
+14,2026-08-22,Jhoiner,3.0,Abono Efectivo 2.400,Pagado
+15,2026-08-23,Jhoiner,10.0,Cena 7.800,Pagado
+16,2026-08-24,Jhoiner,10.0,"Avance 7.846,63",Pagado
+17,2026-08-25,Jhoiner,5.0,Gasolina EK 3.926,Pagado
+18,2026-08-26,Jhoiner,10.0,"Farmatodo 7.875,20",Pagado
+19,2026-08-27,Jhoiner,20.0,"Avance 15.826,50",Pagado
+20,2026-08-20,Jhoiner,7.0,2 Hamburguesas Crispi 1313,Pagado
