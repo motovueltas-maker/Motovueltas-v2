@@ -67,9 +67,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 68,2026-08-18 12:00,Jhoiner,Clinivet,Agromascotas PM,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 69,2026-08-19 12:00,Esneyder,Clinivet,Dra Neida ,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 70,2026-08-19 12:00,Esneyder,Clinivet,Agromascotas ,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-71,2026-08-21 12:00,Jhoiner,Clinivet,Dra Pire,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-72,2026-08-21 12:00,Jhoiner,Clinivet,Agromascotas ,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-73,2026-08-22 12:00,Jhoiner,Clinivet,Agromascotas ,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
+71,2026-08-21 12:00,Jhoiner,Clinivet,Dra Pire,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+72,2026-08-21 12:00,Jhoiner,Clinivet,Agromascotas ,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+73,2026-08-22 12:00,Jhoiner,Clinivet,Agromascotas ,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 74,2026-08-24 12:00,Esneyder,Clinivet,Dra Santaeliz,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 75,2026-08-24 12:00,Esneyder,Clinivet,Dra Neida,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 76,2026-08-25 12:00,Esneyder,Clinivet,Dra Neida,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
@@ -89,21 +89,21 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 90,2026-08-21 12:00,Esneyder,Monkey,Local,Círculo Militar,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 91,2026-08-22 12:00,Esneyder,Monkey,Local,Carr 24 con 15,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 92,2026-08-22 12:00,Esneyder,Monkey,Local,El Tostao,,8.0,100.0,8.0,0.0,Validado,Pendiente,Pendiente
-93,2026-08-22 12:00,Jhoiner,Monkey,Local,21 con 30,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
+93,2026-08-22 12:00,Jhoiner,Monkey,Local,21 con 30,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 94,2026-08-22 12:00,Esneyder,Monkey,Local,Flor de Vzla,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 95,2026-08-22 12:00,Esneyder,Monkey,Local,Rosaleda,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
-96,2026-08-22 12:00,Jhoiner,Monkey,Local,Hospital,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-97,2026-08-22 12:00,Jhoiner,Monkey,Local,Calle 36 con17,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
+96,2026-08-22 12:00,Jhoiner,Monkey,Local,Hospital,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+97,2026-08-22 12:00,Jhoiner,Monkey,Local,Calle 36 con17,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 98,2026-08-22 12:00,Esneyder,Monkey,Local,21 con 22,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
-99,2026-08-23 12:00,Jhoiner,Monkey,Compras Pollera,Local,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-100,2026-08-24 12:00,Jhoiner,Monkey,Local,20 con 13,,1.0,66.6,0.67,0.33,Validado,Pendiente,Pendiente
+99,2026-08-23 12:00,Jhoiner,Monkey,Compras Pollera,Local,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+100,2026-08-24 12:00,Jhoiner,Monkey,Local,20 con 13,,1.0,66.6,0.67,0.33,Validado,Pendiente,Pagado
 101,2026-08-24 12:00,Esneyder,Monkey,Local,37 con 18,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-102,2026-08-24 12:00,Jhoiner,Monkey,Compra Pollera,Beffsteak,,1.0,66.6,0.67,0.33,Validado,Pendiente,Pendiente
+102,2026-08-24 12:00,Jhoiner,Monkey,Compra Pollera,Beffsteak,,1.0,66.6,0.67,0.33,Validado,Pendiente,Pagado
 103,2026-08-24 12:00,Esneyder,Monkey,Local,Aeropuerto,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
 104,2026-08-24 12:00,Esneyder,Monkey,Compras UNIPREC,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-105,2026-08-24 12:00,Jhoiner,Monkey,Local,42 con 34,,2.5,66.6,1.66,0.84,Validado,Pendiente,Pendiente
+105,2026-08-24 12:00,Jhoiner,Monkey,Local,42 con 34,,2.5,66.6,1.66,0.84,Validado,Pendiente,Pagado
 106,2026-08-26 12:00,Esneyder,Monkey,Local,Nueva Segovia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-107,2026-08-26 12:00,Jhoiner,Monkey,Local,Cruz Blanca ,,1.0,66.6,0.67,0.33,Validado,Pendiente,Pendiente
+107,2026-08-26 12:00,Jhoiner,Monkey,Local,Cruz Blanca ,,1.0,66.6,0.67,0.33,Validado,Pendiente,Pagado
 108,2026-08-27 19:58,Esneyder,Monkey,Local,14 con 21,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 109,2026-08-27 19:59,Esneyder,Monkey,Local,37 con libertador,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 110,2026-08-27 19:59,Esneyder,Monkey,Local,46 con 15,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
@@ -119,7 +119,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 121,2026-08-18 12:00,Jhoiner,Monkey,1313,Local,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
 122,2026-08-19 12:00,Jhoiner,Monkey,Perfume 35 con 28,Local,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
 123,2026-08-22 12:00,Esneyder,Monkey,Compras Molino,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-124,2026-08-22 12:00,Jhoiner,Monkey,Barrio Union,Campana,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pendiente
+124,2026-08-22 12:00,Jhoiner,Monkey,Barrio Union,Campana,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pagado
 125,2026-06-05 21:07,Esneyder,Adrys,Local,El Informador,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
 126,2026-06-11 21:08,Esneyder,Adrys,Local,Carr 17 con 28,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
 127,2026-06-18 21:09,Esneyder,Adrys,Local,Carr 22 con 41,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
@@ -136,15 +136,15 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 138,2026-08-15 12:00,Esneyder,Adrys,Local,Farmatodo de la 8,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
 139,2026-08-15 12:00,Esneyder,Adrys,Local,El Manzano,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
 140,2026-08-15 12:00,Esneyder,Adrys,Local,Calle 17 con 24,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
-141,2026-08-22 12:00,Jhoiner,Adrys,Local,La Sucre,,2.5,33.33,0.83,1.67,Validado,Pagado,Pendiente
+141,2026-08-22 12:00,Jhoiner,Adrys,Local,La Sucre,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
 142,2026-08-27 21:30,Esneyder,Adrys,Local,Calle 21 con 31,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
 143,2026-08-24 12:00,Esneyder,Chalong Detalles,Local,Calle 23 con 20,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
-144,2026-08-24 12:00,Jhoiner,Chalong Detalles,Local,Merpolara,,2.0,66.6,1.33,0.67,Validado,Pagado,Pendiente
+144,2026-08-24 12:00,Jhoiner,Chalong Detalles,Local,Merpolara,,2.0,66.6,1.33,0.67,Validado,Pagado,Pagado
 145,2026-08-25 12:00,Esneyder,Chalong Detalles,Local,Calle 11 con 25,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
 146,2026-08-25 12:00,Esneyder,Chalong Detalles,Local,Gobernación,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
 147,2026-08-25 12:00,Esneyder,Chalong Detalles,Local,Nueva Segovia,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
-148,2026-08-25 12:00,Jhoiner,Chalong Detalles,Local,CC París,,1.5,66.6,1.0,0.5,Validado,Pagado,Pendiente
-149,2026-08-25 12:00,Jhoiner,Chalong Detalles,Local,Hospital,,2.5,66.6,1.66,0.84,Validado,Pagado,Pendiente
+148,2026-08-25 12:00,Jhoiner,Chalong Detalles,Local,CC París,,1.5,66.6,1.0,0.5,Validado,Pagado,Pagado
+149,2026-08-25 12:00,Jhoiner,Chalong Detalles,Local,Hospital,,2.5,66.6,1.66,0.84,Validado,Pagado,Pagado
 150,,Esneyder,Chalong Detalles,Local,CC El Recreo,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
 151,2026-08-27,Esneyder,Chalong Detalles,Local,Metrópolis,,5.0,100.0,5.0,0.0,Validado,Pagado,Pendiente
 152,2026-08-27,Esneyder,Chalong Detalles,Local,35 con 18,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
@@ -157,10 +157,10 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 159,2026-08-29 21:43,Esneyder,Chalong Detalles,Local,Santa Rosa,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
 160,2026-08-29 21:43,Esneyder,Chalong Detalles,Local,Metropolitano Javier,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
 161,2026-08-24 12:00,Esneyder,Chalong Case,Local,Villa Paris,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
-162,2026-08-24 12:00,Jhoiner,Chalong Case,Local,Metropolitano Javier,,4.0,66.6,2.66,1.34,Validado,Pendiente,Pendiente
-163,2026-08-24 12:00,Jhoiner,Chalong Case,Local,Las Acacias,,3.5,66.6,2.33,1.17,Validado,Pendiente,Pendiente
-164,2026-08-25 12:00,Jhoiner,Chalong Case,Local,MRW y ZOOM,,3.0,66.6,2.0,1.0,Validado,Pendiente,Pendiente
-165,2026-08-25 12:00,Jhoiner,Chalong Case,Local,Carr 19 con 22,,2.5,66.6,1.66,0.84,Validado,Pendiente,Pendiente
+162,2026-08-24 12:00,Jhoiner,Chalong Case,Local,Metropolitano Javier,,4.0,66.6,2.66,1.34,Validado,Pendiente,Pagado
+163,2026-08-24 12:00,Jhoiner,Chalong Case,Local,Las Acacias,,3.5,66.6,2.33,1.17,Validado,Pendiente,Pagado
+164,2026-08-25 12:00,Jhoiner,Chalong Case,Local,MRW y ZOOM,,3.0,66.6,2.0,1.0,Validado,Pendiente,Pagado
+165,2026-08-25 12:00,Jhoiner,Chalong Case,Local,Carr 19 con 22,,2.5,66.6,1.66,0.84,Validado,Pendiente,Pagado
 166,,Esneyder,Chalong Case,Local,Monte Real Casa 12,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 167,,Esneyder,Chalong Case,Local,Monte Real Casa 71,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 168,,Esneyder,Chalong Case,Local,Carr 23 con 27,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
@@ -342,41 +342,41 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 341,2026-08-19 12:00,Jhoiner,Dra Gabriela Rizzotto,Local,Obelisco,,5.0,33.33,1.67,3.33,Validado,Pendiente,Pagado
 342,2026-08-19 12:00,Jhoiner,1313Bqto,Local,Cancha de la 13,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
 343,2026-08-19 12:00,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
-344,2026-08-21 12:00,Jhoiner,Catas Food,Local,Capital,,2.0,66.6,1.33,0.67,Validado,Pendiente,Pendiente
-345,2026-08-21 12:00,Jhoiner,Fresas Delivery Rebeca,Local,48 con 29,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pendiente
-346,2026-08-21 12:00,Jhoiner,Dhamilet Ramírez,Av Vargas,Local,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-347,2026-08-21 12:00,Jhoiner,Chalong Case,Local,Habitat Plaza,,1.5,33.33,0.5,1.0,Validado,Pendiente,Pendiente
-348,2026-08-21 12:00,Jhoiner,Chalong Case,Local,MRW y Zoom,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
-349,2026-08-21 12:00,Jhoiner,KingSport Maricela,Centro,Macias Mujica,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pendiente
-350,2026-08-21 12:00,Jhoiner,Dhamilet Ramírez,Av Vargas,Local,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-351,2026-08-21 12:00,Jhoiner,1313Bqto,Local,Carucieña,,5.0,33.33,1.67,3.33,Validado,Pendiente,Pendiente
-352,2026-08-21 12:00,Jhoiner,Angeles Guanipa,La Pastora,Local,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pendiente
-353,2026-08-21 12:00,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-354,2026-08-22 14:49,Jhoiner,Chalong Case,Local,41 con 14,,3.5,33.33,1.17,2.33,Validado,Pendiente,Pendiente
-355,2026-08-22 14:49,Jhoiner,Chalong Case,Local,21 con 17,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-356,2026-08-22 14:50,Jhoiner,1313Bqto,Local,29 con 15,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-357,2026-08-22 14:50,Jhoiner,Pizzería Nels,Local,Rancho Bravo,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-358,2026-08-22 14:51,Jhoiner,1313Bqto,Local,21 con 12,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-359,2026-08-22 14:51,Jhoiner,1313Bqto,Local,Valle Hondo,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pendiente
-360,2026-08-22 14:51,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-361,2026-08-23 14:53,Jhoiner,1313Bqto,Local,Cancha de la 13,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-362,2026-08-23 14:53,Jhoiner,1313Bqto,Local,17 con 15,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-363,2026-08-23 14:54,Jhoiner,1313Bqto,Local,Av Uruguay,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-364,2026-08-23 14:54,Jhoiner,1313Bqto,Local,Calle 10 con 22,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-365,2026-08-23 14:54,Jhoiner,1313Bqto,Local,15 con 34,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-366,2026-08-23 14:55,Jhoiner,1313Bqto,Local,Calle 16 con 19,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-367,2026-08-23 14:55,Jhoiner,1313Bqto,Local,Hospital,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-368,2026-08-23 14:55,Jhoiner,1313Bqto,Local,Calle 14 con 16,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pendiente
-369,2026-08-23 14:55,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pendiente
-370,2026-08-24 12:00,Jhoiner,Pizzería Nels,Local,Gil Fortoul,,2.0,66.6,1.33,0.67,Validado,Pendiente,Pendiente
-371,2026-08-24 12:00,Jhoiner,1313Bqto,Local,Abogados con 8,,2.0,66.6,1.33,0.67,Validado,Pendiente,Pendiente
-372,2026-08-25 15:23,Jhoiner,Cliente Eventual,Nathaly ,Sambil/Capital Plaza,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
-373,2026-08-25 15:23,Jhoiner,1313Bqto,Local,Macuto,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
-374,2026-08-25 15:24,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
-375,2026-08-26 15:28,Jhoiner,KingSport Maricela,Este,41 con 29,,3.5,66.66,2.33,1.17,Validado,Pendiente,Pendiente
-376,2026-08-26 15:28,Jhoiner,Cliente Eventual,Mrw Calle 15,Kingsport Este,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
-377,2026-08-26 15:29,Jhoiner,Chalong Case,Local,Villa Paris A,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
-378,2026-08-26 15:29,Jhoiner,1313Bqto,Local,Residencias Atlas,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
-379,2026-08-26 15:30,Jhoiner,1313Bqto,Local,Nueva Segovia,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
-380,2026-08-26 15:30,Jhoiner,Angeles Guanipa,Local,Cancha de la 13,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pendiente
-381,2026-08-26 15:30,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
+344,2026-08-21 12:00,Jhoiner,Catas Food,Local,Capital,,2.0,66.6,1.33,0.67,Validado,Pendiente,Pagado
+345,2026-08-21 12:00,Jhoiner,Fresas Delivery Rebeca,Local,48 con 29,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
+346,2026-08-21 12:00,Jhoiner,Dhamilet Ramírez,Av Vargas,Local,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+347,2026-08-21 12:00,Jhoiner,Chalong Case,Local,Habitat Plaza,,1.5,33.33,0.5,1.0,Validado,Pendiente,Pagado
+348,2026-08-21 12:00,Jhoiner,Chalong Case,Local,MRW y Zoom,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
+349,2026-08-21 12:00,Jhoiner,KingSport Maricela,Centro,Macias Mujica,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pagado
+350,2026-08-21 12:00,Jhoiner,Dhamilet Ramírez,Av Vargas,Local,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+351,2026-08-21 12:00,Jhoiner,1313Bqto,Local,Carucieña,,5.0,33.33,1.67,3.33,Validado,Pendiente,Pagado
+352,2026-08-21 12:00,Jhoiner,Angeles Guanipa,La Pastora,Local,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
+353,2026-08-21 12:00,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+354,2026-08-22 14:49,Jhoiner,Chalong Case,Local,41 con 14,,3.5,33.33,1.17,2.33,Validado,Pendiente,Pagado
+355,2026-08-22 14:49,Jhoiner,Chalong Case,Local,21 con 17,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+356,2026-08-22 14:50,Jhoiner,1313Bqto,Local,29 con 15,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+357,2026-08-22 14:50,Jhoiner,Pizzería Nels,Local,Rancho Bravo,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+358,2026-08-22 14:51,Jhoiner,1313Bqto,Local,21 con 12,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+359,2026-08-22 14:51,Jhoiner,1313Bqto,Local,Valle Hondo,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pagado
+360,2026-08-22 14:51,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+361,2026-08-23 14:53,Jhoiner,1313Bqto,Local,Cancha de la 13,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+362,2026-08-23 14:53,Jhoiner,1313Bqto,Local,17 con 15,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+363,2026-08-23 14:54,Jhoiner,1313Bqto,Local,Av Uruguay,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+364,2026-08-23 14:54,Jhoiner,1313Bqto,Local,Calle 10 con 22,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+365,2026-08-23 14:54,Jhoiner,1313Bqto,Local,15 con 34,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+366,2026-08-23 14:55,Jhoiner,1313Bqto,Local,Calle 16 con 19,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+367,2026-08-23 14:55,Jhoiner,1313Bqto,Local,Hospital,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+368,2026-08-23 14:55,Jhoiner,1313Bqto,Local,Calle 14 con 16,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+369,2026-08-23 14:55,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+370,2026-08-24 12:00,Jhoiner,Pizzería Nels,Local,Gil Fortoul,,2.0,66.6,1.33,0.67,Validado,Pendiente,Pagado
+371,2026-08-24 12:00,Jhoiner,1313Bqto,Local,Abogados con 8,,2.0,66.6,1.33,0.67,Validado,Pendiente,Pagado
+372,2026-08-25 15:23,Jhoiner,Cliente Eventual,Nathaly ,Sambil/Capital Plaza,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pagado
+373,2026-08-25 15:23,Jhoiner,1313Bqto,Local,Macuto,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pagado
+374,2026-08-25 15:24,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pagado
+375,2026-08-26 15:28,Jhoiner,KingSport Maricela,Este,41 con 29,,3.5,66.66,2.33,1.17,Validado,Pendiente,Pagado
+376,2026-08-26 15:28,Jhoiner,Cliente Eventual,Mrw Calle 15,Kingsport Este,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pagado
+377,2026-08-26 15:29,Jhoiner,Chalong Case,Local,Villa Paris A,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pagado
+378,2026-08-26 15:29,Jhoiner,1313Bqto,Local,Residencias Atlas,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pagado
+379,2026-08-26 15:30,Jhoiner,1313Bqto,Local,Nueva Segovia,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pagado
+380,2026-08-26 15:30,Jhoiner,Angeles Guanipa,Local,Cancha de la 13,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pagado
+381,2026-08-26 15:30,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pagado
