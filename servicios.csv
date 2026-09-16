@@ -427,3 +427,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 426,2026-09-08 15:08,Esneyder,Chalong Case,Local,Terminal,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 427,2026-09-08 15:08,Esneyder,Chalong Case,Local,Barrio Union,,5.0,100.0,5.0,0.0,Validado,Pendiente,Pendiente
 428,2026-09-09 15:09,Esneyder,Chalong Case,Local,Colinas del Viento,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
+429,2026-09-10 15:09,Esneyder,Chalong Case,Local,Res Mirador,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
