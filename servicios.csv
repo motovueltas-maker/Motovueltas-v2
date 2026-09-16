@@ -431,3 +431,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 430,2026-09-10 15:10,Esneyder,Chalong Case,Local,Hotel Jirahara,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 431,2026-09-11 15:10,Esneyder,Chalong Case,Local,Vargas con 25,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 432,2026-09-11 15:10,Esneyder,Chalong Case,Local,Patarata,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+433,2026-09-11 15:11,Esneyder,Chalong Case,Local,Ciudad Roca,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
