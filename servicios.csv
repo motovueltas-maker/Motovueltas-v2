@@ -446,17 +446,17 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 446,2026-09-11 12:00,Deiby,Chalong Detalles,Local,Cosmos,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 447,2026-09-11 12:00,Esneyder,Chalong Detalles,Local,30 con 23,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
 448,2026-09-11 12:00,Esneyder,Chalong Detalles,Local,Res Matalinda,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-449,2026-09-12 16:24,Esneyder,Chalong Detalles,Local,45 con 28,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
-450,2026-09-12 16:24,Esneyder,Chalong Detalles,Local,Yacural,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
+449,2026-09-12 12:00,Esneyder,Chalong Detalles,Local,45 con 28,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
+450,2026-09-12 12:00,Esneyder,Chalong Detalles,Local,Yacural,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 451,2026-09-14 16:25,Esneyder,Chalong Detalles,Local,Zona Norte,,6.0,100.0,6.0,0.0,Validado,Pendiente,Pendiente
 452,2026-09-14 16:25,Esneyder,Chalong Detalles,Local,Merkafur Sambil,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 453,2026-09-14 16:26,Esneyder,Chalong Detalles,Local,Mendera Plaza,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 454,2026-09-08 12:00,Esneyder,KingSport Maricela,Centro ,Vzla con 10,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 455,2026-09-10 20:16,Esneyder,KingSport Maricela,Centro,30 con 21,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 456,2026-09-10 20:17,Omar,KingSport Maricela,Centro,32 con 25,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
-457,2026-09-12 20:18,Omar,KingSport Maricela,Centro,Piedad Norte,,5.0,66.66,3.33,1.67,Validado,Pendiente,Pendiente
-458,2026-09-12 20:18,Omar,KingSport Maricela,Centro,Aeropuerto,,4.0,66.66,2.67,1.33,Validado,Pendiente,Pendiente
-459,2026-09-12 20:19,Esneyder,KingSport Maricela,Centro,Lara con Bracamonte,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+457,2026-09-12 12:00,Deiby,KingSport Maricela,Centro,Piedad Norte,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+458,2026-09-12 12:00,Omar,KingSport Maricela,Centro,Aeropuerto,,4.0,66.66,2.67,1.33,Validado,Pendiente,Pendiente
+459,2026-09-12 12:00,Esneyder,KingSport Maricela,Centro,Lara con Bracamonte,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 460,2026-09-14 12:00,Esneyder,KingSport Maricela,Centro,Vargas con 24,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 461,2026-09-15 12:00,Esneyder,KingSport Maricela,Centro,Urb Obelisco,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 462,2026-09-16 20:24,Esneyder,KingSport Maricela,Centro,Colegio San Pedro,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
