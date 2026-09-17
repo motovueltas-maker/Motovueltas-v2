@@ -493,3 +493,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 492,2026-09-04 19:40,Deiby,Monkey,Local,19 con 11,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 493,2026-09-04 19:40,Deiby,Monkey,Local,14 con 21,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 494,2026-09-04 19:40,Deiby,1313Bqto,Local,Calle 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+495,2026-09-05 19:42,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
