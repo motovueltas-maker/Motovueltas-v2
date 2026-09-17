@@ -504,3 +504,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 503,2026-09-07 23:15,Deiby,Marijo UEMICA,Uniformes Lara,Local,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 504,2026-09-08 12:00,Deiby,Candy Cakes Michelle,Local,Pedregal,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 505,2026-09-08 23:18,Deiby,Marianella K Beauty,Local,Parque La Música,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+506,2026-09-08 23:24,Deiby,Cliente Eventual,Nataly desde Sambil,Country Park,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
