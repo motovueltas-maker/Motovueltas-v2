@@ -482,3 +482,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 481,2026-09-01 12:00,Deiby,Cliente Eventual,Calle 8 con 25,Calle 21 con 16,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 482,2026-09-01 12:00,Deiby,Clinivet,Dra Katherine Pire,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 483,2026-09-01 12:00,Deiby,Catas Food,Local,Capital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+484,2026-09-03 19:32,Deiby,Harmonia Skarlet,Local,Insuservi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
