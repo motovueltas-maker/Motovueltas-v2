@@ -510,3 +510,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 509,2026-09-09 23:28,Deiby,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 510,2026-09-09 23:30,Deiby,Dhamilet Ramírez,Charcutería,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 511,2026-09-09 23:43,Deiby,1313Bqto,Local,Arca,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+512,2026-09-09 23:44,Deiby,1313Bqto,Local,Luso,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
