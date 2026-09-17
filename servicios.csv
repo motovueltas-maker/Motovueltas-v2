@@ -514,3 +514,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 513,2026-09-09 23:44,Deiby,1313Bqto,Local,Calle 28 con 17,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 514,2026-09-10 23:46,Deiby,Adrys,Local,MRW y Zoom,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 515,2026-09-11 23:47,Deiby,Cliente Eventual,Clinivet,El Carmen,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+516,2026-09-11 23:48,Deiby,Harmonia Skarlet,Local,Av 20 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
