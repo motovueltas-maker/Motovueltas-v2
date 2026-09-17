@@ -142,7 +142,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 144,2026-08-24 12:00,Jhoiner,Chalong Detalles,Local,Merpolara,,2.0,66.6,1.33,0.67,Validado,Pagado,Pagado
 145,2026-08-25 12:00,Deiby,Chalong Detalles,Local,Calle 11 con 25,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
 146,2026-08-25 12:00,Esneyder,Chalong Detalles,Local,Gobernación,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
-147,2026-08-25 12:00,Esneyder,Chalong Detalles,Local,Nueva Segovia,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
+147,2026-08-25 12:00,Deiby,Chalong Detalles,Local,Nueva Segovia,,1.0,70.0,0.7,0.3,Validado,Pagado,Pendiente
 148,2026-08-25 12:00,Jhoiner,Chalong Detalles,Local,CC París,,1.5,33.33,0.5,1.0,Validado,Pagado,Pagado
 149,2026-08-25 12:00,Jhoiner,Chalong Detalles,Local,Hospital,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
 150,,Esneyder,Chalong Detalles,Local,CC El Recreo,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
