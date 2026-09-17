@@ -496,3 +496,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 495,2026-09-05 12:00,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 496,2026-09-06 20:04,Deiby,Monkey,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 497,2026-09-06 20:06,Deiby,Pizzería Nels,Local,Calle 35 con 29,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+498,2026-09-06 20:07,Deiby,Monkey,Local,Carr 21 con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
