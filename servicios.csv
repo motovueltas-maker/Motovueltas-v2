@@ -102,8 +102,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 103,2026-08-24 12:00,Esneyder,Monkey,Local,Aeropuerto,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
 104,2026-08-24 12:00,Esneyder,Monkey,Compras UNIPREC,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 105,2026-08-24 12:00,Jhoiner,Monkey,Local,42 con 34,,2.5,66.6,1.66,0.84,Validado,Pendiente,Pagado
-106,2026-08-26 12:00,Esneyder,Monkey,Local,Nueva Segovia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-107,2026-08-26 12:00,Jhoiner,Monkey,Local,Cruz Blanca ,,1.0,66.6,0.67,0.33,Validado,Pendiente,Pagado
+107,2026-08-26 12:00,Jhoiner,Monkey,Local,Cruz Blanca ,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
 108,2026-08-27 19:58,Esneyder,Monkey,Local,14 con 21,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 109,2026-08-27 19:59,Esneyder,Monkey,Local,37 con libertador,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 110,2026-08-27 19:59,Esneyder,Monkey,Local,46 con 15,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
@@ -373,13 +372,13 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 372,2026-08-25 12:00,Jhoiner,Cliente Eventual,Nathaly ,Sambil/Capital Plaza,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 373,2026-08-25 12:00,Jhoiner,1313Bqto,Local,Macuto,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
 374,2026-08-25 12:00,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
-375,2026-08-26 15:28,Jhoiner,KingSport Maricela,Este,41 con 29,,3.5,66.66,2.33,1.17,Validado,Pendiente,Pagado
-376,2026-08-26 15:28,Jhoiner,Cliente Eventual,Mrw Calle 15,Kingsport Este,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pagado
-377,2026-08-26 15:29,Jhoiner,Chalong Case,Local,Villa Paris A,,3.0,66.66,2.0,1.0,Validado,Pagado,Pagado
-378,2026-08-26 15:29,Jhoiner,1313Bqto,Local,Residencias Atlas,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pagado
-379,2026-08-26 15:30,Jhoiner,1313Bqto,Local,Nueva Segovia,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pagado
-380,2026-08-26 15:30,Jhoiner,Angeles Guanipa,Local,Cancha de la 13,,1.0,66.66,0.67,0.33,Validado,Pendiente,Pagado
-381,2026-08-26 15:30,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pagado
+375,2026-08-26 12:00,Jhoiner,KingSport Maricela,Este,41 con 29,,3.5,33.33,1.17,2.33,Validado,Pendiente,Pagado
+376,2026-08-26 12:00,Jhoiner,Cliente Eventual,Mrw Calle 15,Kingsport Este,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
+377,2026-08-26 12:00,Jhoiner,Chalong Case,Local,Villa Paris A,,3.0,33.33,1.0,2.0,Validado,Pagado,Pagado
+378,2026-08-26 12:00,Jhoiner,1313Bqto,Local,Residencias Atlas,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
+379,2026-08-26 12:00,Jhoiner,1313Bqto,Local,Nueva Segovia,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+380,2026-08-26 12:00,Jhoiner,Angeles Guanipa,Local,Cancha de la 13,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
+381,2026-08-26 12:00,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 382,2026-09-07 12:15,Genesis,Cliente Eventual,Casa,Trabajo,,0.0,70.0,0.0,0.0,Pendiente,Pendiente,Pendiente
 383,2026-09-07 12:15,Genesis,Cliente Eventual,Centro comercial ,Casa,,0.0,70.0,0.0,0.0,Pendiente,Pendiente,Pendiente
 384,2026-08-31 23:37,Jhoiner,Chalong Case,Local,Roca Terra,,4.5,33.33,1.5,3.0,Validado,Pagado,Pendiente
@@ -415,7 +414,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 414,2026-09-05 00:18,Esneyder,KingSport Maricela,Este,Barrio El Carmen,,6.0,100.0,6.0,0.0,Validado,Pendiente,Pendiente
 415,2026-09-05 00:19,Esneyder,KingSport Maricela,Este,Carr con 28,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
 416,2026-09-07 00:19,Esneyder,KingSport Maricela,Este,MRW,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
-417,2026-08-26 00:20,Esneyder,KingSport Maricela,Centro,CC Antonio,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+417,2026-08-26 12:00,Esneyder,KingSport Maricela,Centro,CC Antonio,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 418,2026-08-27 00:21,Esneyder,KingSport Maricela,Centro,Carr 19 con 13,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 419,2026-08-31 00:22,Esneyder,KingSport Maricela,Centro,Nova West,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
 420,2026-09-01 00:22,Esneyder,KingSport Maricela,Centro,Urb Obelisco,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
