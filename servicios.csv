@@ -428,9 +428,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 428,2026-09-09 15:09,Esneyder,Chalong Case,Local,Colinas del Viento,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
 429,2026-09-10 15:09,Esneyder,Chalong Case,Local,Res Mirador,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
 430,2026-09-10 15:10,Esneyder,Chalong Case,Local,Hotel Jirahara,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
-431,2026-09-11 15:10,Esneyder,Chalong Case,Local,Vargas con 25,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
-432,2026-09-11 15:10,Esneyder,Chalong Case,Local,Patarata,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
-433,2026-09-11 15:11,Esneyder,Chalong Case,Local,Ciudad Roca,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
+431,2026-09-11 12:00,Esneyder,Chalong Case,Local,Vargas con 25,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
+432,2026-09-11 12:00,Esneyder,Chalong Case,Local,Patarata,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
+433,2026-09-11 12:00,Esneyder,Chalong Case,Local,Ciudad Roca,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
 434,2026-09-05 12:00,Esneyder,Chalong Detalles,Local,Mendera Plaza,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 435,2026-09-05 12:00,Esneyder,Chalong Detalles,Local,Carr 19 con 12,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 436,2026-09-07 12:00,Deiby,Chalong Detalles,Local,Lara Palace,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
@@ -442,10 +442,10 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 442,2026-09-09 16:20,Esneyder,Chalong Detalles,Local,Mendera Plaza,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 443,2026-09-10 16:21,Esneyder,Chalong Detalles,Local,Zona I Texcoven,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 444,2026-09-10 16:21,Esneyder,Chalong Detalles,Local,Moran con 21,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-445,2026-09-11 16:22,Esneyder,Chalong Detalles,Local,Carr 19 con 14,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-446,2026-09-11 16:22,Esneyder,Chalong Detalles,Local,Cosmos,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
-447,2026-09-11 16:22,Esneyder,Chalong Detalles,Local,30 con 23,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
-448,2026-09-11 16:23,Esneyder,Chalong Detalles,Local,Res Matalinda,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+445,2026-09-11 12:00,Esneyder,Chalong Detalles,Local,Carr 19 con 14,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+446,2026-09-11 12:00,Esneyder,Chalong Detalles,Local,Cosmos,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
+447,2026-09-11 12:00,Esneyder,Chalong Detalles,Local,30 con 23,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
+448,2026-09-11 12:00,Esneyder,Chalong Detalles,Local,Res Matalinda,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 449,2026-09-12 16:24,Esneyder,Chalong Detalles,Local,45 con 28,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
 450,2026-09-12 16:24,Esneyder,Chalong Detalles,Local,Yacural,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 451,2026-09-14 16:25,Esneyder,Chalong Detalles,Local,Zona Norte,,6.0,100.0,6.0,0.0,Validado,Pendiente,Pendiente
@@ -513,5 +513,5 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 512,2026-09-09 23:44,Deiby,1313Bqto,Local,Luso,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 513,2026-09-09 23:44,Deiby,1313Bqto,Local,Calle 28 con 17,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 514,2026-09-10 23:46,Deiby,Adrys,Local,MRW y Zoom,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-515,2026-09-11 23:47,Deiby,Cliente Eventual,Clinivet,El Carmen,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-516,2026-09-11 23:48,Deiby,Harmonia Skarlet,Local,Av 20 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+515,2026-09-11 12:00,Deiby,Cliente Eventual,Clinivet,El Carmen,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+516,2026-09-11 12:00,Deiby,Harmonia Skarlet,Local,Av 20 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
