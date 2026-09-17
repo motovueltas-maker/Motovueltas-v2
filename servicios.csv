@@ -486,3 +486,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 485,2026-09-03 12:00,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 486,2026-09-03 19:35,Deiby,Adrys,Comercial Castillo,Calle 13,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 487,2026-09-03 19:36,Deiby,1313Bqto,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+488,2026-09-03 19:36,Deiby,1313Bqto,Local,El Roble,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
