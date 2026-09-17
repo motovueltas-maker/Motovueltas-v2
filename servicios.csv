@@ -501,3 +501,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 500,2026-09-07 12:00,Deiby,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 501,2026-09-07 12:00,Deiby,Mundo de Regalos Luz,Local,40 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 502,2026-09-07 12:00,Deiby,Harmonia Skarlet,Local,Todo Salud,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+503,2026-09-07 23:15,Deiby,Marijo UEMICA,Uniformes Lara,Local,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
