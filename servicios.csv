@@ -479,3 +479,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 478,2026-08-30 18:27,Deiby,Monkey,Valle Hondo,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 479,2026-09-01 12:00,Deiby,Cielo Isamar Mendoza,CC Paris,Monte Real,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 480,2026-09-01 18:37,Deiby,Cliente Eventual,CC Industrial,Kingsport ida y vuelta,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+481,2026-09-01 18:42,Deiby,Cliente Eventual,Calle 8 con 25,Calle 21 con 16,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
