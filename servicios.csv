@@ -498,3 +498,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 497,2026-09-06 20:06,Deiby,Pizzería Nels,Local,Calle 35 con 29,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 498,2026-09-06 20:07,Deiby,Monkey,Local,Carr 21 con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 499,2026-09-06 20:08,Deiby,Monkey,Local,Calle 22 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+500,2026-09-07 22:55,Deiby,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
