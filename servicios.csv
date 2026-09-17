@@ -489,3 +489,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 488,2026-09-03 12:00,Deiby,1313Bqto,Local,El Roble,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 489,2026-09-03 19:37,Deiby,1313Bqto,Local,Madeira,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 490,2026-09-04 19:38,Deiby,Cliente Eventual,Moyetones,El Carmen,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+491,2026-09-04 19:39,Deiby,Candy Cakes Michelle,Local,Carr 24 con 10,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
