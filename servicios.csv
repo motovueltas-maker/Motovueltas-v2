@@ -518,3 +518,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 517,2026-09-11 23:49,Deiby,1313Bqto,Local,Luis Gomez Lopez,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 518,2026-09-11 23:49,Deiby,1313Bqto,Local,Urb Terepaima,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 519,2026-09-11 23:49,Deiby,Rep Arteaga Norexi,Local,Zoom,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+520,2026-09-11 23:50,Deiby,Fresas Delivery Rebeca,Local,Florencio Jimenez,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
