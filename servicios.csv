@@ -381,7 +381,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 381,2026-08-26 12:00,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 382,2026-09-07 12:15,Genesis,Cliente Eventual,Casa,Trabajo,,0.0,70.0,0.0,0.0,Pendiente,Pendiente,Pendiente
 383,2026-09-07 12:15,Genesis,Cliente Eventual,Centro comercial ,Casa,,0.0,70.0,0.0,0.0,Pendiente,Pendiente,Pendiente
-384,2026-08-31 23:37,Jhoiner,Chalong Case,Local,Roca Terra,,4.5,33.33,1.5,3.0,Validado,Pagado,Pendiente
+384,2026-08-31 12:00,Jhoiner,Chalong Case,Local,Roca Terra,,4.5,33.33,1.5,3.0,Validado,Pagado,Pendiente
 385,2026-09-01 23:38,Esneyder,Chalong Case,Local,MRW y Zoom,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
 386,2026-09-01 23:41,Esneyder,Chalong Case,Local,Clínica ONG,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
 387,2026-09-01 23:41,Esneyder,Chalong Case,Local,Centro Ejec Los Leones,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
@@ -396,7 +396,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 396,2026-09-05 23:46,Esneyder,Chalong Case,Local,Ciudad Paris,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
 397,2026-09-05 23:47,Esneyder,Chalong Case,Local,Edif Don Benito,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
 398,2026-09-05 23:47,Omar,Chalong Case,Local,Av Vzla con 20,,2.5,66.66,1.67,0.83,Validado,Pagado,Pendiente
-399,2026-08-31 23:54,Jhoiner,Chalong Detalles,Local,Villa Paris J,,3.5,33.33,1.17,2.33,Validado,Pendiente,Pendiente
+399,2026-08-31 12:00,Jhoiner,Chalong Detalles,Local,Villa Paris J,,3.5,33.33,1.17,2.33,Validado,Pendiente,Pendiente
 400,2026-09-02 23:55,Omar,Chalong Detalles,Local,Fundación Mendoza,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
 401,2026-09-03 23:56,Esneyder,Chalong Detalles,Local,Calle 47 con 27,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
 402,2026-09-03 23:56,Esneyder,Chalong Detalles,Local,CC Mall Center,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
@@ -416,7 +416,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 416,2026-09-07 00:19,Esneyder,KingSport Maricela,Este,MRW,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 417,2026-08-26 12:00,Esneyder,KingSport Maricela,Centro,CC Antonio,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 418,2026-08-27 12:00,Deiby,KingSport Maricela,Centro,Carr 19 con 13,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-419,2026-08-31 00:22,Esneyder,KingSport Maricela,Centro,Nova West,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
+419,2026-08-31 12:00,Deiby,KingSport Maricela,Centro,Nova West,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 420,2026-09-01 00:22,Esneyder,KingSport Maricela,Centro,Urb Obelisco,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
 421,2026-09-03 00:34,Esneyder,KingSport Maricela,Centro,Calle 42 con 29,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
 422,2026-09-04 00:34,Esneyder,KingSport Maricela,Centro,Calle 24 con 25,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
