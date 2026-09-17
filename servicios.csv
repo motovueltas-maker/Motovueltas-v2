@@ -507,3 +507,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 506,2026-09-08 12:00,Deiby,Cliente Eventual,Nataly desde Sambil,Country Park,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 507,2026-09-08 12:00,Deiby,Clinivet,Vidapets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 508,2026-09-09 23:26,Deiby,Clinivet,Local,Zoomedical,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+509,2026-09-09 23:28,Deiby,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
