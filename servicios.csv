@@ -169,7 +169,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 172,2026-08-28 12:00,Esneyder,Chalong Case,Local,Patarata,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
 173,2026-08-28 12:00,Esneyder,Chalong Case,Local,Nueva Segovia,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
 174,2026-08-29 12:00,Deiby,Chalong Case,Local,MRW,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
-175,2026-08-29 12:00,Esneyder,Chalong Case,Local,Cruz Blanca,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
+175,2026-08-29 12:00,Deiby,Chalong Case,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pagado,Pendiente
 176,2026-08-29 12:00,Esneyder,Chalong Case,Local,28 con 24,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
 177,2026-08-08 12:00,Omar,Candy Cakes Michelle,Local/Sucre/Local,Calle 50,,7.0,66.66,4.67,2.33,Validado,Pendiente,Pendiente
 178,2026-08-12 23:51,Esneyder,Candy Cakes Michelle,Local,San Francisco,,6.0,100.0,6.0,0.0,Validado,Pendiente,Pendiente
