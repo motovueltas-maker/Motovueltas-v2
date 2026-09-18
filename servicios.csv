@@ -524,3 +524,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 523,2026-09-11 23:54,Deiby,Monkey,Altamira,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 524,2026-09-12 12:00,Deiby,Clinivet,Vidapets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 525,2026-09-12 23:59,Deiby,Dhamilet Ramírez,Pollo Market,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+526,2026-09-18 00:05,Deiby,1313Bqto,Local,Hospital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
