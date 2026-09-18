@@ -544,3 +544,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 543,2026-09-14 12:00,Deiby,Antojitos,Local,Calle 26 con 31,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 544,2026-09-15 12:00,Deiby,Mundo de Regalos Luz,Local,Torre DaVinci,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 545,2026-09-15 00:20,Deiby,Chalong Case,Local,30 con 21,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+546,2026-09-15 00:29,Deiby,Chalong Case,Local,Merkafur Sambil,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
