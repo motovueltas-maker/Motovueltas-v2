@@ -557,3 +557,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 556,2026-09-16 00:40,Deiby,1313Bqto,Local,25 con 12 y 13,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 557,2026-09-16 00:40,Deiby,1313Bqto,Local,Calle 22 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 558,2026-09-16 00:41,Deiby,1313Bqto,Local,Carr 24 con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+559,2026-09-16 00:41,Deiby,1313Bqto,Local,Arca,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
