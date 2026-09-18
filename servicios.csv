@@ -567,3 +567,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 566,2026-09-01 01:11,Deiby,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 567,2026-09-11 12:00,Omar,Fresas Delivery Rebeca,Local,Los Camagos (Adami),,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
 568,2026-09-11 11:16,Omar,Fresas Delivery Rebeca,Local,La Veguita (Claudia),,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
+569,2026-09-11 11:17,Omar,Fresas Delivery Rebeca,Local,Villa Morena Cabudara (Alan),,5.0,66.66,3.33,1.67,Validado,Pendiente,Pendiente
