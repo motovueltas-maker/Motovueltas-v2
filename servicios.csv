@@ -546,3 +546,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 545,2026-09-15 00:20,Deiby,Chalong Case,Local,30 con 21,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 546,2026-09-15 00:29,Deiby,Chalong Case,Local,Merkafur Sambil,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 547,2026-09-15 00:30,Deiby,Cliente Eventual,Torre Continental,Venchi,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+548,2026-09-15 00:30,Deiby,Catas Food,Local,Capital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
