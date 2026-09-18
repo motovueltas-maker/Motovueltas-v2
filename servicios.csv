@@ -532,3 +532,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 531,2026-09-13 00:10,Deiby,1313Bqto,Local,Carr 24 con 10,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 532,2026-09-13 00:10,Deiby,Monkey,Local,Obelisco,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 533,2026-09-13 00:11,Deiby,1313Bqto,Local,38 con 17,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+534,2026-09-13 00:11,Deiby,Monkey,Compra Molino,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
