@@ -457,7 +457,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 457,2026-09-12 12:00,Deiby,KingSport Maricela,Centro,Piedad Norte,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 458,2026-09-12 12:00,Deiby,KingSport Maricela,Centro,Aeropuerto,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 459,2026-09-12 12:00,Deiby,KingSport Maricela,Centro,Lara con Bracamonte,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-460,2026-09-14 12:00,Esneyder,KingSport Maricela,Centro,Vargas con 24,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
+460,2026-09-14 12:00,Deiby,KingSport Maricela,Centro,Vargas con 24,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 461,2026-09-15 12:00,Esneyder,KingSport Maricela,Centro,Urb Obelisco,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 462,2026-09-16 20:24,Esneyder,KingSport Maricela,Centro,Colegio San Pedro,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 463,2026-08-25 12:00,Deiby,Marianelin Carrasco Contadora,Panadería New York,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
