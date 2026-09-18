@@ -548,3 +548,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 547,2026-09-15 00:30,Deiby,Cliente Eventual,Torre Continental,Venchi,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 548,2026-09-15 00:30,Deiby,Catas Food,Local,Capital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 549,2026-09-15 00:31,Deiby,Adrys,Casa,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+550,2026-09-15 00:31,Deiby,Chalong Case,Local,Los Cardones,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
