@@ -169,7 +169,7 @@ if opcion_menu == " Registrar Vuelta":
 
         btn_guardar = st.form_submit_button("🚀 Precargar / Registrar Vuelta", type="primary", use_container_width=True)
 
-        # --- LA LÓGICA DE GUARDADO DEBE IR DENTRO DEL FORMULARIO ---
+        # 👈 TODO ESTE BLOQUE DEBE LLEVAR SANGRÍA PARA ESTAR DENTRO DEL FORMULARIO
         if btn_guardar:
             if not cli_sel:
                 st.error("⚠️ Debes seleccionar un Cliente Prefijado.")
