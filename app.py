@@ -124,33 +124,41 @@ elif 'estado_avance' not in df_avances.columns:
 if opcion_menu == " Registrar Vuelta":
     st.subheader("⚡ Registrar Nueva Vuelta / Carrera")
     
+    # Lista de clientes general
+    nom_clientes = df_clientes['nombre'].tolist() if not df_clientes.empty else []
+
     if st.session_state.rol == "Admin":
-        col_f1, col_f2, col_f3 = st.columns([1, 1, 1])
+        # PARÁMETROS PREFIJADOS FUERA DEL FORMULARIO (ADMIN)
+        col_f1, col_f2, col_f3, col_f4 = st.columns([1, 1, 1, 1])
         with col_f1:
             fecha_fija = st.date_input("📅 Fecha", value=date.today())
         with col_f2:
             nom_motos = df_motos['nombre'].tolist() if not df_motos.empty else []
             mot_sel_fijo = st.selectbox("🏍️ Motorizado", nom_motos)
         with col_f3:
+            # 👈 CLIENTE PREFIJADO JUNTO CON LOS DEMÁS PARÁMETROS
+            cli_sel = st.selectbox("👤 Cliente Prefijado *", nom_clientes, index=None, placeholder="Selecciona...")
+        with col_f4:
             com_def = 66.67
             if not df_motos.empty and mot_sel_fijo in df_motos['nombre'].values:
                 com_def = float(df_motos[df_motos['nombre'] == mot_sel_fijo]['porcentaje_ganancia'].values[0])
             comision_fija = st.number_input("% Ganancia Moto", min_value=0.0, max_value=100.0, value=com_def, step=0.5)
     else:
-        col_f1, _ = st.columns([1, 2])
+        # PARÁMETROS PREFIJADOS PARA MOTORIZADO
+        col_f1, col_f2 = st.columns([1, 1])
         with col_f1:
             fecha_fija = st.date_input("📅 Fecha", value=date.today())
-        mot_sel_fijo = st.session_state.usuario.capitalize()
-        comision_fija = 66.67
-        if not df_motos.empty and mot_sel_fijo in df_motos['nombre'].values:
-            comision_fija = float(df_motos[df_motos['nombre'] == mot_sel_fijo]['porcentaje_ganancia'].values[0])
-            
+            mot_sel_fijo = st.session_state.usuario.capitalize()
+            comision_fija = 66.67
+            if not df_motos.empty and mot_sel_fijo in df_motos['nombre'].values:
+                comision_fija = float(df_motos[df_motos['nombre'] == mot_sel_fijo]['porcentaje_ganancia'].values[0])
+        with col_f2:
+            cli_sel = st.selectbox("👤 Cliente Prefijado *", nom_clientes, index=None, placeholder="Selecciona...")
+
     fecha_str = fecha_fija.strftime("%Y-%m-%d")
 
+    # RECUADRO / FORMULARIO RÁPIDO (SOLO DESDE, HASTA Y PRECIO)
     with st.form("form_nueva_vuelta_compacta", clear_on_submit=True):
-        nom_clientes = df_clientes['nombre'].tolist() if not df_clientes.empty else []
-        cli_sel = st.selectbox("Cliente *", nom_clientes, index=None, placeholder="Selecciona un cliente...")
-        
         if st.session_state.rol == "Admin":
             c_orig, c_dest, c_prec = st.columns([1, 1, 1])
             with c_orig:
@@ -168,51 +176,6 @@ if opcion_menu == " Registrar Vuelta":
             precio_ingresado = 0.0
 
         btn_guardar = st.form_submit_button("🚀 Precargar / Registrar Vuelta", type="primary", use_container_width=True)
-        
-        if btn_guardar:
-            if not cli_sel:
-                st.error("⚠️ Debes seleccionar un cliente de la lista.")
-            elif st.session_state.rol == "Admin" and precio_ingresado <= 0:
-                st.error("⚠️ Por favor ingresa un precio válido mayor a 0.")
-            else:
-                nuevo_id = len(df_servicios) + 1 if not df_servicios.empty else 1
-                hora_actual = datetime.now().strftime("%H:%M")
-                fecha_completa = f"{fecha_str} {hora_actual}"
-                
-                if st.session_state.rol == "Admin":
-                    est_val = "Validado"
-                    precio_val = float(precio_ingresado)
-                    monto_mot = round(precio_val * (comision_fija / 100.0), 2)
-                    monto_emp = round(precio_val - monto_mot, 2)
-                else:
-                    est_val = "Pendiente"
-                    precio_val = 0.0
-                    monto_mot = 0.0
-                    monto_emp = 0.0
-
-                nueva_fila = pd.DataFrame([{
-                    "id": nuevo_id,
-                    "fecha": fecha_completa,
-                    "motorizado": mot_sel_fijo,
-                    "cliente": cli_sel,
-                    "origen": origen if origen else "Local",
-                    "destino": destino if destino else "Local",
-                    "detalle": "",
-                    "precio_cliente": precio_val,
-                    "porcentaje_comision": comision_fija,
-                    "monto_motorizado": monto_mot,
-                    "ganancia_empresa": monto_emp,
-                    "estado_validacion": est_val,
-                    "estado_cliente": "Pendiente",
-                    "estado_motorizado": "Pendiente"
-                }])
-                
-                df_servicios = pd.concat([df_servicios, nueva_fila], ignore_index=True)
-                if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Vuelta #{nuevo_id} cargada por {st.session_state.usuario}"):
-                    st.success(f"✅ Vuelta #{nuevo_id} guardada exitosamente ({est_val}).")
-                    st.rerun()
-                else:
-                    st.error("❌ Error al guardar los datos en GitHub.")
 
 # --- MÓDULO: VALIDAR VUELTAS (Solo Admin) ---
 elif opcion_menu == " Validar Vueltas":
