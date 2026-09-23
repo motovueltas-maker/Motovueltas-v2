@@ -84,30 +84,22 @@ if not st.session_state.autenticado:
                 st.error("⚠️ Usuario o contraseña incorrectos.")
     st.stop()
 
-# --- BARRA LATERAL (MENÚ Y PERFIL) ---
-if "rol" not in st.session_state:
-    st.session_state.rol = "Admin" if st.session_state.usuario == "esneyder" else "Motorizado"
-
-st.sidebar.write(f"👤 **{st.session_state.usuario.capitalize()}** ({st.session_state.rol})")
-if st.sidebar.button("Cerrar Sesión"):
-    st.session_state.autenticado = False
-    st.rerun()
-
-st.sidebar.markdown("---")
-
+# --- MENÚ SUPERIOR DE NAVEGACIÓN ---
 if st.session_state.get("rol", "Motorizado") == "Admin":
     opciones = [
-        " Registrar Vuelta",
-        " Validar Vueltas",
-        " Corte Clientes",
-        " Corte Motorizados",
-        " Directorio Clientes",
+        " Registrar Vuelta", 
+        " Validar Vueltas", 
+        " Corte Clientes", 
+        " Corte Motorizados", 
+        " Directorio Clientes", 
         " Perfiles Motorizados"
     ]
 else:
     opciones = [" Registrar Vuelta"]
 
-opcion_menu = st.sidebar.radio("Módulo:", opciones)
+# Cambiamos st.sidebar.radio por st.radio horizontal
+opcion_menu = st.radio("📌 Menú de Módulos:", opciones, horizontal=True)
+st.divider()
 
 # --- CARGA GENERAL DE DATOS ---
 df_motos, sha_motos = cargar_csv_desde_github(FILE_MOTORIZADOS)
