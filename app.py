@@ -169,48 +169,48 @@ if opcion_menu == " Registrar Vuelta":
 
         btn_guardar = st.form_submit_button("🚀 Precargar / Registrar Vuelta", type="primary", use_container_width=True)
 
-    # --- LÓGICA DE GUARDADO EN GITHUB AL HACER CLIC EN EL BOTÓN ---
-    if btn_guardar:
-        if not cli_sel:
-            st.error("⚠️ Debes seleccionar un Cliente Prefijado.")
-        elif not origen or not destino:
-            st.error("⚠️ Debes completar los campos 'Desde' y 'Hasta'.")
-        else:
-            # Calcular montos si es Admin
-            if st.session_state.rol == "Admin":
-                monto_mot = round(precio_ingresado * (comision_fija / 100.0), 2)
-                monto_emp = round(precio_ingresado - monto_mot, 2)
-                estado_val = "Validado"
+        # --- LA LÓGICA DE GUARDADO DEBE IR DENTRO DEL FORMULARIO ---
+        if btn_guardar:
+            if not cli_sel:
+                st.error("⚠️ Debes seleccionar un Cliente Prefijado.")
+            elif not origen.strip() or not destino.strip():
+                st.error("⚠️ Debes completar los campos 'Desde' y 'Hasta'.")
             else:
-                monto_mot = 0.0
-                monto_emp = 0.0
-                estado_val = "Pendiente"
+                # Calcular montos si es Admin
+                if st.session_state.rol == "Admin":
+                    monto_mot = round(precio_ingresado * (comision_fija / 100.0), 2)
+                    monto_emp = round(precio_ingresado - monto_mot, 2)
+                    estado_val = "Validado"
+                else:
+                    monto_mot = 0.0
+                    monto_emp = 0.0
+                    estado_val = "Pendiente"
 
-            nuevo_id = int(df_servicios['id'].max()) + 1 if not df_servicios.empty and 'id' in df_servicios.columns else 1
+                nuevo_id = int(df_servicios['id'].max()) + 1 if not df_servicios.empty and 'id' in df_servicios.columns else 1
 
-            nueva_vuelta = pd.DataFrame([{
-                "id": nuevo_id,
-                "fecha": fecha_str,
-                "motorizado": mot_sel_fijo,
-                "cliente": cli_sel,
-                "origen": origen,
-                "destino": destino,
-                "precio_cliente": precio_ingresado,
-                "porcentaje_comision": comision_fija,
-                "monto_motorizado": monto_mot,
-                "ganancia_empresa": monto_emp,
-                "estado_cliente": "Pendiente",
-                "estado_motorizado": "Pendiente",
-                "estado_validacion": estado_val
-            }])
+                nueva_vuelta = pd.DataFrame([{
+                    "id": nuevo_id,
+                    "fecha": fecha_str,
+                    "motorizado": mot_sel_fijo,
+                    "cliente": cli_sel,
+                    "origen": origen.strip(),
+                    "destino": destino.strip(),
+                    "precio_cliente": precio_ingresado,
+                    "porcentaje_comision": comision_fija,
+                    "monto_motorizado": monto_mot,
+                    "ganancia_empresa": monto_emp,
+                    "estado_cliente": "Pendiente",
+                    "estado_motorizado": "Pendiente",
+                    "estado_validacion": estado_val
+                }])
 
-            df_servicios = pd.concat([df_servicios, nueva_vuelta], ignore_index=True)
+                df_servicios = pd.concat([df_servicios, nueva_vuelta], ignore_index=True)
 
-            if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Nueva vuelta #{nuevo_id} para {cli_sel}"):
-                st.success(f"✅ ¡Vuelta #{nuevo_id} registrada y guardada exitosamente para {cli_sel}!")
-                st.rerun()
-            else:
-                st.error("⚠️ Error al guardar en GitHub. Intenta nuevamente.")
+                if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Nueva vuelta #{nuevo_id} para {cli_sel}"):
+                    st.success(f"✅ ¡Vuelta #{nuevo_id} registrada y guardada exitosamente para {cli_sel}!")
+                    st.rerun()
+                else:
+                    st.error("⚠️ Error al guardar en GitHub. Intenta nuevamente.")
 
 # --- MÓDULO: VALIDAR VUELTAS (Solo Admin) ---
 elif opcion_menu == " Validar Vueltas":
