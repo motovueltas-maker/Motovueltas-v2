@@ -150,7 +150,7 @@ if opcion_menu == " Registrar Vuelta":
     fecha_str = fecha_fija.strftime("%Y-%m-%d")
 
     # RECUADRO / FORMULARIO RÁPIDO (SOLO DESDE, HASTA Y PRECIO)
-    with st.form("form_nueva_vuelta_compacta", clear_on_submit=True):
+    with st.form("form_nueva_vuelta_compacta"):
         if st.session_state.rol == "Admin":
             c_orig, c_dest, c_prec = st.columns([1, 1, 1])
             with c_orig:
