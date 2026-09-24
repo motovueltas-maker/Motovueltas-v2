@@ -336,19 +336,21 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
             with col_f2:
                 f_hasta_c = st.date_input("Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", key="f_hasta_corte")
 
-        # Convertir columna fecha a objetos Datetime de forma robusta
-        fechas_dt = pd.to_datetime(df_cli_all['fecha'], errors='coerce').dt.date
+        # Normalizar fecha a formato de texto 'YYYY-MM-DD' limpiando espacios y horas
+        fechas_str = df_cli_all['fecha'].astype(str).str.strip().str[:10]
 
-        # LÓGICA DE FILTRADO CON OBJETOS DATE
+        # LÓGICA DE FILTRADO ROBUSTA POR TEXTO ISO (YYYY-MM-DD)
         if f_desde_c and f_hasta_c:
-            if f_desde_c == f_hasta_c:
-                pendientes = df_cli_all[fechas_dt == f_desde_c].copy()
+            d_str = f_desde_c.strftime('%Y-%m-%d')
+            h_str = f_hasta_c.strftime('%Y-%m-%d')
+            if d_str == h_str:
+                pendientes = df_cli_all[fechas_str == d_str].copy()
             else:
-                pendientes = df_cli_all[(fechas_dt >= f_desde_c) & (fechas_dt <= f_hasta_c)].copy()
+                pendientes = df_cli_all[(fechas_str >= d_str) & (fechas_str <= h_str)].copy()
         elif f_desde_c:
-            pendientes = df_cli_all[fechas_dt == f_desde_c].copy()
+            pendientes = df_cli_all[fechas_str == f_desde_c.strftime('%Y-%m-%d')].copy()
         elif f_hasta_c:
-            pendientes = df_cli_all[fechas_dt == f_hasta_c].copy()
+            pendientes = df_cli_all[fechas_str <= f_hasta_c.strftime('%Y-%m-%d')].copy()
         else:
             pendientes = df_cli_all[df_cli_all['estado_cliente'] == 'Pendiente'].copy()
 
