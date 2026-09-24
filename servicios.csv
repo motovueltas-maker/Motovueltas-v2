@@ -712,3 +712,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 711,2026-09-20,Esneyder,Monkey,Panes Molino,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 712,2026-09-20,Esneyder,Monkey,Compra de Papas,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 713,2026-09-22,Esneyder,Monkey,Compras UNIPREC,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+714,2026-09-11,Esneyder,Monkey,Local,Altamira (María),,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
