@@ -169,8 +169,8 @@ elif opcion_menu == " Registrar Vuelta":
         btn_registro = st.form_submit_button("🚀 Precargar / Registrar Vuelta", type="primary", use_container_width=True)
 
         if btn_registro:
-            # CAPTURAR FECHA DENTRO DEL BLOQUE DEL BOTÓN PARA EVITAR 'NONE'
-            fecha_str = fecha_fija.strftime("%Y-%m-%d")
+            # CAPTURAR FECHA DIRECTAMENTE DESDE EL WIDGET AL HACER CLIC
+            fecha_str = fecha_fija.strftime("%Y-%m-%d") if fecha_fija else date.today().strftime("%Y-%m-%d")
 
             # Asignar 'Local' de forma transparente si el campo está vacío
             origen_val = origen.strip() if origen.strip() else "Local"
