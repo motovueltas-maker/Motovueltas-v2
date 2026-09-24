@@ -119,11 +119,11 @@ elif opcion_menu == " Registrar Vuelta":
     # Lista de clientes general
     nom_clientes = df_clientes['nombre'].tolist() if not df_clientes.empty else []
 
-    # 1. PARÁMETROS SUPERIORES
+# 1. PARÁMETROS SUPERIORES
     if st.session_state.rol == "Admin":
         col_f1, col_f2, col_f3, col_f4 = st.columns([1, 1, 1, 1])
         with col_f1:
-            fecha_fija = st.date_input("📅 Fecha", value=date.today())
+            fecha_fija_input = st.date_input("📅 Fecha", value=date.today(), key="fecha_registro_key")
         with col_f2:
             nom_motos = df_motos['nombre'].tolist() if not df_motos.empty else []
             mot_sel_fijo = st.selectbox("🏍️ Motorizado", nom_motos)
@@ -137,7 +137,7 @@ elif opcion_menu == " Registrar Vuelta":
     else:
         col_f1, col_f2 = st.columns([1, 1])
         with col_f1:
-            fecha_fija = st.date_input("📅 Fecha", value=date.today())
+            fecha_fija_input = st.date_input("📅 Fecha", value=date.today(), key="fecha_registro_key")
             mot_sel_fijo = st.session_state.usuario.capitalize()
             comision_fija = 66.67
             if not df_motos.empty and mot_sel_fijo in df_motos['nombre'].values:
@@ -145,9 +145,7 @@ elif opcion_menu == " Registrar Vuelta":
         with col_f2:
             cli_sel = st.selectbox("👤 Cliente Prefijado *", nom_clientes, index=None, placeholder="Selecciona...")
 
-    fecha_str = fecha_fija.strftime("%Y-%m-%d")
-
-# 2. ENTRADA DE DATOS CON FORMULARIO
+    # 2. ENTRADA DE DATOS CON FORMULARIO
     st.markdown("---")
     with st.form("form_registro_vuelta_directo", clear_on_submit=True):
         if st.session_state.rol == "Admin":
@@ -169,8 +167,9 @@ elif opcion_menu == " Registrar Vuelta":
         btn_registro = st.form_submit_button("🚀 Precargar / Registrar Vuelta", type="primary", use_container_width=True)
 
         if btn_registro:
-            # CAPTURAR FECHA DIRECTAMENTE DESDE EL WIDGET AL HACER CLIC
-            fecha_str = fecha_fija.strftime("%Y-%m-%d") if fecha_fija else date.today().strftime("%Y-%m-%d")
+            # CAPTURAR FECHA DIRECTAMENTE DESDE EL SESSION_STATE O LA VARIABLE LOCAL
+            f_val = st.session_state.get("fecha_registro_key", fecha_fija_input)
+            fecha_str = f_val.strftime("%Y-%m-%d") if hasattr(f_val, 'strftime') else str(f_val)[:10]
 
             # Asignar 'Local' de forma transparente si el campo está vacío
             origen_val = origen.strip() if origen.strip() else "Local"
