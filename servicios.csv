@@ -523,18 +523,18 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 524,2026-09-12 12:00,Deiby,Clinivet,Vidapets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 525,2026-09-12 12:00,Deiby,Dhamilet Ramírez,Pollo Market,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 526,2026-09-13 12:00,Deiby,1313Bqto,Local,Hospital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-527,2026-09-13 00:06,Deiby,Monkey,Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+527,2026-09-13 12:00,Deiby,Monkey,Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 528,2026-09-13 00:08,Deiby,Antojitos,Local,Fundalara,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 529,2026-09-13 00:09,Deiby,1313Bqto,Local,Agua Viva,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 530,2026-09-13 00:10,Deiby,1313Bqto,Local,24 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 531,2026-09-13 00:10,Deiby,1313Bqto,Local,Carr 24 con 10,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-532,2026-09-13 00:10,Deiby,Monkey,Local,Obelisco,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+532,2026-09-13 12:00,Deiby,Monkey,Local,Obelisco,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 533,2026-09-13 00:11,Deiby,1313Bqto,Local,38 con 17,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-534,2026-09-13 00:11,Deiby,Monkey,Compra Molino,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-535,2026-09-13 00:12,Deiby,Monkey,Local,Fundalara,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-536,2026-09-13 00:12,Deiby,Monkey,Local,Tarabana Plaza,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-537,2026-09-13 00:12,Deiby,Monkey,Local,Fundación Mendoza,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-538,2026-09-13 00:13,Deiby,Monkey,Local,Abogados con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+534,2026-09-13 12:00,Deiby,Monkey,Compra Molino,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+535,2026-09-13 12:00,Deiby,Monkey,Local,Fundalara,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+536,2026-09-13 12:00,Deiby,Monkey,Local,Tarabana Plaza,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+537,2026-09-13 12:00,Deiby,Monkey,Local,Fundación Mendoza,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+538,2026-09-13 12:00,Deiby,Monkey,Local,Abogados con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 539,2026-09-13 00:13,Deiby,1313Bqto,Local,Ubicacion,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 540,2026-09-13 00:13,Deiby,1313Bqto,Local,22 con 14,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 541,2026-09-13 00:14,Deiby,1313Bqto,Local,El Ujano,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
@@ -661,8 +661,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 660,2026-09-11,Esneyder,Monkey,Local,Flor de Vzla,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 661,2026-09-12,Esneyder,Monkey,Local,Patarata,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 662,2026-09-12,Esneyder,Monkey,Local,Vargas con 17,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-663,2026-09-13,Esneyder,Monkey,Local,Nueva Segovia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-664,2026-09-13,Esneyder,Monkey,Local,La Concordia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-665,2026-09-13,Esneyder,Monkey,Local,Calle 20 con 18,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-666,2026-09-13,Esneyder,Monkey,Local,Otro Fundalara,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
-667,2026-09-13,Esneyder,Monkey,Local,Roca del Valle,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
+663,nan,Esneyder,Monkey,Local,Nueva Segovia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+664,nan,Esneyder,Monkey,Local,La Concordia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+665,nan,Esneyder,Monkey,Local,Calle 20 con 18,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+666,nan,Esneyder,Monkey,Local,Otro Fundalara,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
