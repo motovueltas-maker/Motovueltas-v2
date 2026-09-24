@@ -492,10 +492,10 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 493,2026-09-04 12:00,Deiby,Monkey,Local,14 con 21,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 494,2026-09-04 19:40,Deiby,1313Bqto,Local,Calle 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 495,2026-09-05 12:00,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-496,2026-09-06 20:04,Deiby,Monkey,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+496,2026-09-06 12:00,Deiby,Monkey,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 497,2026-09-06 20:06,Deiby,Pizzería Nels,Local,Calle 35 con 29,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-498,2026-09-06 20:07,Deiby,Monkey,Local,Carr 21 con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-499,2026-09-06 20:08,Deiby,Monkey,Local,Calle 22 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+498,2026-09-06 12:00,Deiby,Monkey,Local,Carr 21 con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+499,2026-09-06 12:00,Deiby,Monkey,Local,Calle 22 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 500,2026-09-07 12:00,Deiby,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 501,2026-09-07 12:00,Deiby,Mundo de Regalos Luz,Local,40 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 502,2026-09-07 12:00,Deiby,Harmonia Skarlet,Local,Todo Salud,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -645,15 +645,15 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 644,2026-09-05,Esneyder,Monkey,Local,16 con 16,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 645,2026-09-05,Esneyder,Monkey,Local,Los Cardones,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 646,2026-09-05,Esneyder,Monkey,Local,Calle 38 con 15,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-647,2026-09-06,Esneyder,Monkey,Local,Nueva Segovia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-648,2026-09-06,Esneyder,Monkey,Local,San Lorenzo,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
-649,2026-09-06,Esneyder,Monkey,Local,Ribereña con 12,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-650,2026-09-06,Esneyder,Monkey,Local,Calle 12,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-651,2026-09-06,Esneyder,Monkey,Local,Carr 22 con 9 y 10,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-652,2026-09-06,Esneyder,Monkey,Compra Molino y Pollera,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-653,2026-09-06,Esneyder,Monkey,Local,Calle 15 entre 21 y 22,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-654,2026-09-06,Esneyder,Monkey,Local,Zanjon Barrera,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-655,2026-09-06,Esneyder,Monkey,Local,Carr 19 con 36,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+647,2026-09-06 12:00,Esneyder,Monkey,Local,Nueva Segovia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+648,2026-09-06 12:00,Esneyder,Monkey,Local,San Lorenzo,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
+649,2026-09-06 12:00,Esneyder,Monkey,Local,Ribereña con 12,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+650,2026-09-06 12:00,Esneyder,Monkey,Local,Calle 12,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+651,2026-09-06 12:00,Esneyder,Monkey,Local,Carr 22 con 9 y 10,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+652,2026-09-06 12:00,Esneyder,Monkey,Compra Molino y Pollera,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+653,2026-09-06 12:00,Esneyder,Monkey,Local,Calle 15 entre 21 y 22,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+654,2026-09-06 12:00,Esneyder,Monkey,Local,Zanjon Barrera,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+655,2026-09-06 12:00,Esneyder,Monkey,Local,Carr 19 con 36,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 656,2026-09-07,Esneyder,Monkey,Local,Urb del Este,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 657,2026-09-10,Esneyder,Monkey,Local,CC Paris,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 658,2026-09-10,Esneyder,Monkey,Local,Cyber Cafe de la 13,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
@@ -701,7 +701,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 700,2026-09-03,Esneyder,Monkey,Compras China de la 12,Local,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 701,2026-09-05,Esneyder,Monkey,Local,Compras Uniprec,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 702,2026-09-05,Esneyder,Monkey,Compras Portacomida,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-703,2026-09-06,Esneyder,Monkey,La Casa del Pollo,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+703,2026-09-06 12:00,Esneyder,Monkey,La Casa del Pollo,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 704,2026-09-09,Esneyder,Monkey,Compra de Cable,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 705,2026-09-11,Esneyder,Monkey,Compras UNIPREC,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 706,2026-09-11,Esneyder,Monkey,Compras Pollera,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
