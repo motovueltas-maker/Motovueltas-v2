@@ -337,14 +337,24 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
                 f_hasta_c = st.date_input("Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", key="f_hasta_corte")
 
             fechas_cli_str = pd.to_datetime(df_cli_all['fecha'], errors='coerce').dt.strftime('%Y-%m-%d')
-            if f_desde_c and f_hasta_c:
-                pendientes = df_cli_all[(fechas_cli_str >= f_desde_c.strftime('%Y-%m-%d')) & (fechas_cli_str <= f_hasta_c.strftime('%Y-%m-%d'))].copy()
-            elif f_desde_c:
+
+        # LÓGICA DE FILTRADO POR FECHA EXACTA O RANGO
+        if f_desde_c and f_hasta_c:
+            if f_desde_c == f_hasta_c:
+                # Si ambas fechas son iguales, filtra SOLO ese día
                 pendientes = df_cli_all[fechas_cli_str == f_desde_c.strftime('%Y-%m-%d')].copy()
-            elif f_hasta_c:
-                pendientes = df_cli_all[fechas_cli_str == f_hasta_c.strftime('%Y-%m-%d')].copy()
             else:
-                pendientes = df_cli_all[df_cli_all['estado_cliente'] == 'Pendiente'].copy()
+                # Rango entre Fecha Desde y Fecha Hasta
+                pendientes = df_cli_all[(fechas_cli_str >= f_desde_c.strftime('%Y-%m-%d')) & (fechas_cli_str <= f_hasta_c.strftime('%Y-%m-%d'))].copy()
+        elif f_desde_c:
+            # Solo Fecha Desde (filtra SOLO ese día exacto)
+            pendientes = df_cli_all[fechas_cli_str == f_desde_c.strftime('%Y-%m-%d')].copy()
+        elif f_hasta_c:
+            # Solo Fecha Hasta (filtra SOLO ese día exacto)
+            pendientes = df_cli_all[fechas_cli_str == f_hasta_c.strftime('%Y-%m-%d')].copy()
+        else:
+            # Sin filtros de fecha: Muestra todas las pendientes
+            pendientes = df_cli_all[df_cli_all['estado_cliente'] == 'Pendiente'].copy()
 
             def formatear_dd_mm(val):
                 if pd.isna(val) or not str(val).strip() or str(val).lower() == 'none': return ""
