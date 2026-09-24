@@ -701,3 +701,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 700,2026-09-03,Esneyder,Monkey,Compras China de la 12,Local,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 701,2026-09-05,Esneyder,Monkey,Local,Compras Uniprec,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 702,2026-09-05,Esneyder,Monkey,Compras Portacomida,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+703,2026-09-06,Esneyder,Monkey,La Casa del Pollo,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
