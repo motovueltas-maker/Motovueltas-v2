@@ -147,32 +147,36 @@ elif opcion_menu == " Registrar Vuelta":
 
     fecha_str = fecha_fija.strftime("%Y-%m-%d")
 
-# 2. ENTRADA DE DATOS CON FORMULARIO (Garantiza capturar los datos sin requerir Enter)
+# 2. ENTRADA DE DATOS CON FORMULARIO
     st.markdown("---")
     with st.form("form_registro_vuelta_directo", clear_on_submit=True):
         if st.session_state.rol == "Admin":
             c_orig, c_dest, c_prec = st.columns([1, 1, 1])
             with c_orig:
-                origen = st.text_input("Desde", placeholder="Ej: Local / Sede")
+                origen = st.text_input("Desde", placeholder="Local")
             with c_dest:
-                destino = st.text_input("Hasta", placeholder="Ej: Centro / Unicentro")
+                destino = st.text_input("Hasta", placeholder="Local")
             with c_prec:
                 precio_ingresado = st.number_input("Precio ($) *", min_value=0.0, step=0.5, value=0.0)
         else:
             c_orig, c_dest = st.columns(2)
             with c_orig:
-                origen = st.text_input("Desde", placeholder="Ej: Local / Sede")
+                origen = st.text_input("Desde", placeholder="Local")
             with c_dest:
-                destino = st.text_input("Hasta", placeholder="Ej: Centro / Unicentro")
+                destino = st.text_input("Hasta", placeholder="Local")
             precio_ingresado = 0.0
 
         btn_registro = st.form_submit_button("🚀 Precargar / Registrar Vuelta", type="primary", use_container_width=True)
 
         if btn_registro:
+            # Asignar 'Local' de forma transparente si el campo está vacío
+            origen_val = origen.strip() if origen.strip() else "Local"
+            destino_val = destino.strip() if destino.strip() else "Local"
+
             if not cli_sel:
                 st.error("⚠️ Debes seleccionar un Cliente Prefijado.")
-            elif not origen.strip() or not destino.strip():
-                st.error("⚠️ Debes completar los campos 'Desde' y 'Hasta'.")
+            elif origen_val.lower() == "local" and destino_val.lower() == "local":
+                st.error("⚠️ No se puede registrar una vuelta de 'Local' a 'Local'. Debes especificar al menos el origen o el destino.")
             else:
                 if st.session_state.rol == "Admin":
                     monto_mot = round(precio_ingresado * (comision_fija / 100.0), 2)
@@ -190,8 +194,8 @@ elif opcion_menu == " Registrar Vuelta":
                     "fecha": fecha_str,
                     "motorizado": mot_sel_fijo,
                     "cliente": cli_sel,
-                    "origen": origen.strip(),
-                    "destino": destino.strip(),
+                    "origen": origen_val,
+                    "destino": destino_val,
                     "precio_cliente": precio_ingresado,
                     "porcentaje_comision": comision_fija,
                     "monto_motorizado": monto_mot,
@@ -204,7 +208,7 @@ elif opcion_menu == " Registrar Vuelta":
                 df_servicios = pd.concat([df_servicios, nueva_vuelta], ignore_index=True)
 
                 if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Nueva vuelta #{nuevo_id} para {cli_sel}"):
-                    st.success(f"✅ ¡Vuelta #{nuevo_id} registrada y guardada exitosamente para {cli_sel}!")
+                    st.success(f"✅ ¡Vuelta #{nuevo_id} registrada ({origen_val} ➡️ {destino_val}) para {cli_sel}!")
                     st.rerun()
                 else:
                     st.error("⚠️ Error al guardar en GitHub. Intenta nuevamente.")
