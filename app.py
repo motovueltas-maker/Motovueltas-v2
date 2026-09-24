@@ -119,7 +119,7 @@ elif opcion_menu == " Registrar Vuelta":
     # Lista de clientes general
     nom_clientes = df_clientes['nombre'].tolist() if not df_clientes.empty else []
 
-# 1. PARÁMETROS SUPERIORES
+    # 1. PARÁMETROS SUPERIORES
     if st.session_state.rol == "Admin":
         col_f1, col_f2, col_f3, col_f4 = st.columns([1, 1, 1, 1])
         with col_f1:
@@ -167,9 +167,12 @@ elif opcion_menu == " Registrar Vuelta":
         btn_registro = st.form_submit_button("🚀 Precargar / Registrar Vuelta", type="primary", use_container_width=True)
 
         if btn_registro:
-            # CAPTURAR FECHA DIRECTAMENTE DESDE EL SESSION_STATE O LA VARIABLE LOCAL
+            # FORZAR CAPTURA DE FECHA DESDE EL SESSION_STATE O INPUT DIRECTO
             f_val = st.session_state.get("fecha_registro_key", fecha_fija_input)
-            fecha_str = f_val.strftime("%Y-%m-%d") if hasattr(f_val, 'strftime') else str(f_val)[:10]
+            if hasattr(f_val, 'strftime'):
+                fecha_str = f_val.strftime("%Y-%m-%d")
+            else:
+                fecha_str = str(f_val)[:10]
 
             # Asignar 'Local' de forma transparente si el campo está vacío
             origen_val = origen.strip() if origen.strip() else "Local"
@@ -210,7 +213,7 @@ elif opcion_menu == " Registrar Vuelta":
                 df_servicios = pd.concat([df_servicios, nueva_vuelta], ignore_index=True)
 
                 if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Nueva vuelta #{nuevo_id} para {cli_sel}"):
-                    st.success(f"✅ ¡Vuelta #{nuevo_id} registrada ({origen_val} ➡️ {destino_val}) para {cli_sel}!")
+                    st.success(f"✅ ¡Vuelta #{nuevo_id} registrada ({origen_val} ➡️ {destino_val}) para {cli_sel} con fecha {fecha_str}!")
                     st.rerun()
                 else:
                     st.error("⚠️ Error al guardar en GitHub. Intenta nuevamente.")
