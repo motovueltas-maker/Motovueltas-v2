@@ -336,23 +336,22 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
             with col_f2:
                 f_hasta_c = st.date_input("Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", key="f_hasta_corte")
 
-        # Rellenar cualquier 'None' o fecha vacía con la fecha de hoy para no perderlas de vista
-        df_cli_all['fecha'] = df_cli_all['fecha'].fillna(date.today().strftime('%Y-%m-%d'))
-        df_cli_all['fecha'] = df_cli_all['fecha'].replace(["None", "none", ""], date.today().strftime('%Y-%m-%d'))
+        # Normalizar la columna fecha a formato YYYY-MM-DD ignorando horas y nulos
+        df_cli_all['fecha_limpia'] = pd.to_datetime(df_cli_all['fecha'], errors='coerce').dt.strftime('%Y-%m-%d')
+        df_cli_all['fecha_limpia'] = df_cli_all['fecha_limpia'].fillna(df_cli_all['fecha'].astype(str).str[:10])
 
-        # Convertir columna fecha a texto YYYY-MM-DD
-        fechas_cli_str = pd.to_datetime(df_cli_all['fecha'], errors='coerce').dt.strftime('%Y-%m-%d')
-
-        # LÓGICA DE FILTRADO
+        # LÓGICA DE FILTRADO ROBUSTA
         if f_desde_c and f_hasta_c:
-            if f_desde_c == f_hasta_c:
-                pendientes = df_cli_all[fechas_cli_str == f_desde_c.strftime('%Y-%m-%d')].copy()
+            d_str = f_desde_c.strftime('%Y-%m-%d')
+            h_str = f_hasta_c.strftime('%Y-%m-%d')
+            if d_str == h_str:
+                pendientes = df_cli_all[df_cli_all['fecha_limpia'] == d_str].copy()
             else:
-                pendientes = df_cli_all[(fechas_cli_str >= f_desde_c.strftime('%Y-%m-%d')) & (fechas_cli_str <= f_hasta_c.strftime('%Y-%m-%d'))].copy()
+                pendientes = df_cli_all[(df_cli_all['fecha_limpia'] >= d_str) & (df_cli_all['fecha_limpia'] <= h_str)].copy()
         elif f_desde_c:
-            pendientes = df_cli_all[fechas_cli_str == f_desde_c.strftime('%Y-%m-%d')].copy()
+            pendientes = df_cli_all[df_cli_all['fecha_limpia'] == f_desde_c.strftime('%Y-%m-%d')].copy()
         elif f_hasta_c:
-            pendientes = df_cli_all[fechas_cli_str == f_hasta_c.strftime('%Y-%m-%d')].copy()
+            pendientes = df_cli_all[df_cli_all['fecha_limpia'] == f_hasta_c.strftime('%Y-%m-%d')].copy()
         else:
             pendientes = df_cli_all[df_cli_all['estado_cliente'] == 'Pendiente'].copy()
 
