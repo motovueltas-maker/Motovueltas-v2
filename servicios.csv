@@ -703,3 +703,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 702,2026-09-05,Esneyder,Monkey,Compras Portacomida,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 703,2026-09-06,Esneyder,Monkey,La Casa del Pollo,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 704,2026-09-09,Esneyder,Monkey,Compra de Cable,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+705,2026-09-11,Esneyder,Monkey,Compras UNIPREC,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
