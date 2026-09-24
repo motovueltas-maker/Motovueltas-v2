@@ -661,7 +661,8 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 660,2026-09-11,Esneyder,Monkey,Local,Flor de Vzla,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 661,2026-09-12,Esneyder,Monkey,Local,Patarata,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 662,2026-09-12,Esneyder,Monkey,Local,Vargas con 17,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-663,nan,Esneyder,Monkey,Local,Nueva Segovia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-664,nan,Esneyder,Monkey,Local,La Concordia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-665,nan,Esneyder,Monkey,Local,Calle 20 con 18,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-666,nan,Esneyder,Monkey,Local,Otro Fundalara,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
+663,,Esneyder,Monkey,Local,Nueva Segovia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+664,,Esneyder,Monkey,Local,La Concordia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+665,,Esneyder,Monkey,Local,Calle 20 con 18,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+666,,Esneyder,Monkey,Local,Otro Fundalara,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
+667,2026-09-13,Esneyder,Monkey,Local,Nueva Segovia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
