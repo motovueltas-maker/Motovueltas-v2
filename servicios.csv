@@ -171,13 +171,13 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 174,2026-08-29 12:00,Deiby,Chalong Case,Local,MRW,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
 175,2026-08-29 12:00,Deiby,Chalong Case,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pagado,Pendiente
 176,2026-08-29 12:00,Esneyder,Chalong Case,Local,28 con 24,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
-177,2026-08-08 12:00,Omar,Candy Cakes Michelle,Local/Sucre/Local,Calle 50,,7.0,66.66,4.67,2.33,Validado,Pendiente,Pendiente
-178,2026-08-12 23:51,Esneyder,Candy Cakes Michelle,Local,San Francisco,,6.0,100.0,6.0,0.0,Validado,Pendiente,Pendiente
-179,2026-08-19 12:00,Esneyder,Candy Cakes Michelle,Local,Barquisimeto III,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
-180,2026-08-22 12:00,Esneyder,Candy Cakes Michelle,Local,Merpolara,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-181,2026-08-26 12:00,Omar,Candy Cakes Michelle,Local,Parque Barquisimeto,,2.5,66.66,1.67,0.83,Validado,Pendiente,Pendiente
-182,2026-08-29 12:00,Deiby,Candy Cakes Michelle,Local,Babilon,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-183,2026-08-18 12:00,Omar,Candy Cakes Michelle,Local,Plaza Madrid,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
+177,2026-08-08 12:00,Omar,Candy Cakes Michelle,Local/Sucre/Local,Calle 50,,7.0,66.66,4.67,2.33,Validado,Pagado,Pendiente
+178,2026-08-12 23:51,Esneyder,Candy Cakes Michelle,Local,San Francisco,,6.0,100.0,6.0,0.0,Validado,Pagado,Pendiente
+179,2026-08-19 12:00,Esneyder,Candy Cakes Michelle,Local,Barquisimeto III,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
+180,2026-08-22 12:00,Esneyder,Candy Cakes Michelle,Local,Merpolara,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
+181,2026-08-26 12:00,Omar,Candy Cakes Michelle,Local,Parque Barquisimeto,,2.5,66.66,1.67,0.83,Validado,Pagado,Pendiente
+182,2026-08-29 12:00,Deiby,Candy Cakes Michelle,Local,Babilon,,3.5,70.0,2.45,1.05,Validado,Pagado,Pendiente
+183,2026-08-18 12:00,Omar,Candy Cakes Michelle,Local,Plaza Madrid,,3.0,66.66,2.0,1.0,Validado,Pagado,Pendiente
 184,2026-07-22 00:06,Esneyder,Marye Inter,Local,Inter Cabudare,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 185,2026-07-01 00:21,Esneyder,Yrene Ortega,Local,Convaca,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
 186,2026-07-16 00:22,Esneyder,Yrene Ortega,Local,Alimentos Serex,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
@@ -472,7 +472,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 473,2026-08-27 18:13,Deiby,Chalong Detalles,Local,34 con 18,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
 474,2026-08-27 18:14,Deiby,Marianelin Carrasco Contadora,24 con 25,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 475,2026-08-29 12:00,Deiby,Rep Arteaga Norexi,Local,San Jacinto,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-476,2026-08-29 18:26,Deiby,Candy Cakes Michelle,Local,Babilon,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+476,2026-08-29 18:26,Deiby,Candy Cakes Michelle,Local,Babilon,,3.5,70.0,2.45,1.05,Validado,Pagado,Pendiente
 477,2026-08-30 18:26,Deiby,1313Bqto,Local,Luso Larense,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 478,2026-08-30 18:27,Deiby,Monkey,Valle Hondo,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 479,2026-09-01 12:00,Deiby,Cielo Isamar Mendoza,CC Paris,Monte Real,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -487,7 +487,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 488,2026-09-03 12:00,Deiby,1313Bqto,Local,El Roble,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 489,2026-09-03 12:00,Deiby,1313Bqto,Local,Madeira,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 490,2026-09-04 19:38,Deiby,Cliente Eventual,Moyetones,El Carmen,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-491,2026-09-04 19:39,Deiby,Candy Cakes Michelle,Local,Carr 24 con 10,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+491,2026-09-04 19:39,Deiby,Candy Cakes Michelle,Local,Carr 24 con 10,,1.0,70.0,0.7,0.3,Validado,Pagado,Pendiente
 492,2026-09-04 12:00,Deiby,Monkey,Local,19 con 11,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 493,2026-09-04 12:00,Deiby,Monkey,Local,14 con 21,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 494,2026-09-04 19:40,Deiby,1313Bqto,Local,Calle 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -500,7 +500,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 501,2026-09-07 12:00,Deiby,Mundo de Regalos Luz,Local,40 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 502,2026-09-07 12:00,Deiby,Harmonia Skarlet,Local,Todo Salud,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 503,2026-09-07 23:15,Deiby,Marijo UEMICA,Uniformes Lara,Local,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-504,2026-09-08 12:00,Deiby,Candy Cakes Michelle,Local,Pedregal,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+504,2026-09-08 12:00,Deiby,Candy Cakes Michelle,Local,Pedregal,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
 505,2026-09-08 12:00,Deiby,Marianella K Beauty,Local,Parque La Música,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 506,2026-09-08 12:00,Deiby,Cliente Eventual,Nataly desde Sambil,Country Park,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 507,2026-09-08 12:00,Deiby,Clinivet,Vidapets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -549,7 +549,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 550,2026-09-15 12:00,Deiby,Chalong Case,Local,Los Cardones,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 551,2026-09-15 12:00,Esneyder,Chalong Case,Local,La Carucieña,,5.0,100.0,5.0,0.0,Validado,Pendiente,Pendiente
 552,2026-09-16 00:36,Deiby,Dhamilet Ramírez,Charcuteria,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-553,2026-09-16 00:37,Deiby,Candy Cakes Michelle,Local,Moran con 21,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+553,2026-09-16 00:37,Deiby,Candy Cakes Michelle,Local,Moran con 21,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
 554,2026-09-16 00:38,Deiby,Adrys,Local,MRW y Zoom,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 555,2026-09-16 00:39,Deiby,Adrys,Local,Agua Miel,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 556,2026-09-16 00:40,Deiby,1313Bqto,Local,25 con 12 y 13,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -729,7 +729,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 728,2026-09-26,Esneyder,Chalong Detalles,Local,Santa Rosa,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
 729,2026-09-26,Esneyder,Chalong Detalles,Local,Cosmos,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
 730,2026-09-26,Esneyder,Chalong Detalles,Local,Calle 55 con Pedro Leon,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
-731,2026-09-23,Esneyder,Candy Cakes Michelle,Local,Pedregal,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
-732,2026-09-24,Esneyder,Candy Cakes Michelle,Local,Bararida,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-733,2026-09-25,Esneyder,Candy Cakes Michelle,Local,Damasco Av Vzla,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
-734,2026-09-28,Esneyder,Candy Cakes Michelle,Local,Corpoelec Av Carabobo,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
+731,2026-09-23,Esneyder,Candy Cakes Michelle,Local,Pedregal,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
+732,2026-09-24,Esneyder,Candy Cakes Michelle,Local,Bararida,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
+733,2026-09-25,Esneyder,Candy Cakes Michelle,Local,Damasco Av Vzla,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
+734,2026-09-28,Esneyder,Candy Cakes Michelle,Local,Corpoelec Av Carabobo,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
