@@ -753,3 +753,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 752,2026-09-20 12:00,Deiby,1313Bqto,Local,carr 18 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 753,2026-09-20 12:00,Deiby,1313Bqto,Local,Ribereña con 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 754,2026-09-20 12:00,Deiby,1313Bqto,Local,Santa Cecilia,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+755,2026-09-20,Deiby,1313Bqto,Local,Carr 17 con 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
