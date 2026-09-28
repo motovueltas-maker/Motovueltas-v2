@@ -576,9 +576,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 575,2026-09-16 23:09,Esneyder,Chalong Case,Local,Carr 21 con Vargas,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 576,2026-09-17 12:00,Esneyder,Chalong Case,Local,Sambil,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 577,2026-09-17 12:00,Esneyder,Chalong Case,Local,Urb Terepaima,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
-578,2026-09-18 23:44,Esneyder,Chalong Case,Local,Hotel Las Vegas Cabudare,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
-579,2026-09-18 23:44,Esneyder,Chalong Case,Local,Edif El Impulso,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
-580,2026-09-18 23:45,Esneyder,Chalong Case,Local,MRW,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
+578,2026-09-18 12:00,Esneyder,Chalong Case,Local,Hotel Las Vegas Cabudare,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
+579,2026-09-18 12:00,Esneyder,Chalong Case,Local,Edif El Impulso,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
+580,2026-09-18 12:00,Esneyder,Chalong Case,Local,MRW,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 581,2026-09-19 23:45,Esneyder,Chalong Case,Local,Santa Rosa,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 582,2026-09-19 23:45,Esneyder,Chalong Case,Local,Gil Fortoul,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
 583,2026-09-21 19:09,Deiby,Alexandra Flores Sambil,Local,Ucla Veterinaria Cabudare,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
@@ -595,10 +595,10 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 594,2026-09-17 19:42,Esneyder,Chalong Detalles,Local,Boulevard Center,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
 595,2026-09-17 19:43,Esneyder,Chalong Detalles,Local,Carr 22 con 11,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
 596,2026-09-17 19:43,Esneyder,Chalong Detalles,Local,Calle 32 con 30,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
-597,2026-09-18 19:44,Esneyder,Chalong Detalles,Local,Edificio Nacional,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
-598,2026-09-18 19:44,Esneyder,Chalong Detalles,Local,Loma Alta,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
-599,2026-09-18 19:44,Esneyder,Chalong Detalles,Local,Arboleda,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
-600,2026-09-18 19:45,Esneyder,Chalong Detalles,Local,Ascardio,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
+597,2026-09-18 12:00,Esneyder,Chalong Detalles,Local,Edificio Nacional,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
+598,2026-09-18 12:00,Esneyder,Chalong Detalles,Local,Loma Alta,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
+599,2026-09-18 12:00,Esneyder,Chalong Detalles,Local,Arboleda,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
+600,2026-09-18 12:00,Esneyder,Chalong Detalles,Local,Ascardio,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
 601,2026-09-19 19:46,Esneyder,Chalong Detalles,Local,Prados del Norte,,6.0,100.0,6.0,0.0,Validado,Pagado,Pendiente
 602,2026-09-21 19:46,Esneyder,Chalong Detalles,Local,Super 29,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
 603,2026-09-21 19:46,Esneyder,Chalong Detalles,Local,Torre Higea,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
@@ -678,10 +678,10 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 677,2026-09-17,Esneyder,Monkey,Local,Calle 24 con 19,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 678,2026-09-17,Esneyder,Monkey,Local,Parque del Este,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 679,2026-09-17,Esneyder,Monkey,Local,Macuto,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
-680,2026-09-18,Esneyder,Monkey,Local,Calle 32 con 25,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-681,2026-09-18,Esneyder,Monkey,Local,Carr 18 con 25,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-682,2026-09-18,Esneyder,Monkey,Compra Pollera,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-683,2026-09-18,Esneyder,Monkey,Compras UNIPREC,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+680,nan,Esneyder,Monkey,Local,Calle 32 con 25,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+681,nan,Esneyder,Monkey,Local,Carr 18 con 25,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+682,nan,Esneyder,Monkey,Compra Pollera,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+683,nan,Esneyder,Monkey,Compras UNIPREC,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 684,2026-09-19,Esneyder,Monkey,Local,Parque Jardín,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 685,2026-09-19,Esneyder,Monkey,Local,Calle 34 con 14,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 686,2026-09-19,Esneyder,Monkey,Local,El Parragón,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
@@ -708,7 +708,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 707,2026-09-12,Esneyder,Monkey,Calle 19 Dolares,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 708,2026-09-15,Esneyder,Monkey,Compras UNIPREC,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 709,2026-09-16,Esneyder,Monkey,La Casa del Pollo,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-710,2026-09-18,Esneyder,Monkey,Casa del Pollo,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+710,nan,Esneyder,Monkey,Casa del Pollo,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 711,2026-09-20,Esneyder,Monkey,Panes Molino,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 712,2026-09-20,Esneyder,Monkey,Compra de Papas,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 713,2026-09-22,Esneyder,Monkey,Compras UNIPREC,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
@@ -733,7 +733,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 732,2026-09-24,Esneyder,Candy Cakes Michelle,Local,Bararida,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
 733,2026-09-25,Esneyder,Candy Cakes Michelle,Local,Damasco Av Vzla,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
 734,2026-09-28,Esneyder,Candy Cakes Michelle,Local,Corpoelec Av Carabobo,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
-735,2026-09-18,Deiby,Cielo Isamar Mendoza,Parque Real,Vivero Ribereña,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-736,2026-09-18,Deiby,Marianelin Carrasco Contadora,Panadería New York,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-737,2026-09-18,Deiby,Antojitos,Local,Seguro de la 50,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-738,2026-09-18,Deiby,Adrys,Local,Calle 23 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+735,nan,Deiby,Cielo Isamar Mendoza,Parque Real,Vivero Ribereña,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+736,nan,Deiby,Marianelin Carrasco Contadora,Panadería New York,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+737,nan,Deiby,Antojitos,Local,Seguro de la 50,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+738,nan,Deiby,Adrys,Local,Calle 23 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
