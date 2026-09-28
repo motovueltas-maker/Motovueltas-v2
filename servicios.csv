@@ -746,4 +746,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 745,,Deiby,Pizzería Nels,Local,Calle 29 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 746,2026-09-19 12:00,Deiby,Pizzería Nels,Local,Calle 29 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 747,2026-09-19 12:00,Deiby,1313Bqto,Local,Plaza Caribe,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-748,2026-09-19,Deiby,1313Bqto,Local,Uruguay con Ribereña,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+748,2026-09-19 12:00,Deiby,1313Bqto,Local,Uruguay con Ribereña,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
