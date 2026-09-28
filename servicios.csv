@@ -764,3 +764,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 763,2026-09-21 12:00,Deiby,1313Bqto,Local,Clinica Canabal,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 764,2026-09-21 12:00,Deiby,1313Bqto,Local,Calle 20 con 19,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 765,2026-09-22,Deiby,Catas Food,Local,Capital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+766,2026-09-22,Deiby,Greychit Contreras,Local,Chilamas/Bequito,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
