@@ -737,3 +737,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 736,2026-09-18 12:00,Deiby,Marianelin Carrasco Contadora,Panadería New York,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 737,2026-09-18 12:00,Deiby,Antojitos,Local,Seguro de la 50,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 738,2026-09-18 12:00,Deiby,Adrys,Local,Calle 23 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+739,2026-09-18,Deiby,Cielo Isamar Mendoza,Creaciones Napy,Vargas con Vzla,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
