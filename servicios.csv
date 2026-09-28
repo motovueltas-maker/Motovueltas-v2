@@ -689,12 +689,12 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 688,2026-09-19 12:00,Deiby,Monkey,Local,Calle 14 con Abogados,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 689,2026-09-19 12:00,Deiby,Monkey,Local,San José,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 690,2026-09-19 12:00,Deiby,Monkey,Local,Calle 38 con Ribereña,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-691,2026-09-20,Esneyder,Monkey,Local,Calle 42 con 31,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
-692,2026-09-20,Esneyder,Monkey,Local,Patarata,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-693,2026-09-20,Esneyder,Monkey,Local,Ascardio,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-694,2026-09-20,Esneyder,Monkey,Local,Santa ELena,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
-695,2026-09-20,Esneyder,Monkey,Local,La Concordia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-696,2026-09-20,Esneyder,Monkey,Local,Av Ribereña,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
+691,2026-09-20 12:00,Deiby,Monkey,Local,Calle 42 con 31,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+692,2026-09-20 12:00,Esneyder,Monkey,Local,Patarata,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+693,2026-09-20 12:00,Esneyder,Monkey,Local,Ascardio,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+694,2026-09-20 12:00,Esneyder,Monkey,Local,Santa ELena,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
+695,2026-09-20 12:00,Esneyder,Monkey,Local,La Concordia,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+696,2026-09-20 12:00,Esneyder,Monkey,Local,Av Ribereña,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 697,2026-09-21 12:00,Esneyder,Monkey,Local,La Lagunita,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 698,2026-09-22 12:00,Esneyder,Monkey,Local,Jirahara,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 699,2026-08-31,Esneyder,Monkey,Compras UNIPREC,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
@@ -709,8 +709,8 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 708,2026-09-15,Esneyder,Monkey,Compras UNIPREC,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 709,2026-09-16,Esneyder,Monkey,La Casa del Pollo,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 710,,Esneyder,Monkey,Casa del Pollo,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-711,2026-09-20,Esneyder,Monkey,Panes Molino,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-712,2026-09-20,Esneyder,Monkey,Compra de Papas,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+711,2026-09-20 12:00,Esneyder,Monkey,Panes Molino,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+712,2026-09-20 12:00,Esneyder,Monkey,Compra de Papas,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 713,2026-09-22,Esneyder,Monkey,Compras UNIPREC,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 714,2026-09-11,Esneyder,Monkey,Local,Altamira (María),,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 715,2026-09-19 12:00,Esneyder,Flores Sonrisa Inyerly,Local,San José,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
@@ -747,7 +747,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 746,2026-09-19 12:00,Deiby,Pizzería Nels,Local,Calle 29 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 747,2026-09-19 12:00,Deiby,1313Bqto,Local,Plaza Caribe,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 748,2026-09-19 12:00,Deiby,1313Bqto,Local,Uruguay con Ribereña,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-749,2026-09-20,Deiby,1313Bqto,Local,Sambil,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-750,2026-09-20,Deiby,1313Bqto,Local,36 con 18 y 19,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-751,2026-09-20,Deiby,1313Bqto,Local,Cabudare,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
-752,2026-09-20,Deiby,1313Bqto,Local,carr 18 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+749,2026-09-20 12:00,Deiby,1313Bqto,Local,Sambil,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+750,2026-09-20 12:00,Deiby,1313Bqto,Local,36 con 18 y 19,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+751,2026-09-20 12:00,Deiby,1313Bqto,Local,Cabudare,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
+752,2026-09-20 12:00,Deiby,1313Bqto,Local,carr 18 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
