@@ -167,12 +167,11 @@ elif opcion_menu == " Registrar Vuelta":
         btn_registro = st.form_submit_button("🚀 Precargar / Registrar Vuelta", type="primary", use_container_width=True)
 
         if btn_registro:
-            # FORZAR CAPTURA DE FECHA DESDE EL SESSION_STATE O INPUT DIRECTO
-            f_val = st.session_state.get("fecha_registro_key", fecha_fija_input)
-            if hasattr(f_val, 'strftime'):
-                fecha_str = f_val.strftime("%Y-%m-%d")
+            # Tomar directamente el valor asignado al widget date_input del formulario
+            if fecha_fija_input:
+                fecha_str = fecha_fija_input.strftime("%Y-%m-%d")
             else:
-                fecha_str = str(f_val)[:10]
+                fecha_str = date.today().strftime("%Y-%m-%d")
 
             # Asignar 'Local' de forma transparente si el campo está vacío
             origen_val = origen.strip() if origen.strip() else "Local"
