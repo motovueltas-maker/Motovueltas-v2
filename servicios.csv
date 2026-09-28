@@ -767,3 +767,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 766,2026-09-22 12:00,Deiby,Greychit Contreras,Local,Chilamas/Bequito,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 767,2026-09-22 12:00,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 768,2026-09-22 12:00,Deiby,Greychit Contreras,Chilamas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+769,2026-09-22,Deiby,Marijo UEMICA,Local,Contadora Marianelin,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
