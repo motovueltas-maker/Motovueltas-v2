@@ -743,4 +743,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 742,2026-09-19 12:00,Deiby,Greychit Contreras,Tiendas Chilamas,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 743,2026-09-19 12:00,Deiby,Adrys,Local,Res Mariela,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 744,2026-09-19 12:00,Deiby,1313Bqto,Local,Fundalara,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-745,2026-09-19,Deiby,Pizzería Nels,Local,Calle 29 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+745,nan,Deiby,Pizzería Nels,Local,Calle 29 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
