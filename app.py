@@ -167,8 +167,8 @@ elif opcion_menu == " Registrar Vuelta":
         btn_registro = st.form_submit_button("🚀 Precargar / Registrar Vuelta", type="primary", use_container_width=True)
 
         if btn_registro:
-            # Tomar directamente el valor asignado al widget date_input del formulario
-            if fecha_fija_input:
+            # Capturar la fecha del selector directamente
+            if 'fecha_fija_input' in locals() and fecha_fija_input:
                 fecha_str = fecha_fija_input.strftime("%Y-%m-%d")
             else:
                 fecha_str = date.today().strftime("%Y-%m-%d")
