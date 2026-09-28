@@ -759,6 +759,6 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 758,2026-09-20 12:00,Deiby,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 759,2026-09-20 12:00,Deiby,1313Bqto,Local,Carr 19 con 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 760,,Deiby,Mundo de Regalos Luz,Barquicenter,Cosmos,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-761,2026-09-21,Deiby,1313Bqto,Local,Cerro Gordo,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-762,2026-09-21,Deiby,1313Bqto,Local,Carr 22 con 10,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-763,2026-09-21,Deiby,1313Bqto,Local,Clinica Canabal,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+761,2026-09-21 12:00,Deiby,1313Bqto,Local,Cerro Gordo,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+762,2026-09-21 12:00,Deiby,1313Bqto,Local,Carr 22 con 10,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+763,2026-09-21 12:00,Deiby,1313Bqto,Local,Clinica Canabal,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
