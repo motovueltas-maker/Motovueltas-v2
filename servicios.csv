@@ -611,7 +611,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 610,2026-09-21 12:00,Esneyder,Chalong Detalles,Local,Calle 61 con 13,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
 611,2026-09-21 12:00,Esneyder,Chalong Detalles,Local,Calle 28 con 30,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
 612,2026-09-21 12:00,Deiby,Chalong Detalles,Local,Ascardio,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
-613,2026-09-21 12:00,Esneyder,Chalong Detalles,Local,Piedad Norte,,5.0,100.0,5.0,0.0,Validado,Pagado,Pendiente
+613,2026-09-21 12:00,Deiby,Chalong Detalles,Local,Piedad Norte,,5.0,70.0,3.5,1.5,Validado,Pagado,Pendiente
 614,2026-09-21 12:00,Esneyder,Chalong Detalles,Local,Calle 49 con 18,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
 615,2026-09-21 12:00,Esneyder,Chalong Detalles,Local,Carr 16 con 31,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
 616,2026-09-21 12:00,Esneyder,Chalong Detalles,Local,Torre Bicentenario,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
