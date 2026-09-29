@@ -827,5 +827,5 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 826,2026-09-27 12:00,Deiby,Monkey,Local,San Jacinto,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 827,2026-09-27 12:00,Deiby,1313Bqto,Local,Calle 16 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 828,2026-09-19 12:00,Deiby,Antojitos,Local,Calle 23 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-829,2026-09-09,Esneyder,Dr David Colmenarez,Local,Laboratorio,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
-830,2026-09-09,Esneyder,Dr David Colmenarez,Local,Laboratorio (PM),,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
+829,2026-09-09 12:00,Esneyder,Dr David Colmenarez,Local,Laboratorio,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
+830,2026-09-09 12:00,Esneyder,Dr David Colmenarez,Local,Laboratorio (PM),,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
