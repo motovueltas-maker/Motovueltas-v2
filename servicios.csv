@@ -764,9 +764,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 763,2026-09-21 12:00,Deiby,1313Bqto,Local,Clinica Canabal,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 764,2026-09-21 12:00,Deiby,1313Bqto,Local,Calle 20 con 19,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 765,,Deiby,Catas Food,Local,Capital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-766,2026-09-19 12:00,Deiby,Greychit Contreras,Local,Chilamas/Bequito,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+766,2026-09-22 12:00,Deiby,Greychit Contreras,Local,Chilamas/Bequito,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 767,,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-768,2026-09-22 12:00,Deiby,Greychit Contreras,Chilamas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+768,2026-09-19 12:00,Deiby,Greychit Contreras,Local,Bequito/Local,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 769,,Deiby,Marijo UEMICA,Local,Contadora Marianelin,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 770,,Deiby,Cliente Eventual,Carr 23 con 8,Res del Este Ana Karina,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 771,,Deiby,Cliente Eventual,Ucla Adm,Res del Este,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
