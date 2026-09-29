@@ -775,3 +775,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 774,2026-09-22 12:00,Deiby,Cliente Eventual,Farmatodo,Ruezga,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 775,2026-09-22 12:00,Deiby,1313Bqto,Local,Calle 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 776,2026-09-23,Deiby,Dhamilet Ramírez,Charcutería,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+777,2026-09-23,Deiby,KingSport Maricela,Centro,Av Vargas,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
