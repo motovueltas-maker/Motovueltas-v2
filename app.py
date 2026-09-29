@@ -450,7 +450,8 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
                 if filtro_mot and filtro_mot != "Todos":
                     df_filtrado = df_filtrado[df_filtrado['motorizado'].astype(str).str.strip().str.lower() == filtro_mot.strip().lower()]
 
-                df_filtrado['fecha_real'] = pd.to_datetime(df_filtrado['fecha'], errors='coerce').dt.strftime('%Y-%m-%d')
+                fechas_dt_tabla = pd.to_datetime(df_filtrado['fecha'], dayfirst=True, errors='coerce')
+                df_filtrado['fecha_real'] = fechas_dt_tabla.dt.strftime('%Y-%m-%d').fillna(df_filtrado['fecha'].astype(str).str.strip().str[:10])
                 df_filtrado['eliminar'] = False
                 st.markdown(f"**Vueltas encontradas:** {len(df_filtrado)}")
 
