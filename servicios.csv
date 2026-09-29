@@ -731,7 +731,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 730,2026-09-26 12:00,Esneyder,Chalong Detalles,Local,Calle 55 con Pedro Leon,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
 731,,Esneyder,Candy Cakes Michelle,Local,Pedregal,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
 732,2026-09-24 12:00,Deiby,Candy Cakes Michelle,Local,Bararida,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
-733,2026-09-25 12:00,Esneyder,Candy Cakes Michelle,Local,Damasco Av Vzla,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
+733,2026-09-25 12:00,Deiby,Candy Cakes Michelle,Local,Damasco Av Vzla,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
 734,2026-09-28 12:00,Esneyder,Candy Cakes Michelle,Local,Corpoelec Av Carabobo,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
 735,,Deiby,Cielo Isamar Mendoza,Parque Real,Vivero Ribereña,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 736,,Deiby,Marianelin Carrasco Contadora,Panadería New York,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
