@@ -473,7 +473,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 474,,Deiby,Marianelin Carrasco Contadora,24 con 25,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 475,,Deiby,Rep Arteaga Norexi,Local,San Jacinto,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 476,,Deiby,Candy Cakes Michelle,Local,Babilon,,3.5,70.0,2.45,1.05,Validado,Pagado,Pendiente
-477,,Deiby,1313Bqto,Local,Luso Larense,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+477,nan,Deiby,1313Bqto,Local,Luso Larense,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 478,,Deiby,Monkey,Valle Hondo,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 479,,Deiby,Cielo Isamar Mendoza,CC Paris,Monte Real,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 480,,Deiby,Cliente Eventual,CC Industrial,Kingsport ida y vuelta,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
@@ -483,17 +483,17 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 484,,Deiby,Harmonia Skarlet,Local,Insuservi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 485,,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 486,,Deiby,Adrys,Comercial Castillo,Calle 13,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-487,,Deiby,1313Bqto,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-488,,Deiby,1313Bqto,Local,El Roble,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-489,,Deiby,1313Bqto,Local,Madeira,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+487,nan,Deiby,1313Bqto,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+488,nan,Deiby,1313Bqto,Local,El Roble,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+489,nan,Deiby,1313Bqto,Local,Madeira,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 490,,Deiby,Cliente Eventual,Moyetones,El Carmen,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 491,,Deiby,Candy Cakes Michelle,Local,Carr 24 con 10,,1.0,70.0,0.7,0.3,Validado,Pagado,Pendiente
 492,,Deiby,Monkey,Local,19 con 11,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 493,,Deiby,Monkey,Local,14 con 21,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-494,,Deiby,1313Bqto,Local,Calle 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+494,nan,Deiby,1313Bqto,Local,Calle 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 495,,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 496,,Deiby,Monkey,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-497,nan,Deiby,Pizzería Nels,Local,Calle 35 con 29,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+497,,Deiby,Pizzería Nels,Local,Calle 35 con 29,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 498,,Deiby,Monkey,Local,Carr 21 con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 499,,Deiby,Monkey,Local,Calle 22 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 500,,Deiby,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
@@ -507,14 +507,14 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 508,,Deiby,Clinivet,Local,Zoomedical,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 509,,Deiby,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 510,,Deiby,Dhamilet Ramírez,Charcutería,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-511,,Deiby,1313Bqto,Local,Arca,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-512,,Deiby,1313Bqto,Local,Luso,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-513,,Deiby,1313Bqto,Local,Calle 28 con 17,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+511,nan,Deiby,1313Bqto,Local,Arca,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+512,nan,Deiby,1313Bqto,Local,Luso,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+513,nan,Deiby,1313Bqto,Local,Calle 28 con 17,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 514,,Deiby,Adrys,Local,MRW y Zoom,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 515,,Deiby,Cliente Eventual,Clinivet,El Carmen,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 516,,Deiby,Harmonia Skarlet,Local,Av 20 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-517,,Deiby,1313Bqto,Local,Luis Gomez Lopez,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-518,,Deiby,1313Bqto,Local,Urb Terepaima,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+517,nan,Deiby,1313Bqto,Local,Luis Gomez Lopez,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+518,nan,Deiby,1313Bqto,Local,Urb Terepaima,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 519,,Deiby,Rep Arteaga Norexi,Local,Zoom,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 520,,Deiby,Fresas Delivery Rebeca,Local,Florencio Jimenez (George),,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 521,,Deiby,Fresas Delivery Rebeca,Local,48 con 29 (Genesis),,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
@@ -522,23 +522,23 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 523,,Deiby,Monkey,Altamira,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 524,,Deiby,Clinivet,Vidapets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 525,,Deiby,Dhamilet Ramírez,Pollo Market,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-526,,Deiby,1313Bqto,Local,Hospital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+526,nan,Deiby,1313Bqto,Local,Hospital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 527,,Deiby,Monkey,Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 528,,Deiby,Antojitos,Local,Fundalara,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-529,,Deiby,1313Bqto,Local,Agua Viva,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-530,,Deiby,1313Bqto,Local,24 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-531,,Deiby,1313Bqto,Local,Carr 24 con 10,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+529,nan,Deiby,1313Bqto,Local,Agua Viva,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+530,nan,Deiby,1313Bqto,Local,24 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+531,nan,Deiby,1313Bqto,Local,Carr 24 con 10,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 532,,Deiby,Monkey,Local,Obelisco,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-533,,Deiby,1313Bqto,Local,38 con 17,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+533,nan,Deiby,1313Bqto,Local,38 con 17,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 534,,Deiby,Monkey,Compra Molino,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 535,,Deiby,Monkey,Local,Fundalara,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 536,,Deiby,Monkey,Local,Tarabana Plaza,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 537,,Deiby,Monkey,Local,Fundación Mendoza,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 538,2026-09-19 12:00,Deiby,Monkey,Local,Abogados con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-539,,Deiby,1313Bqto,Local,Ubicacion,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-540,,Deiby,1313Bqto,Local,22 con 14,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-541,,Deiby,1313Bqto,Local,El Ujano,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-542,,Deiby,1313Bqto,Local,13 de Abril,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+539,nan,Deiby,1313Bqto,Local,Ubicacion,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+540,nan,Deiby,1313Bqto,Local,22 con 14,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+541,nan,Deiby,1313Bqto,Local,El Ujano,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+542,nan,Deiby,1313Bqto,Local,13 de Abril,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 543,,Deiby,Antojitos,Local,Calle 26 con 31,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 544,,Deiby,Mundo de Regalos Luz,Local,Torre DaVinci,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 545,,Deiby,Chalong Case,Local,30 con 21,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
@@ -552,13 +552,13 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 553,,Deiby,Candy Cakes Michelle,Local,Moran con 21,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
 554,,Deiby,Adrys,Local,MRW y Zoom,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 555,,Deiby,Adrys,Local,Agua Miel,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-556,,Deiby,1313Bqto,Local,25 con 12 y 13,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-557,,Deiby,1313Bqto,Local,Calle 22 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-558,,Deiby,1313Bqto,Local,Carr 24 con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-559,,Deiby,1313Bqto,Local,Arca,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-560,,Deiby,1313Bqto,Local,Hospital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-561,,Deiby,1313Bqto,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-562,,Deiby,1313Bqto,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+556,nan,Deiby,1313Bqto,Local,25 con 12 y 13,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+557,nan,Deiby,1313Bqto,Local,Calle 22 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+558,nan,Deiby,1313Bqto,Local,Carr 24 con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+559,nan,Deiby,1313Bqto,Local,Arca,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+560,nan,Deiby,1313Bqto,Local,Hospital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+561,nan,Deiby,1313Bqto,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+562,nan,Deiby,1313Bqto,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 563,2026-08-27 12:00,Deiby,Cielo Isamar Mendoza,Parque Real,Segradi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 564,,Deiby,Pinpanpon Vanessa Barraez,Local,Cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 563,2026-08-27 00:58,Deiby,Cielo Isamar Mendoza,Parque Real,Segradi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -743,7 +743,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 742,2026-09-19 12:00,Deiby,Greychit Contreras,Tiendas Chilamas,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 743,2026-09-19 12:00,Deiby,Adrys,Local,Res Mariela,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 744,2026-09-19 12:00,Deiby,1313Bqto,Local,Fundalara,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-745,nan,Deiby,Pizzería Nels,Local,Calle 29 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+745,,Deiby,Pizzería Nels,Local,Calle 29 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 746,2026-09-19 12:00,Deiby,Pizzería Nels,Local,Calle 29 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 747,2026-09-19 12:00,Deiby,1313Bqto,Local,Plaza Caribe,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 748,2026-09-19 12:00,Deiby,1313Bqto,Local,Uruguay con Ribereña,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -773,7 +773,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 772,2026-09-22 12:00,Deiby,Marianelin Carrasco Contadora,Luis Miguel ABC,31 con 31,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 773,2026-09-22 12:00,Deiby,Pizzería Nels,Local,San José,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 774,2026-09-22 12:00,Deiby,Cliente Eventual,Farmatodo,Ruezga,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-775,,Deiby,1313Bqto,Local,Calle 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+775,2026-09-22 12:00,Deiby,1313Bqto,Local,Calle 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 776,2026-09-23 12:00,Deiby,Dhamilet Ramírez,Charcutería,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 777,,Deiby,KingSport Maricela,Centro,Av Vargas,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 778,2026-09-23 12:00,Deiby,KingSport Maricela,Centro,Av Vargas,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
@@ -821,9 +821,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 820,2026-09-26 12:00,Deiby,Monkey,Local,Calle 32 con 19,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 821,2026-09-26 12:00,Deiby,1313Bqto,Local,Villa Esmeralda,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 822,2026-09-26 12:00,Deiby,1313Bqto,Local,18 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-823,,Deiby,1313Bqto,Local,Parque del Este,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-824,,Deiby,1313Bqto,Local,24 con 36,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+823,nan,Deiby,1313Bqto,Local,Parque del Este,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+824,nan,Deiby,1313Bqto,Local,24 con 36,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 825,,Deiby,Monkey,Local,Calle 29 con 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 826,,Deiby,Monkey,Local,San Jacinto,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-827,,Deiby,1313Bqto,Local,Calle 16 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+827,nan,Deiby,1313Bqto,Local,Calle 16 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 828,2026-09-19 12:00,Deiby,Antojitos,Local,Calle 23 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
