@@ -794,3 +794,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 793,2026-09-23 12:00,Deiby,1313Bqto,Local,Ruiz Pineda,,5.5,70.0,3.85,1.65,Validado,Pendiente,Pendiente
 794,2026-09-24 12:00,Deiby,Chalong Case,Local,Tealca,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 795,2026-09-24 12:00,Deiby,Cliente Eventual,Monkey,Monterreal,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+796,2026-09-24,Deiby,Adrys,Local,Calle 27 con 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
