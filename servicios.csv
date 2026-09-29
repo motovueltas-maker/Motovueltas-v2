@@ -823,3 +823,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 822,2026-09-26 12:00,Deiby,1313Bqto,Local,18 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 823,2026-09-27,Deiby,1313Bqto,Local,Parque del Este,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 824,2026-09-27,Deiby,1313Bqto,Local,24 con 36,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+825,2026-09-27,Deiby,Monkey,Local,Calle 29 con 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
