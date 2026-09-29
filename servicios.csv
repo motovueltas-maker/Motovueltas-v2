@@ -72,12 +72,12 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 73,,Jhoiner,Clinivet,Agromascotas ,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 74,,Esneyder,Clinivet,Dra Santaeliz,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 75,,Esneyder,Clinivet,Dra Neida,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-76,nan,Deiby,Clinivet,Dra Neida,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+76,,Deiby,Clinivet,Dra Neida,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 77,,Esneyder,Clinivet,Dra Geomary ,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-78,nan,Deiby,Clinivet,Agromascotas ,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+78,,Deiby,Clinivet,Agromascotas ,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 79,,Esneyder,Clinivet,Dra Pire ,Local,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 80,,Esneyder,Clinivet,Agromascotas PM,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-81,nan,Deiby,Clinivet,Dra Neida,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+81,,Deiby,Clinivet,Dra Neida,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 82,,Esneyder,Monkey,Valle Hondo,Local,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 83,,Esneyder,Monkey,Local,Calle 37 con 30,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 84,,Jhoiner,Monkey,Compras Uniprec,Local,,1.5,33.33,0.5,1.0,Validado,Pendiente,Pagado
@@ -478,10 +478,10 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 479,,Deiby,Cielo Isamar Mendoza,CC Paris,Monte Real,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 480,,Deiby,Cliente Eventual,CC Industrial,Kingsport ida y vuelta,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 481,,Deiby,Cliente Eventual,Calle 8 con 25,Calle 21 con 16,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-482,nan,Deiby,Clinivet,Dra Katherine Pire,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+482,,Deiby,Clinivet,Dra Katherine Pire,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 483,,Deiby,Catas Food,Local,Capital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 484,,Deiby,Harmonia Skarlet,Local,Insuservi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-485,nan,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+485,,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 486,,Deiby,Adrys,Comercial Castillo,Calle 13,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 487,,Deiby,1313Bqto,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 488,,Deiby,1313Bqto,Local,El Roble,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
@@ -491,7 +491,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 492,,Deiby,Monkey,Local,19 con 11,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 493,,Deiby,Monkey,Local,14 con 21,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 494,,Deiby,1313Bqto,Local,Calle 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-495,nan,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+495,,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 496,,Deiby,Monkey,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 497,,Deiby,Pizzería Nels,Local,Calle 35 con 29,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 498,,Deiby,Monkey,Local,Carr 21 con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -499,12 +499,12 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 500,,Deiby,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 501,,Deiby,Mundo de Regalos Luz,Local,40 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 502,,Deiby,Harmonia Skarlet,Local,Todo Salud,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-503,,Deiby,Marijo UEMICA,Uniformes Lara,Local,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+503,nan,Deiby,Marijo UEMICA,Uniformes Lara,Local,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 504,,Deiby,Candy Cakes Michelle,Local,Pedregal,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
 505,,Deiby,Marianella K Beauty,Local,Parque La Música,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 506,,Deiby,Cliente Eventual,Nataly desde Sambil,Country Park,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-507,nan,Deiby,Clinivet,Vidapets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-508,nan,Deiby,Clinivet,Local,Zoomedical,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+507,,Deiby,Clinivet,Vidapets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+508,,Deiby,Clinivet,Local,Zoomedical,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 509,,Deiby,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 510,,Deiby,Dhamilet Ramírez,Charcutería,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 511,,Deiby,1313Bqto,Local,Arca,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -520,7 +520,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 521,,Deiby,Fresas Delivery Rebeca,Local,48 con 29 (Genesis),,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 522,,Deiby,Cliente Eventual,62 con 13,Nueva Segovia,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 523,,Deiby,Monkey,Altamira,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-524,nan,Deiby,Clinivet,Vidapets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+524,,Deiby,Clinivet,Vidapets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 525,,Deiby,Dhamilet Ramírez,Pollo Market,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 526,,Deiby,1313Bqto,Local,Hospital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 527,,Deiby,Monkey,Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -767,7 +767,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 766,2026-09-22 12:00,Deiby,Greychit Contreras,Local,Chilamas/Bequito,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 767,2026-09-22 12:00,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 768,2026-09-19 12:00,Deiby,Greychit Contreras,Local,Bequito/Local,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-769,,Deiby,Marijo UEMICA,Local,Contadora Marianelin,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+769,2026-09-22 12:00,Deiby,Marijo UEMICA,Local,Contadora Marianelin,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 770,,Deiby,Cliente Eventual,Carr 23 con 8,Res del Este Ana Karina,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 771,,Deiby,Cliente Eventual,Ucla Adm,Res del Este,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 772,,Deiby,Marianelin Carrasco Contadora,Luis Miguel ABC,31 con 31,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
