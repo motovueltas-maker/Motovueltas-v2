@@ -119,24 +119,24 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 122,,Jhoiner,Monkey,Perfume 35 con 28,Local,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
 123,,Esneyder,Monkey,Compras Molino,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 124,,Jhoiner,Monkey,Barrio Union,Campana,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pagado
-125,,Esneyder,Adrys,Local,El Informador,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
-126,,Esneyder,Adrys,Local,Carr 17 con 28,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
-127,,Esneyder,Adrys,Local,Carr 22 con 41,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
-128,,Esneyder,Adrys,Local,Clinica Razetti,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
-129,,Esneyder,Adrys,Local,MRW,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
-130,,Esneyder,Adrys,Local,Zoom,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
-131,,Esneyder,Adrys,Local,MRW,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
-132,,Esneyder,Adrys,Local,Torre Cristal,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
-133,,Esneyder,Adrys,Local,Urb La Puerta,,5.0,100.0,5.0,0.0,Validado,Pagado,Pendiente
-134,,Esneyder,Adrys,Local,Nova West,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
-135,,Esneyder,Adrys,Local,Carr 23 con 41,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
-136,,Esneyder,Adrys,Local,Pueblo Nuevo,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
-137,,Esneyder,Adrys,Local,19 con 44,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
-138,,Esneyder,Adrys,Local,Farmatodo de la 8,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
-139,,Esneyder,Adrys,Local,El Manzano,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
-140,,Esneyder,Adrys,Local,Calle 17 con 24,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
-141,,Jhoiner,Adrys,Local,La Sucre,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
-142,,Esneyder,Adrys,Local,Calle 21 con 31,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
+125,nan,Esneyder,Adrys,Local,El Informador,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
+126,nan,Esneyder,Adrys,Local,Carr 17 con 28,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
+127,nan,Esneyder,Adrys,Local,Carr 22 con 41,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
+128,nan,Esneyder,Adrys,Local,Clinica Razetti,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
+129,nan,Esneyder,Adrys,Local,MRW,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
+130,nan,Esneyder,Adrys,Local,Zoom,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
+131,nan,Esneyder,Adrys,Local,MRW,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
+132,nan,Esneyder,Adrys,Local,Torre Cristal,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
+133,nan,Esneyder,Adrys,Local,Urb La Puerta,,5.0,100.0,5.0,0.0,Validado,Pagado,Pendiente
+134,nan,Esneyder,Adrys,Local,Nova West,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
+135,nan,Esneyder,Adrys,Local,Carr 23 con 41,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
+136,nan,Esneyder,Adrys,Local,Pueblo Nuevo,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
+137,nan,Esneyder,Adrys,Local,19 con 44,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
+138,nan,Esneyder,Adrys,Local,Farmatodo de la 8,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
+139,nan,Esneyder,Adrys,Local,El Manzano,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
+140,nan,Esneyder,Adrys,Local,Calle 17 con 24,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
+141,nan,Jhoiner,Adrys,Local,La Sucre,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
+142,nan,Esneyder,Adrys,Local,Calle 21 con 31,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
 143,,Esneyder,Chalong Detalles,Local,Calle 23 con 20,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
 144,,Jhoiner,Chalong Detalles,Local,Merpolara,,2.0,33.33,0.67,1.33,Validado,Pagado,Pagado
 145,,Deiby,Chalong Detalles,Local,Calle 11 con 25,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
@@ -482,7 +482,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 483,,Deiby,Catas Food,Local,Capital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 484,,Deiby,Harmonia Skarlet,Local,Insuservi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 485,,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-486,,Deiby,Adrys,Comercial Castillo,Calle 13,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+486,nan,Deiby,Adrys,Comercial Castillo,Calle 13,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 487,,Deiby,1313Bqto,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 488,,Deiby,1313Bqto,Local,El Roble,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 489,,Deiby,1313Bqto,Local,Madeira,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
@@ -510,7 +510,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 511,,Deiby,1313Bqto,Local,Arca,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 512,,Deiby,1313Bqto,Local,Luso,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 513,,Deiby,1313Bqto,Local,Calle 28 con 17,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-514,,Deiby,Adrys,Local,MRW y Zoom,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+514,nan,Deiby,Adrys,Local,MRW y Zoom,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 515,,Deiby,Cliente Eventual,Clinivet,El Carmen,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 516,,Deiby,Harmonia Skarlet,Local,Av 20 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 517,,Deiby,1313Bqto,Local,Luis Gomez Lopez,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -524,7 +524,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 525,,Deiby,Dhamilet Ramírez,Pollo Market,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 526,,Deiby,1313Bqto,Local,Hospital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 527,,Deiby,Monkey,Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-528,nan,Deiby,Antojitos,Local,Fundalara,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+528,,Deiby,Antojitos,Local,Fundalara,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 529,,Deiby,1313Bqto,Local,Agua Viva,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 530,,Deiby,1313Bqto,Local,24 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 531,,Deiby,1313Bqto,Local,Carr 24 con 10,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -539,19 +539,19 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 540,,Deiby,1313Bqto,Local,22 con 14,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 541,,Deiby,1313Bqto,Local,El Ujano,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 542,,Deiby,1313Bqto,Local,13 de Abril,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-543,nan,Deiby,Antojitos,Local,Calle 26 con 31,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+543,,Deiby,Antojitos,Local,Calle 26 con 31,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 544,,Deiby,Mundo de Regalos Luz,Local,Torre DaVinci,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 545,,Deiby,Chalong Case,Local,30 con 21,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 546,,Deiby,Chalong Case,Local,Merkafur Sambil,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 547,,Deiby,Cliente Eventual,Torre Continental,Venchi,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 548,,Deiby,Catas Food,Local,Capital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-549,,Deiby,Adrys,Casa,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+549,nan,Deiby,Adrys,Casa,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 550,,Deiby,Chalong Case,Local,Los Cardones,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 551,,Esneyder,Chalong Case,Local,La Carucieña,,5.0,100.0,5.0,0.0,Validado,Pendiente,Pendiente
 552,,Deiby,Dhamilet Ramírez,Charcuteria,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 553,,Deiby,Candy Cakes Michelle,Local,Moran con 21,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
-554,,Deiby,Adrys,Local,MRW y Zoom,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-555,,Deiby,Adrys,Local,Agua Miel,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+554,nan,Deiby,Adrys,Local,MRW y Zoom,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+555,nan,Deiby,Adrys,Local,Agua Miel,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 556,,Deiby,1313Bqto,Local,25 con 12 y 13,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 557,,Deiby,1313Bqto,Local,Calle 22 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 558,,Deiby,1313Bqto,Local,Carr 24 con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -736,12 +736,12 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 735,,Deiby,Cielo Isamar Mendoza,Parque Real,Vivero Ribereña,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 736,2026-09-18 12:00,Deiby,Marianelin Carrasco Contadora,Panadería New York,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 737,2026-09-18 12:00,Deiby,Antojitos,Local,Seguro de la 50,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-738,,Deiby,Adrys,Local,Calle 23 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+738,2026-09-18 12:00,Deiby,Adrys,Local,Calle 23 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 739,2026-09-18 12:00,Deiby,Cielo Isamar Mendoza,Creaciones Napy,Vargas con Vzla,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 740,2026-09-18 12:00,Deiby,Catas Food,Local,Capital Plaza,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 741,2026-09-18 12:00,Deiby,1313Bqto,Local,Calle 28 con 16,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 742,,Deiby,Greychit Contreras,Tiendas Chilamas,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-743,,Deiby,Adrys,Local,Res Mariela,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+743,nan,Deiby,Adrys,Local,Res Mariela,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 744,,Deiby,1313Bqto,Local,Fundalara,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 745,,Deiby,Pizzería Nels,Local,Calle 29 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 746,,Deiby,Pizzería Nels,Local,Calle 29 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
