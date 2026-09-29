@@ -598,7 +598,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 597,2026-09-18 12:00,Deiby,Chalong Detalles,Local,Edificio Nacional,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
 598,,Esneyder,Chalong Detalles,Local,Loma Alta,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
 599,2026-09-18 12:00,Deiby,Chalong Detalles,Local,Arboleda,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
-600,2026-09-18 12:00,Deiby,Chalong Detalles,Local,Ascardio,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
+600,2026-09-18 12:00,Deiby,Chalong Detalles,Local,Ascardio,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
 601,2026-09-19 12:00,Deiby,Chalong Detalles,Local,Prados del Norte,,6.0,70.0,4.2,1.8,Validado,Pagado,Pendiente
 602,2026-09-21 12:00,Deiby,Chalong Detalles,Local,Super 29,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
 603,2026-09-21 12:00,Deiby,Chalong Detalles,Local,Torre Higea,,1.0,70.0,0.7,0.3,Validado,Pagado,Pendiente
