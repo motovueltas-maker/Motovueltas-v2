@@ -462,7 +462,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 462,,Esneyder,KingSport Maricela,Centro,Colegio San Pedro,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 463,,Deiby,Marianelin Carrasco Contadora,Panadería New York,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 464,,Deiby,KingSport Maricela,Cosmos/Centro,Este,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-465,,Deiby,Cielo Isamar Mendoza,Plaza Sevilla,Cosmos,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+465,nan,Deiby,Cielo Isamar Mendoza,Plaza Sevilla,Cosmos,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 466,2026-09-18 12:00,Deiby,Catas Food,Local,Capital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 467,,Deiby,Rori,Local,Monte Real,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 468,,Deiby,Monkey,Local,Nueva Segovia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -475,7 +475,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 476,,Deiby,Candy Cakes Michelle,Local,Babilon,,3.5,70.0,2.45,1.05,Validado,Pagado,Pendiente
 477,,Deiby,1313Bqto,Local,Luso Larense,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 478,,Deiby,Monkey,Valle Hondo,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-479,,Deiby,Cielo Isamar Mendoza,CC Paris,Monte Real,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+479,nan,Deiby,Cielo Isamar Mendoza,CC Paris,Monte Real,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 480,,Deiby,Cliente Eventual,CC Industrial,Kingsport ida y vuelta,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 481,,Deiby,Cliente Eventual,Calle 8 con 25,Calle 21 con 16,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 482,,Deiby,Clinivet,Dra Katherine Pire,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
@@ -559,7 +559,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 560,,Deiby,1313Bqto,Local,Hospital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 561,,Deiby,1313Bqto,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 562,,Deiby,1313Bqto,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-563,,Deiby,Cielo Isamar Mendoza,Parque Real,Segradi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+563,2026-08-27 12:00,Deiby,Cielo Isamar Mendoza,Parque Real,Segradi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 564,,Deiby,Pinpanpon Vanessa Barraez,Local,Cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 563,2026-08-27 00:58,Deiby,Cielo Isamar Mendoza,Parque Real,Segradi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 564,2026-08-27 01:00,Deiby,Pinpanpon Vanessa Barraez,Local,Cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
@@ -733,7 +733,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 732,2026-09-24 12:00,Deiby,Candy Cakes Michelle,Local,Bararida,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
 733,2026-09-25 12:00,Deiby,Candy Cakes Michelle,Local,Damasco Av Vzla,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
 734,2026-09-28 12:00,Esneyder,Candy Cakes Michelle,Local,Corpoelec Av Carabobo,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
-735,,Deiby,Cielo Isamar Mendoza,Parque Real,Vivero Ribereña,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+735,2026-09-18 12:00,Deiby,Cielo Isamar Mendoza,Parque Real,Vivero Ribereña,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 736,2026-09-18 12:00,Deiby,Marianelin Carrasco Contadora,Panadería New York,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 737,2026-09-18 12:00,Deiby,Antojitos,Local,Seguro de la 50,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 738,2026-09-18 12:00,Deiby,Adrys,Local,Calle 23 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
