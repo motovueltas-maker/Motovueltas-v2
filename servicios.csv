@@ -792,3 +792,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 791,2026-09-23 12:00,Deiby,1313Bqto,Pollera,1313,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 792,2026-09-23 12:00,Deiby,1313Bqto,Local,Calle 35 con 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 793,2026-09-23 12:00,Deiby,1313Bqto,Local,Ruiz Pineda,,5.5,70.0,3.85,1.65,Validado,Pendiente,Pendiente
+794,2026-09-24,Deiby,Chalong Case,Local,Tealca,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
