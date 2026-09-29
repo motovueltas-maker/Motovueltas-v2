@@ -723,7 +723,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 722,,Esneyder,Flores Sonrisa Inyerly,Local,Sambil,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
 723,2026-09-24 12:00,Esneyder,Chalong Detalles,Local,Domo Bolivariano,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
 724,2026-09-24 12:00,Esneyder,Chalong Detalles,Local,Zona Industrial I,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
-725,2026-09-24 12:00,Esneyder,Chalong Detalles,Local,Carr 22 con 50,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
+725,2026-09-24 12:00,Deiby,Chalong Detalles,Local,Carr 22 con 50,,4.0,70.0,2.8,1.2,Validado,Pagado,Pendiente
 726,2026-09-24 12:00,Esneyder,Chalong Detalles,Local,5 de Julio,,6.0,100.0,6.0,0.0,Validado,Pagado,Pendiente
 727,2026-09-25 12:00,Esneyder,Chalong Detalles,Local,Calle 28 con 19,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
 728,2026-09-26 12:00,Esneyder,Chalong Detalles,Local,Santa Rosa,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
@@ -792,4 +792,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 791,2026-09-23 12:00,Deiby,1313Bqto,Pollera,1313,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 792,2026-09-23 12:00,Deiby,1313Bqto,Local,Calle 35 con 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 793,2026-09-23 12:00,Deiby,1313Bqto,Local,Ruiz Pineda,,5.5,70.0,3.85,1.65,Validado,Pendiente,Pendiente
-794,nan,Deiby,Chalong Case,Local,Tealca,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+794,,Deiby,Chalong Case,Local,Tealca,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
