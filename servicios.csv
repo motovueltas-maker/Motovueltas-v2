@@ -595,7 +595,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 594,,Esneyder,Chalong Detalles,Local,Boulevard Center,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
 595,,Esneyder,Chalong Detalles,Local,Carr 22 con 11,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
 596,,Esneyder,Chalong Detalles,Local,Calle 32 con 30,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
-597,2026-09-18 12:00,Deiby,Chalong Detalles,Local,Edificio Nacional,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
+597,2026-09-18 12:00,Deiby,Chalong Detalles,Local,Edificio Nacional,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
 598,,Esneyder,Chalong Detalles,Local,Loma Alta,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
 599,2026-09-18 12:00,Deiby,Chalong Detalles,Local,Arboleda,,3.5,70.0,2.45,1.05,Validado,Pagado,Pendiente
 600,,Deiby,Chalong Detalles,Local,Ascardio,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
