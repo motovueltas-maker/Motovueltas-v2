@@ -337,7 +337,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 337,,Jhoiner,1313Bqto,Local,Moran con 28,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 338,,Jhoiner,1313Bqto,Local,38 con 20,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 339,,Jhoiner,1313Bqto,Local,Transporte DIana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
-340,nan,Jhoiner,Dr David Colmenarez,Local,Laboratorio,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
+340,2026-08-30 12:00,Esneyder,Dr David Colmenarez,Local,Laboratorio,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pagado
 341,,Jhoiner,Dra Gabriela Rizzotto,Local,Obelisco,,5.0,33.33,1.67,3.33,Validado,Pendiente,Pagado
 342,,Jhoiner,1313Bqto,Local,Cancha de la 13,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
 343,,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
