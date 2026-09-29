@@ -335,19 +335,19 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
             with col_f2:
                 f_hasta_c = st.date_input("Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", key="f_hasta_corte")
 
-        # --- CÓDIGO CORREGIDO Y ROBUSTO ---
+        # --- CÓDIGO CORREGIDO (COMPARACIÓN POR YYYY-MM-DD) ---
         fechas_dt = pd.to_datetime(df_cli_all['fecha'], dayfirst=True, errors='coerce')
+        fechas_str = fechas_dt.dt.strftime('%Y-%m-%d').fillna(df_cli_all['fecha'].astype(str).str.strip().str[:10])
 
-        if f_desde_c and f_hasta_c:
-            d_dt = pd.to_datetime(f_desde_c)
-            h_dt = pd.to_datetime(f_hasta_c)
-            pendientes = df_cli_all[(fechas_dt >= d_dt) & (fechas_dt <= h_dt)].copy()
-        elif f_desde_c:
-            d_dt = pd.to_datetime(f_desde_c)
-            pendientes = df_cli_all[fechas_dt >= d_dt].copy()
-        elif f_hasta_c:
-            h_dt = pd.to_datetime(f_hasta_c)
-            pendientes = df_cli_all[fechas_dt <= h_dt].copy()
+        d_str = f_desde_c.strftime('%Y-%m-%d') if f_desde_c else None
+        h_str = f_hasta_c.strftime('%Y-%m-%d') if f_hasta_c else None
+
+        if d_str and h_str:
+            pendientes = df_cli_all[(fechas_str >= d_str) & (fechas_str <= h_str)].copy()
+        elif d_str:
+            pendientes = df_cli_all[fechas_str >= d_str].copy()
+        elif h_str:
+            pendientes = df_cli_all[fechas_str <= h_str].copy()
         else:
             pendientes = df_cli_all[df_cli_all['estado_cliente'] == 'Pendiente'].copy()
 
