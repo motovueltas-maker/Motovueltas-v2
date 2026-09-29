@@ -795,7 +795,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 794,2026-09-24 12:00,Deiby,Chalong Case,Local,Tealca,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 795,2026-09-24 12:00,Deiby,Cliente Eventual,Monkey,Monterreal,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 796,2026-09-24 12:00,Deiby,Adrys,Local,Calle 27 con 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-797,2026-09-24 12:00,Deiby,Adrys,Local,Calle 14 Envío,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+797,2026-09-24 12:00,Deiby,Adrys,Local,Calle 14 Envío,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 798,2026-09-24 12:00,Deiby,1313Bqto,Local,Andrés Eloy,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 799,2026-09-24 12:00,Deiby,Monkey,Local,Lara Palace,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 800,2026-09-24 12:00,Deiby,1313Bqto,Local,Veragacha,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
