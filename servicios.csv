@@ -155,22 +155,22 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 158,,Deiby,Chalong Detalles,Local,Cabudare,,4.0,70.0,2.8,1.2,Validado,Pagado,Pendiente
 159,,Deiby,Chalong Detalles,Local,Santa Rosa,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
 160,,Esneyder,Chalong Detalles,Local,Metropolitano Javier,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
-161,nan,Esneyder,Chalong Case,Local,Villa Paris,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
-162,nan,Jhoiner,Chalong Case,Local,Metropolitano Javier,,4.0,33.33,1.33,2.67,Validado,Pagado,Pagado
-163,nan,Jhoiner,Chalong Case,Local,Las Acacias,,3.5,33.33,1.17,2.33,Validado,Pagado,Pagado
-164,nan,Jhoiner,Chalong Case,Local,MRW y ZOOM,,3.0,33.33,1.0,2.0,Validado,Pagado,Pagado
-165,nan,Jhoiner,Chalong Case,Local,Carr 19 con 22,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
-166,nan,Esneyder,Chalong Case,Local,Monte Real Casa 12,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
-167,nan,Esneyder,Chalong Case,Local,Monte Real Casa 71,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
-168,nan,Esneyder,Chalong Case,Local,Carr 23 con 27,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
-169,nan,Jhoiner,Chalong Case,Local,Villa Paris,,3.5,33.33,1.17,2.33,Validado,Pagado,Pendiente
-170,nan,Omar,Chalong Case,Local,27 con 23,,3.0,66.66,2.0,1.0,Validado,Pagado,Pendiente
-171,nan,Esneyder,Chalong Case,Local,40 con 32,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
-172,nan,Esneyder,Chalong Case,Local,Patarata,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
-173,nan,Esneyder,Chalong Case,Local,Nueva Segovia,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
-174,nan,Deiby,Chalong Case,Local,MRW,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
-175,nan,Deiby,Chalong Case,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pagado,Pendiente
-176,nan,Esneyder,Chalong Case,Local,28 con 24,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
+161,,Esneyder,Chalong Case,Local,Villa Paris,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
+162,,Jhoiner,Chalong Case,Local,Metropolitano Javier,,4.0,33.33,1.33,2.67,Validado,Pagado,Pagado
+163,,Jhoiner,Chalong Case,Local,Las Acacias,,3.5,33.33,1.17,2.33,Validado,Pagado,Pagado
+164,,Jhoiner,Chalong Case,Local,MRW y ZOOM,,3.0,33.33,1.0,2.0,Validado,Pagado,Pagado
+165,,Jhoiner,Chalong Case,Local,Carr 19 con 22,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
+166,,Esneyder,Chalong Case,Local,Monte Real Casa 12,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
+167,,Esneyder,Chalong Case,Local,Monte Real Casa 71,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
+168,,Esneyder,Chalong Case,Local,Carr 23 con 27,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
+169,,Jhoiner,Chalong Case,Local,Villa Paris,,3.5,33.33,1.17,2.33,Validado,Pagado,Pendiente
+170,,Omar,Chalong Case,Local,27 con 23,,3.0,66.66,2.0,1.0,Validado,Pagado,Pendiente
+171,,Esneyder,Chalong Case,Local,40 con 32,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
+172,,Esneyder,Chalong Case,Local,Patarata,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
+173,,Esneyder,Chalong Case,Local,Nueva Segovia,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
+174,,Deiby,Chalong Case,Local,MRW,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
+175,,Deiby,Chalong Case,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pagado,Pendiente
+176,,Esneyder,Chalong Case,Local,28 con 24,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
 177,,Omar,Candy Cakes Michelle,Local/Sucre/Local,Calle 50,,7.0,66.66,4.67,2.33,Validado,Pagado,Pendiente
 178,,Esneyder,Candy Cakes Michelle,Local,San Francisco,,6.0,100.0,6.0,0.0,Validado,Pagado,Pendiente
 179,,Esneyder,Candy Cakes Michelle,Local,Barquisimeto III,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
@@ -190,7 +190,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 194,,Esneyder,Marianella K Beauty,Local,Santa Elena,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 195,,Jhoiner,Marianella K Beauty,Local,Parque Las Trinitarias,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 196,,Esneyder,Marianella K Beauty,Local,i Company,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-197,nan,Jhoiner,Chalong Case,Local,Barquisimeto III,,3.0,33.33,1.0,2.0,Validado,Pagado,Pagado
+197,,Jhoiner,Chalong Case,Local,Barquisimeto III,,3.0,33.33,1.0,2.0,Validado,Pagado,Pagado
 198,,Omar,Fresas Delivery Rebeca,Local,Los Camagos (Adami),,2.0,66.66,1.33,0.67,Validado,Pagado,Pendiente
 199,,Jhoiner,Fresas Delivery Rebeca,Local,48 con 29 (Genesis),,2.5,33.33,0.83,1.67,Validado,Pagado,Pendiente
 200,,Esneyder,Fresas Delivery Rebeca,Local,Villa Esmeralda (Amanda),,5.0,100.0,5.0,0.0,Validado,Pagado,Pendiente
@@ -201,17 +201,17 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 205,,Jhoiner,Harmonia Skarlet,Carr 22 con 34,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 206,,Jhoiner,Monkey,Local,Calle 14 con 20,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
 207,,Jhoiner,Monkey,Local,Av Lara,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
-208,nan,Jhoiner,Chalong Case,Local,Centro Ejec Los Leones,,1.0,33.33,0.33,0.67,Validado,Pagado,Pagado
-209,nan,Jhoiner,Chalong Case,Local,Corpoelec Av Carabobo,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
-210,nan,Jhoiner,Chalong Case,Local,Arca del Norte,,2.0,33.33,0.67,1.33,Validado,Pagado,Pagado
-211,nan,Jhoiner,Chalong Case,Local,MRW/Zoom,,3.0,33.33,1.0,2.0,Validado,Pagado,Pagado
+208,,Jhoiner,Chalong Case,Local,Centro Ejec Los Leones,,1.0,33.33,0.33,0.67,Validado,Pagado,Pagado
+209,,Jhoiner,Chalong Case,Local,Corpoelec Av Carabobo,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
+210,,Jhoiner,Chalong Case,Local,Arca del Norte,,2.0,33.33,0.67,1.33,Validado,Pagado,Pagado
+211,,Jhoiner,Chalong Case,Local,MRW/Zoom,,3.0,33.33,1.0,2.0,Validado,Pagado,Pagado
 212,,Jhoiner,Harmonia Skarlet,Local,Insuservi,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 213,,Jhoiner,Acor Daniela,Local,Dusa,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 214,,Jhoiner,1313Bqto,Local,Cabudare,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pagado
 215,,Jhoiner,1313Bqto,Local,Calle 28 cono 15,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 216,,Jhoiner,KingSport Maricela,Este,Los Próceres,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
-217,nan,Jhoiner,Chalong Case,Local,Calle 24 con21,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
-218,nan,Jhoiner,Chalong Case,Local,Barquisimeto III,,3.0,33.33,1.0,2.0,Validado,Pagado,Pagado
+217,,Jhoiner,Chalong Case,Local,Calle 24 con21,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
+218,,Jhoiner,Chalong Case,Local,Barquisimeto III,,3.0,33.33,1.0,2.0,Validado,Pagado,Pagado
 219,,Jhoiner,Monkey,Compras Uniprec,Local,,1.5,33.33,0.5,1.0,Validado,Pendiente,Pagado
 220,,Jhoiner,Dhamilet Ramírez,Charcutería y Frigorífico,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 221,,Jhoiner,Monkey,Local,45 con 28,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
@@ -223,12 +223,12 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 227,,Jhoiner,1313Bqto,Local,28 con 25,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 228,,Jhoiner,Maki House,Local,Pueblo Nuevo,,5.0,33.33,1.67,3.33,Validado,Pendiente,Pagado
 229,,Jhoiner,KingSport Maricela,Este/Centro,24 con 21,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
-230,nan,Jhoiner,Chalong Case,Local,La Antena,,4.0,33.33,1.33,2.67,Validado,Pagado,Pagado
+230,,Jhoiner,Chalong Case,Local,La Antena,,4.0,33.33,1.33,2.67,Validado,Pagado,Pagado
 231,2026-08-08 12:00,Jhoiner,Chalong Case,Local,El Tejar,,1.0,33.33,0.33,0.67,Validado,Pagado,Pagado
 231,2026-08-08 05:26,Jhoiner,Chalong Case,Local,El Tejar,,1.0,33.33,0.33,0.67,Validado,Pagado,Pagado
 232,,Jhoiner,Dr David Colmenarez,Local,Laboratorio,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
 233,,Jhoiner,1313Bqto,Local,16 con Vargas,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
-234,nan,Jhoiner,Chalong Case,Local,Carr 25 entre 11 y 12,,2.0,33.33,0.67,1.33,Validado,Pagado,Pagado
+234,,Jhoiner,Chalong Case,Local,Carr 25 entre 11 y 12,,2.0,33.33,0.67,1.33,Validado,Pagado,Pagado
 235,,Jhoiner,Monkey,Local,35 con 14,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 236,,Jhoiner,Pizzería Nels,Local,Rancho Bravo,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 237,,Jhoiner,Monkey,Local,Ascardio,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
@@ -258,7 +258,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 260,,Jhoiner,1313Bqto,RIO,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 261,,Jhoiner,Chalong Detalles,Local,Vzla con 24,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
 262,,Jhoiner,Freddy Camejo,Andres Eloy,Local,,4.5,33.33,1.5,3.0,Validado,Pendiente,Pagado
-263,nan,Jhoiner,Chalong Case,Local,Roca Terra,,4.0,33.33,1.33,2.67,Validado,Pagado,Pagado
+263,,Jhoiner,Chalong Case,Local,Roca Terra,,4.0,33.33,1.33,2.67,Validado,Pagado,Pagado
 264,,Jhoiner,1313Bqto,Local,Las Alquerias,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 265,,Jhoiner,Monkey,Local,Tarabana Plaza,,3.5,33.33,1.17,2.33,Validado,Pendiente,Pagado
 266,,Jhoiner,1313Bqto,Local,47 con 18 y 19,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
@@ -273,8 +273,8 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 275,,Jhoiner,Ari Perrarina,Farmatodo,Terminal,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
 276,,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 277,,Jhoiner,Rori,Local,Zona INdustrial II,,5.0,33.33,1.67,3.33,Validado,Pendiente,Pagado
-278,nan,Jhoiner,Chalong Case,Local,Av Lara,,1.0,33.33,0.33,0.67,Validado,Pagado,Pagado
-279,nan,Jhoiner,Chalong Case,Local,Calle 25 con 21,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
+278,,Jhoiner,Chalong Case,Local,Av Lara,,1.0,33.33,0.33,0.67,Validado,Pagado,Pagado
+279,,Jhoiner,Chalong Case,Local,Calle 25 con 21,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
 280,,Jhoiner,Cliente Eventual,Don Mateo,Cabudare,,6.0,33.33,2.0,4.0,Validado,Pendiente,Pagado
 281,,Jhoiner,1313Bqto,Local,Agua Viva,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pagado
 282,,Jhoiner,Cliente Eventual,Cabudare,Don Mateo,,6.0,33.33,2.0,4.0,Validado,Pendiente,Pagado
@@ -295,8 +295,8 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 296,,Jhoiner,Monkey,Valle Hondo,Local,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pagado
 297,,Jhoiner,Pizzería Nels,Local,Rancho Bravo,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 298,,Jhoiner,1313Bqto,Local,35 con 28,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
-299,nan,Jhoiner,Chalong Case,Local,Barici,,1.0,33.33,0.33,0.67,Validado,Pagado,Pagado
-300,nan,Jhoiner,Chalong Case,Local,Carr 27 con 25,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
+299,,Jhoiner,Chalong Case,Local,Barici,,1.0,33.33,0.33,0.67,Validado,Pagado,Pagado
+300,,Jhoiner,Chalong Case,Local,Carr 27 con 25,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
 301,,Jhoiner,1313Bqto,Local,24 con 36,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 302,,Jhoiner,1313Bqto,Local,18 con 17,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
 303,,Jhoiner,1313Bqto,Local,Calle 24 con 36,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
@@ -329,10 +329,10 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 330,,Jhoiner,1313Bqto,Local,Luis Gomez Lopez,,1.0,33.33,0.33,0.67,Validado,Pagado,Pagado
 330,2026-08-17 14:06,Jhoiner,1313Bqto,Local,Luis Gomez Lopez,,1.0,66.66,0.67,0.33,Validado,Pagado,Pagado
 331,,Jhoiner,1313Bqto,Local,23 Enero,,1.5,33.33,0.5,1.0,Validado,Pendiente,Pagado
-332,nan,Jhoiner,Chalong Case,Local,Vzla con 20,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
+332,,Jhoiner,Chalong Case,Local,Vzla con 20,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
 333,,Jhoiner,Harmonia Skarlet,Local,Rio Lama,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 334,,Jhoiner,Acor Daniela,Calle 13,Local,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
-335,nan,Jhoiner,Chalong Case,Local,CC El Recreo,,4.0,33.33,1.33,2.67,Validado,Pagado,Pagado
+335,,Jhoiner,Chalong Case,Local,CC El Recreo,,4.0,33.33,1.33,2.67,Validado,Pagado,Pagado
 336,,Jhoiner,KingSport Maricela,Centro,Libertador con 30,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
 337,,Jhoiner,1313Bqto,Local,Moran con 28,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 338,,Jhoiner,1313Bqto,Local,38 con 20,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
@@ -344,15 +344,15 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 344,,Jhoiner,Catas Food,Local,Capital,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 345,,Jhoiner,Fresas Delivery Rebeca,Local,48 con 29,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
 346,,Jhoiner,Dhamilet Ramírez,Av Vargas,Local,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
-347,nan,Jhoiner,Chalong Case,Local,Habitat Plaza,,1.5,33.33,0.5,1.0,Validado,Pagado,Pagado
-348,nan,Jhoiner,Chalong Case,Local,MRW y Zoom,,3.0,33.33,1.0,2.0,Validado,Pagado,Pagado
+347,,Jhoiner,Chalong Case,Local,Habitat Plaza,,1.5,33.33,0.5,1.0,Validado,Pagado,Pagado
+348,,Jhoiner,Chalong Case,Local,MRW y Zoom,,3.0,33.33,1.0,2.0,Validado,Pagado,Pagado
 349,,Jhoiner,KingSport Maricela,Centro,Macias Mujica,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pagado
 350,,Jhoiner,Dhamilet Ramírez,Av Vargas,Local,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
 351,,Jhoiner,1313Bqto,Local,Carucieña,,5.0,33.33,1.67,3.33,Validado,Pendiente,Pagado
 352,,Jhoiner,Angeles Guanipa,La Pastora,Local,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
 353,,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
-354,nan,Jhoiner,Chalong Case,Local,41 con 14,,3.5,33.33,1.17,2.33,Validado,Pagado,Pagado
-355,nan,Jhoiner,Chalong Case,Local,21 con 17,,2.0,33.33,0.67,1.33,Validado,Pagado,Pagado
+354,,Jhoiner,Chalong Case,Local,41 con 14,,3.5,33.33,1.17,2.33,Validado,Pagado,Pagado
+355,,Jhoiner,Chalong Case,Local,21 con 17,,2.0,33.33,0.67,1.33,Validado,Pagado,Pagado
 356,,Jhoiner,1313Bqto,Local,29 con 15,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 357,,Jhoiner,Pizzería Nels,Local,Rancho Bravo,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 358,,Jhoiner,1313Bqto,Local,21 con 12,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
@@ -374,28 +374,28 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 374,,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 375,,Jhoiner,KingSport Maricela,Este,41 con 29,,3.5,33.33,1.17,2.33,Validado,Pendiente,Pagado
 376,,Jhoiner,Cliente Eventual,Mrw Calle 15,Kingsport Este,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
-377,nan,Jhoiner,Chalong Case,Local,Villa Paris A,,3.0,33.33,1.0,2.0,Validado,Pagado,Pagado
+377,,Jhoiner,Chalong Case,Local,Villa Paris A,,3.0,33.33,1.0,2.0,Validado,Pagado,Pagado
 378,,Jhoiner,1313Bqto,Local,Residencias Atlas,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
 379,,Jhoiner,1313Bqto,Local,Nueva Segovia,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 380,,Jhoiner,Angeles Guanipa,Local,Cancha de la 13,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
 381,,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 382,,Genesis,Cliente Eventual,Casa,Trabajo,,0.0,70.0,0.0,0.0,Pendiente,Pendiente,Pendiente
 383,,Genesis,Cliente Eventual,Centro comercial ,Casa,,0.0,70.0,0.0,0.0,Pendiente,Pendiente,Pendiente
-384,nan,Jhoiner,Chalong Case,Local,Roca Terra,,4.5,33.33,1.5,3.0,Validado,Pagado,Pendiente
-385,nan,Deiby,Chalong Case,Local,MRW y Zoom,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
-386,nan,Deiby,Chalong Case,Local,Clínica ONG,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
-387,nan,Esneyder,Chalong Case,Local,Centro Ejec Los Leones,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
-388,nan,Esneyder,Chalong Case,Local,Santa Elena,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
-389,nan,Deiby,Chalong Case,Local,MRW,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
-390,nan,Deiby,Chalong Case,Local,Ambulatorio Cabudare,,4.0,70.0,2.8,1.2,Validado,Pagado,Pendiente
-391,nan,Esneyder,Chalong Case,Local,Carr 24 entre 14 y 15,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
-392,nan,Esneyder,Chalong Case,Local,Asopatri,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
-393,nan,Esneyder,Chalong Case,Local,Gil Fortoul,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
-394,nan,Deiby,Chalong Case,Local,Pizza de Mentira,,3.5,70.0,2.45,1.05,Validado,Pagado,Pendiente
-395,nan,Esneyder,Chalong Case,Local,Pigmencejas,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
-396,nan,Esneyder,Chalong Case,Local,Ciudad Paris,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
-397,nan,Esneyder,Chalong Case,Local,Edif Don Benito,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
-398,nan,Omar,Chalong Case,Local,Av Vzla con 20,,2.5,66.66,1.67,0.83,Validado,Pagado,Pendiente
+384,,Jhoiner,Chalong Case,Local,Roca Terra,,4.5,33.33,1.5,3.0,Validado,Pagado,Pendiente
+385,,Deiby,Chalong Case,Local,MRW y Zoom,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
+386,,Deiby,Chalong Case,Local,Clínica ONG,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
+387,,Esneyder,Chalong Case,Local,Centro Ejec Los Leones,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
+388,,Esneyder,Chalong Case,Local,Santa Elena,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
+389,,Deiby,Chalong Case,Local,MRW,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
+390,,Deiby,Chalong Case,Local,Ambulatorio Cabudare,,4.0,70.0,2.8,1.2,Validado,Pagado,Pendiente
+391,,Esneyder,Chalong Case,Local,Carr 24 entre 14 y 15,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
+392,,Esneyder,Chalong Case,Local,Asopatri,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
+393,,Esneyder,Chalong Case,Local,Gil Fortoul,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
+394,,Deiby,Chalong Case,Local,Pizza de Mentira,,3.5,70.0,2.45,1.05,Validado,Pagado,Pendiente
+395,,Esneyder,Chalong Case,Local,Pigmencejas,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
+396,,Esneyder,Chalong Case,Local,Ciudad Paris,,1.5,100.0,1.5,0.0,Validado,Pagado,Pendiente
+397,,Esneyder,Chalong Case,Local,Edif Don Benito,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
+398,,Omar,Chalong Case,Local,Av Vzla con 20,,2.5,66.66,1.67,0.83,Validado,Pagado,Pendiente
 399,,Jhoiner,Chalong Detalles,Local,Villa Paris J,,3.5,33.33,1.17,2.33,Validado,Pagado,Pendiente
 400,,Omar,Chalong Detalles,Local,Fundación Mendoza,,2.5,66.66,1.67,0.83,Validado,Pagado,Pendiente
 401,,Deiby,Chalong Detalles,Local,Calle 47 con 27,,3.5,70.0,2.45,1.05,Validado,Pagado,Pendiente
@@ -420,17 +420,17 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 420,,Deiby,KingSport Maricela,Centro,Urb Obelisco,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 421,,Esneyder,KingSport Maricela,Centro,Calle 42 con 29,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
 422,,Esneyder,KingSport Maricela,Centro,Calle 24 con 25,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-423,nan,Deiby,Chalong Case,Local,Carr 21 con 24,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
-424,nan,Esneyder,Chalong Case,Local,Indio Manaure,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
-425,nan,Deiby,Chalong Case,Local,Calle 17 con 21,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
-426,nan,Esneyder,Chalong Case,Local,Terminal,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
-427,nan,Esneyder,Chalong Case,Local,Barrio Union,,5.0,100.0,5.0,0.0,Validado,Pagado,Pendiente
-428,nan,Esneyder,Chalong Case,Local,Colinas del Viento,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
-429,nan,Esneyder,Chalong Case,Local,Res Mirador,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
-430,nan,Esneyder,Chalong Case,Local,Hotel Jirahara,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
-431,nan,Esneyder,Chalong Case,Local,Vargas con 25,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
-432,nan,Deiby,Chalong Case,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
-433,nan,Esneyder,Chalong Case,Local,Ciudad Roca,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
+423,,Deiby,Chalong Case,Local,Carr 21 con 24,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
+424,,Esneyder,Chalong Case,Local,Indio Manaure,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
+425,,Deiby,Chalong Case,Local,Calle 17 con 21,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
+426,,Esneyder,Chalong Case,Local,Terminal,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
+427,,Esneyder,Chalong Case,Local,Barrio Union,,5.0,100.0,5.0,0.0,Validado,Pagado,Pendiente
+428,,Esneyder,Chalong Case,Local,Colinas del Viento,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
+429,,Esneyder,Chalong Case,Local,Res Mirador,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
+430,,Esneyder,Chalong Case,Local,Hotel Jirahara,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
+431,,Esneyder,Chalong Case,Local,Vargas con 25,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
+432,,Deiby,Chalong Case,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
+433,,Esneyder,Chalong Case,Local,Ciudad Roca,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
 434,,Esneyder,Chalong Detalles,Local,Mendera Plaza,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
 435,,Esneyder,Chalong Detalles,Local,Carr 19 con 12,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
 436,,Deiby,Chalong Detalles,Local,Lara Palace,,4.0,70.0,2.8,1.2,Validado,Pagado,Pendiente
@@ -541,13 +541,13 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 542,,Deiby,1313Bqto,Local,13 de Abril,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 543,,Deiby,Antojitos,Local,Calle 26 con 31,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 544,,Deiby,Mundo de Regalos Luz,Local,Torre DaVinci,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-545,nan,Deiby,Chalong Case,Local,30 con 21,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-546,nan,Deiby,Chalong Case,Local,Merkafur Sambil,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+545,,Deiby,Chalong Case,Local,30 con 21,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+546,,Deiby,Chalong Case,Local,Merkafur Sambil,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 547,,Deiby,Cliente Eventual,Torre Continental,Venchi,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 548,,Deiby,Catas Food,Local,Capital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 549,,Deiby,Adrys,Casa,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-550,nan,Deiby,Chalong Case,Local,Los Cardones,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-551,nan,Esneyder,Chalong Case,Local,La Carucieña,,5.0,100.0,5.0,0.0,Validado,Pendiente,Pendiente
+550,,Deiby,Chalong Case,Local,Los Cardones,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+551,,Esneyder,Chalong Case,Local,La Carucieña,,5.0,100.0,5.0,0.0,Validado,Pendiente,Pendiente
 552,,Deiby,Dhamilet Ramírez,Charcuteria,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 553,,Deiby,Candy Cakes Michelle,Local,Moran con 21,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
 554,,Deiby,Adrys,Local,MRW y Zoom,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
@@ -571,16 +571,16 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 570,,Omar,Fresas Delivery Rebeca,Local,Cabudare Centro (Mimi),,4.5,66.66,3.0,1.5,Validado,Pendiente,Pendiente
 571,,Esneyder,Fresas Delivery Rebeca,Local,Ascardio (Raquel),,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 572,,Omar,Fresas Delivery Rebeca,Local,Monte Real,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
-573,nan,Esneyder,Chalong Case,Local,Calle 12 con 24,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-574,nan,Esneyder,Chalong Case,Local,Barrio La Cruz,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
-575,nan,Esneyder,Chalong Case,Local,Carr 21 con Vargas,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-576,nan,Esneyder,Chalong Case,Local,Sambil,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
-577,nan,Esneyder,Chalong Case,Local,Urb Terepaima,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
-578,nan,Esneyder,Chalong Case,Local,Hotel Las Vegas Cabudare,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
-579,nan,Esneyder,Chalong Case,Local,Edif El Impulso,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
+573,,Esneyder,Chalong Case,Local,Calle 12 con 24,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+574,,Esneyder,Chalong Case,Local,Barrio La Cruz,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
+575,,Esneyder,Chalong Case,Local,Carr 21 con Vargas,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+576,,Esneyder,Chalong Case,Local,Sambil,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
+577,,Esneyder,Chalong Case,Local,Urb Terepaima,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
+578,,Esneyder,Chalong Case,Local,Hotel Las Vegas Cabudare,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
+579,,Esneyder,Chalong Case,Local,Edif El Impulso,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 580,2026-09-18 12:00,Deiby,Chalong Case,Local,MRW,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-581,nan,Deiby,Chalong Case,Local,Santa Rosa,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-582,nan,Esneyder,Chalong Case,Local,Gil Fortoul,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
+581,,Deiby,Chalong Case,Local,Santa Rosa,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+582,,Esneyder,Chalong Case,Local,Gil Fortoul,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
 583,,Deiby,Alexandra Flores Sambil,Local,Ucla Veterinaria Cabudare,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 584,,Deiby,Alexandra Flores Sambil,Local,Av La Mata Cabudare,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
 585,,Deiby,Alexandra Flores Sambil,Local,Res Daniela Trinitarias,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
@@ -734,7 +734,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 733,2026-09-25 12:00,Deiby,Candy Cakes Michelle,Local,Damasco Av Vzla,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
 734,2026-09-28 12:00,Esneyder,Candy Cakes Michelle,Local,Corpoelec Av Carabobo,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
 735,,Deiby,Cielo Isamar Mendoza,Parque Real,Vivero Ribereña,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-736,2026-09-18 12:00,Deiby,Marianelin Carrasco Contadora,Panadería New York,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+736,2026-09-18 12:00,Deiby,Marianelin Carrasco Contadora,Panadería New York,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 737,2026-09-18 12:00,Deiby,Antojitos,Local,Seguro de la 50,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 738,2026-09-18 12:00,Deiby,Adrys,Local,Calle 23 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 739,2026-09-18 12:00,Deiby,Cielo Isamar Mendoza,Creaciones Napy,Vargas con Vzla,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
