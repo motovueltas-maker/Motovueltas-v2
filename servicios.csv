@@ -799,6 +799,6 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 798,2026-09-24 12:00,Deiby,1313Bqto,Local,Andrés Eloy,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 799,2026-09-24 12:00,Deiby,Monkey,Local,Lara Palace,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 800,2026-09-24 12:00,Deiby,1313Bqto,Local,Veragacha,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-801,2026-09-25,Deiby,Dorirtza,Cultivar,El Carmen,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-802,2026-09-25,Deiby,Cielo Isamar Mendoza,La Aguja,Pietra Santa/Catay,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-803,2026-09-25,Deiby,Monkey,El Molino,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+801,2026-09-25 12:00,Deiby,Dorirtza,Cultivar,El Carmen,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+802,2026-09-25 12:00,Deiby,Cielo Isamar Mendoza,La Aguja,Pietra Santa/Catay,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+803,2026-09-25 12:00,Deiby,Monkey,El Molino,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
