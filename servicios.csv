@@ -740,7 +740,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 739,2026-09-18 12:00,Deiby,Cielo Isamar Mendoza,Creaciones Napy,Vargas con Vzla,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 740,2026-09-18 12:00,Deiby,Catas Food,Local,Capital Plaza,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 741,2026-09-18 12:00,Deiby,1313Bqto,Local,Calle 28 con 16,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-742,,Deiby,Greychit Contreras,Tiendas Chilamas,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+742,2026-09-19 12:00,Deiby,Greychit Contreras,Tiendas Chilamas,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 743,,Deiby,Adrys,Local,Res Mariela,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 744,,Deiby,1313Bqto,Local,Fundalara,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 745,,Deiby,Pizzería Nels,Local,Calle 29 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -764,9 +764,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 763,,Deiby,1313Bqto,Local,Clinica Canabal,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 764,,Deiby,1313Bqto,Local,Calle 20 con 19,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 765,,Deiby,Catas Food,Local,Capital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-766,,Deiby,Greychit Contreras,Local,Chilamas/Bequito,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+766,nan,Deiby,Greychit Contreras,Local,Chilamas/Bequito,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 767,,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-768,,Deiby,Greychit Contreras,Chilamas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+768,nan,Deiby,Greychit Contreras,Chilamas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 769,,Deiby,Marijo UEMICA,Local,Contadora Marianelin,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 770,,Deiby,Cliente Eventual,Carr 23 con 8,Res del Este Ana Karina,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 771,,Deiby,Cliente Eventual,Ucla Adm,Res del Este,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
