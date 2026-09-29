@@ -770,7 +770,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 769,,Deiby,Marijo UEMICA,Local,Contadora Marianelin,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 770,2026-09-22 12:00,Deiby,Cliente Eventual,Carr 23 con 8,Res del Este Ana Karina,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 771,2026-09-22 12:00,Deiby,Cliente Eventual,Ucla Adm,Res del Este,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-772,2026-09-22,Deiby,Marianelin Carrasco Contadora,Luis Miguel ABC,31 con 31,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-773,2026-09-22,Deiby,Pizzería Nels,Local,San José,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-774,2026-09-22,Deiby,Cliente Eventual,Farmatodo,Ruezga,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-775,2026-09-22,Deiby,1313Bqto,Local,Calle 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+772,2026-09-22 12:00,Deiby,Marianelin Carrasco Contadora,Luis Miguel ABC,31 con 31,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+773,2026-09-22 12:00,Deiby,Pizzería Nels,Local,San José,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+774,2026-09-22 12:00,Deiby,Cliente Eventual,Farmatodo,Ruezga,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+775,2026-09-22 12:00,Deiby,1313Bqto,Local,Calle 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
