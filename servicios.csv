@@ -524,7 +524,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 525,,Deiby,Dhamilet Ramírez,Pollo Market,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 526,,Deiby,1313Bqto,Local,Hospital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 527,,Deiby,Monkey,Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-528,,Deiby,Antojitos,Local,Fundalara,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+528,nan,Deiby,Antojitos,Local,Fundalara,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 529,,Deiby,1313Bqto,Local,Agua Viva,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 530,,Deiby,1313Bqto,Local,24 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 531,,Deiby,1313Bqto,Local,Carr 24 con 10,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -539,7 +539,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 540,,Deiby,1313Bqto,Local,22 con 14,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 541,,Deiby,1313Bqto,Local,El Ujano,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 542,,Deiby,1313Bqto,Local,13 de Abril,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-543,,Deiby,Antojitos,Local,Calle 26 con 31,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+543,nan,Deiby,Antojitos,Local,Calle 26 con 31,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 544,,Deiby,Mundo de Regalos Luz,Local,Torre DaVinci,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 545,,Deiby,Chalong Case,Local,30 con 21,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 546,,Deiby,Chalong Case,Local,Merkafur Sambil,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
@@ -826,4 +826,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 825,,Deiby,Monkey,Local,Calle 29 con 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 826,,Deiby,Monkey,Local,San Jacinto,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 827,,Deiby,1313Bqto,Local,Calle 16 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-828,2026-09-19,Deiby,Antojitos,Local,Calle 23 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+828,2026-09-19 12:00,Deiby,Antojitos,Local,Calle 23 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
