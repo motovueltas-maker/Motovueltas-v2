@@ -497,7 +497,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 498,,Deiby,Monkey,Local,Carr 21 con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 499,,Deiby,Monkey,Local,Calle 22 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 500,,Deiby,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-501,,Deiby,Mundo de Regalos Luz,Local,40 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+501,nan,Deiby,Mundo de Regalos Luz,Local,40 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 502,,Deiby,Harmonia Skarlet,Local,Todo Salud,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 503,,Deiby,Marijo UEMICA,Uniformes Lara,Local,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 504,,Deiby,Candy Cakes Michelle,Local,Pedregal,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
@@ -540,7 +540,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 541,,Deiby,1313Bqto,Local,El Ujano,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 542,,Deiby,1313Bqto,Local,13 de Abril,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 543,,Deiby,Antojitos,Local,Calle 26 con 31,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-544,,Deiby,Mundo de Regalos Luz,Local,Torre DaVinci,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+544,nan,Deiby,Mundo de Regalos Luz,Local,Torre DaVinci,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 545,,Deiby,Chalong Case,Local,30 con 21,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 546,,Deiby,Chalong Case,Local,Merkafur Sambil,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 547,,Deiby,Cliente Eventual,Torre Continental,Venchi,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
@@ -758,7 +758,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 757,2026-09-20 12:00,Deiby,1313Bqto,Local,Uruguay,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 758,2026-09-20 12:00,Deiby,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 759,2026-09-20 12:00,Deiby,1313Bqto,Local,Carr 19 con 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-760,,Deiby,Mundo de Regalos Luz,Barquicenter,Cosmos,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+760,2026-09-21 12:00,Deiby,Mundo de Regalos Luz,Barquicenter,Cosmos,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 761,,Deiby,1313Bqto,Local,Cerro Gordo,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 762,,Deiby,1313Bqto,Local,Carr 22 con 10,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 763,,Deiby,1313Bqto,Local,Clinica Canabal,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
