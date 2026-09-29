@@ -773,3 +773,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 772,2026-09-22,Deiby,Marianelin Carrasco Contadora,Luis Miguel ABC,31 con 31,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 773,2026-09-22,Deiby,Pizzería Nels,Local,San José,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 774,2026-09-22,Deiby,Cliente Eventual,Farmatodo,Ruezga,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+775,2026-09-22,Deiby,1313Bqto,Local,Calle 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
