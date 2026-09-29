@@ -496,7 +496,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 497,,Deiby,Pizzería Nels,Local,Calle 35 con 29,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 498,,Deiby,Monkey,Local,Carr 21 con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 499,,Deiby,Monkey,Local,Calle 22 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-500,nan,Deiby,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+500,2026-09-01 12:00,Esneyder,Dr David Colmenarez,Local,Laboratorio,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 501,,Deiby,Mundo de Regalos Luz,Local,40 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 502,,Deiby,Harmonia Skarlet,Local,Todo Salud,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 503,,Deiby,Marijo UEMICA,Uniformes Lara,Local,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
