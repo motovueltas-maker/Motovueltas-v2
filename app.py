@@ -137,7 +137,7 @@ with tab2:
 
 
 # ==========================================
-# PESTAÑA 3: CONVERSIÓN SIMPLE BCV (NUEVA)
+# PESTAÑA 3: CONVERSIÓN SIMPLE BCV
 # ==========================================
 with tab3:
     col_c1, col_c2 = st.columns(2)
