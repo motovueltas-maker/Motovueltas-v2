@@ -831,4 +831,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 830,2026-09-09 12:00,Esneyder,Dr David Colmenarez,Local,Laboratorio (PM),,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 831,2026-09-11,Esneyder,Dr David Colmenarez,Local,Laboratorio,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 832,2026-09-16,Esneyder,Dr David Colmenarez,Local,Laboratorio,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
-833,2026-09-25,Alirio Diaz ,Fresas Delivery Rebeca,Local,Urb Obelisco,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+833,2026-09-25 12:00,Alirio Diaz ,Fresas Delivery Rebeca,Local,Urb Obelisco (Kardianny),,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
