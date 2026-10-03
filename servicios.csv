@@ -864,3 +864,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 863,2026-10-02,Alirio Diaz ,1313Bqto,Local,Barquicenter,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 864,2026-10-02,Alirio Diaz ,Cliente Eventual,Brayan (Casa),Torre Empresarial,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 865,2026-10-02,Alirio Diaz ,Clinivet,Agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+866,2026-10-02,Alirio Diaz ,Rep Arteaga Norexi,Ida y Vuelta,5 de Julio,,7.0,70.0,4.9,2.1,Validado,Pendiente,Pendiente
