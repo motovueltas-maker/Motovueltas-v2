@@ -410,14 +410,10 @@ elif opcion_menu == " Validar Vueltas":
         if filtro_estado != "Todos":
             df_filtrado = df_filtrado[df_filtrado['estado_validacion'] == filtro_estado]
 
-        st.markdown("##### 📝 Tabla de Vueltas (Editable):")
-        df_editado = st.data_editor(df_filtrado, num_rows="dynamic", use_container_width=True, key="editor_tabla_validations")
-
         if st.button("💾 Guardar Cambios en la Tabla", type="primary"):
             df_servicios.update(df_editado)
             if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, "Actualización manual desde tabla evaluadora"):
                 st.success("✅ ¡Cambios guardados exitosamente en GitHub!")
-                st.rerun()
             else:
                 st.error("❌ Error al guardar en GitHub.")
                 
