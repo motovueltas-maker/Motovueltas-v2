@@ -899,102 +899,101 @@ elif opcion_menu == " Corte Motorizados":
 
 # --- MÓDULO INDEPENDIENTE: PORTAL MOTORIZADOS ---
 def render_portal_motorizado(usuario_actual):
-    st.title(f"🏍️ Portal Motorizados - {usuario_actual}")
-    st.caption("Registra tus carreras y revisa tu saldo pendiente.")
+    st.subheader(f"🏍️ Panel de Control - {usuario_actual.capitalize()}")
+    st.caption("Registra tus carreras, revisa tu saldo pendiente y consulta tu balance acumulado.")
 
-    # 1. FECHA FIJA
-    col_f, _ = st.columns([1, 2])
-    with col_f:
-        fecha_vuelta = st.date_input(
-            "📅 Fecha de la vuelta", 
-            value=date.today(), 
-            key="fecha_fija_portal_motorizado"
-        )
+    # 1. CARGAR DATOS FRESCOS PARA LOS CÁLCULOS
+    df_servicios_p, sha_s_p = cargar_csv_desde_github(FILE_SERVICIOS)
+    df_motos_p, _ = cargar_csv_desde_github(FILE_MOTORIZADOS)
+    df_clientes_p, _ = cargar_csv_desde_github(FILE_CLIENTES)
+    df_avances_p, _ = cargar_csv_desde_github(FILE_AVANCES)
+
+    # 2. OBTENER EL PORCENTAJE PREFIJADO DEL MOTORIZADO DESDE SU PERFIL
+    porcentaje_motorizado = 66.67
+    if not df_motos_p.empty and 'nombre' in df_motos_p.columns:
+        match_m = df_motos_p[df_motos_p['nombre'].astype(str).str.strip().str.lower() == usuario_actual.strip().lower()]
+        if not match_m.empty and 'porcentaje_ganancia' in match_m.columns:
+            porcentaje_motorizado = float(match_m['porcentaje_ganancia'].values[0])
+
+    # 3. CÁLCULO DEL BALANCE ACUMULADO (COMISIONES DE SUS VUELTAS - AVANCES)
+    total_comisiones_servicios = 0.0
+    total_avances_solicitados = 0.0
+
+    if not df_servicios_p.empty and 'motorizado' in df_servicios_p.columns:
+        # Filtramos los servicios del motorizado logueado
+        servicios_chofer = df_servicios_p[df_servicios_p['motorizado'].astype(str).str.strip().str.lower() == usuario_actual.strip().lower()].copy()
+        
+        # Si ya tienen precio y monto calculado, sumamos su ganancia de motorizado
+        if 'monto_motorizado' in servicios_chofer.columns:
+            total_comisiones_servicios = servicios_chofer['monto_motorizado'].astype(float).sum()
+
+    if not df_avances_p.empty and 'motorizado' in df_avances_p.columns:
+        # Filtramos los avances del motorizado
+        avances_chofer = df_avances_p[df_avances_p['motorizado'].astype(str).str.strip().str.lower() == usuario_actual.strip().lower()].copy()
+        if 'monto' in avances_chofer.columns:
+            total_avances_solicitados = avances_chofer['monto'].astype(float).sum()
+
+    # Balance acumulado neto (lo generado por sus vueltas menos los adelantos)
+    balance_acumulado_neto = total_comisiones_servicios - total_avances_solicitados
+
+    # 4. MOSTRAR MÉTRICAS CLARAS EN PANTALLA
+    col_b1, col_b2, col_b3 = st.columns(3)
+    col_b1.metric("💰 Balance Acumulado Netos", f"${balance_acumulado_neto:.2f}")
+    col_b2.metric("📦 Total Ganancias Servicios", f"${total_comisiones_servicios:.2f}")
+    col_b3.metric("📉 Avances / Adelantos", f"${total_avances_solicitados:.2f}")
 
     st.markdown("---")
 
-    # Carga de archivos necesaria
-    df_servicios, sha_servicios = cargar_csv_desde_github(FILE_SERVICIOS)
-    df_clientes, _ = cargar_csv_desde_github(FILE_CLIENTES)
-    df_avances, _ = cargar_csv_desde_github(FILE_AVANCES)
-
-    # 2. FORMULARIO DE PRECARGA DE VUELTA
-    st.subheader("📝 Precargar Nueva Vuelta")
+    # 5. FORMULARIO DE PRECARGA DE VUELTAS (SIN CAMPO MOTORIZADO, CON SU % INTERNO)
+    st.subheader("⚡ Precargar Nueva Vuelta")
 
     with st.form("form_precargar_motorizado", clear_on_submit=True):
-        st.text_input("Motorizado", value=usuario_actual, disabled=True)
-
-        lista_cli = [""] + sorted(df_clientes['nombre'].dropna().tolist()) if not df_clientes.empty and 'nombre' in df_clientes.columns else [""]
-        cliente_sel = st.selectbox("Seleccionar Cliente *", options=lista_cli, index=0)
-
+        f_vuelta = st.date_input("📅 Fecha de la Vuelta", value=date.today(), key="f_vuelta_port")
+        
+        # Lista de clientes desplegable
+        lista_cli = [""] + sorted(df_clientes_p['nombre'].dropna().tolist()) if not df_clientes_p.empty and 'nombre' in df_clientes_p.columns else [""]
+        cliente_sel = st.selectbox("👤 Seleccionar Cliente *", options=lista_cli)
+        
         col_origen, col_destino = st.columns(2)
         with col_origen:
             origen_input = st.text_input("Desde / Origen", placeholder="Local")
         with col_destino:
             destino_input = st.text_input("Hasta / Destino", placeholder="Local")
-
-        detalle_input = st.text_input("Detalle u Observación (Opcional)", placeholder="Ej: Entregar paquete")
-
-        btn_precargar = st.form_submit_button("🚀 Precargar Vuelta", use_container_width=True)
-
-        if btn_precargar:
+            
+        btn_enviar_vuelta = st.form_submit_button("🚀 Enviar Vuelta a Validación", type="primary", use_container_width=True)
+        
+        if btn_enviar_vuelta:
             if not cliente_sel:
-                st.error("⚠️ Debes seleccionar un cliente de la lista.")
+                st.error("⚠️ Debes seleccionar un cliente.")
             else:
-                origen_final = origen_input.strip() if origen_input.strip() else "Local"
-                destino_final = destino_input.strip() if destino_input.strip() else "Local"
-
-                nuevo_id = 1 if df_servicios.empty or 'id' not in df_servicios.columns else int(df_servicios['id'].max()) + 1
-
-                nueva_fila = {
-                    'id': nuevo_id,
-                    'fecha': fecha_vuelta.strftime("%Y-%m-%d"),
-                    'cliente': cliente_sel,
-                    'motorizado': usuario_actual,
-                    'origen': origen_final,
-                    'destino': destino_final,
-                    'detalle': detalle_input.strip(),
-                    'precio_cliente': 0.0,
-                    'monto_motorizado': 0.0,
-                    'ganancia_empresa': 0.0,
-                    'estado_validacion': 'Pendiente',
-                    'estado_cliente': 'Pendiente',
-                    'estado_motorizado': 'Pendiente'
-                }
-
-                df_actualizado = pd.concat([df_servicios, pd.DataFrame([nueva_fila])], ignore_index=True)
+                fecha_str = f_vuelta.strftime("%Y-%m-%d")
+                origen_val = origen_input.strip() if origen_input.strip() else "Local"
+                destino_val = destino_input.strip() if destino_input.strip() else "Local"
                 
-                if guardar_csv_en_github(FILE_SERVICIOS, df_actualizado, sha_servicios, f"Precarga de vuelta por {usuario_actual}"):
-                    st.success("✅ ¡Vuelta precargada con éxito! Enviada a administración para asignar precio.")
+                # Generar ID único para el servicio
+                nuevo_id = int(df_servicios_p['id'].max()) + 1 if not df_servicios_p.empty and 'id' in df_servicios_p.columns else 1
+                
+                # Se registra la vuelta con precio 0 pero aplicando estrictamente su porcentaje de ganancia prefijado
+                nueva_vuelta = pd.DataFrame([{
+                    "id": nuevo_id,
+                    "fecha": fecha_str,
+                    "motorizado": usuario_actual.capitalize(),
+                    "cliente": cliente_sel,
+                    "origen": origen_val,
+                    "destino": destino_val,
+                    "precio_cliente": 0.0,
+                    "porcentaje_comision": porcentaje_motorizado, # <--- ¡Aquí aplica su porcentaje exacto!
+                    "monto_motorizado": 0.0,
+                    "ganancia_empresa": 0.0,
+                    "estado_cliente": "Pendiente",
+                    "estado_motorizado": "Pendiente",
+                    "estado_validacion": "Pendiente"
+                }])
+                
+                df_servicios_actualizado = pd.concat([df_servicios_p, nueva_vuelta], ignore_index=True)
+                
+                if guardar_csv_en_github(FILE_SERVICIOS, df_servicios_actualizado, sha_s_p, f"Vuelta #{nuevo_id} precargada por {usuario_actual}"):
+                    st.success("✅ ¡Vuelta enviada correctamente! Quedó registrada y pendiente de precio.")
                     st.rerun()
                 else:
-                    st.error("❌ Ocurrió un error al guardar en GitHub.")
-
-    st.markdown("---")
-
-    # 3. BALANCE NO LIQUIDADO Y AVANCES
-    st.subheader("💰 Mi Balance Acumulado (Pendiente de Cobro)")
-
-    if not df_servicios.empty:
-        df_mot = df_servicios[
-            (df_servicios['motorizado'].astype(str).str.strip() == usuario_actual) & 
-            (df_servicios['estado_motorizado'] == 'Pendiente')
-        ]
-        total_ganado = df_mot['monto_motorizado'].sum() if 'monto_motorizado' in df_mot.columns else 0.0
-    else:
-        total_ganado = 0.0
-
-    total_avances = 0.0
-    if not df_avances.empty and 'motorizado' in df_avances.columns and 'monto' in df_avances.columns:
-        df_av_mot = df_avances[
-            (df_avances['motorizado'].astype(str).str.strip() == usuario_actual) & 
-            (df_avances['estado'] == 'Pendiente')
-        ]
-        total_avances = df_av_mot['monto'].sum()
-
-    balance_neto = total_ganado - total_avances
-
-    c1, c2, c3 = st.columns(3)
-    c1.metric("Ganado en Vueltas", f"${total_ganado:.2f}")
-    c2.metric("Adelantos / Avances", f"${total_avances:.2f}")
-    c3.metric("Balance Neto a Cobrar", f"${balance_neto:.2f}")
+                    st.error("❌ Error al guardar en GitHub. Intenta nuevamente.")
