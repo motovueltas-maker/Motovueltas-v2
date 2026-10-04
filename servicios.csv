@@ -859,7 +859,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 858,2026-10-02,Alirio Diaz ,Clinivet,Quimax,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 859,2026-10-02,Alirio Diaz ,KingSport Maricela,Centro,32 con 25 y 26,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 860,2026-10-02,Alirio Diaz ,Chalong Case,Local,Zona III,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pendiente
-861,2026-10-02,Alirio Diaz ,Chalong Detalles,Local,Pedro León con 49,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+861,2026-02-10 12:00,Alirio Diaz,Chalong Detalles,Local,Pedro León con 49,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 862,2026-10-02,Alirio Diaz ,1313Bqto,Local,Vargas con 23,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 863,2026-10-02,Alirio Diaz ,1313Bqto,Local,Barquicenter,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 864,2026-10-02,Alirio Diaz ,Cliente Eventual,Brayan (Casa),Torre Empresarial,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -886,4 +886,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 885,2026-09-30,Deiby,Chalong Detalles,Local,Yucatan,,8.0,70.0,5.6,2.4,Validado,Pendiente,Pendiente
 886,2026-10-01,DanielG,Chalong Detalles,Local,Rancho 5A,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 887,2026-10-01,DanielG,Chalong Detalles,Local,San Francisco,,7.0,70.0,4.9,2.1,Validado,Pendiente,Pendiente
-888,2026-10-02,DanielG,Chalong Detalles,Local,Cabudare Centro,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+888,2026-02-10 12:00,DanielG,Chalong Detalles,Local,Cabudare Centro,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
