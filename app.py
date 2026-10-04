@@ -148,7 +148,7 @@ if df_avances.empty:
 elif 'estado_avance' not in df_avances.columns:
     df_avances['estado_avance'] = 'Pendiente'
 
-elif opcion_menu == " Portal Motorizados":
+if opcion_menu == " Portal Motorizados":
     if 'usuario_motorizado' not in st.session_state:
         st.session_state['usuario_motorizado'] = None
 
