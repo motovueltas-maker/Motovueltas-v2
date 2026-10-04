@@ -281,23 +281,6 @@ elif opcion_menu == " Registrar Vuelta":
                 else:
                     st.error("⚠️ Error al guardar en GitHub. Intenta nuevamente.")
 
-# --- MÓDULO: VALIDAR Y ASIGNAR PRECIOS ---
-elif opcion_menu == " Validar Vueltas":
-    st.title("⚙️ Validar y Asignar Precios")
-    st.caption("Revisa las vueltas precargadas por los motorizados, asigna precios o anúlalas. Consulta la tabla inferior para evitar duplicados.")
-
-    df_servicios, sha_servicios = cargar_csv_desde_github(FILE_SERVICIOS)
-    df_motorizados, _ = cargar_csv_desde_github(FILE_MOTORIZADOS)
-    df_clientes, _ = cargar_csv_desde_github(FILE_CLIENTES)
-
-    # ASEGURAR COLUMNAS OBLIGATORIAS PARA EVITAR KEYERROR
-    for col, val_default in {'estado_validacion': 'Pendiente', 'precio_cliente': 0.0}.items():
-        if col not in df_servicios.columns:
-            df_servicios[col] = val_default
-
-    if df_servicios.empty:
-        st.info("No hay datos registrados en servicios.")
-
     # 1. SECCIÓN: VUELTAS PENDIENTES DE VALIDACIÓN
     vueltas_pendientes = df_servicios[(df_servicios['estado_validacion'] == 'Pendiente') | (df_servicios['precio_cliente'] == 0.0)]
 
@@ -306,8 +289,8 @@ elif opcion_menu == " Validar Vueltas":
     if vueltas_pendientes.empty:
         st.success("🎉 ¡No hay vueltas pendientes por validar!")
     else:
-        for idx, row in vueltas_pendientes.iterrows():
-            id_v = row.get('id', idx)
+        for idx_row, row in vueltas_pendientes.iterrows():
+            id_v = row.get('id', idx_row)
             raw_fecha = row.get('fecha', '')
             fecha_v = str(raw_fecha) if pd.notna(raw_fecha) and str(raw_fecha).strip() != '' and str(raw_fecha) != 'nan' else date.today().strftime("%Y-%m-%d")
             
@@ -323,7 +306,7 @@ elif opcion_menu == " Validar Vueltas":
                 c_info1.write(f"**Destino:** {destino_v}")
                 c_info2.write(f"**Detalle / Obs:** {detalle_v if detalle_v and detalle_v != 'nan' else 'Ninguno'}")
 
-                # 1. Buscar el porcentaje configurado en el perfil del motorizado
+                # Buscar comisión por defecto del motorizado
                 pct_comision_default = 66.67
                 if not df_motorizados.empty and 'nombre' in df_motorizados.columns:
                     match_m = df_motorizados[df_motorizados['nombre'].astype(str).str.strip().str.lower() == motorizado_v.strip().lower()]
@@ -334,51 +317,55 @@ elif opcion_menu == " Validar Vueltas":
                             pass
 
                 st.markdown("---")
-                col_p1, col_p2, col_p3 = st.columns(3)
-                with col_p1:
-                    # Usamos id_v en lugar del índice iterativo 'i' para evitar conflictos de renderizado
-                    precio_cli = st.number_input(f"Precio Cliente ($)", min_value=0.0, value=0.0, step=0.5, key=f"p_cli_{id_v}")
                 
-                with col_p2:
-                    pct_comision = st.number_input(f"% Comisión Motorizado", min_value=0.0, max_value=100.0, value=pct_comision_default, step=1.0, key=f"pct_mot_{id_v}")
+                # USAR st.form AISLA LA EJECUCIÓN Y EVITA EL BUCLE DE RECARGAS
+                form_key = f"form_validacion_{id_v}"
+                with st.form(key=form_key):
+                    col_p1, col_p2, col_p3 = st.columns(3)
+                    with col_p1:
+                        precio_cli = st.number_input(f"Precio Cliente ($)", min_value=0.0, value=0.0, step=0.5, key=f"p_cli_{id_v}")
+                    with col_p2:
+                        pct_comision = st.number_input(f"% Comisión Motorizado", min_value=0.0, max_value=100.0, value=pct_comision_default, step=1.0, key=f"pct_mot_{id_v}")
 
-                # 2. Cálculo automático del pago e ingreso de empresa
-                monto_mot = round(precio_cli * (pct_comision / 100.0), 2)
-                ganancia = round(precio_cli - monto_mot, 2)
+                    monto_mot = round(precio_cli * (pct_comision / 100.0), 2)
+                    ganancia = round(precio_cli - monto_mot, 2)
 
-                with col_p3:
-                    st.metric("Pago Motorizado / Empresa", f"${monto_mot:.2f} / ${ganancia:.2f}")
+                    with col_p3:
+                        st.metric("Pago Motorizado / Empresa", f"${monto_mot:.2f} / ${ganancia:.2f}")
 
-                btn_col1, btn_col2 = st.columns([1, 1])
-                
-                # BOTÓN: VALIDAR Y ASIGNAR
-                with btn_col1:
-                    if st.button("✅ Validar y Asignar", key=f"btn_val_{id_v}", use_container_width=True, type="primary"):
+                    btn_col1, btn_col2 = st.columns(2)
+                    submitted_validar = btn_col1.form_submit_button("✅ Validar y Asignar", type="primary", use_container_width=True)
+                    submitted_anular = btn_col2.form_submit_button("🚫 Anular Vuelta", use_container_width=True)
+
+                    if submitted_validar:
                         if precio_cli <= 0:
                             st.error("⚠️ Debes ingresar un precio de cliente mayor a $0.")
                         else:
-                            df_servicios.loc[df_servicios['id'] == id_v, 'fecha'] = fecha_v
-                            df_servicios.loc[df_servicios['id'] == id_v, 'precio_cliente'] = precio_cli
-                            df_servicios.loc[df_servicios['id'] == id_v, 'porcentaje_comision'] = pct_comision
-                            df_servicios.loc[df_servicios['id'] == id_v, 'monto_motorizado'] = monto_mot
-                            df_servicios.loc[df_servicios['id'] == id_v, 'ganancia_empresa'] = ganancia
-                            df_servicios.loc[df_servicios['id'] == id_v, 'estado_validacion'] = 'Validado'
+                            # Recargar datos frescos antes de escribir para evitar conflictos de concurrencia/SHA
+                            df_servicios_fresh, sha_fresh = cargar_csv_desde_github(FILE_SERVICIOS)
+                            
+                            df_servicios_fresh.loc[df_servicios_fresh['id'] == id_v, 'fecha'] = fecha_v
+                            df_servicios_fresh.loc[df_servicios_fresh['id'] == id_v, 'precio_cliente'] = precio_cli
+                            df_servicios_fresh.loc[df_servicios_fresh['id'] == id_v, 'porcentaje_comision'] = pct_comision
+                            df_servicios_fresh.loc[df_servicios_fresh['id'] == id_v, 'monto_motorizado'] = monto_mot
+                            df_servicios_fresh.loc[df_servicios_fresh['id'] == id_v, 'ganancia_empresa'] = ganancia
+                            df_servicios_fresh.loc[df_servicios_fresh['id'] == id_v, 'estado_validacion'] = 'Validado'
 
-                            if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Validada vuelta #{id_v}"):
+                            if guardar_csv_en_github(FILE_SERVICIOS, df_servicios_fresh, sha_fresh, f"Validada vuelta #{id_v}"):
                                 st.success(f"✅ Vuelta #{id_v} validada correctamente.")
                                 st.rerun()
                             else:
                                 st.error("❌ Error al guardar en GitHub.")
 
-                # BOTÓN: ANULAR
-                with btn_col2:
-                    if st.button("🚫 Anular Vuelta", key=f"btn_anular_{id_v}", use_container_width=True):
-                        df_servicios.loc[df_servicios['id'] == id_v, 'estado_validacion'] = 'Anulada'
-                        if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Anulada vuelta precargada #{id_v}"):
+                    if submitted_anular:
+                        df_servicios_fresh, sha_fresh = cargar_csv_desde_github(FILE_SERVICIOS)
+                        df_servicios_fresh.loc[df_servicios_fresh['id'] == id_v, 'estado_validacion'] = 'Anulada'
+                        
+                        if guardar_csv_en_github(FILE_SERVICIOS, df_servicios_fresh, sha_fresh, f"Anulada vuelta precargada #{id_v}"):
                             st.warning(f"🚫 Vuelta #{id_v} ha sido anulada.")
                             st.rerun()
                         else:
-                            st.error("❌ Error al guardar en GitHub.")
+                            st.error("❌ Error al guardar en GitHub.")    
                             
     # 2. SECCIÓN: TABLA EVALUADORA HISTÓRICA CON FILTROS Y EDICIÓN
     st.subheader("🔍 Consultar / Evaluar Vueltas Registradas")
