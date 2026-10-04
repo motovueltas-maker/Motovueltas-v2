@@ -301,7 +301,7 @@ elif opcion_menu == " Validar Vueltas":
     if vueltas_pendientes.empty:
         st.success("🎉 ¡No hay vueltas pendientes por validar!")
     else:
-        for idx, row in vueltas_pendientes.iterrows():
+        for i, (idx, row) in enumerate(vueltas_pendientes.iterrows()):
             id_v = row.get('id', idx)
             raw_fecha = row.get('fecha', '')
             fecha_v = str(raw_fecha) if pd.notna(raw_fecha) and str(raw_fecha).strip() != '' and str(raw_fecha) != 'nan' else date.today().strftime("%Y-%m-%d")
