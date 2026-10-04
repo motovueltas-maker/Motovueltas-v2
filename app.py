@@ -292,7 +292,6 @@ elif opcion_menu == " Validar Vueltas":
     if df_servicios.empty:
         st.info("No hay datos registrados en servicios.")
     else:
-        # --- BLINDAJE OBLIGATORIO CONTRA EL KEYERROR ---
         if 'estado_validacion' not in df_servicios.columns:
             df_servicios['estado_validacion'] = 'Pendiente'
         else:
@@ -303,7 +302,6 @@ elif opcion_menu == " Validar Vueltas":
         else:
             df_servicios['precio_cliente'] = df_servicios['precio_cliente'].fillna(0.0)
 
-        # 1. SECCIÓN: VUELTAS PENDIENTES EN TABLA EDITABLE DIRECTA
         vueltas_pendientes = df_servicios[df_servicios['estado_validacion'] == 'Pendiente'].copy()
         st.subheader(f"📥 Vueltas Precargadas Pendientes ({len(vueltas_pendientes)})")
         
@@ -401,7 +399,7 @@ elif opcion_menu == " Validar Vueltas":
                 st.success("✅ ¡Cambios guardados exitosamente en GitHub!")
             else:
                 st.error("❌ Error al guardar en GitHub.")
-                
+
 # --- MÓDULO: DIRECTORIO CLIENTES ---
 elif opcion_menu == " Directorio Clientes":
     st.header("👥 Gestión y Directorio de Clientes")
