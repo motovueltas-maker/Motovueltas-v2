@@ -868,3 +868,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 867,2026-09-25,Alirio Diaz ,Fresas Delivery Rebeca,Local,Calle 26  con 49 (Javier),,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 868,2026-09-28 12:00,Deiby,Chalong Detalles,Local,Arca,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 869,2026-09-28 12:00,Deiby,Chalong Detalles,Local,Carr 13 con 35 y 36,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+870,2026-09-28,DanielG,Chalong Detalles,Local,Cosmos,,2.5,0.7,0.02,2.48,Validado,Pendiente,Pendiente
