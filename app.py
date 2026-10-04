@@ -280,7 +280,6 @@ elif opcion_menu == " Registrar Vuelta":
                 else:
                     st.error("⚠️ Error al guardar en GitHub. Intenta nuevamente.")
 
-# --- MÓDULO: VALIDAR Y ASIGNAR PRECIOS ---
 elif opcion_menu == " Validar Vueltas":
     st.title("⚙️ Validar y Asignar Precios")
     st.caption("Revisa las vueltas precargadas por los motorizados, asigna precios o anúlalas. Consulta la tabla inferior para evitar duplicados.")
@@ -291,150 +290,137 @@ elif opcion_menu == " Validar Vueltas":
 
     if df_servicios.empty:
         st.info("No hay datos registrados en servicios.")
-
-    # 1. SECCIÓN: VUELTAS PENDIENTES DE VALIDACIÓN
-    vueltas_pendientes = df_servicios[df_servicios['estado_validacion'] == 'Pendiente']
-
-    st.subheader(f"📥 Vueltas Precargadas Pendientes ({len(vueltas_pendientes)})")
-
-    if vueltas_pendientes.empty:
-        st.success("🎉 ¡No hay vueltas pendientes por validar!")
     else:
-        for idx, row in vueltas_pendientes.iterrows():
-            id_v = row.get('id', idx)
-            raw_fecha = row.get('fecha', '')
-            fecha_v = str(raw_fecha) if pd.notna(raw_fecha) and str(raw_fecha).strip() != '' and str(raw_fecha) != 'nan' else date.today().strftime("%Y-%m-%d")
+        # --- BLINDAJE OBLIGATORIO CONTRA EL KEYERROR ---
+        if 'estado_validacion' not in df_servicios.columns:
+            df_servicios['estado_validacion'] = 'Pendiente'
+        else:
+            df_servicios['estado_validacion'] = df_servicios['estado_validacion'].fillna('Pendiente')
             
-            cliente_v = str(row.get('cliente', 'Sin Cliente'))
-            motorizado_v = str(row.get('motorizado', 'Sin Motorizado'))
-            origen_v = str(row.get('origen', 'Local'))
-            destino_v = str(row.get('destino', 'Local'))
-            detalle_v = str(row.get('detalle', ''))
+        if 'precio_cliente' not in df_servicios.columns:
+            df_servicios['precio_cliente'] = 0.0
+        else:
+            df_servicios['precio_cliente'] = df_servicios['precio_cliente'].fillna(0.0)
+        # -----------------------------------------------
 
-            with st.expander(f"📌 Vuelta #{id_v} | Fecha: {fecha_v} | Cliente: {cliente_v} | Motorizado: {motorizado_v}"):
-                c_info1, c_info2 = st.columns(2)
-                c_info1.write(f"**Origen:** {origen_v}")
-                c_info1.write(f"**Destino:** {destino_v}")
-                c_info2.write(f"**Detalle / Obs:** {detalle_v if detalle_v and detalle_v != 'nan' else 'Ninguno'}")
+        # 1. SECCIÓN: VUELTAS PENDIENTES DE VALIDACIÓN
+        vueltas_pendientes = df_servicios[df_servicios['estado_validacion'] == 'Pendiente']
+        st.subheader(f"📥 Vueltas Precargadas Pendientes ({len(vueltas_pendientes)})")
+        
+        if vueltas_pendientes.empty:
+            st.success("🎉 ¡No hay vueltas pendientes por validar!")
+        else:
+            for idx, row in vueltas_pendientes.iterrows():
+                id_v = row.get('id', idx)
+                raw_fecha = row.get('fecha', '')
+                fecha_v = str(raw_fecha) if pd.notna(raw_fecha) and str(raw_fecha).strip() != '' and str(raw_fecha) != 'nan' else date.today().strftime("%Y-%m-%d")
+                cliente_v = str(row.get('cliente', 'Sin Cliente'))
+                motorizado_v = str(row.get('motorizado', 'Sin Motorizado'))
+                origen_v = str(row.get('origen', 'Local'))
+                destino_v = str(row.get('destino', 'Local'))
+                detalle_v = str(row.get('detalle', ''))
 
-                # 1. Buscar el porcentaje configurado en el perfil del motorizado
-                pct_comision_default = 66.67
-                if not df_motorizados.empty and 'nombre' in df_motorizados.columns:
-                    match_m = df_motorizados[df_motorizados['nombre'].astype(str).str.strip().str.lower() == motorizado_v.strip().lower()]
-                    if not match_m.empty and 'porcentaje_ganancia' in match_m.columns:
-                        try:
-                            pct_comision_default = float(match_m.iloc[0]['porcentaje_ganancia'])
-                        except:
-                            pass
+                with st.expander(f"📌 Vuelta #{id_v} | Fecha: {fecha_v} | Cliente: {cliente_v} | Motorizado: {motorizado_v}"):
+                    c_info1, c_info2 = st.columns(2)
+                    c_info1.write(f"**Origen:** {origen_v}")
+                    c_info1.write(f"**Destino:** {destino_v}")
+                    c_info2.write(f"**Detalle / Obs:** {detalle_v if detalle_v and detalle_v != 'nan' else 'Ninguno'}")
+
+                    pct_comision_default = 66.67
+                    if not df_motorizados.empty and 'nombre' in df_motorizados.columns:
+                        match_m = df_motorizados[df_motorizados['nombre'].astype(str).str.strip().str.lower() == motorizado_v.strip().lower()]
+                        if not match_m.empty and 'porcentaje_ganancia' in match_m.columns:
+                            try:
+                                pct_comision_default = float(match_m.iloc[0]['porcentaje_ganancia'])
+                            except:
+                                pass
 
                     st.markdown("---")
                     col_p1, col_p2, col_p3 = st.columns(3)
                     with col_p1:
                         precio_cli = st.number_input(f"Precio Cliente ($)", min_value=0.0, value=0.0, step=0.5, key=f"p_cli_{id_v}")
-                    
                     with col_p2:
                         pct_comision = st.number_input(f"% Comisión Motorizado", min_value=0.0, max_value=100.0, value=pct_comision_default, step=1.0, key=f"pct_mot_{id_v}")
 
-                    # 2. Cálculo automático del pago e ingreso de empresa
                     monto_mot = round(precio_cli * (pct_comision / 100.0), 2)
                     ganancia = round(precio_cli - monto_mot, 2)
-
                     with col_p3:
                         st.metric("Pago Motorizado / Empresa", f"${monto_mot:.2f} / ${ganancia:.2f}")
 
                     btn_col1, btn_col2 = st.columns([1, 1])
-                    
-                    # BOTÓN: VALIDAR Y SUMAR
                     with btn_col1:
                         if st.button("✅ Validar y Asignar", key=f"btn_val_{id_v}", use_container_width=True, type="primary"):
                             if precio_cli <= 0:
                                 st.error("⚠️ Debes ingresar un precio de cliente mayor a $0.")
-                        else:
-                            df_servicios.loc[df_servicios['id'] == id_v, 'fecha'] = fecha_v
-                            df_servicios.loc[df_servicios['id'] == id_v, 'precio_cliente'] = precio_cli
-                            df_servicios.loc[df_servicios['id'] == id_v, 'porcentaje_comision'] = pct_comision
-                            df_servicios.loc[df_servicios['id'] == id_v, 'monto_motorizado'] = monto_mot
-                            df_servicios.loc[df_servicios['id'] == id_v, 'ganancia_empresa'] = ganancia
-                            df_servicios.loc[df_servicios['id'] == id_v, 'estado_validacion'] = 'Validado'
-
-                            if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Validada vuelta #{id_v}"):
-                                st.success(f"✅ Vuelta #{id_v} validada correctamente.")
+                            else:
+                                df_servicios.loc[df_servicios['id'] == id_v, 'fecha'] = fecha_v
+                                df_servicios.loc[df_servicios['id'] == id_v, 'precio_cliente'] = precio_cli
+                                df_servicios.loc[df_servicios['id'] == id_v, 'porcentaje_comision'] = pct_comision
+                                df_servicios.loc[df_servicios['id'] == id_v, 'monto_motorizado'] = monto_mot
+                                df_servicios.loc[df_servicios['id'] == id_v, 'ganancia_empresa'] = ganancia
+                                df_servicios.loc[df_servicios['id'] == id_v, 'estado_validacion'] = 'Validado'
+                                if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Validada vuelta #{id_v}"):
+                                    st.success(f"✅ Vuelta #{id_v} validada correctamente.")
+                                    st.rerun()
+                                else:
+                                    st.error("❌ Error al guardar en GitHub.")
+                    with btn_col2:
+                        if st.button("🚫 Anular Vuelta", key=f"btn_anular_{id_v}", use_container_width=True):
+                            df_servicios.loc[df_servicios['id'] == id_v, 'estado_validacion'] = 'Anulada'
+                            if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Anulada vuelta precargada #{id_v}"):
+                                st.warning(f"🚫 Vuelta #{id_v} ha sido anulada.")
                                 st.rerun()
                             else:
                                 st.error("❌ Error al guardar en GitHub.")
 
-                # BOTÓN: ANULAR
-                with btn_col2:
-                    if st.button("🚫 Anular Vuelta", key=f"btn_anular_{id_v}", use_container_width=True):
-                        df_servicios.loc[df_servicios['id'] == id_v, 'estado_validacion'] = 'Anulada'
-                        if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Anulada vuelta precargada #{id_v}"):
-                            st.warning(f"🚫 Vuelta #{id_v} ha sido anulada.")
-                            st.rerun()
-                        else:
-                            st.error("❌ Error al guardar en GitHub.")
+        st.markdown("---")
+        st.subheader("🔍 Consultar / Evaluar Vueltas Registradas")
+        st.caption("Filtra las vueltas para verificar si un servicio ya fue ingresado previamente.")
+        
+        col_fecha1, col_fecha2 = st.columns(2)
+        with col_fecha1:
+            f_desde_val = st.date_input("📅 Fecha Desde (Opcional):", value=None, format="DD/MM/YYYY", key="f_desde_val")
+        with col_fecha2:
+            f_hasta_val = st.date_input("📅 Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", key="f_hasta_val")
 
-    st.markdown("---")
+        col_f1, col_f2, col_f3 = st.columns(3)
+        list_mot = ["Todos"] + sorted(df_motorizados['nombre'].dropna().tolist()) if not df_motorizados.empty and 'nombre' in df_motorizados.columns else ["Todos"]
+        list_cli = ["Todos"] + sorted(df_clientes['nombre'].dropna().tolist()) if not df_clientes.empty and 'nombre' in df_clientes.columns else ["Todos"]
+        with col_f1:
+            filtro_mot = st.selectbox("🎯 Filtrar por Motorizado", options=list_mot)
+        with col_f2:
+            filtro_cli = st.selectbox("👤 Filtrar por Cliente", options=list_cli)
+        with col_f3:
+            filtro_estado = st.selectbox("📋 Estado de Validación", options=["Todos", "Validado", "Pendiente", "Anulada"])
 
-    # 2. SECCIÓN: TABLA EVALUADORA HISTÓRICA CON FILTROS Y EDICIÓN
-    st.subheader("🔍 Consultar / Evaluar Vueltas Registradas")
-    st.caption("Filtra las vueltas para verificar si un servicio ya fue ingresado previamente.")
+        df_filtrado = df_servicios.copy()
+        if f_desde_val or f_hasta_val:
+            fechas_dt_val = pd.to_datetime(df_filtrado['fecha'], dayfirst=True, errors='coerce').dt.date
+            if f_desde_val and f_hasta_val:
+                df_filtrado = df_filtrado[(fechas_dt_val >= f_desde_val) & (fechas_dt_val <= f_hasta_val)]
+            elif f_desde_val:
+                df_filtrado = df_filtrado[fechas_dt_val >= f_desde_val]
+            elif f_hasta_val:
+                df_filtrado = df_filtrado[fechas_dt_val <= f_hasta_val]
 
-    # Fila 1 de Filtros: Rango de Fechas
-    col_fecha1, col_fecha2 = st.columns(2)
-    with col_fecha1:
-        f_desde_val = st.date_input("📅 Fecha Desde (Opcional):", value=None, format="DD/MM/YYYY", key="f_desde_val")
-    with col_fecha2:
-        f_hasta_val = st.date_input("📅 Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", key="f_hasta_val")
+        if filtro_mot != "Todos":
+            df_filtrado = df_filtrado[df_filtrado['motorizado'].astype(str).str.strip() == filtro_mot]
+        if filtro_cli != "Todos":
+            df_filtrado = df_filtrado[df_filtrado['cliente'].astype(str).str.strip() == filtro_cli]
+        if filtro_estado != "Todos":
+            df_filtrado = df_filtrado[df_filtrado['estado_validacion'] == filtro_estado]
 
-    # Fila 2 de Filtros: Motorizado, Cliente y Estado
-    col_f1, col_f2, col_f3 = st.columns(3)
-    list_mot = ["Todos"] + sorted(df_motorizados['nombre'].dropna().tolist()) if not df_motorizados.empty and 'nombre' in df_motorizados.columns else ["Todos"]
-    list_cli = ["Todos"] + sorted(df_clientes['nombre'].dropna().tolist()) if not df_clientes.empty and 'nombre' in df_clientes.columns else ["Todos"]
+        st.markdown("##### 📝 Tabla de Vueltas (Editable):")
+        df_editado = st.data_editor(df_filtrado, num_rows="dynamic", use_container_width=True, key="editor_tabla_validations")
 
-    with col_f1:
-        filtro_mot = st.selectbox("🎯 Filtrar por Motorizado", options=list_mot)
-    with col_f2:
-        filtro_cli = st.selectbox("👤 Filtrar por Cliente", options=list_cli)
-    with col_f3:
-        filtro_estado = st.selectbox("📋 Estado de Validación", options=["Todos", "Validado", "Pendiente", "Anulada"])
-
-    df_filtrado = df_servicios.copy()
-
-    # Aplicar Filtro de Fechas de forma segura
-    if f_desde_val or f_hasta_val:
-        fechas_dt_val = pd.to_datetime(df_filtrado['fecha'], dayfirst=True, errors='coerce').dt.date
-        if f_desde_val and f_hasta_val:
-            df_filtrado = df_filtrado[(fechas_dt_val >= f_desde_val) & (fechas_dt_val <= f_hasta_val)]
-        elif f_desde_val:
-            df_filtrado = df_filtrado[fechas_dt_val >= f_desde_val]
-        elif f_hasta_val:
-            df_filtrado = df_filtrado[fechas_dt_val <= f_hasta_val]
-
-    if filtro_mot != "Todos":
-        df_filtrado = df_filtrado[df_filtrado['motorizado'].astype(str).str.strip() == filtro_mot]
-
-    if filtro_cli != "Todos":
-        df_filtrado = df_filtrado[df_filtrado['cliente'].astype(str).str.strip() == filtro_cli]
-
-    if filtro_estado != "Todos":
-        df_filtrado = df_filtrado[df_filtrado['estado_validacion'] == filtro_estado]
-
-    st.markdown("##### 📝 Tabla de Vueltas (Editable):")
-    df_editado = st.data_editor(
-        df_filtrado,
-        num_rows="dynamic",
-        use_container_width=True,
-        key="editor_tabla_validaciones"
-    )
-
-    if st.button("💾 Guardar Cambios en la Tabla", type="primary"):
-        df_servicios.update(df_editado)
-        if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, "Actualización manual desde tabla evaluadora"):
-            st.success("✅ ¡Cambios guardados exitosamente en GitHub!")
-            st.rerun()
-        else:
-            st.error("❌ Error al guardar en GitHub.")
-            
+        if st.button("💾 Guardar Cambios en la Tabla", type="primary"):
+            df_servicios.update(df_editado)
+            if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, "Actualización manual desde tabla evaluadora"):
+                st.success("✅ ¡Cambios guardados exitosamente en GitHub!")
+                st.rerun()
+            else:
+                st.error("❌ Error al guardar en GitHub.")
+                
 # --- MÓDULO: DIRECTORIO CLIENTES ---
 elif opcion_menu == " Directorio Clientes":
     st.header("👥 Gestión y Directorio de Clientes")
