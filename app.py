@@ -328,28 +328,28 @@ elif opcion_menu == " Validar Vueltas":
                         except:
                             pass
 
-                    st.markdown("---")
-                    col_p1, col_p2, col_p3 = st.columns(3)
-                    with col_p1:
-                        precio_cli = st.number_input(f"Precio Cliente ($)", min_value=0.0, value=0.0, step=0.5, key=f"p_cli_{i}")
-                    
-                    with col_p2:
-                        pct_comision = st.number_input(f"% Comisión Motorizado", min_value=0.0, max_value=100.0, value=pct_comision_default, step=1.0, key=f"pct_mot_{i}")
+                st.markdown("---")
+                col_p1, col_p2, col_p3 = st.columns(3)
+                with col_p1:
+                    precio_cli = st.number_input(f"Precio Cliente ($)", min_value=0.0, value=0.0, step=0.5, key=f"p_cli_{i}")
+                
+                with col_p2:
+                    pct_comision = st.number_input(f"% Comisión Motorizado", min_value=0.0, max_value=100.0, value=pct_comision_default, step=1.0, key=f"pct_mot_{i}")
 
-                    # 2. Cálculo automático del pago e ingreso de empresa
-                    monto_mot = round(precio_cli * (pct_comision / 100.0), 2)
-                    ganancia = round(precio_cli - monto_mot, 2)
+                # 2. Cálculo automático del pago e ingreso de empresa
+                monto_mot = round(precio_cli * (pct_comision / 100.0), 2)
+                ganancia = round(precio_cli - monto_mot, 2)
 
-                    with col_p3:
-                        st.metric("Pago Motorizado / Empresa", f"${monto_mot:.2f} / ${ganancia:.2f}")
+                with col_p3:
+                    st.metric("Pago Motorizado / Empresa", f"${monto_mot:.2f} / ${ganancia:.2f}")
 
-                    btn_col1, btn_col2 = st.columns([1, 1])
-                    
-                    # BOTÓN: VALIDAR Y SUMAR
-                    with btn_col1:
-                        if st.button("✅ Validar y Asignar", key=f"btn_val_{i}", use_container_width=True, type="primary"):
-                            if precio_cli <= 0:
-                                st.error("⚠️ Debes ingresar un precio de cliente mayor a $0.")
+                btn_col1, btn_col2 = st.columns([1, 1])
+                
+                # BOTÓN: VALIDAR Y SUMAR
+                with btn_col1:
+                    if st.button("✅ Validar y Asignar", key=f"btn_val_{i}", use_container_width=True, type="primary"):
+                        if precio_cli <= 0:
+                            st.error("⚠️ Debes ingresar un precio de cliente mayor a $0.")
                         else:
                             df_servicios.loc[df_servicios['id'] == id_v, 'fecha'] = fecha_v
                             df_servicios.loc[df_servicios['id'] == id_v, 'precio_cliente'] = precio_cli
