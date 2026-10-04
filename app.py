@@ -307,7 +307,6 @@ def render_validar_vueltas():
     else:
         for idx, row in vueltas_pendientes.iterrows():
             id_v = row.get('id', idx)
-            # Manejo seguro de fecha (evita el 'nan')
             raw_fecha = row.get('fecha', '')
             fecha_v = str(raw_fecha) if pd.notna(raw_fecha) and str(raw_fecha).strip() != '' else date.today().strftime("%Y-%m-%d")
             
@@ -335,11 +334,10 @@ def render_validar_vueltas():
 
                 btn_col1, btn_col2 = st.columns([1, 1])
                 
-                # BOTÓN 1: VALIDAR Y SUMAR
                 with btn_col1:
                     if st.button("✅ Validar y Asignar", key=f"btn_val_{id_v}", use_container_width=True, type="primary"):
                         if precio_cli <= 0 or monto_mot <= 0:
-                            st.error("⚠️️ Debes asignar un precio válido para el cliente y el motorizado.")
+                            st.error("⚠️ Debes asignar un precio válido para el cliente y el motorizado.")
                         else:
                             df_servicios.loc[df_servicios['id'] == id_v, 'fecha'] = fecha_v
                             df_servicios.loc[df_servicios['id'] == id_v, 'precio_cliente'] = precio_cli
@@ -353,7 +351,6 @@ def render_validar_vueltas():
                             else:
                                 st.error("❌ Error al guardar en GitHub.")
 
-                # BOTÓN 2: ANULAR VUELTA
                 with btn_col2:
                     if st.button("🚫 Anular Vuelta", key=f"btn_anular_{id_v}", use_container_width=True):
                         df_servicios.loc[df_servicios['id'] == id_v, 'estado_validacion'] = 'Anulada'
@@ -381,7 +378,6 @@ def render_validar_vueltas():
     with col_f3:
         filtro_estado = st.selectbox("📋 Estado de Validación", options=["Todos", "Validado", "Pendiente", "Anulada"])
 
-    # Aplicar filtros sobre el DataFrame
     df_filtrado = df_servicios.copy()
 
     if filtro_mot != "Todos":
@@ -393,7 +389,6 @@ def render_validar_vueltas():
     if filtro_estado != "Todos":
         df_filtrado = df_filtrado[df_filtrado['estado_validacion'] == filtro_estado]
 
-    # Tabla Editable
     st.markdown("##### 📝 Tabla de Vueltas (Editable):")
     df_editado = st.data_editor(
         df_filtrado,
