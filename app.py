@@ -130,8 +130,11 @@ if st.session_state.get("rol", "Motorizado") == "Admin":
         " Perfiles Motorizados",
         " Portal Motorizados"
     ]
-else:
-    opciones = [" Registrar Vuelta"]
+    if st.session_state.get("rol", "Motorizado") == "Admin":
+        opciones = ["Registrar Vuelta", "Validar Vueltas", "Corte Clientes", "Corte Motorizados", "Directorio Clientes", "Perfiles Motorizados", "Portal Motorizados"]
+    else:
+        # AQUÍ ESTABA LA LIMITANTE: Permitimos que el motorizado tenga ambas opciones
+        opciones = ["Registrar Vuelta", "Portal Motorizados"]
 
 # Cambiamos st.sidebar.radio por st.radio horizontal
 opcion_menu = st.radio("📌 Menú de Módulos:", opciones, horizontal=True)
