@@ -900,26 +900,34 @@ elif opcion_menu == " Corte Motorizados":
 # --- MÓDULO INDEPENDIENTE: PORTAL MOTORIZADOS ---
 def render_portal_motorizado(nombre_motorizado):
     st.subheader(f"🏍️ Panel de Control - {nombre_motorizado.capitalize()}")
-    
+
     # 1. CARGAR DATOS FRESCOS
     df_servicios_p, sha_s_p = cargar_csv_desde_github(FILE_SERVICIOS)
     df_motos_p, _ = cargar_csv_desde_github(FILE_MOTORIZADOS)
     df_clientes_p, _ = cargar_csv_desde_github(FILE_CLIENTES)
     df_avances_p, _ = cargar_csv_desde_github(FILE_AVANCES)
 
-    # 2. OBTENER EL PORCENTAJE PREFIJADO DEL MOTORIZADO
-    porcentaje_motorizado = 66.67
-    if not df_motos_p.empty and 'nombre' in df_motos_p.columns:
-        match_m = df_motos_p[df_motos_p['nombre'].astype(str).str.strip().str.lower() == nombre_motorizado.strip().lower()]
-        if not match_m.empty and 'porcentaje_ganancia' in match_m.columns:
-            porcentaje_motorizado = float(match_m['porcentaje_ganancia'].values[0])
+    # 2. BOTONES HORIZONTALES PARA NAVEGAR RÁPIDO (COMO PEDISTE)
+    # Usamos un radio horizontal para que actúe como botones de selección rápida lado a lado
+    opcion_portal = st.radio(
+        "Selecciona una acción:",
+        ["⚡ Registrar Vuelta", "📊 Ver Balance"],
+        horizontal=True,
+        label_visibility="collapsed"
+    )
 
-    # --- CREAMOS LAS PESTAÑAS (TABS) ---
-    tab_registrar, tab_balance = st.tabs(["⚡ Registrar Vuelta", "📊 Mi Balance Acumulado"])
+    st.markdown("---")
 
-    # --- PESTAÑA 1: REGISTRAR VUELTA ---
-    with tab_registrar:
-        st.caption("Precarga tus nuevas vueltas para enviarlas a validación.")
+    # --- OPCIÓN 1: REGISTRAR VUELTA ---
+    if opcion_portal == "⚡ Registrar Vuelta":
+        st.subheader("⚡ Registrar / Precargar Nueva Vuelta")
+        
+        porcentaje_motorizado = 66.67
+        if not df_motos_p.empty and 'nombre' in df_motos_p.columns:
+            match_m = df_motos_p[df_motos_p['nombre'].astype(str).str.strip().str.lower() == nombre_motorizado.strip().lower()]
+            if not match_m.empty and 'porcentaje_ganancia' in match_m.columns:
+                porcentaje_motorizado = float(match_m['porcentaje_ganancia'].values[0])
+
         nom_clientes = sorted(df_clientes_p['nombre'].dropna().tolist()) if not df_clientes_p.empty and 'nombre' in df_clientes_p.columns else []
 
         with st.form("form_portal_motorizado_vueltas", clear_on_submit=True):
@@ -968,9 +976,9 @@ def render_portal_motorizado(nombre_motorizado):
                     else:
                         st.error("❌ Error al guardar en GitHub.")
 
-    # --- PESTAÑA 2: BALANCE ACUMULADO ---
-    with tab_balance:
-        st.caption("Consulta detallada de tus ganancias y saldo pendiente.")
+    # --- OPCIÓN 2: VER BALANCE ---
+    elif opcion_portal == "📊 Ver Balance":
+        st.subheader("📊 Tu Resumen y Balance Acumulado")
 
         servicios_chofer = pd.DataFrame()
         if not df_servicios_p.empty and 'motorizado' in df_servicios_p.columns:
@@ -985,7 +993,6 @@ def render_portal_motorizado(nombre_motorizado):
         saldo_neto = total_comisiones - total_avances
         cantidad_vueltas = len(servicios_chofer)
 
-        # Métricas adaptadas para verse bien en celdas organizadas
         col_m1, col_m2 = st.columns(2)
         col_m1.metric("Comisiones Ganadas", f"${total_comisiones:.2f}")
         col_m2.metric("Adelantos", f"-${total_avances:.2f}")
