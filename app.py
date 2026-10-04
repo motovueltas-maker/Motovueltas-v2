@@ -361,7 +361,6 @@ elif opcion_menu == " Validar Vueltas":
                                 df_servicios.loc[df_servicios['id'] == id_v, 'estado_validacion'] = 'Validado'
                                 if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Validada vuelta #{id_v}"):
                                     st.success(f"✅ Vuelta #{id_v} validada correctamente.")
-                                    st.rerun()
                                 else:
                                     st.error("❌ Error al guardar en GitHub.")
                     with btn_col2:
