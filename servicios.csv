@@ -892,3 +892,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 891,2026-10-03,Esneyder,Chalong Detalles,Local,Edif Rio Lama 4,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 892,2026-10-03,DanielG,Chalong Detalles,Local,Res Mariella,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 893,2026-10-03,Deiby,Chalong Detalles,Local,Carr 23 entre 19 y 20,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+894,2026-10-03,Deiby,Chalong Detalles,Local,CC Las Trinitarias,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
