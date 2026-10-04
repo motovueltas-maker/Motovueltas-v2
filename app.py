@@ -281,7 +281,7 @@ elif opcion_menu == " Registrar Vuelta":
                     st.error("⚠️ Error al guardar en GitHub. Intenta nuevamente.")
 
 # --- MÓDULO: VALIDAR Y ASIGNAR PRECIOS ---
-def render_validar_vueltas():
+elif opcion_menu == " Validar Vueltas":
     st.title("⚙️ Validar y Asignar Precios")
     st.caption("Revisa las vueltas precargadas por los motorizados, asigna precios o anúlalas. Consulta la tabla inferior para evitar duplicados.")
 
@@ -291,11 +291,7 @@ def render_validar_vueltas():
 
     if df_servicios.empty:
         st.info("No hay datos registrados en servicios.")
-        return
-
-    # Normalizar columna de estado de validación
-    if 'estado_validacion' not in df_servicios.columns:
-        df_servicios['estado_validacion'] = 'Pendiente'
+    else:
 
     # 1. SECCIÓN: VUELTAS PENDIENTES DE VALIDACIÓN
     vueltas_pendientes = df_servicios[df_servicios['estado_validacion'] == 'Pendiente']
