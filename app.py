@@ -317,26 +317,42 @@ elif opcion_menu == " Validar Vueltas":
                 c_info1.write(f"**Destino:** {destino_v}")
                 c_info2.write(f"**Detalle / Obs:** {detalle_v if detalle_v and detalle_v != 'nan' else 'Ninguno'}")
 
-                st.markdown("---")
-                col_p1, col_p2, col_p3 = st.columns(3)
-                with col_p1:
-                    precio_cli = st.number_input(f"Precio Cliente ($)", min_value=0.0, value=0.0, step=0.5, key=f"p_cli_{id_v}")
-                with col_p2:
-                    monto_mot = st.number_input(f"Monto Motorizado ($)", min_value=0.0, value=0.0, step=0.5, key=f"p_mot_{id_v}")
-                with col_p3:
-                    ganancia = precio_cli - monto_mot
-                    st.metric("Ganancia Empresa", f"${ganancia:.2f}")
+                # 1. Buscar el porcentaje configurado en el perfil del motorizado
+                    pct_comision_default = 66.67
+                    if not df_motorizados.empty and 'nombre' in df_motorizados.columns:
+                        match_m = df_motorizados[df_motorizados['nombre'].astype(str).str.strip().str.lower() == motorizado_v.strip().lower()]
+                        if not match_m.empty and 'porcentaje_ganancia' in match_m.columns:
+                            try:
+                                pct_comision_default = float(match_m.iloc[0]['porcentaje_ganancia'])
+                            except:
+                                pass
 
-                btn_col1, btn_col2 = st.columns([1, 1])
-                
-                # BOTÓN: VALIDAR Y SUMAR
-                with btn_col1:
-                    if st.button("✅ Validar y Asignar", key=f"btn_val_{id_v}", use_container_width=True, type="primary"):
-                        if precio_cli <= 0 or monto_mot <= 0:
-                            st.error("⚠️ Debes asignar un precio válido para el cliente y el motorizado.")
+                    st.markdown("---")
+                    col_p1, col_p2, col_p3 = st.columns(3)
+                    with col_p1:
+                        precio_cli = st.number_input(f"Precio Cliente ($)", min_value=0.0, value=0.0, step=0.5, key=f"p_cli_{id_v}")
+                    
+                    with col_p2:
+                        pct_comision = st.number_input(f"% Comisión Motorizado", min_value=0.0, max_value=100.0, value=pct_comision_default, step=1.0, key=f"pct_mot_{id_v}")
+
+                    # 2. Cálculo automático del pago e ingreso de empresa
+                    monto_mot = round(precio_cli * (pct_comision / 100.0), 2)
+                    ganancia = round(precio_cli - monto_mot, 2)
+
+                    with col_p3:
+                        st.metric("Pago Motorizado / Empresa", f"${monto_mot:.2f} / ${ganancia:.2f}")
+
+                    btn_col1, btn_col2 = st.columns([1, 1])
+                    
+                    # BOTÓN: VALIDAR Y SUMAR
+                    with btn_col1:
+                        if st.button("✅ Validar y Asignar", key=f"btn_val_{id_v}", use_container_width=True, type="primary"):
+                            if precio_cli <= 0:
+                                st.error("⚠️ Debes ingresar un precio de cliente mayor a $0.")
                         else:
                             df_servicios.loc[df_servicios['id'] == id_v, 'fecha'] = fecha_v
                             df_servicios.loc[df_servicios['id'] == id_v, 'precio_cliente'] = precio_cli
+                            df_servicios.loc[df_servicios['id'] == id_v, 'porcentaje_comision'] = pct_comision
                             df_servicios.loc[df_servicios['id'] == id_v, 'monto_motorizado'] = monto_mot
                             df_servicios.loc[df_servicios['id'] == id_v, 'ganancia_empresa'] = ganancia
                             df_servicios.loc[df_servicios['id'] == id_v, 'estado_validacion'] = 'Validado'
@@ -362,8 +378,6 @@ elif opcion_menu == " Validar Vueltas":
     # 2. SECCIÓN: TABLA EVALUADORA HISTÓRICA CON FILTROS Y EDICIÓN
     st.subheader("🔍 Consultar / Evaluar Vueltas Registradas")
     st.caption("Filtra las vueltas para verificar si un servicio ya fue ingresado previamente.")
-
-    col_f1, col_f2, col_f3 = st.columns(3)
 
     # Fila 1 de Filtros: Rango de Fechas
     col_fecha1, col_fecha2 = st.columns(2)
