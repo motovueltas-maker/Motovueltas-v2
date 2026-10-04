@@ -802,7 +802,7 @@ def render_portal_motorizado(usuario_actual):
     st.title(f"🏍️ Portal Motorizados - {usuario_actual}")
     st.caption("Registra tus carreras y revisa tu saldo pendiente.")
 
-    # 1. FECHA FIJA (Fuera del formulario para que no cambie al precargar)
+    # 1. FECHA FIJA
     col_f, _ = st.columns([1, 2])
     with col_f:
         fecha_vuelta = st.date_input(
