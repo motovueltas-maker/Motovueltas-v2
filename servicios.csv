@@ -831,41 +831,41 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 830,2026-09-09 12:00,Esneyder,Dr David Colmenarez,Local,Laboratorio (PM),,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 831,2026-09-11,Esneyder,Dr David Colmenarez,Local,Laboratorio,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 832,2026-09-16,Esneyder,Dr David Colmenarez,Local,Laboratorio,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
-833,2026-09-25 12:00,Alirio Diaz ,Fresas Delivery Rebeca,Local,Urb Obelisco (Kardianny),,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-834,2026-09-25 12:00,Alirio Diaz ,Fresas Delivery Rebeca,Local,Villa Esmeralda (Amanda),,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-835,2026-09-25 12:00,Alirio Diaz ,Greychit Contreras,Chilamas,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-836,2026-09-25 12:00,Alirio Diaz ,Freddy Camejo,Local,MRW,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-837,2026-09-28 12:00,Alirio Diaz ,Rep Arteaga Norexi,Local,Floristería Nelo,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
-838,2026-09-28 12:00,Alirio Diaz ,Dhamilet Ramírez,Pollo Market,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-839,2026-09-28 12:00,Alirio Diaz ,Clinivet,Vida Pets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-840,2026-09-28 12:00,Alirio Diaz,Chalong Detalles,Local,Bequito,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-841,2026-09-28 12:00,Alirio Diaz,Chalong Detalles,Local,Trigalpa,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-842,2026-09-28 12:00,Alirio Diaz ,Rep Arteaga Norexi,Local,Churún Merú,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-843,2026-09-29 12:00,Alirio Diaz,Chalong Detalles,Local,Lomas del Valle,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-844,2026-09-29 12:00,Alirio Diaz ,Clinivet,Vida Pets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-845,2026-09-29 12:00,Alirio Diaz ,KingSport Maricela,Centro,Carr 23 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-846,2026-09-29,Alirio Diaz ,Adrys,Local,Carr 31 con 21,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-847,2026-09-29,Alirio Diaz ,Clinivet,Dra Rizzoto Carr 23 con 11,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-848,2026-09-29,Alirio Diaz ,Adrys,Local,MRW y Zoom,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-849,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Fundalara Ambrosio,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-850,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Segradi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-851,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,CC El Recreo,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-852,2026-09-30,Alirio Diaz ,Flores Sonrisa Inyerly,Local,Hospital,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-853,2026-09-30,Alirio Diaz ,Adrys,Local,Carr 27 con Bracamonte,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-854,2026-09-30,Alirio Diaz ,Monkey,Local,La Sucre,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-855,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Russo Zona I,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-856,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Av 20 con 25,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-857,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Furia Fit,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-858,2026-10-02,Alirio Diaz ,Clinivet,Quimax,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-859,2026-10-02,Alirio Diaz ,KingSport Maricela,Centro,32 con 25 y 26,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-860,2026-10-02,Alirio Diaz ,Chalong Case,Local,Zona III,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pendiente
-861,2026-10-02 12:00,Alirio Diaz,Chalong Detalles,Local,Pedro León con 49,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-862,2026-10-02,Alirio Diaz ,1313Bqto,Local,Vargas con 23,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-863,2026-10-02,Alirio Diaz ,1313Bqto,Local,Barquicenter,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-864,2026-10-02,Alirio Diaz ,Cliente Eventual,Brayan (Casa),Torre Empresarial,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-865,2026-10-02,Alirio Diaz ,Clinivet,Agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-866,2026-10-02,Alirio Diaz ,Rep Arteaga Norexi,Ida y Vuelta,5 de Julio,,7.0,70.0,4.9,2.1,Validado,Pendiente,Pendiente
-867,2026-09-25,Alirio Diaz ,Fresas Delivery Rebeca,Local,Calle 26  con 49 (Javier),,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+833,2026-09-25 12:00,Alirio Diaz ,Fresas Delivery Rebeca,Local,Urb Obelisco (Kardianny),,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
+834,2026-09-25 12:00,Alirio Diaz ,Fresas Delivery Rebeca,Local,Villa Esmeralda (Amanda),,5.0,70.0,3.5,1.5,Validado,Pendiente,Pagado
+835,2026-09-25 12:00,Alirio Diaz ,Greychit Contreras,Chilamas,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+836,2026-09-25 12:00,Alirio Diaz ,Freddy Camejo,Local,MRW,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+837,2026-09-28 12:00,Alirio Diaz ,Rep Arteaga Norexi,Local,Floristería Nelo,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pagado
+838,2026-09-28 12:00,Alirio Diaz ,Dhamilet Ramírez,Pollo Market,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+839,2026-09-28 12:00,Alirio Diaz ,Clinivet,Vida Pets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+840,2026-09-28 12:00,Alirio Diaz,Chalong Detalles,Local,Bequito,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
+841,2026-09-28 12:00,Alirio Diaz,Chalong Detalles,Local,Trigalpa,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pagado
+842,2026-09-28 12:00,Alirio Diaz ,Rep Arteaga Norexi,Local,Churún Merú,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
+843,2026-09-29 12:00,Alirio Diaz,Chalong Detalles,Local,Lomas del Valle,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+844,2026-09-29 12:00,Alirio Diaz ,Clinivet,Vida Pets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+845,2026-09-29 12:00,Alirio Diaz ,KingSport Maricela,Centro,Carr 23 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+846,2026-09-29,Alirio Diaz ,Adrys,Local,Carr 31 con 21,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+847,2026-09-29,Alirio Diaz ,Clinivet,Dra Rizzoto Carr 23 con 11,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+848,2026-09-29,Alirio Diaz ,Adrys,Local,MRW y Zoom,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+849,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Fundalara Ambrosio,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+850,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Segradi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+851,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,CC El Recreo,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pagado
+852,2026-09-30,Alirio Diaz ,Flores Sonrisa Inyerly,Local,Hospital,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+853,2026-09-30,Alirio Diaz ,Adrys,Local,Carr 27 con Bracamonte,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
+854,2026-09-30,Alirio Diaz ,Monkey,Local,La Sucre,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+855,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Russo Zona I,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pagado
+856,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Av 20 con 25,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+857,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Furia Fit,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pagado
+858,2026-10-02,Alirio Diaz ,Clinivet,Quimax,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+859,2026-10-02,Alirio Diaz ,KingSport Maricela,Centro,32 con 25 y 26,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+860,2026-10-02,Alirio Diaz ,Chalong Case,Local,Zona III,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pagado
+861,2026-10-02 12:00,Alirio Diaz,Chalong Detalles,Local,Pedro León con 49,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pagado
+862,2026-10-02,Alirio Diaz ,1313Bqto,Local,Vargas con 23,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+863,2026-10-02,Alirio Diaz ,1313Bqto,Local,Barquicenter,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+864,2026-10-02,Alirio Diaz ,Cliente Eventual,Brayan (Casa),Torre Empresarial,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+865,2026-10-02,Alirio Diaz ,Clinivet,Agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+866,2026-10-02,Alirio Diaz ,Rep Arteaga Norexi,Ida y Vuelta,5 de Julio,,7.0,70.0,4.9,2.1,Validado,Pendiente,Pagado
+867,2026-09-25,Alirio Diaz ,Fresas Delivery Rebeca,Local,Calle 26  con 49 (Javier),,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
 868,2026-09-28 12:00,Deiby,Chalong Detalles,Local,Arca,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 869,2026-09-28 12:00,Deiby,Chalong Detalles,Local,Carr 13 con 35 y 36,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 870,2026-09-28 12:00,DanielG,Chalong Detalles,Local,Cosmos,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
