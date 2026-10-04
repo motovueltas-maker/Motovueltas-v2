@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import requests
 import base64
+import re
 from datetime import datetime, date
 
 # --- CONFIGURACIÓN DE PÁGINA ---
@@ -60,6 +61,28 @@ def guardar_csv_en_github(file_path, df, sha_actual, mensaje_commit):
     r = requests.put(url, json=data, headers=headers_gh)
     return r.status_code in [200, 201]
 
+def autenticar_motorizado(nombre_ingresado, clave_ingresada, df_motorizados):
+    """
+    Valida si el nombre y los últimos 4 dígitos del teléfono coinciden en motorizados.csv
+    """
+    if df_motorizados.empty or 'nombre' not in df_motorizados.columns or 'telefono' not in df_motorizados.columns:
+        return False, None
+
+    nombre_clean = nombre_ingresado.strip().lower()
+
+    for _, row in df_motorizados.iterrows():
+        nombre_bd = str(row['nombre']).strip()
+        telefono_bd = str(row['telefono'])
+        
+        # Extraer solo los números del teléfono
+        numeros_tel = re.sub(r'\D', '', telefono_bd)
+        ultimos_4 = numeros_tel[-4:] if len(numeros_tel) >= 4 else ""
+
+        if nombre_bd.lower() == nombre_clean and clave_ingresada.strip() == ultimos_4:
+            return True, nombre_bd
+
+    return False, None
+
 # --- CONTROL DE SESIÓN ---
 if "autenticado" not in st.session_state:
     st.session_state.autenticado = False
@@ -92,7 +115,8 @@ if st.session_state.get("rol", "Motorizado") == "Admin":
         " Corte Clientes", 
         " Corte Motorizados", 
         " Directorio Clientes", 
-        " Perfiles Motorizados"
+        " Perfiles Motorizados",
+        " Portal Motorizados"
     ]
 else:
     opciones = [" Registrar Vuelta"]
@@ -111,6 +135,33 @@ if df_avances.empty:
     df_avances = pd.DataFrame(columns=['id', 'fecha', 'motorizado', 'monto', 'concepto', 'estado_avance'])
 elif 'estado_avance' not in df_avances.columns:
     df_avances['estado_avance'] = 'Pendiente'
+
+elif opcion_menu == " Portal Motorizados":
+    if 'usuario_motorizado' not in st.session_state:
+        st.session_state['usuario_motorizado'] = None
+
+    if st.session_state['usuario_motorizado'] is None:
+        st.subheader("🔑 Inicio de Sesión Motorizados")
+        df_mot_login, _ = cargar_csv_desde_github(FILE_MOTORIZADOS)
+        
+        with st.form("form_login_motorizado"):
+            usr_input = st.text_input("Nombre de Usuario (ej: Alirio)")
+            pwd_input = st.text_input("Contraseña (4 dígitos del celular)", type="password")
+            btn_login = st.form_submit_button("Ingresar")
+
+            if btn_login:
+                es_valido, nombre_bd = autenticar_motorizado(usr_input, pwd_input, df_mot_login)
+                if es_valido:
+                    st.session_state['usuario_motorizado'] = nombre_bd
+                    st.rerun()
+                else:
+                    st.error("❌ Nombre de usuario o contraseña incorrectos.")
+    else:
+        if st.button("🚪 Cerrar Sesión Motorizado"):
+            st.session_state['usuario_motorizado'] = None
+            st.rerun()
+            
+        render_portal_motorizado(st.session_state['usuario_motorizado'])
 
 # --- MÓDULO: REGISTRAR VUELTA (COMPACTO) ---
 elif opcion_menu == " Registrar Vuelta":
@@ -745,3 +796,105 @@ elif opcion_menu == " Corte Motorizados":
             st.info("No se encontraron vueltas con el filtro seleccionado.")
     else:
         st.info("No hay motorizados o servicios registrados.")
+
+# --- MÓDULO INDEPENDIENTE: PORTAL MOTORIZADOS ---
+def render_portal_motorizado(usuario_actual):
+    st.title(f"🏍️ Portal Motorizados - {usuario_actual}")
+    st.caption("Registra tus carreras y revisa tu saldo pendiente.")
+
+    # 1. FECHA FIJA (Fuera del formulario para que no cambie al precargar)
+    col_f, _ = st.columns([1, 2])
+    with col_f:
+        fecha_vuelta = st.date_input(
+            "📅 Fecha de la vuelta", 
+            value=date.today(), 
+            key="fecha_fija_portal_motorizado"
+        )
+
+    st.markdown("---")
+
+    # Carga de archivos necesaria
+    df_servicios, sha_servicios = cargar_csv_desde_github(FILE_SERVICIOS)
+    df_clientes, _ = cargar_csv_desde_github(FILE_CLIENTES)
+    df_avances, _ = cargar_csv_desde_github(FILE_AVANCES)
+
+    # 2. FORMULARIO DE PRECARGA DE VUELTA
+    st.subheader("📝 Precargar Nueva Vuelta")
+
+    with st.form("form_precargar_motorizado", clear_on_submit=True):
+        st.text_input("Motorizado", value=usuario_actual, disabled=True)
+
+        lista_cli = [""] + sorted(df_clientes['nombre'].dropna().tolist()) if not df_clientes.empty and 'nombre' in df_clientes.columns else [""]
+        cliente_sel = st.selectbox("Seleccionar Cliente *", options=lista_cli, index=0)
+
+        col_origen, col_destino = st.columns(2)
+        with col_origen:
+            origen_input = st.text_input("Desde / Origen", placeholder="Local")
+        with col_destino:
+            destino_input = st.text_input("Hasta / Destino", placeholder="Local")
+
+        detalle_input = st.text_input("Detalle u Observación (Opcional)", placeholder="Ej: Entregar paquete")
+
+        btn_precargar = st.form_submit_button("🚀 Precargar Vuelta", use_container_width=True)
+
+        if btn_precargar:
+            if not cliente_sel:
+                st.error("⚠️ Debes seleccionar un cliente de la lista.")
+            else:
+                origen_final = origen_input.strip() if origen_input.strip() else "Local"
+                destino_final = destino_input.strip() if destino_input.strip() else "Local"
+
+                nuevo_id = 1 if df_servicios.empty or 'id' not in df_servicios.columns else int(df_servicios['id'].max()) + 1
+
+                nueva_fila = {
+                    'id': nuevo_id,
+                    'fecha': fecha_vuelta.strftime("%Y-%m-%d"),
+                    'cliente': cliente_sel,
+                    'motorizado': usuario_actual,
+                    'origen': origen_final,
+                    'destino': destino_final,
+                    'detalle': detalle_input.strip(),
+                    'precio_cliente': 0.0,
+                    'monto_motorizado': 0.0,
+                    'ganancia_empresa': 0.0,
+                    'estado_validacion': 'Pendiente',
+                    'estado_cliente': 'Pendiente',
+                    'estado_motorizado': 'Pendiente'
+                }
+
+                df_actualizado = pd.concat([df_servicios, pd.DataFrame([nueva_fila])], ignore_index=True)
+                
+                if guardar_csv_en_github(FILE_SERVICIOS, df_actualizado, sha_servicios, f"Precarga de vuelta por {usuario_actual}"):
+                    st.success("✅ ¡Vuelta precargada con éxito! Enviada a administración para asignar precio.")
+                    st.rerun()
+                else:
+                    st.error("❌ Ocurrió un error al guardar en GitHub.")
+
+    st.markdown("---")
+
+    # 3. BALANCE NO LIQUIDADO Y AVANCES
+    st.subheader("💰 Mi Balance Acumulado (Pendiente de Cobro)")
+
+    if not df_servicios.empty:
+        df_mot = df_servicios[
+            (df_servicios['motorizado'].astype(str).str.strip() == usuario_actual) & 
+            (df_servicios['estado_motorizado'] == 'Pendiente')
+        ]
+        total_ganado = df_mot['monto_motorizado'].sum() if 'monto_motorizado' in df_mot.columns else 0.0
+    else:
+        total_ganado = 0.0
+
+    total_avances = 0.0
+    if not df_avances.empty and 'motorizado' in df_avances.columns and 'monto' in df_avances.columns:
+        df_av_mot = df_avances[
+            (df_avances['motorizado'].astype(str).str.strip() == usuario_actual) & 
+            (df_avances['estado'] == 'Pendiente')
+        ]
+        total_avances = df_av_mot['monto'].sum()
+
+    balance_neto = total_ganado - total_avances
+
+    c1, c2, c3 = st.columns(3)
+    c1.metric("Ganado en Vueltas", f"${total_ganado:.2f}")
+    c2.metric("Adelantos / Avances", f"${total_avances:.2f}")
+    c3.metric("Balance Neto a Cobrar", f"${balance_neto:.2f}")
