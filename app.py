@@ -91,22 +91,34 @@ if "autenticado" not in st.session_state:
 
 if not st.session_state.autenticado:
     st.title("🏍️ MotoVueltas - Acceso al Sistema")
+    df_mot_login, _ = cargar_csv_desde_github(FILE_MOTORIZADOS)
+
     with st.form("form_login"):
-        user_input = st.text_input("Usuario (ej: esneyder, omar)").strip().lower()
+        user_input = st.text_input("Usuario (ej: esneyder, Alirio)").strip()
         pass_input = st.text_input("Contraseña", type="password").strip()
         btn_login = st.form_submit_button("Iniciar Sesión", type="primary")
-        
+
         if btn_login:
+            # 1. Validar Admin desde Secrets
             usuarios_validos = st.secrets.get("passwords", {})
-            if user_input in usuarios_validos and str(usuarios_validos[user_input]) == pass_input:
+            user_clean = user_input.lower()
+            
+            if user_clean in usuarios_validos and str(usuarios_validos[user_clean]) == pass_input:
                 st.session_state.autenticado = True
-                st.session_state.usuario = user_input
-                st.session_state.rol = "Admin" if user_input == "esneyder" else "Motorizado"
+                st.session_state.usuario = user_clean
+                st.session_state.rol = "Admin"
                 st.rerun()
             else:
-                st.error("⚠️ Usuario o contraseña incorrectos.")
+                # 2. Validar si es Motorizado desde motorizados.csv
+                es_valido, nombre_bd = autenticar_motorizado(user_input, pass_input, df_mot_login)
+                if es_valido:
+                    st.session_state.autenticado = True
+                    st.session_state.usuario = nombre_bd
+                    st.session_state.rol = "Motorizado"
+                    st.rerun()
+                else:
+                    st.error("⚠️ Usuario o contraseña incorrectos.")
     st.stop()
-
 # --- MENÚ SUPERIOR DE NAVEGACIÓN ---
 if st.session_state.get("rol", "Motorizado") == "Admin":
     opciones = [
