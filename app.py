@@ -293,7 +293,7 @@ def render_validar_vueltas():
         st.info("No hay datos registrados en servicios.")
         return
 
-    # Normalizar columnas
+    # Normalizar columna de estado de validación
     if 'estado_validacion' not in df_servicios.columns:
         df_servicios['estado_validacion'] = 'Pendiente'
 
@@ -308,7 +308,7 @@ def render_validar_vueltas():
         for idx, row in vueltas_pendientes.iterrows():
             id_v = row.get('id', idx)
             raw_fecha = row.get('fecha', '')
-            fecha_v = str(raw_fecha) if pd.notna(raw_fecha) and str(raw_fecha).strip() != '' else date.today().strftime("%Y-%m-%d")
+            fecha_v = str(raw_fecha) if pd.notna(raw_fecha) and str(raw_fecha).strip() != '' and str(raw_fecha) != 'nan' else date.today().strftime("%Y-%m-%d")
             
             cliente_v = str(row.get('cliente', 'Sin Cliente'))
             motorizado_v = str(row.get('motorizado', 'Sin Motorizado'))
@@ -334,6 +334,7 @@ def render_validar_vueltas():
 
                 btn_col1, btn_col2 = st.columns([1, 1])
                 
+                # BOTÓN: VALIDAR Y SUMAR
                 with btn_col1:
                     if st.button("✅ Validar y Asignar", key=f"btn_val_{id_v}", use_container_width=True, type="primary"):
                         if precio_cli <= 0 or monto_mot <= 0:
@@ -351,6 +352,7 @@ def render_validar_vueltas():
                             else:
                                 st.error("❌ Error al guardar en GitHub.")
 
+                # BOTÓN: ANULAR
                 with btn_col2:
                     if st.button("🚫 Anular Vuelta", key=f"btn_anular_{id_v}", use_container_width=True):
                         df_servicios.loc[df_servicios['id'] == id_v, 'estado_validacion'] = 'Anulada'
@@ -362,7 +364,7 @@ def render_validar_vueltas():
 
     st.markdown("---")
 
-    # 2. SECCIÓN: TABLA EVALUADORA CON FILTROS Y EDICIÓN COMPLETA
+    # 2. SECCIÓN: TABLA EVALUADORA HISTÓRICA CON FILTROS Y EDICIÓN
     st.subheader("🔍 Consultar / Evaluar Vueltas Registradas")
     st.caption("Filtra las vueltas para verificar si un servicio ya fue ingresado previamente.")
 
@@ -404,7 +406,7 @@ def render_validar_vueltas():
             st.rerun()
         else:
             st.error("❌ Error al guardar en GitHub.")
-
+            
 # --- MÓDULO: DIRECTORIO CLIENTES ---
 elif opcion_menu == " Directorio Clientes":
     st.header("👥 Gestión y Directorio de Clientes")
