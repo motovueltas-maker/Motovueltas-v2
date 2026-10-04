@@ -887,3 +887,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 886,2026-10-01,DanielG,Chalong Detalles,Local,Rancho 5A,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 887,2026-10-01,DanielG,Chalong Detalles,Local,San Francisco,,7.0,70.0,4.9,2.1,Validado,Pendiente,Pendiente
 888,2026-02-10 12:00,DanielG,Chalong Detalles,Local,Cabudare Centro,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+889,2026-10-02,DanielG,Chalong Detalles,Local,Cabudare Los Pinos,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
