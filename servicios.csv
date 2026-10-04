@@ -380,7 +380,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 380,,Jhoiner,Angeles Guanipa,Local,Cancha de la 13,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
 381,,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 382,,Genesis,Cliente Eventual,Casa,Trabajo,,0.0,70.0,0.0,0.0,Anulada,Pendiente,Pendiente
-383,,Genesis,Cliente Eventual,Centro comercial ,Casa,,0.0,70.0,0.0,0.0,Pendiente,Pendiente,Pendiente
+383,,Genesis,Cliente Eventual,Centro comercial ,Casa,,0.0,70.0,0.0,0.0,Anulada,Pendiente,Pendiente
 384,,Jhoiner,Chalong Case,Local,Roca Terra,,4.5,33.33,1.5,3.0,Validado,Pagado,Pendiente
 385,,Deiby,Chalong Case,Local,MRW y Zoom,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
 386,,Deiby,Chalong Case,Local,Clínica ONG,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
