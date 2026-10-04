@@ -915,7 +915,7 @@ def render_portal_motorizado(nombre_motorizado):
         if not match_m.empty and 'porcentaje_ganancia' in match_m.columns:
             porcentaje_motorizado = float(match_m['porcentaje_ganancia'].values[0])
 
-    # --- 3. PRIMERO: FORMULARIO DE PRECARGA DE VUELTAS (ARRIBA) ---
+    # --- 3. FORMULARIO DE PRECARGA DE VUELTAS (ARRIBA) ---
     st.subheader("⚡ Registrar / Precargar Nueva Vuelta")
 
     nom_clientes = sorted(df_clientes_p['nombre'].dropna().tolist()) if not df_clientes_p.empty and 'nombre' in df_clientes_p.columns else []
@@ -942,7 +942,6 @@ def render_portal_motorizado(nombre_motorizado):
                 
                 nuevo_id = int(df_servicios_p['id'].max()) + 1 if not df_servicios_p.empty and 'id' in df_servicios_p.columns else 1
                 
-                # Se registra aplicando estrictamente el porcentaje configurado en su perfil
                 nueva_vuelta = pd.DataFrame([{
                     "id": nuevo_id,
                     "fecha": fecha_s,
@@ -969,7 +968,7 @@ def render_portal_motorizado(nombre_motorizado):
 
     st.markdown("---")
 
-    # --- 4. SEGUNDO: FILTRAR Y CALCULAR DATOS PARA EL RESUMEN (ABAJO) ---
+    # --- 4. FILTRAR Y CALCULAR DATOS PARA EL RESUMEN (ABAJO) ---
     servicios_chofer = pd.DataFrame()
     if not df_servicios_p.empty and 'motorizado' in df_servicios_p.columns:
         servicios_chofer = df_servicios_p[df_servicios_p['motorizado'].astype(str).str.strip().str.lower() == nombre_motorizado.strip().lower()].copy()
