@@ -290,6 +290,11 @@ elif opcion_menu == " Validar Vueltas":
     df_motorizados, _ = cargar_csv_desde_github(FILE_MOTORIZADOS)
     df_clientes, _ = cargar_csv_desde_github(FILE_CLIENTES)
 
+    # ASEGURAR COLUMNAS OBLIGATORIAS PARA EVITAR KEYERROR
+    for col, val_default in {'estado_validacion': 'Pendiente', 'precio_cliente': 0.0}.items():
+        if col not in df_servicios.columns:
+            df_servicios[col] = val_default
+
     if df_servicios.empty:
         st.info("No hay datos registrados en servicios.")
 
