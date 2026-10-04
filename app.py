@@ -196,7 +196,7 @@ elif opcion_menu == " Registrar Vuelta":
                 nueva_vuelta = pd.DataFrame([{
                     "id": nuevo_id,
                     "fecha": fecha_str,
-                    "motorizado": mot_sel_fijo,
+                    "motorizado": str(mot_sel_fijo).strip() if mot_sel_fijo else "",
                     "cliente": cli_sel,
                     "origen": origen_val,
                     "destino": destino_val,
