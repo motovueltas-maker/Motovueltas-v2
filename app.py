@@ -245,11 +245,12 @@ elif opcion_menu == " Registrar Vuelta":
             elif origen_val.lower() == "local" and destino_val.lower() == "local":
                 st.error("⚠️ No se puede registrar una vuelta de 'Local' a 'Local'. Debes especificar al menos el origen o el destino.")
             else:
-                if st.session_state.rol == "Admin":
+                if st.session_state.rol == "Admin" and precio_ingresado > 0:
                     monto_mot = round(precio_ingresado * (comision_fija / 100.0), 2)
                     monto_emp = round(precio_ingresado - monto_mot, 2)
                     estado_val = "Validado"
                 else:
+                    precio_ingresado = 0.0
                     monto_mot = 0.0
                     monto_emp = 0.0
                     estado_val = "Pendiente"
