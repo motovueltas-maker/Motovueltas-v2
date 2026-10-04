@@ -294,7 +294,7 @@ elif opcion_menu == " Validar Vueltas":
         st.info("No hay datos registrados en servicios.")
 
     # 1. SECCIÓN: VUELTAS PENDIENTES DE VALIDACIÓN
-    vueltas_pendientes = df_servicios[df_servicios['estado_validacion'] == 'Pendiente']
+    vueltas_pendientes = df_servicios[(df_servicios['estado_validacion'] == 'Pendiente') | (df_servicios['precio_cliente'] == 0.0)]
 
     st.subheader(f"📥 Vueltas Precargadas Pendientes ({len(vueltas_pendientes)})")
 
