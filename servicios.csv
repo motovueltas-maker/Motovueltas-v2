@@ -883,3 +883,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 882,2026-09-30,Deiby,Chalong Detalles,Local,Bella Vista Calle 48,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 883,2026-09-30,Deiby,Chalong Detalles,Local,Sambil,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 884,2026-09-30,Deiby,Chalong Detalles,Local,Devolucion Bella Vista,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+885,2026-09-30,Deiby,Chalong Detalles,Local,Yucatan,,8.0,70.0,5.6,2.4,Validado,Pendiente,Pendiente
