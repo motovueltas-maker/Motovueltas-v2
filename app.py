@@ -291,7 +291,8 @@ elif opcion_menu == " Validar Vueltas":
 
     if df_servicios.empty:
         st.info("No hay datos registrados en servicios.")
-    else:
+
+    if not df_servicios.empty:
 
     # 1. SECCIÓN: VUELTAS PENDIENTES DE VALIDACIÓN
     vueltas_pendientes = df_servicios[df_servicios['estado_validacion'] == 'Pendiente']
