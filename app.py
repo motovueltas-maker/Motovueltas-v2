@@ -318,14 +318,14 @@ elif opcion_menu == " Validar Vueltas":
                 c_info2.write(f"**Detalle / Obs:** {detalle_v if detalle_v and detalle_v != 'nan' else 'Ninguno'}")
 
                 # 1. Buscar el porcentaje configurado en el perfil del motorizado
-                    pct_comision_default = 66.67
-                    if not df_motorizados.empty and 'nombre' in df_motorizados.columns:
-                        match_m = df_motorizados[df_motorizados['nombre'].astype(str).str.strip().str.lower() == motorizado_v.strip().lower()]
-                        if not match_m.empty and 'porcentaje_ganancia' in match_m.columns:
-                            try:
-                                pct_comision_default = float(match_m.iloc[0]['porcentaje_ganancia'])
-                            except:
-                                pass
+                pct_comision_default = 66.67
+                if not df_motorizados.empty and 'nombre' in df_motorizados.columns:
+                    match_m = df_motorizados[df_motorizados['nombre'].astype(str).str.strip().str.lower() == motorizado_v.strip().lower()]
+                    if not match_m.empty and 'porcentaje_ganancia' in match_m.columns:
+                        try:
+                            pct_comision_default = float(match_m.iloc[0]['porcentaje_ganancia'])
+                        except:
+                            pass
 
                     st.markdown("---")
                     col_p1, col_p2, col_p3 = st.columns(3)
