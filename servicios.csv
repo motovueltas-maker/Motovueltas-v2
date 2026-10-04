@@ -900,4 +900,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 899,2026-09-25,Danielg,1313Bqto,Local,Calle 23 con 30,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 900,2026-09-25,Danielg,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 901,2026-09-26,Danielg,Clinivet,Local,Santa Elena,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-902,2026-09-26,Danielg,Dr David Colmenarez,Local,Laboratorio,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+902,2026-09-26,Danielg,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
