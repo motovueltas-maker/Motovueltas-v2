@@ -280,9 +280,10 @@ elif opcion_menu == " Registrar Vuelta":
                 else:
                     st.error("⚠️ Error al guardar en GitHub. Intenta nuevamente.")
 
+# --- MÓDULO: VALIDAR VUELTAS ---
 elif opcion_menu == " Validar Vueltas":
     st.title("⚙️ Validar y Asignar Precios")
-    st.caption("Revisa las vueltas precargadas por los motorizados, asigna precios o anúlalas. Consulta la tabla inferior para evitar duplicados.")
+    st.caption("Edita directamente el precio y la comisión en la tabla. Al guardar, las vueltas validadas saldrán de pendientes.")
 
     df_servicios, sha_servicios = cargar_csv_desde_github(FILE_SERVICIOS)
     df_motorizados, _ = cargar_csv_desde_github(FILE_MOTORIZADOS)
@@ -309,9 +310,6 @@ elif opcion_menu == " Validar Vueltas":
         if vueltas_pendientes.empty:
             st.success("🎉 ¡No hay vueltas pendientes por validar!")
         else:
-            st.caption("Edita directamente el 'precio_cliente' y el '% comisión' en la tabla. Al guardar, las filas validadas desaparecerán de esta lista.")
-            
-            # Mostramos un editor exclusivo para las pendientes
             df_edit_pendientes = st.data_editor(
                 vueltas_pendientes,
                 num_rows="fixed",
@@ -328,8 +326,7 @@ elif opcion_menu == " Validar Vueltas":
                 }
             )
 
-            if st.button("💾 Procesar y Guardar Cambios de Pendientes", type="primary", key="btn_guardar_pendientes_directas"):
-                # Actualizamos los cálculos automáticos para las filas modificadas
+            if st.button("💾 Procesar y Guardar Cambios", type="primary", key="btn_guardar_pendientes_directas"):
                 for idx, row in df_edit_pendientes.iterrows():
                     p_cli = float(row.get('precio_cliente', 0.0) or 0.0)
                     p_com = float(row.get('porcentaje_comision', 66.67) or 66.67)
@@ -337,12 +334,10 @@ elif opcion_menu == " Validar Vueltas":
                     m_mot = round(p_cli * (p_com / 100.0), 2)
                     g_emp = round(p_cli - m_mot, 2)
                     
-                    # Si el usuario cambió el precio a mayor a 0, marcamos por defecto como Validado si estaba en Pendiente
                     estado_act = str(row.get('estado_validacion', 'Pendiente'))
                     if p_cli > 0 and estado_act == 'Pendiente':
                         estado_act = 'Validado'
 
-                    # Aplicamos los cambios al dataframe principal usando el ID único
                     vuelta_id = row['id']
                     df_servicios.loc[df_servicios['id'] == vuelta_id, 'precio_cliente'] = p_cli
                     df_servicios.loc[df_servicios['id'] == vuelta_id, 'porcentaje_comision'] = p_com
@@ -351,10 +346,61 @@ elif opcion_menu == " Validar Vueltas":
                     df_servicios.loc[df_servicios['id'] == vuelta_id, 'estado_validacion'] = estado_act
 
                 if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, "Validación masiva desde tabla limpia"):
-                    st.success("✅ ¡Vueltas procesadas y guardadas correctamente! Las validadas han salido de pendientes.")
+                    st.success("✅ ¡Cambios guardados correctamente!")
                     st.rerun()
                 else:
                     st.error("❌ Error al guardar en GitHub.")
+
+        st.markdown("---")
+        st.subheader("🔍 Consultar / Evaluar Vueltas Registradas")
+        st.caption("Filtra las vueltas para verificar si un servicio ya fue ingresado previamente.")
+        
+        col_fecha1, col_fecha2 = st.columns(2)
+        with col_fecha1:
+            f_desde_val = st.date_input("📅 Fecha Desde (Opcional):", value=None, format="DD/MM/YYYY", key="f_desde_val")
+        with col_fecha2:
+            f_hasta_val = st.date_input("📅 Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", key="f_hasta_val")
+
+        col_f1, col_f2, col_f3 = st.columns(3)
+        list_mot = ["Todos"] + sorted(df_motorizados['nombre'].dropna().tolist()) if not df_motorizados.empty and 'nombre' in df_motorizados.columns else ["Todos"]
+        list_cli = ["Todos"] + sorted(df_clientes['nombre'].dropna().tolist()) if not df_clientes.empty and 'nombre' in df_clientes.columns else ["Todos"]
+        with col_f1:
+            filtro_mot = st.selectbox("🎯 Filtrar por Motorizado", options=list_mot, key="f_mot_val")
+        with col_f2:
+            filtro_cli = st.selectbox("👤 Filtrar por Cliente", options=list_cli, key="f_cli_val")
+        with col_f3:
+            filtro_estado = st.selectbox("📋 Estado de Validación", options=["Todos", "Validado", "Pendiente", "Anulada"], key="f_est_val")
+
+        df_filtrado = df_servicios.copy()
+        if f_desde_val or f_hasta_val:
+            fechas_dt_val = pd.to_datetime(df_filtrado['fecha'], dayfirst=True, errors='coerce').dt.date
+            if f_desde_val and f_hasta_val:
+                df_filtrado = df_filtrado[(fechas_dt_val >= f_desde_val) & (fechas_dt_val <= f_hasta_val)]
+            elif f_desde_val:
+                df_filtrado = df_filtrado[fechas_dt_val >= f_desde_val]
+            elif f_hasta_val:
+                df_filtrado = df_filtrado[fechas_dt_val <= f_hasta_val]
+
+        if filtro_mot != "Todos":
+            df_filtrado = df_filtrado[df_filtrado['motorizado'].astype(str).str.strip() == filtro_mot]
+        if filtro_cli != "Todos":
+            df_filtrado = df_filtrado[df_filtrado['cliente'].astype(str).str.strip() == filtro_cli]
+        if filtro_estado != "Todos":
+            df_filtrado = df_filtrado[df_filtrado['estado_validacion'] == filtro_estado]
+
+        st.markdown("##### 📝 Tabla de Vueltas (Editable):")
+        df_editado_tabla = st.data_editor(df_filtrado, num_rows="dynamic", use_container_width=True, key="editor_tabla_validations_final")
+
+        if st.button("💾 Guardar Cambios en la Tabla", type="primary", key="btn_guardar_tabla_f"):
+            df_servicios.update(df_editado_tabla)
+            if 'precio_cliente' in df_servicios.columns and 'porcentaje_comision' in df_servicios.columns:
+                df_servicios['monto_motorizado'] = round(df_servicios['precio_cliente'] * (df_servicios['porcentaje_comision'] / 100.0), 2)
+                df_servicios['ganancia_empresa'] = round(df_servicios['precio_cliente'] - df_servicios['monto_motorizado'], 2)
+
+            if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, "Actualización manual desde tabla evaluadora"):
+                st.success("✅ ¡Cambios guardados exitosamente en GitHub!")
+            else:
+                st.error("❌ Error al guardar en GitHub.")
                 
 # --- MÓDULO: DIRECTORIO CLIENTES ---
 elif opcion_menu == " Directorio Clientes":
