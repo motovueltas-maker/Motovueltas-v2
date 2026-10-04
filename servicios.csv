@@ -726,7 +726,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 725,2026-09-24 12:00,Deiby,Chalong Detalles,Local,Carr 22 con 50,,4.0,70.0,2.8,1.2,Validado,Pagado,Pendiente
 726,2026-09-24 12:00,Esneyder,Chalong Detalles,Local,5 de Julio,,6.0,100.0,6.0,0.0,Validado,Pagado,Pendiente
 727,2026-09-25 12:00,Esneyder,Chalong Detalles,Local,Calle 28 con 19,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
-728,2026-09-26 12:00,Esneyder,Chalong Detalles,Local,Santa Rosa,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
+728,2026-09-26 12:00,DanielG,Chalong Detalles,Local,Santa Rosa,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
 729,2026-09-26 12:00,Esneyder,Chalong Detalles,Local,Cosmos,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
 730,2026-09-26 12:00,Esneyder,Chalong Detalles,Local,Calle 55 con Pedro Leon,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
 731,,Esneyder,Candy Cakes Michelle,Local,Pedregal,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
