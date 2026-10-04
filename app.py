@@ -365,6 +365,15 @@ elif opcion_menu == " Validar Vueltas":
 
     col_f1, col_f2, col_f3 = st.columns(3)
 
+    # Fila 1 de Filtros: Rango de Fechas
+    col_fecha1, col_fecha2 = st.columns(2)
+    with col_fecha1:
+        f_desde_val = st.date_input("📅 Fecha Desde (Opcional):", value=None, format="DD/MM/YYYY", key="f_desde_val")
+    with col_fecha2:
+        f_hasta_val = st.date_input("📅 Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", key="f_hasta_val")
+
+    # Fila 2 de Filtros: Motorizado, Cliente y Estado
+    col_f1, col_f2, col_f3 = st.columns(3)
     list_mot = ["Todos"] + sorted(df_motorizados['nombre'].dropna().tolist()) if not df_motorizados.empty and 'nombre' in df_motorizados.columns else ["Todos"]
     list_cli = ["Todos"] + sorted(df_clientes['nombre'].dropna().tolist()) if not df_clientes.empty and 'nombre' in df_clientes.columns else ["Todos"]
 
@@ -376,6 +385,16 @@ elif opcion_menu == " Validar Vueltas":
         filtro_estado = st.selectbox("📋 Estado de Validación", options=["Todos", "Validado", "Pendiente", "Anulada"])
 
     df_filtrado = df_servicios.copy()
+
+    # Aplicar Filtro de Fechas de forma segura
+    if f_desde_val or f_hasta_val:
+        fechas_dt_val = pd.to_datetime(df_filtrado['fecha'], dayfirst=True, errors='coerce').dt.date
+        if f_desde_val and f_hasta_val:
+            df_filtrado = df_filtrado[(fechas_dt_val >= f_desde_val) & (fechas_dt_val <= f_hasta_val)]
+        elif f_desde_val:
+            df_filtrado = df_filtrado[fechas_dt_val >= f_desde_val]
+        elif f_hasta_val:
+            df_filtrado = df_filtrado[fechas_dt_val <= f_hasta_val]
 
     if filtro_mot != "Todos":
         df_filtrado = df_filtrado[df_filtrado['motorizado'].astype(str).str.strip() == filtro_mot]
