@@ -900,8 +900,7 @@ elif opcion_menu == " Corte Motorizados":
 # --- MÓDULO INDEPENDIENTE: PORTAL MOTORIZADOS ---
 def render_portal_motorizado(nombre_motorizado):
     st.subheader(f"🏍️ Panel de Control - {nombre_motorizado.capitalize()}")
-    st.caption("Precarga tus nuevas vueltas arriba y consulta tu balance detallado abajo.")
-
+    
     # 1. CARGAR DATOS FRESCOS
     df_servicios_p, sha_s_p = cargar_csv_desde_github(FILE_SERVICIOS)
     df_motos_p, _ = cargar_csv_desde_github(FILE_MOTORIZADOS)
@@ -915,78 +914,82 @@ def render_portal_motorizado(nombre_motorizado):
         if not match_m.empty and 'porcentaje_ganancia' in match_m.columns:
             porcentaje_motorizado = float(match_m['porcentaje_ganancia'].values[0])
 
-    # --- 3. FORMULARIO DE PRECARGA DE VUELTAS (ARRIBA) ---
-    st.subheader("⚡ Registrar / Precargar Nueva Vuelta")
+    # --- CREAMOS LAS PESTAÑAS (TABS) ---
+    tab_registrar, tab_balance = st.tabs(["⚡ Registrar Vuelta", "📊 Mi Balance Acumulado"])
 
-    nom_clientes = sorted(df_clientes_p['nombre'].dropna().tolist()) if not df_clientes_p.empty and 'nombre' in df_clientes_p.columns else []
+    # --- PESTAÑA 1: REGISTRAR VUELTA ---
+    with tab_registrar:
+        st.caption("Precarga tus nuevas vueltas para enviarlas a validación.")
+        nom_clientes = sorted(df_clientes_p['nombre'].dropna().tolist()) if not df_clientes_p.empty and 'nombre' in df_clientes_p.columns else []
 
-    with st.form("form_portal_motorizado_vueltas", clear_on_submit=True):
-        f_vuelta = st.date_input("📅 Fecha de la Vuelta", value=date.today())
-        cli_portal = st.selectbox("👤 Seleccionar Cliente *", options=[""] + nom_clientes, index=0, placeholder="Selecciona el cliente...")
-        
-        c1, c2 = st.columns(2)
-        with c1:
-            orig = st.text_input("Desde (Origen)", placeholder="Local")
-        with c2:
-            dest = st.text_input("Hasta (Destino)", placeholder="Local")
+        with st.form("form_portal_motorizado_vueltas", clear_on_submit=True):
+            f_vuelta = st.date_input("📅 Fecha de la Vuelta", value=date.today())
+            cli_portal = st.selectbox("👤 Seleccionar Cliente *", options=[""] + nom_clientes, index=0, placeholder="Selecciona el cliente...")
             
-        btn_reg_portal = st.form_submit_button("🚀 Enviar Vuelta a Validación", type="primary", use_container_width=True)
-        
-        if btn_reg_portal:
-            if not cli_portal:
-                st.error("⚠️ Debes seleccionar un cliente.")
-            else:
-                fecha_s = f_vuelta.strftime("%Y-%m-%d")
-                origen_v = orig.strip() if orig.strip() else "Local"
-                destino_v = dest.strip() if dest.strip() else "Local"
+            c1, c2 = st.columns(2)
+            with c1:
+                orig = st.text_input("Desde (Origen)", placeholder="Local")
+            with c2:
+                dest = st.text_input("Hasta (Destino)", placeholder="Local")
                 
-                nuevo_id = int(df_servicios_p['id'].max()) + 1 if not df_servicios_p.empty and 'id' in df_servicios_p.columns else 1
-                
-                nueva_vuelta = pd.DataFrame([{
-                    "id": nuevo_id,
-                    "fecha": fecha_s,
-                    "motorizado": nombre_motorizado.capitalize(),
-                    "cliente": cli_portal,
-                    "origen": origen_v,
-                    "destino": destino_v,
-                    "precio_cliente": 0.0,
-                    "porcentaje_comision": porcentaje_motorizado,
-                    "monto_motorizado": 0.0,
-                    "ganancia_empresa": 0.0,
-                    "estado_cliente": "Pendiente",
-                    "estado_motorizado": "Pendiente",
-                    "estado_validacion": "Pendiente"
-                }])
-                
-                df_servicios_actualizado = pd.concat([df_servicios_p, nueva_vuelta], ignore_index=True)
-                
-                if guardar_csv_en_github(FILE_SERVICIOS, df_servicios_actualizado, sha_s_p, f"Vuelta #{nuevo_id} precargada por {nombre_motorizado}"):
-                    st.success("✅ ¡Vuelta registrada con éxito y enviada a pendientes!")
-                    st.rerun()
+            btn_reg_portal = st.form_submit_button("🚀 Enviar Vuelta a Validación", type="primary", use_container_width=True)
+            
+            if btn_reg_portal:
+                if not cli_portal:
+                    st.error("⚠️ Debes seleccionar un cliente.")
                 else:
-                    st.error("❌ Error al guardar en GitHub.")
+                    fecha_s = f_vuelta.strftime("%Y-%m-%d")
+                    origen_v = orig.strip() if orig.strip() else "Local"
+                    destino_v = dest.strip() if dest.strip() else "Local"
+                    
+                    nuevo_id = int(df_servicios_p['id'].max()) + 1 if not df_servicios_p.empty and 'id' in df_servicios_p.columns else 1
+                    
+                    nueva_vuelta = pd.DataFrame([{
+                        "id": nuevo_id,
+                        "fecha": fecha_s,
+                        "motorizado": nombre_motorizado.capitalize(),
+                        "cliente": cli_portal,
+                        "origen": origen_v,
+                        "destino": destino_v,
+                        "precio_cliente": 0.0,
+                        "porcentaje_comision": porcentaje_motorizado,
+                        "monto_motorizado": 0.0,
+                        "ganancia_empresa": 0.0,
+                        "estado_cliente": "Pendiente",
+                        "estado_motorizado": "Pendiente",
+                        "estado_validacion": "Pendiente"
+                    }])
+                    
+                    df_servicios_actualizado = pd.concat([df_servicios_p, nueva_vuelta], ignore_index=True)
+                    
+                    if guardar_csv_en_github(FILE_SERVICIOS, df_servicios_actualizado, sha_s_p, f"Vuelta #{nuevo_id} precargada por {nombre_motorizado}"):
+                        st.success("✅ ¡Vuelta registrada con éxito y enviada a pendientes!")
+                        st.rerun()
+                    else:
+                        st.error("❌ Error al guardar en GitHub.")
 
-    st.markdown("---")
+    # --- PESTAÑA 2: BALANCE ACUMULADO ---
+    with tab_balance:
+        st.caption("Consulta detallada de tus ganancias y saldo pendiente.")
 
-    # --- 4. FILTRAR Y CALCULAR DATOS PARA EL RESUMEN (ABAJO) ---
-    servicios_chofer = pd.DataFrame()
-    if not df_servicios_p.empty and 'motorizado' in df_servicios_p.columns:
-        servicios_chofer = df_servicios_p[df_servicios_p['motorizado'].astype(str).str.strip().str.lower() == nombre_motorizado.strip().lower()].copy()
+        servicios_chofer = pd.DataFrame()
+        if not df_servicios_p.empty and 'motorizado' in df_servicios_p.columns:
+            servicios_chofer = df_servicios_p[df_servicios_p['motorizado'].astype(str).str.strip().str.lower() == nombre_motorizado.strip().lower()].copy()
 
-    avances_chofer = pd.DataFrame()
-    if not df_avances_p.empty and 'motorizado' in df_avances_p.columns:
-        avances_chofer = df_avances_p[df_avances_p['motorizado'].astype(str).str.strip().str.lower() == nombre_motorizado.strip().lower()].copy()
+        avances_chofer = pd.DataFrame()
+        if not df_avances_p.empty and 'motorizado' in df_avances_p.columns:
+            avances_chofer = df_avances_p[df_avances_p['motorizado'].astype(str).str.strip().str.lower() == nombre_motorizado.strip().lower()].copy()
 
-    total_comisiones = servicios_chofer['monto_motorizado'].astype(float).sum() if not servicios_chofer.empty and 'monto_motorizado' in servicios_chofer.columns else 0.0
-    total_avances = avances_chofer['monto'].astype(float).sum() if not avances_chofer.empty and 'monto' in avances_chofer.columns else 0.0
-    saldo_neto = total_comisiones - total_avances
-    cantidad_vueltas = len(servicios_chofer)
+        total_comisiones = servicios_chofer['monto_motorizado'].astype(float).sum() if not servicios_chofer.empty and 'monto_motorizado' in servicios_chofer.columns else 0.0
+        total_avances = avances_chofer['monto'].astype(float).sum() if not avances_chofer.empty and 'monto' in avances_chofer.columns else 0.0
+        saldo_neto = total_comisiones - total_avances
+        cantidad_vueltas = len(servicios_chofer)
 
-    # --- 5. MOSTRAR EL RESUMEN DE MÉTRICAS ABAJO ---
-    st.subheader("📊 Tu Resumen y Balance Acumulado")
-    
-    col_m1, col_m2, col_m3, col_m4 = st.columns(4)
-    col_m1.metric("Comisiones Ganadas", f"${total_comisiones:.2f}")
-    col_m2.metric("Adelantos Registrados", f"-${total_avances:.2f}")
-    col_m3.metric("🔥 Saldo Neto a Pagar", f"${saldo_neto:.2f}")
-    col_m4.metric("Vueltas Encontradas", cantidad_vueltas)
+        # Métricas adaptadas para verse bien en celdas organizadas
+        col_m1, col_m2 = st.columns(2)
+        col_m1.metric("Comisiones Ganadas", f"${total_comisiones:.2f}")
+        col_m2.metric("Adelantos", f"-${total_avances:.2f}")
+
+        col_m3, col_m4 = st.columns(2)
+        col_m3.metric("🔥 Saldo Neto a Pagar", f"${saldo_neto:.2f}")
+        col_m4.metric("Vueltas Realizadas", cantidad_vueltas)
