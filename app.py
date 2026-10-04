@@ -420,17 +420,48 @@ elif opcion_menu == " Validar Vueltas":
         df_filtrado = df_filtrado[df_filtrado['estado_validacion'] == filtro_estado]
 
     st.markdown("##### 📝 Tabla de Vueltas (Editable):")
+
+    # Lista de nombres de motorizados para el menú desplegable
+    lista_motos_desplegable = sorted(df_motorizados['nombre'].dropna().unique().tolist()) if not df_motorizados.empty and 'nombre' in df_motorizados.columns else []
+
     df_editado = st.data_editor(
         df_filtrado,
         num_rows="dynamic",
         use_container_width=True,
-        key="editor_tabla_validaciones"
+        key="editor_tabla_validaciones",
+        column_config={
+            "motorizado": st.column_config.SelectboxColumn(
+                "Motorizado",
+                help="Selecciona el motorizado asignado",
+                width="medium",
+                options=lista_motos_desplegable,
+                required=True
+            )
+        }
     )
 
     if st.button("💾 Guardar Cambios en la Tabla", type="primary"):
+        # Actualizar automáticamente los porcentajes y montos según el motorizado seleccionado
+        for idx, row in df_editado.iterrows():
+            moto_nom = str(row.get('motorizado', '')).strip().lower()
+            if moto_nom and not df_motorizados.empty and 'nombre' in df_motorizados.columns:
+                match_m = df_motorizados[df_motorizados['nombre'].astype(str).str.strip().str.lower() == moto_nom]
+                if not match_m.empty and 'porcentaje_ganancia' in match_m.columns:
+                    try:
+                        pct = float(match_m.iloc[0]['porcentaje_ganancia'])
+                        p_cli = float(row.get('precio_cliente', 0.0))
+                        m_mot = round(p_cli * (pct / 100.0), 2)
+                        m_emp = round(p_cli - m_mot, 2)
+                    
+                        df_editado.at[idx, 'porcentaje_comision'] = pct
+                        df_editado.at[idx, 'monto_motorizado'] = m_mot
+                        df_editado.at[idx, 'ganancia_empresa'] = m_emp
+                    except:
+                        pass
+
         df_servicios.update(df_editado)
         if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, "Actualización manual desde tabla evaluadora"):
-            st.success("✅ ¡Cambios guardados exitosamente en GitHub!")
+            st.success("✅ ¡Cambios guardados y porcentajes reajustados exitosamente!")
             st.rerun()
         else:
             st.error("❌ Error al guardar en GitHub.")
