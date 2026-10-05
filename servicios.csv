@@ -932,3 +932,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 931,2026-09-30,DanielG,Monkey,La Casa del Pollo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 932,2026-09-30,DanielG,Flores Sonrisa Inyerly,Local,Calle 23 con 30,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 933,2026-09-30,DanielG,Flores Sonrisa Inyerly,Local,Ciudad Roca,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+934,2026-09-30,DanielG,Flores Sonrisa Inyerly,Local,San Francisco,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
