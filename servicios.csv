@@ -907,3 +907,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 906,2026-09-26 12:00,DanielG,Chalong Case,Local,Santa Elena,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 907,2026-09-26,DanielG,Adrys,Local,Urb del Este,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 908,2026-09-26,DanielG,1313Bqto,Local,Urb del Este,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+909,2026-09-26,DanielG,1313Bqto,Local,Calle 12 con 21,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
