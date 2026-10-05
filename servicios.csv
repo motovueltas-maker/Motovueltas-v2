@@ -905,3 +905,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 904,2026-09-26 12:00,DanielG,Monkey,Local,Torre Digitel,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 905,2026-09-26 12:00,DanielG,Monkey,Compra Molino,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 906,2026-09-26 12:00,DanielG,Chalong Case,Local,Santa Elena,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+907,2026-09-26,DanielG,Adrys,Local,Urb del Este,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
