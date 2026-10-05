@@ -134,7 +134,7 @@ if st.session_state.get("rol", "Motorizado") == "Admin":
         opciones = ["Registrar Vuelta", "Validar Vueltas", "Corte Clientes", "Corte Motorizados", "Directorio Clientes", "Perfiles Motorizados", "Portal Motorizados"]
     else:
         # AQUÍ ESTABA LA LIMITANTE: Permitimos que el motorizado tenga ambas opciones
-        opciones = ["Registrar Vuelta", "Portal Motorizados"]
+        opciones = ["Registrar Vuelta", "Corte Motorizados"]
 
 # Cambiamos st.sidebar.radio por st.radio horizontal
 opcion_menu = st.radio("📌 Menú de Módulos:", opciones, horizontal=True)
@@ -662,7 +662,41 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
         st.info("No hay servicios registrados en la base de datos.")
 
 # --- MÓDULO: CORTE MOTORIZADOS ---
-elif opcion_menu == " Corte Motorizados":
+elif opcion_menu == " Corte Motorizados ":
+    if st.session_state.get("rol", "Motorizado") == "Motorizado" and st.session_state.get("usuario_motorizado"):
+        motorizado_actual = st.session_state.get("usuario_motorizado", "").strip().lower()
+        st.subheader(f"📊 Mi Balance y Resumen - {motorizado_actual.capitalize()}")
+        
+        # Filtramos sus datos reales de forma segura
+        servicios_chofer = df_servicios[df_servicios['motorizado'].astype(str).str.strip().str.lower() == motorizado_actual] if not df_servicios.empty and 'motorizado' in df_servicios.columns else pd.DataFrame()
+        avances_chofer = df_avances[df_avances['motorizado'].astype(str).str.strip().str.lower() == motorizado_actual] if not df_avances.empty and 'motorizado' in df_avances.columns else pd.DataFrame()
+
+        total_comisiones = servicios_chofer['monto_motorizado'].astype(float).sum() if not servicios_chofer.empty and 'monto_motorizado' in servicios_chofer.columns else 0.0
+        total_avances = avances_chofer['monto'].astype(float).sum() if not avances_chofer.empty and 'monto' in avances_chofer.columns else 0.0
+        saldo_neto = total_comisiones - total_avances
+        cantidad_vueltas = len(servicios_chofer)
+
+        c1, c2 = st.columns(2)
+        c1.metric("Comisiones Ganadas", f"${total_comisiones:.2f}")
+        c2.metric("Adelantos", f"-${total_avances:.2f}")
+
+        c3, c4 = st.columns(2)
+        c3.metric("🔥 Saldo Neto a Pagar", f"${saldo_neto:.2f}")
+        c4.metric("Vueltas Realizadas", cantidad_vueltas)
+
+        st.markdown("---")
+        st.markdown("##### 📝 Historial de Mis Vueltas")
+        if not servicios_chofer.empty:
+            st.dataframe(servicios_chofer[['fecha', 'cliente', 'origen', 'destino', 'monto_motorizado', 'estado_validacion']], use_container_width=True)
+        else:
+            st.info("No tienes vueltas registradas todavía.")
+            
+    else:
+            st.subheader("🏍️ Balance y Corte de Cuentas - Motorizados")
+        nom_motos = df_motos['nombre'].tolist() if not df_motos.empty else []
+        if not df_servicios.empty and nom_motos:
+            moto_sel = st.selectbox("Seleccionar Motorizado para ver Balance:", nom_motos, index=0)
+    
     st.subheader("🏍️ Balance y Corte de Cuentas - Motorizados")
     nom_motos = df_motos['nombre'].tolist() if not df_motos.empty else []
     
