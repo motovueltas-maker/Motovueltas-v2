@@ -134,7 +134,7 @@ if st.session_state.get("rol", "Motorizado") == "Admin":
         opciones = ["Registrar Vuelta", "Validar Vueltas", "Corte Clientes", "Corte Motorizados", "Directorio Clientes", "Perfiles Motorizados", "Portal Motorizados"]
     else:
         # AQUÍ ESTABA LA LIMITANTE: Permitimos que el motorizado tenga ambas opciones
-        opciones = ["Registrar Vuelta", "Corte Motorizados"]
+        opciones = ["Registrar Vuelta", "Portal Motorizados"]
 
 # Cambiamos st.sidebar.radio por st.radio horizontal
 opcion_menu = st.radio("📌 Menú de Módulos:", opciones, horizontal=True)
@@ -151,19 +151,21 @@ if df_avances.empty:
 elif 'estado_avance' not in df_avances.columns:
     df_avances['estado_avance'] = 'Pendiente'
 
-if opcion_menu == " Portal Motorizados":
+elif opcion_menu == " Portal Motorizados":
     if 'usuario_motorizado' not in st.session_state:
         st.session_state['usuario_motorizado'] = None
+
+    # Si es un motorizado logueado (como Daniel), lo autenticamos automáticamente con su sesión actual
+    if st.session_state.get('rol') == 'Motorizado' and st.session_state.get('usuario'):
+        st.session_state['usuario_motorizado'] = st.session_state['usuario']
 
     if st.session_state['usuario_motorizado'] is None:
         st.subheader("🔑 Inicio de Sesión Motorizados")
         df_mot_login, _ = cargar_csv_desde_github(FILE_MOTORIZADOS)
-        
         with st.form("form_login_motorizado"):
             usr_input = st.text_input("Nombre de Usuario (ej: Alirio)")
             pwd_input = st.text_input("Contraseña (4 dígitos del celular)", type="password")
             btn_login = st.form_submit_button("Ingresar")
-
             if btn_login:
                 es_valido, nombre_bd = autenticar_motorizado(usr_input, pwd_input, df_mot_login)
                 if es_valido:
@@ -172,11 +174,37 @@ if opcion_menu == " Portal Motorizados":
                 else:
                     st.error("❌ Nombre de usuario o contraseña incorrectos.")
     else:
-        if st.button("🚪 Cerrar Sesión Motorizado"):
-            st.session_state['usuario_motorizado'] = None
-            st.rerun()
-            
-        render_portal_motorizado(st.session_state['usuario_motorizado'])
+        # Aquí se dibuja su balance limpio y privado de solo lectura
+        nombre_motorizado = st.session_state['usuario_motorizado']
+        st.subheader(f"🏍️ Mi Balance y Resumen - {nombre_motorizado.capitalize()}")
+
+        servicios_chofer = df_servicios[df_servicios['motorizado'].astype(str).str.strip().str.lower() == nombre_motorizado.strip().lower()] if not df_servicios.empty and 'motorizado' in df_servicios.columns else pd.DataFrame()
+        avances_chofer = df_avances[df_avances['motorizado'].astype(str).str.strip().str.lower() == nombre_motorizado.strip().lower()] if not df_avances.empty and 'motorizado' in df_avances.columns else pd.DataFrame()
+
+        total_comisiones = servicios_chofer['monto_motorizado'].astype(float).sum() if not servicios_chofer.empty and 'monto_motorizado' in servicios_chofer.columns else 0.0
+        total_avances = avances_chofer['monto'].astype(float).sum() if not avances_chofer.empty and 'monto' in avances_chofer.columns else 0.0
+        saldo_neto = total_comisiones - total_avances
+        cantidad_vueltas = len(servicios_chofer)
+
+        c1, c2 = st.columns(2)
+        c1.metric("Comisiones Ganadas", f"${total_comisiones:.2f}")
+        c2.metric("Adelantos", f"-${total_avances:.2f}")
+
+        c3, c4 = st.columns(2)
+        c3.metric("🔥 Saldo Neto a Pagar", f"${saldo_neto:.2f}")
+        c4.metric("Vueltas Realizadas", cantidad_vueltas)
+
+        st.markdown("---")
+        st.markdown("##### 📝 Historial de Mis Vueltas")
+        if not servicios_chofer.empty:
+            st.dataframe(servicios_chofer[['fecha', 'cliente', 'origen', 'destino', 'monto_motorizado', 'estado_validacion']], use_container_width=True)
+        else:
+            st.info("No tienes vueltas registradas todavía.")
+
+        if st.session_state.get('rol') != 'Motorizado':
+            if st.button("🚪 Cerrar Sesión Motorizado"):
+                st.session_state['usuario_motorizado'] = None
+                st.rerun()
 
 # --- MÓDULO: REGISTRAR VUELTA (COMPACTO) ---
 elif opcion_menu == " Registrar Vuelta":
