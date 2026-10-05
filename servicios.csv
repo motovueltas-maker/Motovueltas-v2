@@ -727,7 +727,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 726,2026-09-24 12:00,Esneyder,Chalong Detalles,Local,5 de Julio,,6.0,100.0,6.0,0.0,Validado,Pagado,Pendiente
 727,2026-09-25 12:00,Esneyder,Chalong Detalles,Local,Calle 28 con 19,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
 728,2026-09-26 12:00,DanielG,Chalong Detalles,Local,Santa Rosa,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
-729,2026-09-26 12:00,Esneyder,Chalong Detalles,Local,Cosmos,,2.5,100.0,2.5,0.0,Validado,Pagado,Pendiente
+729,2026-09-26 12:00,DanielG,Chalong Detalles,Local,Cosmos,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
 730,2026-09-26 12:00,Esneyder,Chalong Detalles,Local,Calle 55 con Pedro Leon,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
 731,,Esneyder,Candy Cakes Michelle,Local,Pedregal,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
 732,2026-09-24 12:00,Deiby,Candy Cakes Michelle,Local,Bararida,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
@@ -903,5 +903,5 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 902,2026-09-26 12:00,DanielG,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 903,2026-09-26 12:00,DanielG,Monkey,Local,20 con 20,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 904,2026-09-26 12:00,DanielG,Monkey,Local,Torre Digitel,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-905,2026-09-26,DanielG,Monkey,Compra Molino,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-906,2026-09-26,DanielG,Chalong Case,Local,Santa Elena,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+905,2026-09-26 12:00,DanielG,Monkey,Compra Molino,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+906,2026-09-26 12:00,DanielG,Chalong Case,Local,Santa Elena,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
