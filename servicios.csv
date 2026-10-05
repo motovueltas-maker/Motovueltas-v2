@@ -902,4 +902,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 901,2026-09-26 12:00,DanielG,Clinivet,Local,Santa Elena,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 902,2026-09-26 12:00,DanielG,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 903,2026-09-26 12:00,DanielG,Monkey,Local,20 con 20,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-904,2026-09-26 12:00,Danielg,Monkey,Local,Torre Digitel,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+904,2026-09-26 12:00,DanielG,Monkey,Local,Torre Digitel,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
