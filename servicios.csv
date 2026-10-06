@@ -966,3 +966,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 965,2026-10-03,DanielG,1313Bqto,Local,19 con 8,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 966,2026-10-03,DanielG,Monkey,Compra Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 967,2026-10-03,DanielG,Monkey,Local,Urb del Este,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+968,2026-10-03,DanielG,Monkey,Compra Vegetales,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
