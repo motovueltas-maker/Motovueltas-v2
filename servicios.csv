@@ -963,3 +963,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 962,2026-02-10 12:00,DanielG,1313Bqto,Local,Las Margaritas,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 963,2026-02-10 12:00,DanielG,1313Bqto,Local,Club Hípico,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 964,2026-10-03,DanielG,Clinivet,Agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+965,2026-10-03,DanielG,1313Bqto,Local,19 con 8,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
