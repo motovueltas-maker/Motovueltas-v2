@@ -945,3 +945,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 944,2026-10-01 12:00,DanielG,Clinivet,Dra Katherine Fundalara,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 945,2026-10-01 12:00,DanielG,Ana Karina,Bequito,Local,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 946,2026-10-01 12:00,DanielG,Candy Cakes Michelle,Local,Babilon,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+947,2026-10-01,DanielG,Chalong Case,Local,CC Los Próceres,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
