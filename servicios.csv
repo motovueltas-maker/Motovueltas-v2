@@ -973,3 +973,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 972,2026-10-03,DanielG,Monkey,Local,29 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 973,2026-10-03,DanielG,Dennys Rivas,Reemplazo,China Store,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 974,2026-10-03,DanielG,Cliente Eventual,Sambil (Nhicole),Lara Palace,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+975,2026-10-03,DanielG,Pizzería Nels,Local,49 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
