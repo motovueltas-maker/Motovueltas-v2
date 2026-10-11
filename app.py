@@ -720,17 +720,11 @@ elif opcion_menu == " Corte Motorizados ":
             st.info("No tienes vueltas registradas todavía.")
             
     else:
-            st.subheader("🏍️ Balance y Corte de Cuentas - Motorizados")
+        st.subheader("🏍️ Balance y Corte de Cuentas - Motorizados")
         nom_motos = df_motos['nombre'].tolist() if not df_motos.empty else []
         if not df_servicios.empty and nom_motos:
             moto_sel = st.selectbox("Seleccionar Motorizado para ver Balance:", nom_motos, index=0)
     
-    st.subheader("🏍️ Balance y Corte de Cuentas - Motorizados")
-    nom_motos = df_motos['nombre'].tolist() if not df_motos.empty else []
-    
-    if not df_servicios.empty and nom_motos:
-        moto_sel = st.selectbox("Seleccionar Motorizado para ver Balance:", nom_motos, index=0)
-        
         # 1. FILTRO DE FECHAS Y ESTADO
         st.markdown("##### 📅 Filtrar por Rango de Fechas")
         col_fm1, col_fm2, col_fm3 = st.columns([1, 1, 1])
