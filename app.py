@@ -953,8 +953,6 @@ elif opcion_menu == " Corte Motorizados ":
                     st.rerun()
         else:
             st.info("No se encontraron vueltas con el filtro seleccionado.")
-    else:
-        st.info("No hay motorizados o servicios registrados.")
 
 # --- MÓDULO INDEPENDIENTE: PORTAL MOTORIZADOS ---
 def render_portal_motorizado(nombre_motorizado):
