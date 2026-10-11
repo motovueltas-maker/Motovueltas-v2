@@ -842,11 +842,11 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 841,2026-09-28 12:00,Alirio Diaz,Chalong Detalles,Local,Trigalpa,,5.0,66.67,3.33,1.67,Validado,Pendiente,Pagado
 842,2026-09-28 12:00,Alirio Diaz ,Rep Arteaga Norexi,Local,Churún Merú,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
 843,2026-09-29 12:00,Alirio Diaz,Chalong Detalles,Local,Lomas del Valle,,1.0,66.67,0.67,0.33,Validado,Pendiente,Pagado
-844,2026-09-29 12:00,Alirio Diaz ,Clinivet,Vida Pets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-845,2026-09-29 12:00,Alirio Diaz ,KingSport Maricela,Centro,Carr 23 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-846,2026-09-29,Alirio Diaz ,Adrys,Local,Carr 31 con 21,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-847,2026-09-29,Alirio Diaz ,Clinivet,Dra Rizzoto Carr 23 con 11,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
-848,2026-09-29,Alirio Diaz ,Adrys,Local,MRW y Zoom,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+844,2026-09-29 12:00,Alirio Diaz ,Clinivet,Vida Pets,Local,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
+845,2026-09-29 12:00,Alirio Diaz ,KingSport Maricela,Centro,Carr 23 con 25,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
+846,2026-09-29 12:00,Alirio Diaz ,Adrys,Local,Carr 31 con 21,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
+847,2026-09-29 12:00,Alirio Diaz ,Clinivet,Dra Rizzoto Carr 23 con 11,Local,,1.0,66.67,0.67,0.33,Validado,Pendiente,Pagado
+848,2026-09-29 12:00,Alirio Diaz ,Adrys,Local,MRW y Zoom,,2.5,66.67,1.67,0.83,Validado,Pendiente,Pagado
 849,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Fundalara Ambrosio,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
 850,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Segradi,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
 851,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,CC El Recreo,,4.0,66.67,2.67,1.33,Validado,Pendiente,Pagado
@@ -922,11 +922,11 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 921,2026-09-28,DanielG,Monkey,Compra Vegetales,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 922,2026-09-28,DanielG,Monkey,Local,Bararida,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 923,2026-09-28,DanielG,1313Bqto,Local,Calle 20 con 23,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-924,2026-09-29,DanielG,Catas Food,Local,Capital y Cosmos,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-925,2026-09-29,DanielG,Monkey,Local,56 con 15,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-926,2026-09-29,DanielG,1313Bqto,Local,Lomas Verdes,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-927,2026-09-29,DanielG,1313Bqto,Local,Calle 34 con 13,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-928,2026-09-29,DanielG,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+924,2026-09-29 12:00,DanielG,Catas Food,Local,Capital y Cosmos,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+925,2026-09-29 12:00,DanielG,Monkey,Local,56 con 15,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+926,2026-09-29 12:00,DanielG,1313Bqto,Local,Lomas Verdes,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+927,2026-09-29 12:00,DanielG,1313Bqto,Local,Calle 34 con 13,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+928,2026-09-29 12:00,DanielG,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 929,2026-09-30,DanielG,Flores Sonrisa Inyerly,Local,Zona Industrial III,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 930,2026-09-30,DanielG,Monkey,Local,Vargas con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 931,2026-09-30,DanielG,Monkey,La Casa del Pollo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
@@ -1019,7 +1019,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1018,2026-09-24,Esneyder,Clinivet,AgroMascotas,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1019,2026-09-25,Esneyder,Clinivet,Local,Jirahara,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1020,2026-09-28,Esneyder,Clinivet,Vida Pets (Otra),Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-1021,2026-09-29,Esneyder,Clinivet,Dra Neida,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+1021,2026-09-29 12:00,Deiby,Clinivet,Dra Neida,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1022,2026-10-06,Esneyder,Clinivet,VidaPets,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1023,2026-10-06,Esneyder,Clinivet,Fundalara (Pire),Local,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 1024,2026-10-07,Esneyder,Clinivet,Dra Neida,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
@@ -1035,4 +1035,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1034,2026-09-28,Deiby,Chalong Detalles,Local,San Juan devolucion,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1035,2026-09-28,Deiby,Adrys,Local,MRW y Zoom,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1036,2026-09-28,Deiby,1313Bqto,Local,Vargas con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1037,2026-09-29,Deiby,Marianella K Beauty,Local,El Impulso,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1037,2026-09-29 12:00,Deiby,Marianella K Beauty,Local,El Impulso,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
