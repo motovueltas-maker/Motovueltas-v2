@@ -850,11 +850,11 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 849,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Fundalara Ambrosio,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
 850,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Segradi,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
 851,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,CC El Recreo,,4.0,66.67,2.67,1.33,Validado,Pendiente,Pagado
-852,2026-09-30,Alirio Diaz ,Flores Sonrisa Inyerly,Local,Hospital,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
-853,2026-09-30,Alirio Diaz ,Adrys,Local,Carr 27 con Bracamonte,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
-854,2026-09-30,Alirio Diaz ,Monkey,Local,La Sucre,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+852,2026-09-30 12:00,Alirio Diaz ,Flores Sonrisa Inyerly,Local,Hospital,,2.5,66.67,1.67,0.83,Validado,Pendiente,Pagado
+853,2026-09-30 12:00,Alirio Diaz ,Adrys,Local,Carr 27 con Bracamonte,,3.0,66.67,2.0,1.0,Validado,Pendiente,Pagado
+854,2026-09-30 12:00,Alirio Diaz ,Monkey,Local,La Sucre,,2.5,66.67,1.67,0.83,Validado,Pendiente,Pagado
 855,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Russo Zona I,,5.0,66.67,3.33,1.67,Validado,Pendiente,Pagado
-856,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Av 20 con 25,,2.5,66.67,1.67,0.83,Validado,Pendiente,Pagado
+856,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Av 20 con 25,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
 857,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Furia Fit,,1.5,66.67,1.0,0.5,Validado,Pendiente,Pagado
 858,2026-10-02,Alirio Diaz ,Clinivet,Quimax,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
 859,2026-10-02,Alirio Diaz ,KingSport Maricela,Centro,32 con 25 y 26,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
@@ -927,18 +927,18 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 926,2026-09-29 12:00,DanielG,1313Bqto,Local,Lomas Verdes,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 927,2026-09-29 12:00,DanielG,1313Bqto,Local,Calle 34 con 13,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 928,2026-09-29 12:00,DanielG,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-929,2026-09-30,DanielG,Flores Sonrisa Inyerly,Local,Zona Industrial III,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-930,2026-09-30,DanielG,Monkey,Local,Vargas con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-931,2026-09-30,DanielG,Monkey,La Casa del Pollo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-932,2026-09-30,DanielG,Flores Sonrisa Inyerly,Local,Calle 23 con 30,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-933,2026-09-30,DanielG,Flores Sonrisa Inyerly,Local,Ciudad Roca,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-934,2026-09-30,DanielG,Flores Sonrisa Inyerly,Local,San Francisco,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
-935,2026-09-30,DanielG,1313Bqto,Local,Calle 52 con 19,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-936,2026-09-30,DanielG,Monkey,Local,Ambulatorio del Sur,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-937,2026-09-30,DanielG,1313Bqto,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-938,2026-09-30,DanielG,1313Bqto,Local,23 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-939,2026-09-30,DanielG,1313Bqto,Local,13 con Ribereña,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-940,2026-09-30,DanielG,1313Bqto,Local,Andres Bello con 32,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+929,2026-09-30 12:00,DanielG,Flores Sonrisa Inyerly,Local,Zona Industrial III,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+930,2026-09-30 12:00,DanielG,Monkey,Local,Vargas con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+931,2026-09-30 12:00,DanielG,Monkey,La Casa del Pollo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+932,2026-09-30 12:00,DanielG,Flores Sonrisa Inyerly,Local,Calle 23 con 30,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+933,2026-09-30 12:00,DanielG,Flores Sonrisa Inyerly,Local,Ciudad Roca,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+934,2026-09-30 12:00,DanielG,Flores Sonrisa Inyerly,Local,San Francisco,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
+935,2026-09-30 12:00,DanielG,1313Bqto,Local,Calle 52 con 19,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+936,2026-09-30 12:00,DanielG,Monkey,Local,Ambulatorio del Sur,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+937,2026-09-30 12:00,DanielG,1313Bqto,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+938,2026-09-30 12:00,DanielG,1313Bqto,Local,23 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+939,2026-09-30 12:00,DanielG,1313Bqto,Local,13 con Ribereña,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+940,2026-09-30 12:00,DanielG,1313Bqto,Local,Andres Bello con 32,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 941,2026-01-10 12:00,DanielG,Mundo de Regalos Luz,Local,Calle 21 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 942,2026-01-10 12:00,DanielG,Chalong Case,Local,Pollos Jireh,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 943,2026-01-10 12:00,DanielG,Dhamilet Ramírez,Charcutería,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
