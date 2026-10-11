@@ -880,9 +880,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 879,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Andrés Bello con 25,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 880,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Boulevard Center,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 881,2026-09-30 12:00,Deiby,Chalong Detalles,Centro/Chalong,/Almarriera,,5.5,70.0,3.85,1.65,Validado,Pendiente,Pendiente
-882,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Bella Vista Calle 48,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+882,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Bella Vista Calle 48,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 883,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Sambil,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-884,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Devolucion Bella Vista,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+884,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Devolucion Bella Vista,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 885,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Yucatan,,8.0,70.0,5.6,2.4,Validado,Pendiente,Pendiente
 886,2026-01-10 12:00,DanielG,Chalong Detalles,Local,Rancho 5A,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 887,2026-01-10 12:00,DanielG,Chalong Detalles,Local,San Francisco,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pendiente
@@ -1036,5 +1036,5 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1035,2026-09-28,Deiby,Adrys,Local,MRW y Zoom,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1036,2026-09-28,Deiby,1313Bqto,Local,Vargas con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1037,2026-09-29 12:00,Deiby,Marianella K Beauty,Local,El Impulso,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-1038,2026-09-30,Deiby,Cliente Eventual,Kingsport,MRW,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1039,2026-09-30,Deiby,KingSport Maricela,Este,El Tostao,,10.0,70.0,7.0,3.0,Validado,Pendiente,Pendiente
+1038,2026-09-30 12:00,Deiby,Cliente Eventual,Kingsport,MRW,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1039,2026-09-30 12:00,Deiby,KingSport Maricela,Este,El Tostao,,10.0,70.0,7.0,3.0,Validado,Pendiente,Pendiente
