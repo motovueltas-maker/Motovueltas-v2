@@ -989,3 +989,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 988,2026-10-04,DanielG,1313Bqto,Local,Cabudare,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 989,2026-10-04,DanielG,1313Bqto,Local,Santa Cecilia,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 990,2026-09-25 12:00,Esneyder,Fresas Delivery Rebeca,Local,Ascardio (Raquel),,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+991,2026-09-25,Esneyder,Fresas Delivery Rebeca,Local,Villa Esmeralda (Otro),,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
