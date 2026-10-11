@@ -1042,3 +1042,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1041,2026-09-30 12:00,Deiby,1313Bqto,Local,Aeropuerto,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1042,2026-09-30 12:00,Deiby,1313Bqto,Local,Calle 13,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1043,2026-09-30 12:00,Deiby,1313Bqto,Local,Hospital Militar,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1044,2026-10-01,Deiby,Candy Cakes Michelle,Local,Colinas San Lorenzo,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
