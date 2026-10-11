@@ -140,7 +140,7 @@ if df_avances.empty:
 elif 'estado_avance' not in df_avances.columns:
     df_avances['estado_avance'] = 'Pendiente'
 
-elif opcion_menu == "Portal Motorizados":
+elif  "Portal Motorizados":
     if 'usuario_motorizado' not in st.session_state:
         st.session_state['usuario_motorizado'] = None
 
@@ -196,7 +196,7 @@ elif opcion_menu == "Portal Motorizados":
                 st.rerun()
 
 # --- MÓDULO: REGISTRAR VUELTA (COMPACTO) ---
-elif opcion_menu == " Registrar Vuelta":
+elif opcion_menu == "Registrar Vuelta":
     st.subheader("⚡ Registrar Nueva Vuelta / Carrera")
     
     # Lista de clientes general
@@ -301,7 +301,7 @@ elif opcion_menu == " Registrar Vuelta":
                     st.error("⚠️ Error al guardar en GitHub. Intenta nuevamente.")
 
 # --- MÓDULO: VALIDAR VUELTAS ---
-elif opcion_menu == " Validar Vueltas":
+elif opcion_menu == "Validar Vueltas":
     st.title("⚙️ Validar y Asignar Precios")
     st.caption("Edita directamente el precio y la comisión en la tabla. Al guardar, las vueltas validadas saldrán de pendientes.")
 
@@ -421,7 +421,7 @@ elif opcion_menu == " Validar Vueltas":
                 st.error("❌ Error al guardar en GitHub.")
 
 # --- MÓDULO: DIRECTORIO CLIENTES ---
-elif opcion_menu == " Directorio Clientes":
+elif opcion_menu == "Directorio Clientes":
     st.header("👥 Gestión y Directorio de Clientes")
     col_c1, col_c2 = st.columns([1, 1])
     
@@ -473,7 +473,7 @@ elif opcion_menu == " Directorio Clientes":
         st.info("No hay clientes registrados en la base de datos.")
 
 # --- MÓDULO: PERFILES MOTORIZADOS ---
-elif opcion_menu == " Perfiles Motorizados":
+elif opcion_menu == "Perfiles Motorizados":
     st.header("🏍️ Gestión de Motorizados")
     if not df_motos.empty:
         st.dataframe(df_motos, use_container_width=True)
@@ -679,7 +679,7 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
         st.info("No hay servicios registrados en la base de datos.")
 
 # --- MÓDULO: CORTE MOTORIZADOS ---
-elif opcion_menu == " Corte Motorizados ":
+elif opcion_menu == "Corte Motorizados ":
     if st.session_state.get("rol", "Motorizado") == "Motorizado" and st.session_state.get("usuario_motorizado"):
         motorizado_actual = st.session_state.get("usuario_motorizado", "").strip().lower()
         st.subheader(f"📊 Mi Balance y Resumen - {motorizado_actual.capitalize()}")
