@@ -856,15 +856,15 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 855,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Russo Zona I,,5.0,66.67,3.33,1.67,Validado,Pendiente,Pagado
 856,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Av 20 con 25,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
 857,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Furia Fit,,1.5,66.67,1.0,0.5,Validado,Pendiente,Pagado
-858,2026-10-02,Alirio Diaz ,Clinivet,Quimax,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
-859,2026-10-02,Alirio Diaz ,KingSport Maricela,Centro,32 con 25 y 26,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
-860,2026-10-02,Alirio Diaz ,Chalong Case,Local,Zona III,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pagado
+858,2026-10-02 12:00,Alirio Diaz ,Clinivet,Quimax,Local,,1.0,66.67,0.67,0.33,Validado,Pendiente,Pagado
+859,2026-10-02 12:00,Alirio Diaz ,KingSport Maricela,Centro,32 con 25 y 26,,2.5,66.67,1.67,0.83,Validado,Pendiente,Pagado
+860,2026-10-02 12:00,Alirio Diaz ,Chalong Case,Local,Zona III,,6.0,66.67,4.0,2.0,Validado,Pendiente,Pagado
 861,2026-10-02 12:00,Alirio Diaz,Chalong Detalles,Local,Pedro León con 49,,4.0,66.67,2.67,1.33,Validado,Pendiente,Pagado
-862,2026-10-02,Alirio Diaz ,1313Bqto,Local,Vargas con 23,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
-863,2026-10-02,Alirio Diaz ,1313Bqto,Local,Barquicenter,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-864,2026-10-02,Alirio Diaz ,Cliente Eventual,Brayan (Casa),Torre Empresarial,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-865,2026-10-02,Alirio Diaz ,Clinivet,Agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-866,2026-10-02,Alirio Diaz ,Rep Arteaga Norexi,Ida y Vuelta,5 de Julio,,7.0,70.0,4.9,2.1,Validado,Pendiente,Pagado
+862,2026-10-02 12:00,Alirio Diaz ,1313Bqto,Local,Vargas con 23,,1.0,66.67,0.67,0.33,Validado,Pendiente,Pagado
+863,2026-10-02 12:00,Alirio Diaz ,1313Bqto,Local,Barquicenter,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
+864,2026-10-02 12:00,Alirio Diaz ,Cliente Eventual,Brayan (Casa),Torre Empresarial,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
+865,2026-10-02 12:00,Alirio Diaz ,Clinivet,Agromascotas,Local,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
+866,2026-10-02 12:00,Alirio Diaz ,Rep Arteaga Norexi,Ida y Vuelta,5 de Julio,,7.0,66.67,4.67,2.33,Validado,Pendiente,Pagado
 867,2026-09-25 12:00,Alirio,Fresas Delivery Rebeca,Local,Calle 26  con 49 (Javier),,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
 868,2026-09-28 12:00,Deiby,Chalong Detalles,Local,Arca,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 869,2026-09-28 12:00,Deiby,Chalong Detalles,Local,Carr 13 con 35 y 36,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
@@ -913,7 +913,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 912,2026-09-27 12:00,DanielG,Monkey,Local,Los Cardones,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 913,2026-09-27 12:00,DanielG,1313Bqto,Local,Res Gloria,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 914,2026-09-27 12:00,DanielG,Ari Perrarina,Gonzstore,Yacural,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-915,2026-10-02,Esneyder,Brayan Yepez,Calle 13,Torre Financiera,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+915,2026-02-10 12:00,Esneyder,Brayan Yepez,Calle 13,Torre Financiera,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 916,2026-09-27 12:00,DanielG,Brayan Yepez,Bararida,Llaves la 13,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 917,2026-09-19,Esneyder,Brayan Yepez,Calle 13 Sopa,Bararida,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 918,2026-09-27 12:00,DanielG,1313Bqto,Local,Torre Financiera,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
