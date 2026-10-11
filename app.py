@@ -951,10 +951,6 @@ elif opcion_menu == " Corte Motorizados ":
                 if guardar_csv_en_github(FILE_SERVICIOS, df_servicios, sha_servicios, f"Liquidacion realizada a motorizado {moto_sel}"):
                     st.success(f"✅ ¡Se han liquidado {len(ids_a_pagar)} vueltas de {moto_sel} correctamente!")
                     st.rerun()
-        else:
-            st.info("No se encontraron vueltas con el filtro seleccionado.")
-    else:
-        st.info("No hay motorizados o servicios registrados.")
 
 # --- MÓDULO INDEPENDIENTE: PORTAL MOTORIZADOS ---
 def render_portal_motorizado(nombre_motorizado):
