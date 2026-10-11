@@ -1027,3 +1027,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1026,2026-10-08,Esneyder,Clinivet,Local,Contadora,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1027,2026-10-09,Esneyder,Clinivet,Local,Dra Neida,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1028,2026-10-10,Esneyder,Clinivet,Local,Zoomedical,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+1029,2026-10-10,Esneyder,Clinivet,Dra Neida,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
