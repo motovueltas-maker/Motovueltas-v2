@@ -1002,3 +1002,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1001,2026-09-02,Esneyder,Clinivet,Dra Neida,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1002,2026-09-03,Esneyder,Clinivet,VidaPets,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1003,2026-09-04,Esneyder,Clinivet,Local,Contadora,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+1004,2026-09-05,Esneyder,Clinivet,Vida Pets,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
