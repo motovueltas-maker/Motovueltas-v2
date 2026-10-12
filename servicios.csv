@@ -1093,3 +1093,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1094,2026-10-09,Deiby,Marianelin Carrasco Contadora,Panaderia Nueva York,Oficina,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1095,2026-10-09,Deiby,Chalong Case,Local,CC Los Leones,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1096,2026-10-09,Deiby,Chalong Detalles,Local,Bomba San Luis,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1097,2026-10-09,Deiby,Monkey,Local,Calle 25 con 19,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
