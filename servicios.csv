@@ -1115,3 +1115,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1116,2026-10-10 12:00,Deiby,Monkey,Local,Calle 32 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1117,2026-10-10,Deiby,Chalong Detalles,Local,Cosmos,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1118,2026-10-10,Deiby,1313Bqto,Local,35 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1119,2026-10-10,Deiby,1313Bqto,Local,Bararida,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
