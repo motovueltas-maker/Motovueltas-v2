@@ -1110,3 +1110,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1111,2026-10-09,Deiby,1313Bqto,Local,Calle 19 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1112,2026-10-10,Deiby,KingSport Maricela,Este,Los Luises,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1113,2026-10-10,Deiby,KingSport Maricela,Este,Los Luises (Cambio),,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1114,2026-10-10,Deiby,1313Bqto,RIO,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
