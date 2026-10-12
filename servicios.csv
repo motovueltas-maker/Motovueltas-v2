@@ -379,8 +379,6 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 379,,Jhoiner,1313Bqto,Local,Nueva Segovia,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 380,,Jhoiner,Angeles Guanipa,Local,Cancha de la 13,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
 381,,Jhoiner,1313Bqto,Local,Transporte Diana,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
-382,2026-10-04,Genesis,Cliente Eventual,Casa,Trabajo,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-383,2026-10-04,Genesis,Cliente Eventual,Centro comercial ,Casa,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 384,,Jhoiner,Chalong Case,Local,Roca Terra,,4.5,33.33,1.5,3.0,Validado,Pagado,Pendiente
 385,,Deiby,Chalong Case,Local,MRW y Zoom,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
 386,,Deiby,Chalong Case,Local,Clínica ONG,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
@@ -983,11 +981,11 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 982,2026-10-03 12:00,DanielG,1313Bqto,Local,Vzla con Vargas,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 983,2026-10-03 12:00,DanielG,1313Bqto,Local,Los Cardones,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 984,2026-10-03 12:00,DanielG,1313Bqto,Local,Calle 30 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-985,2026-10-04,DanielG,1313Bqto,Local,Santa Rosa,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-986,2026-10-04,DanielG,1313Bqto,Local,28 con 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-987,2026-10-04,DanielG,1313Bqto,Local,Calle 13 con 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-988,2026-10-04,DanielG,1313Bqto,Local,Cabudare,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-989,2026-10-04,DanielG,1313Bqto,Local,Santa Cecilia,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+985,2026-04-10 12:00,DanielG,1313Bqto,Local,Santa Rosa,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+986,2026-04-10 12:00,DanielG,1313Bqto,Local,28 con 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+987,2026-04-10 12:00,DanielG,1313Bqto,Local,Calle 13 con 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+988,2026-04-10 12:00,DanielG,1313Bqto,Local,Cabudare,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+989,2026-04-10 12:00,DanielG,1313Bqto,Local,Santa Cecilia,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 990,2026-09-25 12:00,Esneyder,Fresas Delivery Rebeca,Local,Ascardio (Raquel),,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 991,2026-09-25,Esneyder,Fresas Delivery Rebeca,Local,Villa Esmeralda (Otro),,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 992,2026-10-09,Deiby,Fresas Delivery Rebeca,Local,Los Camagos (Adami),,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
@@ -1063,4 +1061,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1062,2026-10-03 12:00,Deiby,Monkey,La Casa del Pollo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1063,2026-10-03 12:00,Deiby,1313Bqto,Local,Calle 24 con 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1064,2026-10-03 12:00,Deiby,1313Bqto,Local,Alma Riera,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-1065,2026-10-04,Deiby,1313Bqto,Local,Ribereña con 26,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1065,2026-04-10 12:00,Deiby,1313Bqto,Local,Ribereña con 26,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
