@@ -1062,3 +1062,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1063,2026-10-03 12:00,Deiby,1313Bqto,Local,Calle 24 con 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1064,2026-10-03 12:00,Deiby,1313Bqto,Local,Alma Riera,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1065,2026-04-10 12:00,Deiby,1313Bqto,Local,Ribereña con 26,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1066,2026-10-04,Deiby,Monkey,Tu Punto Inca,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
