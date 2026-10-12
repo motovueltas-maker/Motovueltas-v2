@@ -1131,3 +1131,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1132,2026-10-11,Deiby,Monkey,Local,20 con 30 (Refresco),,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1133,2026-10-11,Deiby,1313Bqto,Local,Macuto,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1134,2026-10-11,Deiby,1313Bqto,Compra Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1135,2026-10-11,Deiby,1313Bqto,Local,36 con 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
