@@ -1087,3 +1087,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1088,2026-10-08,Deiby,1313Bqto,Local,Res Mirador,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1089,2026-10-08,Deiby,1313Bqto,Maskepollo,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1090,2026-10-09,Deiby,Cliente Eventual,Calle 12,Pueblo Nuevo,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1091,2026-10-09,Deiby,Chalong Case,Local,Calle 12 con 17,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
