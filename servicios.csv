@@ -1129,3 +1129,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1130,2026-10-10,Deiby,1313Bqto,Local,17 con 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1131,2026-10-11,Deiby,Monkey,Local,Av 20 con 31,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1132,2026-10-11,Deiby,Monkey,Local,20 con 30 (Refresco),,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1133,2026-10-11,Deiby,1313Bqto,Local,Macuto,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
