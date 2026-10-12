@@ -889,10 +889,10 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 888,2026-10-02 12:00,DanielG,Chalong Detalles,Local,Cabudare Centro,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 889,2026-10-02 12:00,Deiby,Chalong Detalles,Local,Cabudare Los Pinos,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 890,2026-10-02 12:00,DanielG,Chalong Detalles,Local,Calle 28 con 22,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-891,2026-10-03 12:00,Esneyder,Chalong Detalles,Local,Edif Rio Lama 4,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-892,2026-10-03 12:00,DanielG,Chalong Detalles,Local,Res Mariella,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-893,2026-10-03 12:00,Deiby,Chalong Detalles,Local,Carr 23 entre 19 y 20,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-894,2026-10-03 12:00,Deiby,Chalong Detalles,Local,CC Las Trinitarias,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+891,2026-03-10 12:00,Esneyder,Chalong Detalles,Local,Edif Rio Lama 4,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+892,2026-03-10 12:00,DanielG,Chalong Detalles,Local,Res Mariella,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+893,2026-03-10 12:00,Deiby,Chalong Detalles,Local,Carr 23 entre 19 y 20,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+894,2026-03-10 12:00,Deiby,Chalong Detalles,Local,CC Las Trinitarias,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 895,2026-09-25 12:00,DanielG,1313Bqto,Local,Bararida,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 896,2026-09-25 12:00,DanielG,1313Bqto,Local,18 con 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 897,2026-09-25 12:00,DanielG,1313Bqto,Local,Hospital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -962,27 +962,27 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 961,2026-02-10 12:00,DanielG,1313Bqto,Local,Anais,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 962,2026-02-10 12:00,DanielG,1313Bqto,Local,Las Margaritas,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 963,2026-02-10 12:00,DanielG,1313Bqto,Local,Club Hípico,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-964,2026-10-03,DanielG,Clinivet,Agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-965,2026-10-03,DanielG,1313Bqto,Local,19 con 8,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-966,2026-10-03,DanielG,Monkey,Compra Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-967,2026-10-03,DanielG,Monkey,Local,Urb del Este,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-968,2026-10-03,DanielG,Monkey,Compra Vegetales,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-969,2026-10-03,DanielG,Monkey,Local,Don Quijote,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-970,2026-10-03,DanielG,Clinivet,Dra Katherine,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-971,2026-10-03,DanielG,Clinivet,Dra Rizzotto,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-972,2026-10-03,DanielG,Monkey,Local,29 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-973,2026-10-03,DanielG,Dennys Rivas,Reemplazo,China Store,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-974,2026-10-03,DanielG,Cliente Eventual,Sambil (Nhicole),Lara Palace,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-975,2026-10-03,DanielG,Pizzería Nels,Local,49 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-976,2026-10-03,DanielG,1313Bqto,Local,20 con 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-977,2026-10-03,DanielG,1313Bqto,Local,Nueva Segovia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-978,2026-10-03,DanielG,1313Bqto,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-979,2026-10-03,DanielG,1313Bqto,Local,Carr 17 con 13 y 14,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-980,2026-10-03,DanielG,1313Bqto,Local,Carr 22 con Calle 20,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-981,2026-10-03,DanielG,1313Bqto,Pollera de la 13,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-982,2026-10-03,DanielG,1313Bqto,Local,Vzla con Vargas,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-983,2026-10-03,DanielG,1313Bqto,Local,Los Cardones,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-984,2026-10-03,DanielG,1313Bqto,Local,Calle 30 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+964,2026-10-03 12:00,DanielG,Clinivet,Agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+965,2026-10-03 12:00,DanielG,1313Bqto,Local,19 con 8,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+966,2026-10-03 12:00,DanielG,Monkey,Compra Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+967,2026-10-03 12:00,DanielG,Monkey,Local,Urb del Este,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+968,2026-10-03 12:00,DanielG,Monkey,Compra Vegetales,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+969,2026-10-03 12:00,DanielG,Monkey,Local,Don Quijote,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+970,2026-10-03 12:00,DanielG,Clinivet,Dra Katherine,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+971,2026-10-03 12:00,DanielG,Clinivet,Dra Rizzotto,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+972,2026-10-03 12:00,DanielG,Monkey,Local,29 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+973,2026-10-03 12:00,DanielG,Dennys Rivas,Reemplazo,China Store,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+974,2026-10-03 12:00,DanielG,Cliente Eventual,Sambil (Nhicole),Lara Palace,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+975,2026-10-03 12:00,DanielG,Pizzería Nels,Local,49 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+976,2026-10-03 12:00,DanielG,1313Bqto,Local,20 con 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+977,2026-10-03 12:00,DanielG,1313Bqto,Local,Nueva Segovia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+978,2026-10-03 12:00,DanielG,1313Bqto,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+979,2026-10-03 12:00,DanielG,1313Bqto,Local,Carr 17 con 13 y 14,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+980,2026-10-03 12:00,DanielG,1313Bqto,Local,Carr 22 con Calle 20,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+981,2026-10-03 12:00,DanielG,1313Bqto,Pollera de la 13,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+982,2026-10-03 12:00,DanielG,1313Bqto,Local,Vzla con Vargas,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+983,2026-10-03 12:00,DanielG,1313Bqto,Local,Los Cardones,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+984,2026-10-03 12:00,DanielG,1313Bqto,Local,Calle 30 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 985,2026-10-04,DanielG,1313Bqto,Local,Santa Rosa,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 986,2026-10-04,DanielG,1313Bqto,Local,28 con 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 987,2026-10-04,DanielG,1313Bqto,Local,Calle 13 con 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -1054,12 +1054,12 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1053,2026-10-02,Deiby,Marianella K Beauty,Local,Merpolara,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1054,2026-10-02,Deiby,1313Bqto,Local,La Mendera,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1055,2026-10-02,Deiby,1313Bqto,Local,Calle 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1056,2026-10-03,Deiby,1313Bqto,Local,5 de Julio,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-1057,2026-10-03,Deiby,Adrys,Super Ven,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-1058,2026-10-03,Deiby,1313Bqto,Local,Vargas con 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1059,2026-10-03,Deiby,Ana Karina,Mercado Altagracia,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1060,2026-10-03,Deiby,Dhamilet Ramírez,Carnicería,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1061,2026-10-03,Deiby,Cliente Eventual,Local,Jirahara,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1062,2026-10-03,Deiby,Monkey,La Casa del Pollo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1063,2026-10-03,Deiby,1313Bqto,Local,Calle 24 con 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1064,2026-10-03,Deiby,1313Bqto,Local,Alma Riera,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1056,2026-10-03 12:00,Deiby,Rep Arteaga Norexi,Local,5 de Julio,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+1057,2026-10-03 12:00,Deiby,Adrys,Super Ven,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1058,2026-10-03 12:00,Deiby,1313Bqto,Local,Vargas con 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1059,2026-10-03 12:00,Deiby,Ana Karina,Mercado Altagracia,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1060,2026-10-03 12:00,Deiby,Dhamilet Ramírez,Carnicería,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1061,2026-10-03 12:00,Deiby,Cliente Eventual,Local,Jirahara,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1062,2026-10-03 12:00,Deiby,Monkey,La Casa del Pollo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1063,2026-10-03 12:00,Deiby,1313Bqto,Local,Calle 24 con 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1064,2026-10-03 12:00,Deiby,1313Bqto,Local,Alma Riera,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
