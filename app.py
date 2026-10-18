@@ -410,13 +410,13 @@ elif opcion_menu == "Validar Vueltas":
 
         df_filtrado = df_servicios.copy()
         if f_desde_val or f_hasta_val:
-            fechas_dt_val = pd.to_datetime(df_filtrado['fecha'], dayfirst=True, errors='coerce').dt.date
+            fechas_str_val = pd.to_datetime(df_filtrado['fecha'], dayfirst=True, errors='coerce').dt.strftime('%Y-%m-%d').fillna(df_filtrado['fecha'].astype(str).str[:10])
             if f_desde_val and f_hasta_val:
-                df_filtrado = df_filtrado[(fechas_dt_val >= f_desde_val) & (fechas_dt_val <= f_hasta_val)]
+                df_filtrado = df_filtrado[(fechas_str_val >= f_desde_val.strftime('%Y-%m-%d')) & (fechas_str_val <= f_hasta_val.strftime('%Y-%m-%d'))]
             elif f_desde_val:
-                df_filtrado = df_filtrado[fechas_dt_val >= f_desde_val]
+                df_filtrado = df_filtrado[fechas_str_val >= f_desde_val.strftime('%Y-%m-%d')]
             elif f_hasta_val:
-                df_filtrado = df_filtrado[fechas_dt_val <= f_hasta_val]
+                df_filtrado = df_filtrado[fechas_str_val <= f_hasta_val.strftime('%Y-%m-%d')]
 
         if filtro_mot != "Todos":
             df_filtrado = df_filtrado[df_filtrado['motorizado'].astype(str).str.strip() == filtro_mot]
@@ -526,14 +526,15 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
             with col_f2:
                 f_hasta_c = st.date_input("Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", key="f_hasta_corte")
 
-            fechas_dt = pd.to_datetime(df_cli_all['fecha'], dayfirst=True, errors='coerce').dt.date
+            # Conversión robusta a texto AAAA-MM-DD para comparar limpiamente
+            fechas_str_c = pd.to_datetime(df_cli_all['fecha'], dayfirst=True, errors='coerce').dt.strftime('%Y-%m-%d').fillna(df_cli_all['fecha'].astype(str).str[:10])
 
             if f_desde_c and f_hasta_c:
-                pendientes = df_cli_all[(fechas_dt >= f_desde_c) & (fechas_dt <= f_hasta_c)].copy()
+                pendientes = df_cli_all[(fechas_str_c >= f_desde_c.strftime('%Y-%m-%d')) & (fechas_str_c <= f_hasta_c.strftime('%Y-%m-%d'))].copy()
             elif f_desde_c:
-                pendientes = df_cli_all[fechas_dt >= f_desde_c].copy()
+                pendientes = df_cli_all[fechas_str_c >= f_desde_c.strftime('%Y-%m-%d')].copy()
             elif f_hasta_c:
-                pendientes = df_cli_all[fechas_dt <= f_hasta_c].copy()
+                pendientes = df_cli_all[fechas_str_c <= f_hasta_c.strftime('%Y-%m-%d')].copy()
             else:
                 pendientes = df_cli_all[df_cli_all['estado_cliente'] == 'Pendiente'].copy()
 
@@ -552,7 +553,7 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
 
             c_m1, c_m2 = st.columns(2)
             c_m1.metric("Pendiente por Cobrar ($)", f"${total_deuda:.2f}")
-            c_m2.metric("Vueltas Filtradas / Pendientes", len(pendientes))
+            c_m2.metric("Vueltas Filtradas / Encontradas", len(pendientes))
             st.markdown("---")
 
             col_abono, col_wa = st.columns([2, 1])
@@ -617,15 +618,14 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
                     f_hasta = st.date_input("Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", key="fh_tab2")
 
                 df_filtrado = df_servicios.copy()
-                fechas_dt = pd.to_datetime(df_filtrado['fecha'], dayfirst=True, errors='coerce')
-                fechas_str = fechas_dt.dt.strftime('%Y-%m-%d').fillna(df_filtrado['fecha'].astype(str).str[:10])
+                fechas_str_tab2 = pd.to_datetime(df_filtrado['fecha'], dayfirst=True, errors='coerce').dt.strftime('%Y-%m-%d').fillna(df_filtrado['fecha'].astype(str).str[:10])
 
                 if f_desde and f_hasta:
-                    df_filtrado = df_filtrado[(fechas_str >= f_desde.strftime('%Y-%m-%d')) & (fechas_str <= f_hasta.strftime('%Y-%m-%d'))]
+                    df_filtrado = df_filtrado[(fechas_str_tab2 >= f_desde.strftime('%Y-%m-%d')) & (fechas_str_tab2 <= f_hasta.strftime('%Y-%m-%d'))]
                 elif f_desde:
-                    df_filtrado = df_filtrado[fechas_str == f_desde.strftime('%Y-%m-%d')]
+                    df_filtrado = df_filtrado[fechas_str_tab2 >= f_desde.strftime('%Y-%m-%d')]
                 elif f_hasta:
-                    df_filtrado = df_filtrado[fechas_str == f_hasta.strftime('%Y-%m-%d')]
+                    df_filtrado = df_filtrado[fechas_str_tab2 <= f_hasta.strftime('%Y-%m-%d')]
 
                 if filtro_cli and filtro_cli != "Todos":
                     df_filtrado = df_filtrado[df_filtrado['cliente'].astype(str).str.strip().str.lower() == filtro_cli.strip().lower()]
@@ -709,13 +709,12 @@ elif opcion_menu == "Corte Motorizados":
 
         df_mot_serv = df_servicios[(df_servicios['motorizado'].astype(str).str.strip().str.lower() == str(moto_sel).strip().lower())].copy()
         
-        fechas_mot_dt = pd.to_datetime(df_mot_serv['fecha'], dayfirst=True, errors='coerce')
-        fechas_mot_str = fechas_mot_dt.dt.strftime('%Y-%m-%d').fillna(df_mot_serv['fecha'].astype(str).str[:10])
+        fechas_mot_str = pd.to_datetime(df_mot_serv['fecha'], dayfirst=True, errors='coerce').dt.strftime('%Y-%m-%d').fillna(df_mot_serv['fecha'].astype(str).str[:10])
 
         if f_desde_m and f_hasta_m:
             df_mot_serv = df_mot_serv[(fechas_mot_str >= f_desde_m.strftime('%Y-%m-%d')) & (fechas_mot_str <= f_hasta_m.strftime('%Y-%m-%d'))]
         elif f_desde_m:
-            df_mot_serv = df_mot_serv[fechas_mot_str == f_desde_m.strftime('%Y-%m-%d')]
+            df_mot_serv = df_mot_serv[fechas_mot_str >= f_desde_m.strftime('%Y-%m-%d')]
         elif f_hasta_m:
             df_mot_serv = df_mot_serv[fechas_mot_str <= f_hasta_m.strftime('%Y-%m-%d')]
 
@@ -767,13 +766,12 @@ elif opcion_menu == "Corte Motorizados":
         df_avances_moto = df_avances[(df_avances['motorizado'].astype(str).str.strip().str.lower() == str(moto_sel).strip().lower())].copy() if not df_avances.empty else pd.DataFrame()
         
         if not df_avances_moto.empty:
-            av_dt = pd.to_datetime(df_avances_moto['fecha'], errors='coerce')
-            av_str = av_dt.dt.strftime('%Y-%m-%d').fillna(df_avances_moto['fecha'].astype(str).str[:10])
+            av_str = pd.to_datetime(df_avances_moto['fecha'], errors='coerce').dt.strftime('%Y-%m-%d').fillna(df_avances_moto['fecha'].astype(str).str[:10])
 
             if f_desde_m and f_hasta_m:
                 df_avances_moto = df_avances_moto[(av_str >= f_desde_m.strftime('%Y-%m-%d')) & (av_str <= f_hasta_m.strftime('%Y-%m-%d'))]
             elif f_desde_m:
-                df_avances_moto = df_avances_moto[av_str == f_desde_m.strftime('%Y-%m-%d')]
+                df_avances_moto = df_avances_moto[av_str >= f_desde_m.strftime('%Y-%m-%d')]
             elif f_hasta_m:
                 df_avances_moto = df_avances_moto[av_str <= f_hasta_m.strftime('%Y-%m-%d')]
 
