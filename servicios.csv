@@ -1141,3 +1141,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1142,2026-10-06 12:00,Esneyder,Chalong Case,Local,CC Rio Lama,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 1143,2026-10-07,DanielG,Chalong Case,Local,Carr 27 con 25,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1144,2026-10-08,DanielG,Chalong Case,Local,Calle 26 con 14,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1145,2026-10-08,DanielG,Chalong Case,Local,Calle 41 con 14,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
