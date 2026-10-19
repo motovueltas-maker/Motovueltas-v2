@@ -1142,3 +1142,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1148,2026-10-09 12:00,Deiby,Chalong Case,Local,CC Los Leones,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1149,2026-10-09 12:00,Deiby,Chalong Case,Local,Patarata,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1150,2026-10-09 12:00,Deiby,Chalong Case,Local,El Parral,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1151,2026-10-10,DanielG,Chalong Case,Local,Carr 27 con 25,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
