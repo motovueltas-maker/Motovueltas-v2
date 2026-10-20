@@ -1089,7 +1089,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1090,2026-10-09,Deiby,Cliente Eventual,Calle 12,Pueblo Nuevo,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pagado
 1093,2026-10-09,Deiby,1313Bqto,Local,Ascardio,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
 1094,2026-10-09,Deiby,Marianelin Carrasco Contadora,Panaderia Nueva York,Oficina,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pagado
-1096,2026-09-10 12:00,Deiby,Chalong Detalles,Local,Bomba San Luis,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pagado
+1096,2026-10-09 12:00,Deiby,Chalong Detalles,Local,Bomba San Luis,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pagado
 1097,2026-10-09,Deiby,Monkey,Local,Calle 25 con 19,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 1098,2026-10-09,Deiby,Monkey,Local,Carr 18 con 23,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pagado
 1100,2026-10-09,Deiby,Monkey,Local,59 con 15,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
@@ -1097,7 +1097,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1102,2026-10-09,Deiby,KingSport Maricela,Este,Bararida,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 1103,2026-10-09,Deiby,KingSport Maricela,Centro,Patarata,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
 1104,2026-10-09,Deiby,Adrys,Local,MRW y Zoom,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
-1106,2026-09-10 12:00,Deiby,Chalong Detalles,Local,Lomas de Leon,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pagado
+1106,2026-10-09 12:00,Deiby,Chalong Detalles,Local,Lomas de Leon,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pagado
 1107,2026-10-09,Deiby,KingSport Maricela,Centro,35 con 23,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
 1108,2026-10-09,Deiby,Adrys,Local,29 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
 1109,2026-10-09,Deiby,1313Bqto,Local,45 con 15,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
