@@ -836,61 +836,61 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 837,2026-09-28 12:00,Alirio Diaz ,Rep Arteaga Norexi,Local,Floristería Nelo,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pagado
 838,2026-09-28 12:00,Alirio Diaz ,Dhamilet Ramírez,Pollo Market,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
 839,2026-09-28 12:00,Alirio Diaz ,Clinivet,Vida Pets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-840,2026-09-28 12:00,Alirio Diaz,Chalong Detalles,Local,Bequito,,3.0,66.67,2.0,1.0,Validado,Pendiente,Pagado
-841,2026-09-28 12:00,Alirio Diaz,Chalong Detalles,Local,Trigalpa,,5.0,66.67,3.33,1.67,Validado,Pendiente,Pagado
+840,2026-09-28 12:00,Alirio Diaz,Chalong Detalles,Local,Bequito,,3.0,66.67,2.0,1.0,Validado,Pagado,Pagado
+841,2026-09-28 12:00,Alirio Diaz,Chalong Detalles,Local,Trigalpa,,5.0,66.67,3.33,1.67,Validado,Pagado,Pagado
 842,2026-09-28 12:00,Alirio Diaz ,Rep Arteaga Norexi,Local,Churún Merú,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
-843,2026-09-29 12:00,Alirio Diaz,Chalong Detalles,Local,Lomas del Valle,,1.0,66.67,0.67,0.33,Validado,Pendiente,Pagado
+843,2026-09-29 12:00,Alirio Diaz,Chalong Detalles,Local,Lomas del Valle,,1.0,66.67,0.67,0.33,Validado,Pagado,Pagado
 844,2026-09-29 12:00,Alirio Diaz ,Clinivet,Vida Pets,Local,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
 845,2026-09-29 12:00,Alirio Diaz ,KingSport Maricela,Centro,Carr 23 con 25,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
 846,2026-09-29 12:00,Alirio Diaz ,Adrys,Local,Carr 31 con 21,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
 847,2026-09-29 12:00,Alirio Diaz ,Clinivet,Dra Rizzoto Carr 23 con 11,Local,,1.0,66.67,0.67,0.33,Validado,Pendiente,Pagado
 848,2026-09-29 12:00,Alirio Diaz ,Adrys,Local,MRW y Zoom,,2.5,66.67,1.67,0.83,Validado,Pendiente,Pagado
-849,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Fundalara Ambrosio,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
-850,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Segradi,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
-851,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,CC El Recreo,,4.0,66.67,2.67,1.33,Validado,Pendiente,Pagado
+849,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Fundalara Ambrosio,,2.0,66.67,1.33,0.67,Validado,Pagado,Pagado
+850,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Segradi,,2.0,66.67,1.33,0.67,Validado,Pagado,Pagado
+851,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,CC El Recreo,,4.0,66.67,2.67,1.33,Validado,Pagado,Pagado
 852,2026-09-30 12:00,Alirio Diaz ,Flores Sonrisa Inyerly,Local,Hospital,,2.5,66.67,1.67,0.83,Validado,Pendiente,Pagado
 853,2026-09-30 12:00,Alirio Diaz ,Adrys,Local,Carr 27 con Bracamonte,,3.0,66.67,2.0,1.0,Validado,Pendiente,Pagado
 854,2026-09-30 12:00,Alirio Diaz ,Monkey,Local,La Sucre,,2.5,66.67,1.67,0.83,Validado,Pendiente,Pagado
-855,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Russo Zona I,,5.0,66.67,3.33,1.67,Validado,Pendiente,Pagado
-856,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Av 20 con 25,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
-857,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Furia Fit,,1.5,66.67,1.0,0.5,Validado,Pendiente,Pagado
+855,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Russo Zona I,,5.0,66.67,3.33,1.67,Validado,Pagado,Pagado
+856,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Av 20 con 25,,2.5,70.0,1.75,0.75,Validado,Pagado,Pagado
+857,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Furia Fit,,1.5,66.67,1.0,0.5,Validado,Pagado,Pagado
 858,2026-10-02 12:00,Alirio Diaz ,Clinivet,Quimax,Local,,1.0,66.67,0.67,0.33,Validado,Pendiente,Pagado
 859,2026-10-02 12:00,Alirio Diaz ,KingSport Maricela,Centro,32 con 25 y 26,,2.5,66.67,1.67,0.83,Validado,Pendiente,Pagado
 860,2026-02-10 12:00,Alirio,Chalong Case,Local,Zona III,,6.0,70.0,4.2,1.8,Validado,Pagado,Pagado
-861,2026-10-02 12:00,Alirio Diaz,Chalong Detalles,Local,Pedro León con 49,,4.0,66.67,2.67,1.33,Validado,Pendiente,Pagado
+861,2026-10-02 12:00,Alirio Diaz,Chalong Detalles,Local,Pedro León con 49,,4.0,66.67,2.67,1.33,Validado,Pagado,Pagado
 862,2026-10-02 12:00,Alirio Diaz ,1313Bqto,Local,Vargas con 23,,1.0,66.67,0.67,0.33,Validado,Pendiente,Pagado
 863,2026-10-02 12:00,Alirio Diaz ,1313Bqto,Local,Barquicenter,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
 864,2026-10-02 12:00,Alirio Diaz ,Cliente Eventual,Brayan (Casa),Torre Empresarial,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
 865,2026-10-02 12:00,Alirio Diaz ,Clinivet,Agromascotas,Local,,2.0,66.67,1.33,0.67,Validado,Pendiente,Pagado
 866,2026-10-02 12:00,Alirio Diaz ,Rep Arteaga Norexi,Ida y Vuelta,5 de Julio,,7.0,66.67,4.67,2.33,Validado,Pendiente,Pagado
 867,2026-09-25 12:00,Alirio,Fresas Delivery Rebeca,Local,Calle 26  con 49 (Javier),,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
-868,2026-09-28 12:00,Deiby,Chalong Detalles,Local,Arca,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
-869,2026-09-28 12:00,Deiby,Chalong Detalles,Local,Carr 13 con 35 y 36,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
-870,2026-09-28 12:00,DanielG,Chalong Detalles,Local,Cosmos,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-871,2026-09-29 12:00,DanielG,Chalong Detalles,Local,Multicentro Los Leones,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-872,2026-09-29 12:00,DanielG,Chalong Detalles,Local,Pablo Rojas Meza,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-873,2026-09-29 12:00,DanielG,Chalong Detalles,Local,Edif La Cascada,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-874,2026-09-29 12:00,DanielG,Chalong Detalles,Local,Urb La Concordia,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-875,2026-09-30 12:00,Deiby,Chalong Detalles,Local,San José,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
-876,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Calle 49 con 30,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pagado
-877,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Carr 33 con 25,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
-878,2026-09-30 12:00,Esneyder,Chalong Detalles,Local,Famcos,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-879,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Andrés Bello con 25,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
-880,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Boulevard Center,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
-881,2026-09-30 12:00,Deiby,Chalong Detalles,Centro/Chalong,/Almarriera,,5.5,70.0,3.85,1.65,Validado,Pendiente,Pagado
-882,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Bella Vista Calle 48,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
-883,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Sambil,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pagado
-884,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Devolucion Bella Vista,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
-885,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Yucatan,,7.0,70.0,4.9,2.1,Validado,Pendiente,Pagado
-886,2026-01-10 12:00,DanielG,Chalong Detalles,Local,Rancho 5A,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-887,2026-01-10 12:00,DanielG,Chalong Detalles,Local,San Francisco,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pendiente
-888,2026-10-02 12:00,DanielG,Chalong Detalles,Local,Cabudare Centro,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-889,2026-10-02 12:00,Deiby,Chalong Detalles,Local,Cabudare Los Pinos,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pagado
-890,2026-10-02 12:00,DanielG,Chalong Detalles,Local,Calle 28 con 22,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-891,2026-03-10 12:00,Esneyder,Chalong Detalles,Local,Edif Rio Lama 4,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-892,2026-03-10 12:00,DanielG,Chalong Detalles,Local,Res Mariella,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-893,2026-03-10 12:00,Deiby,Chalong Detalles,Local,Carr 23 entre 19 y 20,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
-894,2026-03-10 12:00,Deiby,Chalong Detalles,Local,CC Las Trinitarias,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+868,2026-09-28 12:00,Deiby,Chalong Detalles,Local,Arca,,3.0,70.0,2.1,0.9,Validado,Pagado,Pagado
+869,2026-09-28 12:00,Deiby,Chalong Detalles,Local,Carr 13 con 35 y 36,,3.5,70.0,2.45,1.05,Validado,Pagado,Pagado
+870,2026-09-28 12:00,DanielG,Chalong Detalles,Local,Cosmos,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
+871,2026-09-29 12:00,DanielG,Chalong Detalles,Local,Multicentro Los Leones,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
+872,2026-09-29 12:00,DanielG,Chalong Detalles,Local,Pablo Rojas Meza,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
+873,2026-09-29 12:00,DanielG,Chalong Detalles,Local,Edif La Cascada,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
+874,2026-09-29 12:00,DanielG,Chalong Detalles,Local,Urb La Concordia,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
+875,2026-09-30 12:00,Deiby,Chalong Detalles,Local,San José,,3.5,70.0,2.45,1.05,Validado,Pagado,Pagado
+876,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Calle 49 con 30,,4.0,70.0,2.8,1.2,Validado,Pagado,Pagado
+877,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Carr 33 con 25,,3.5,70.0,2.45,1.05,Validado,Pagado,Pagado
+878,2026-09-30 12:00,Esneyder,Chalong Detalles,Local,Famcos,,1.0,100.0,1.0,0.0,Validado,Pagado,Pendiente
+879,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Andrés Bello con 25,,2.5,70.0,1.75,0.75,Validado,Pagado,Pagado
+880,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Boulevard Center,,2.5,70.0,1.75,0.75,Validado,Pagado,Pagado
+881,2026-09-30 12:00,Deiby,Chalong Detalles,Centro/Chalong,/Almarriera,,5.5,70.0,3.85,1.65,Validado,Pagado,Pagado
+882,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Bella Vista Calle 48,,3.0,70.0,2.1,0.9,Validado,Pagado,Pagado
+883,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Sambil,,1.5,70.0,1.05,0.45,Validado,Pagado,Pagado
+884,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Devolucion Bella Vista,,3.0,70.0,2.1,0.9,Validado,Pagado,Pagado
+885,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Yucatan,,7.0,70.0,4.9,2.1,Validado,Pagado,Pagado
+886,2026-01-10 12:00,DanielG,Chalong Detalles,Local,Rancho 5A,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
+887,2026-01-10 12:00,DanielG,Chalong Detalles,Local,San Francisco,,6.0,70.0,4.2,1.8,Validado,Pagado,Pendiente
+888,2026-10-02 12:00,DanielG,Chalong Detalles,Local,Cabudare Centro,,4.0,70.0,2.8,1.2,Validado,Pagado,Pendiente
+889,2026-10-02 12:00,Deiby,Chalong Detalles,Local,Cabudare Los Pinos,,4.0,70.0,2.8,1.2,Validado,Pagado,Pagado
+890,2026-10-02 12:00,DanielG,Chalong Detalles,Local,Calle 28 con 22,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
+891,2026-03-10 12:00,Esneyder,Chalong Detalles,Local,Edif Rio Lama 4,,2.0,100.0,2.0,0.0,Validado,Pagado,Pendiente
+892,2026-03-10 12:00,DanielG,Chalong Detalles,Local,Res Mariella,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
+893,2026-03-10 12:00,Deiby,Chalong Detalles,Local,Carr 23 entre 19 y 20,,2.5,70.0,1.75,0.75,Validado,Pagado,Pagado
+894,2026-03-10 12:00,Deiby,Chalong Detalles,Local,CC Las Trinitarias,,2.0,70.0,1.4,0.6,Validado,Pagado,Pagado
 895,2026-09-25 12:00,DanielG,1313Bqto,Local,Bararida,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 896,2026-09-25 12:00,DanielG,1313Bqto,Local,18 con 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 897,2026-09-25 12:00,DanielG,1313Bqto,Local,Hospital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -1029,8 +1029,8 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1030,2026-09-28,Deiby,Candy Cakes Michelle,Local,Corpoelec Av Carabobo,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 1031,2026-09-28,Deiby,Catas Food,Local,Capital y Cosmos,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
 1032,2026-09-28,Deiby,Chalong Case,Local,Macuto,,3.5,70.0,2.45,1.05,Validado,Pagado,Pagado
-1033,2026-09-28,Deiby,Chalong Detalles,Local,Mercado San Juan,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
-1034,2026-09-28,Deiby,Chalong Detalles,Local,San Juan devolucion,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
+1033,2026-09-28,Deiby,Chalong Detalles,Local,Mercado San Juan,,3.5,70.0,2.45,1.05,Validado,Pagado,Pagado
+1034,2026-09-28,Deiby,Chalong Detalles,Local,San Juan devolucion,,3.5,70.0,2.45,1.05,Validado,Pagado,Pagado
 1035,2026-09-28,Deiby,Adrys,Local,MRW y Zoom,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
 1036,2026-09-28,Deiby,1313Bqto,Local,Vargas con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
 1037,2026-09-29 12:00,Deiby,Marianella K Beauty,Local,El Impulso,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pagado
