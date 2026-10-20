@@ -1160,3 +1160,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1166,2026-10-15,Deiby,Chalong Detalles,Local,Panadería del Este,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1167,2026-10-15,Esneyder,Chalong Detalles,Local,Zona Industrial 1,,4.5,100.0,4.5,0.0,Validado,Pendiente,Pendiente
 1168,2026-10-16,Esneyder,Chalong Detalles,Local,Gil Fortoul,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
+1169,2026-10-16,Deiby,Chalong Detalles,Local,Hospital,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
