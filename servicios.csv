@@ -1153,3 +1153,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1159,2026-10-17,Deiby,Chalong Case,Local,Rosaleda,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
 1160,2026-10-08,DanielG,Chalong Detalles,Local,Calle 32 con 22,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1161,2026-10-10,DanielG,Chalong Detalles,Local,Altos de Jalisco,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1162,2026-10-10,DanielG,Chalong Detalles,Local,Trigalpa,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
