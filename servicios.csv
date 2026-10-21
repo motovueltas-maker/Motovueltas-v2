@@ -1205,3 +1205,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1211,2026-10-09,DanielG,1313Bqto,Compra Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1212,2026-10-09,DanielG,1313Bqto,Local,Calle 17 con 20,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1213,2026-10-09,DanielG,1313Bqto,Local,La Mendera,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1214,2026-10-10,DanielG,KingSport Maricela,Local,Av 20 con 21,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
