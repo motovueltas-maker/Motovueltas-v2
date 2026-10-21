@@ -1260,3 +1260,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1266,2026-10-17,DanielG,1313Bqto,Rio,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1267,2026-10-17,DanielG,1313Bqto,Local,Calle 36 con 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1268,2026-10-17,DanielG,Pizzería Nels,Local,Calle 29 con 22,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1269,2026-10-17,DanielG,Pizzería Nels,Local,Calle 45 con 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
