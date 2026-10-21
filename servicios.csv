@@ -1247,3 +1247,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1253,2026-10-15,DanielG,1313Bqto,Local,Cruz Blanca,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1254,2026-10-15,DanielG,1313Bqto,Compra Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1255,2026-10-16,DanielG,1313Bqto,Local,Felix Gonzalez Lameda,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1256,2026-10-16,DanielG,KingSport Maricela,Centro,La Carucieña,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
