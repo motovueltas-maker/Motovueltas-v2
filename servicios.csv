@@ -1224,3 +1224,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1230,2026-10-12,DanielG,1313Bqto,Local,Ana Karina,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1231,2026-10-12,DanielG,1313Bqto,Local,Barrio La Feria,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1232,2026-10-13,DanielG,Yrene Ortega,Local,Convaca,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1233,2026-10-13,DanielG,Monkey,Compras Sanareños,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
