@@ -1234,3 +1234,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1240,2026-10-14,DanielG,Monkey,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1241,2026-10-14,DanielG,1313Bqto,Local,Luis Gomez Lopez,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1242,2026-10-14,DanielG,1313Bqto,Compra Refrescos,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1243,2026-10-14,DanielG,1313Bqto,Local,Saime Ujano,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
