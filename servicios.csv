@@ -1248,3 +1248,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1254,2026-10-15,DanielG,1313Bqto,Compra Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1255,2026-10-16,DanielG,1313Bqto,Local,Felix Gonzalez Lameda,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1256,2026-10-16,DanielG,KingSport Maricela,Centro,La Carucieña,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+1257,2026-10-16,DanielG,Cliente Eventual,Flores Av Leones,Villa Campestre,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
