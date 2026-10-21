@@ -1182,3 +1182,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1188,2026-10-14,DanielG,Adrys,Local,Clínica Díaz Carrera,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1189,2026-10-15,Deiby,Adrys,Local,Zona III,,5.5,70.0,3.85,1.65,Validado,Pendiente,Pendiente
 1190,2026-10-19,Esneyder,Adrys,Local,Acosta Ortiz,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
+1191,2026-10-05,DanielG,Dennys Rivas,Pintapeg,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
