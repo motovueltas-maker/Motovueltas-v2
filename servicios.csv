@@ -1201,3 +1201,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1207,2026-10-08,DanielG,1313Bqto,Local,La Concordia,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1208,2026-10-08,DanielG,1313Bqto,Local,Clinica San Francisco,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1209,2026-10-08,DanielG,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1210,2026-10-09,DanielG,1313Bqto,Compra Hielo,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
