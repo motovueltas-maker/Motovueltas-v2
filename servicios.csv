@@ -1108,20 +1108,20 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1114,2026-10-10 12:00,Deiby,1313Bqto,RIO,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
 1115,2026-10-10 12:00,Deiby,Monkey,Local,11 con 20,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
 1116,2026-10-10 12:00,Deiby,Monkey,Local,Calle 32 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-1117,2026-10-10,Deiby,Chalong Detalles,Local,Cosmos,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
-1118,2026-10-10,Deiby,1313Bqto,Local,35 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-1119,2026-10-10,Deiby,1313Bqto,Local,Bararida,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-1120,2026-10-10,Deiby,1313Bqto,Local,Otro Bararida,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-1121,2026-10-10,Deiby,1313Bqto,Local,34 con 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-1122,2026-10-10,Deiby,1313Bqto,Local,Veragacha,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pagado
-1123,2026-10-10,Deiby,1313Bqto,Local,Sambil,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-1124,2026-10-10,Deiby,1313Bqto,Local,30 con 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-1125,2026-10-10,Deiby,1313Bqto,Local,19 con 29,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-1126,2026-10-10,Deiby,Pizzería Nels,Local,49 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-1127,2026-10-10,Deiby,Pizzería Nels,Local,Calle 42 con 21,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-1128,2026-10-10,Deiby,1313Bqto,Local,Clinica San Francisco,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
-1129,2026-10-10,Deiby,1313Bqto,Local,12 con Ribereña,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
-1130,2026-10-10,Deiby,1313Bqto,Local,17 con 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+1117,2026-10-10 12:00,Deiby,Chalong Detalles,Local,Cosmos,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+1118,2026-10-10 12:00,Deiby,1313Bqto,Local,35 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+1119,2026-10-10 12:00,Deiby,1313Bqto,Local,Bararida,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+1120,2026-10-10 12:00,Deiby,1313Bqto,Local,Otro Bararida,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+1121,2026-10-10 12:00,Deiby,1313Bqto,Local,34 con 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+1122,2026-10-10 12:00,Deiby,1313Bqto,Local,Veragacha,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pagado
+1123,2026-10-10 12:00,Deiby,1313Bqto,Local,Sambil,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+1124,2026-10-10 12:00,Deiby,1313Bqto,Local,30 con 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+1125,2026-10-10 12:00,Deiby,1313Bqto,Local,19 con 29,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+1126,2026-10-10 12:00,Deiby,Pizzería Nels,Local,49 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+1127,2026-10-10 12:00,Deiby,Pizzería Nels,Local,Calle 42 con 21,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+1128,2026-10-10 12:00,Deiby,1313Bqto,Local,Clinica San Francisco,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+1129,2026-10-10 12:00,Deiby,1313Bqto,Local,12 con Ribereña,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+1130,2026-10-10 12:00,Deiby,1313Bqto,Local,17 con 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
 1131,2026-10-11,Deiby,Monkey,Local,Av 20 con 31,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 1132,2026-10-11,Deiby,Monkey,Local,20 con 30 (Refresco),,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 1133,2026-10-11,Deiby,1313Bqto,Local,Macuto,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
@@ -1152,9 +1152,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1158,2026-10-17,DanielG,Chalong Case,Local,Carr 21 con Vargas,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
 1159,2026-10-17,Deiby,Chalong Case,Local,Rosaleda,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
 1160,2026-10-08 12:00,DanielG,Chalong Detalles,Local,Calle 32 con 22,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-1161,2026-10-10,DanielG,Chalong Detalles,Local,Altos de Jalisco,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-1162,2026-10-10,DanielG,Chalong Detalles,Local,Trigalpa,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-1163,2026-10-10,DanielG,Chalong Detalles,Local,Pueblo Nuevo,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pendiente
+1161,2026-10-10 12:00,DanielG,Chalong Detalles,Local,Altos de Jalisco,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1162,2026-10-10 12:00,DanielG,Chalong Detalles,Local,Trigalpa,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+1163,2026-10-10 12:00,DanielG,Chalong Detalles,Local,Pueblo Nuevo,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pendiente
 1164,2026-10-13,DanielG,Chalong Detalles,Local,Los Sanareños,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1165,2026-10-14,DanielG,Chalong Detalles,Local,Carr 28 con 44 y 45,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1166,2026-10-15,Deiby,Chalong Detalles,Local,Panadería del Este,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
@@ -1205,4 +1205,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1211,2026-10-09,DanielG,1313Bqto,Compra Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1212,2026-10-09,DanielG,1313Bqto,Local,Calle 17 con 20,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1213,2026-10-09,DanielG,1313Bqto,Local,La Mendera,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-1214,2026-10-10,DanielG,KingSport Maricela,Local,Av 20 con 21,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1214,2026-10-10 12:00,DanielG,KingSport Maricela,Local,Av 20 con 21,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
