@@ -1184,3 +1184,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1190,2026-10-19,Esneyder,Adrys,Local,Acosta Ortiz,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 1191,2026-10-05,DanielG,Dennys Rivas,Pintapeg,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1192,2026-10-05,DanielG,Clinivet,Agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1193,2026-10-05,DanielG,KingSport Maricela,Local,Rio Lama 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
