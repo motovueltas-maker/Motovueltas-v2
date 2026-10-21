@@ -1149,8 +1149,8 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1155,2026-10-16,Deiby,Chalong Case,Local,Las Acacias,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
 1156,2026-10-16,Deiby,Chalong Case,Local,Casa de las Papas,,3.5,70.0,2.45,1.05,Validado,Pagado,Pendiente
 1157,2026-10-16,Deiby,Chalong Case,Local,Santa Elena,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
-1158,2026-10-17,DanielG,Chalong Case,Local,Carr 21 con Vargas,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
-1159,2026-10-17,Deiby,Chalong Case,Local,Rosaleda,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
+1158,2026-10-17 12:00,DanielG,Chalong Case,Local,Carr 21 con Vargas,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
+1159,2026-10-17 12:00,Deiby,Chalong Case,Local,Rosaleda,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
 1160,2026-10-08 12:00,DanielG,Chalong Detalles,Local,Calle 32 con 22,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1161,2026-10-10 12:00,DanielG,Chalong Detalles,Local,Altos de Jalisco,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1162,2026-10-10 12:00,DanielG,Chalong Detalles,Local,Trigalpa,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
@@ -1161,8 +1161,8 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1167,2026-10-15,Esneyder,Chalong Detalles,Local,Zona Industrial 1,,4.5,100.0,4.5,0.0,Validado,Pendiente,Pendiente
 1168,2026-10-16,Esneyder,Chalong Detalles,Local,Gil Fortoul,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
 1169,2026-10-16,Deiby,Chalong Detalles,Local,Hospital,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1170,2026-10-17,DanielG,Chalong Detalles,Local,Brisas del Obelisco,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
-1171,2026-10-17,DanielG,Chalong Detalles,Local,Calle 33 con 24,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1170,2026-10-17 12:00,DanielG,Chalong Detalles,Local,Brisas del Obelisco,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
+1171,2026-10-17 12:00,DanielG,Chalong Detalles,Local,Calle 33 con 24,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1172,2026-10-19,Deiby,Chalong Detalles,Local,27 con 19,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1173,2026-09-03,Deiby,Adrys,Comercial Castillo,Calle 13,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1174,2026-09-08,Deiby,Adrys,Calle 30 con 21,Calle 13,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
@@ -1253,14 +1253,14 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1259,2026-10-16,DanielG,Pizzería Nels,Local,Santa Elena,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1260,2026-10-16,DanielG,1313Bqto,Local,13 con 34,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1261,2026-10-16,DanielG,Monkey,Local,Fundacion Mendoza,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1262,2026-10-17,DanielG,Rori,Local,Parque Industrial,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-1263,2026-10-17,DanielG,Andrés Escurra,43 con 14,Lidotel,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-1264,2026-10-17,DanielG,Monkey,La Casa del Pollo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1265,2026-10-17,DanielG,1313Bqto,Local,Barrio Union,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1266,2026-10-17,DanielG,1313Bqto,Rio,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1267,2026-10-17,DanielG,1313Bqto,Local,Calle 36 con 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1268,2026-10-17,DanielG,Pizzería Nels,Local,Calle 29 con 22,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-1269,2026-10-17,DanielG,Pizzería Nels,Local,Calle 45 con 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1270,2026-10-17,DanielG,1313Bqto,Local,Calle 26 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1271,2026-10-17,DanielG,Pizzería Nels,Local,Rancho Bravo,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1272,2026-10-17,DanielG,1313Bqto,Local,Calle 48 con 22,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1262,2026-10-17 12:00,DanielG,Rori,Local,Parque Industrial,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+1263,2026-10-17 12:00,DanielG,Andrés Escurra,43 con 14,Lidotel,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1264,2026-10-17 12:00,DanielG,Monkey,La Casa del Pollo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1265,2026-10-17 12:00,DanielG,1313Bqto,Local,Barrio Union,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1266,2026-10-17 12:00,DanielG,1313Bqto,Rio,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1267,2026-10-17 12:00,DanielG,1313Bqto,Local,Calle 36 con 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1268,2026-10-17 12:00,DanielG,Pizzería Nels,Local,Calle 29 con 22,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1269,2026-10-17 12:00,DanielG,Pizzería Nels,Local,Calle 45 con 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1270,2026-10-17 12:00,DanielG,1313Bqto,Local,Calle 26 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1271,2026-10-17 12:00,DanielG,Pizzería Nels,Local,Rancho Bravo,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1272,2026-10-17 12:00,DanielG,1313Bqto,Local,Los Rastrojos,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
