@@ -1271,3 +1271,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1277,2026-10-18,DanielG,1313Bqto,Local,Calle 14 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1278,2026-10-18,DanielG,1313Bqto,Local,13 de Abril,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1279,2026-10-18,DanielG,1313Bqto,Local,Calle 15 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1280,2026-10-18,DanielG,Monkey,Local,Monterreal,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
