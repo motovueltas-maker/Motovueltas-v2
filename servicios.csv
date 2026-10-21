@@ -1207,3 +1207,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1213,2026-10-09,DanielG,1313Bqto,Local,La Mendera,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1214,2026-10-10 12:00,DanielG,KingSport Maricela,Local,Av 20 con 21,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1215,2026-10-10,DanielG,Monkey,La Casa del Pollo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1216,2026-10-10,DanielG,Monkey,Local,Complejo Ferial,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
