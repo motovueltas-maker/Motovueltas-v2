@@ -1282,3 +1282,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1288,2026-10-16,DanielG,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1289,2026-10-16,Deiby,Fresas Delivery Rebeca,Local,Los Camagos (Adami),,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1290,2026-10-16,Deiby,Fresas Delivery Rebeca,Local,Urb Ribereña Cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1291,2026-10-16,Deiby,Fresas Delivery Rebeca,Local,Av La Mata Cabudare (Mimi),,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
