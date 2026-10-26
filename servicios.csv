@@ -1322,3 +1322,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1328,2026-10-13 12:00,Deiby,KingSport Maricela,centro,colegio de médicos,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1329,2026-10-12,Deiby,Dr David Colmenarez,Local,laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1330,2026-10-13,Deiby,Dr David Colmenarez,Local,laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1331,2026-10-13,Deiby,Andrés Escurra,la concordia,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
