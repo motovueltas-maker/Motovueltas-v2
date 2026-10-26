@@ -1351,3 +1351,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1357,2026-10-15,Deiby,1313Bqto,Local,hotel yacambu,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1358,2026-10-16 12:00,Deiby,Clinivet,agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1359,2026-10-16,Deiby,Distribuidora Gpar,tealca de la 22,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1360,2026-10-16,Deiby,1313Bqto,Local,UNES,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
