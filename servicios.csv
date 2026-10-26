@@ -1304,3 +1304,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1310,2026-10-24,Alirio,KingSport Maricela,Este,Calle 44 con 29,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1311,2026-10-24,Alirio,1313Bqto,Local,Luis Gómez Lopez,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1312,2026-10-24,Alirio,1313Bqto,Local,Calle 35 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1313,2026-10-24,Alirio,Monkey,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
