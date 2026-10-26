@@ -1348,3 +1348,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1354,2026-10-15,Deiby,Cliente Eventual,24 entre 37 y 38,torre milenium,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1355,2026-10-15,Deiby,1313Bqto,Local,manzano,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1356,2026-10-15,Deiby,1313Bqto,Local,13 entre 33 y 34,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1357,2026-10-15,Deiby,1313Bqto,Local,hotel yacambu,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
