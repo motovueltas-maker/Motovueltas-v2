@@ -1296,7 +1296,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1302,2026-10-23,Alirio,Harmonia Skarlet,Local,Calle 20 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1303,2026-10-23,Alirio,Monkey,Local,Torre Changan,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1304,2026-10-23,Alirio,Monkey,Local,Calle 10 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1305,2026-10-23,Alirio,Clinivet,Villa Campestre,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1305,2026-10-23 12:00,Alirio,Clinivet,Villa Campestre,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1306,2026-10-23,Alirio,1313Bqto,Local,Macuto,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1307,2026-10-24 12:00,Alirio,Monkey,Local,Kaceros,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1308,2026-10-24,Alirio,Monkey,Local,Carr 23 con 15 y 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -1349,4 +1349,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1355,2026-10-15,Deiby,1313Bqto,Local,manzano,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1356,2026-10-15,Deiby,1313Bqto,Local,13 entre 33 y 34,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1357,2026-10-15,Deiby,1313Bqto,Local,hotel yacambu,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1358,2026-10-15,Deiby,Clinivet,agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1358,2026-10-16 12:00,Deiby,Clinivet,agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
