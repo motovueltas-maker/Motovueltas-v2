@@ -1299,13 +1299,13 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1305,2026-10-23 12:00,Alirio,Clinivet,Villa Campestre,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1306,2026-10-23,Alirio,1313Bqto,Local,Macuto,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1307,2026-10-24 12:00,Alirio,Monkey,Local,Kaceros,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1308,2026-10-24,Alirio,Monkey,Local,Carr 23 con 15 y 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1308,2026-10-24 12:00,Alirio,Monkey,Local,Carr 23 con 15 y 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1309,2026-10-24,Alirio,Adrys,Local,Bequito,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1310,2026-10-24,Alirio,KingSport Maricela,Este,Calle 44 con 29,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1311,2026-10-24,Alirio,1313Bqto,Local,Luis Gómez Lopez,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1312,2026-10-24,Alirio,1313Bqto,Local,Calle 35 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1313,2026-10-24,Alirio,Monkey,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1314,2026-10-24,Alirio,Monkey,Local,23 Enero,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1313,2026-10-24 12:00,Alirio,Monkey,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1314,2026-10-24 12:00,Alirio,Monkey,Local,23 Enero,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1315,2026-10-24,Alirio,1313Bqto,Local,La Piedad,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 1316,2026-10-25,Alirio,1313Bqto,Local,Sambil,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1317,2026-10-25,Alirio,1313Bqto,Local,Parque Central,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -1420,12 +1420,12 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1426,2026-10-22,DanielG,Monkey,Local,Calle 20 con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1427,2026-10-21,Deiby,Antojitos,Local,cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1428,2026-10-21,Deiby,1313Bqto,Local,los rastrojos,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-1429,2026-10-24,Deiby,Monkey,Local,Calle 38 con 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1430,2026-10-24,Deiby,Monkey,Compra Molino,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1429,2026-10-24 12:00,Deiby,Monkey,Local,Calle 38 con 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1430,2026-10-24 12:00,Deiby,Monkey,Compra Molino,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1431,2026-10-22,Deiby,Antojitos,Local,zona industrial II,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-1432,2026-10-24,Deiby,Monkey,Local,Rosaleda,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1432,2026-10-24 12:00,Deiby,Monkey,Local,Rosaleda,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1433,2026-10-22,Deiby,Clinivet,katherine pire,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1434,2026-10-24,DanielG,Monkey,Local,Pablo Rojas,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1434,2026-10-24 12:00,DanielG,Monkey,Local,Pablo Rojas,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1435,2026-10-22,Deiby,Harmonia Skarlet,gimnasio fitness plaza,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1436,2026-10-25,Esneyder,Monkey,Local,San Jacinto,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
 1437,2026-10-25,Esneyder,Monkey,Local,San Benito,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
@@ -1442,7 +1442,6 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1448,2026-10-23,Deiby,Cliente Eventual,13 a entre 54 y 55,cabudare,,7.0,70.0,4.9,2.1,Validado,Pendiente,Pendiente
 1449,2026-10-24,Deiby,Cielo Isamar Mendoza,18 con 28,torre bell,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1450,2026-10-24,Deiby,KingSport Maricela,centro,28 entre 36 y 37,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1451,2026-10-24,Deiby,Monkey,molino del trigo,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1452,2026-10-24,Deiby,Monkey,Local,15 entre 38 y 39,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1451,2026-10-24 12:00,Deiby,Monkey,molino del trigo,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1453,2026-10-20,Esneyder,Monkey,Compra Sanareños,Local,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 1454,2026-10-24,Deiby,Chalong Detalles,Local,carrera 30 con 33,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
