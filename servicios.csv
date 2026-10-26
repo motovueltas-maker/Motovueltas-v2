@@ -1296,3 +1296,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1302,2026-10-23,Alirio,Harmonia Skarlet,Local,Calle 20 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1303,2026-10-23,Alirio,Monkey,Local,Torre Changan,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1304,2026-10-23,Alirio,Monkey,Local,Calle 10 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1305,2026-10-23,Alirio,Clinivet,Villa Campestre,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
