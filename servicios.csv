@@ -1344,3 +1344,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1350,2026-10-14,Deiby,1313Bqto,farmatodo,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1351,2026-10-14,Deiby,1313Bqto,mercafur,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1352,2026-10-14,Deiby,1313Bqto,Local,barrio la feria,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1353,2026-10-15,Deiby,Cliente Eventual,nueva segovia,barquicenter,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
