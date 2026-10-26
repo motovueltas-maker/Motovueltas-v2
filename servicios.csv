@@ -1294,3 +1294,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1300,2026-10-23,Alirio,Fresas Delivery Rebeca,Local,Av La Mata Cabudare (Mimi),,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
 1301,2026-10-23,DanielG,Fresas Delivery Rebeca,Local,Calle 55 con Libertador (Cordero),,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1302,2026-10-23,Alirio,Harmonia Skarlet,Local,Calle 20 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1303,2026-10-23,Alirio,Monkey,Local,Torre Changan,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
