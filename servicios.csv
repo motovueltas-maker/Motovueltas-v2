@@ -1453,3 +1453,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1460,2026-10-24,Deiby,1313Bqto,Local,16 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1461,2026-10-24,Deiby,1313Bqto,Local,av vargas con 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1462,2026-10-24,Deiby,1313Bqto,Local,carr 33 entre 23 y 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1463,2026-10-25,Deiby,1313Bqto,Local,hospital central,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
