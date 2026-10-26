@@ -850,7 +850,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 851,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,CC El Recreo,,4.0,66.67,2.67,1.33,Validado,Pagado,Pagado
 852,2026-09-30 12:00,Alirio Diaz ,Flores Sonrisa Inyerly,Local,Hospital,,2.5,66.67,1.67,0.83,Validado,Pendiente,Pagado
 853,2026-09-30 12:00,Alirio Diaz ,Adrys,Local,Carr 27 con Bracamonte,,3.0,66.67,2.0,1.0,Validado,Pendiente,Pagado
-854,2026-09-30 12:00,Alirio Diaz ,Monkey,Local,La Sucre,,2.5,66.67,1.67,0.83,Validado,Pendiente,Pagado
+854,2026-09-30 12:00,Alirio,Monkey,Local,La Sucre,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
 855,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Russo Zona I,,5.0,66.67,3.33,1.67,Validado,Pagado,Pagado
 856,2026-09-30 12:00,Deiby,Chalong Detalles,Local,Av 20 con 25,,2.5,70.0,1.75,0.75,Validado,Pagado,Pagado
 857,2026-09-30 12:00,Alirio Diaz,Chalong Detalles,Local,Furia Fit,,1.5,66.67,1.0,0.5,Validado,Pagado,Pagado
