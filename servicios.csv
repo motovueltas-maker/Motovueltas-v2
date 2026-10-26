@@ -1387,7 +1387,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1393,2026-10-19,Deiby,Ari Perrarina,farmatodo de la moran,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1394,2026-09-28,Esneyder,Monkey,Local,23 Enero,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 1395,2026-10-19,Deiby,Chalong Case,Local,"24 con av 20, daka",,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1396,2026-10-19,Deiby,Chalong Detalles,Local,27 con 19,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1396,2026-10-19 12:00,Deiby,Chalong Detalles,Local,27 con 19,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1397,2026-10-19,Deiby,1313Bqto,Local,unes,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1398,2026-10-19,Deiby,1313Bqto,Local,urb la concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1399,2026-10-19,Deiby,1313Bqto,Local,transporte sindrome,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -1469,5 +1469,5 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1476,2026-10-19,DanielG,Angeles Guanipa,Local,trinitarias,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1477,2026-10-19,DanielG,Damaris Altuve,Local,pandearía venus,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1478,2026-10-19,DanielG,1313Bqto,Local,48  por la riberena,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1479,2026-10-19,DanielG,Chalong Detalles,Local,terminal,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1479,2026-10-20 12:00,DanielG,Chalong Detalles,Local,terminal,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1480,2026-10-20,DanielG,Chalong Detalles,Local,24 con 9,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
