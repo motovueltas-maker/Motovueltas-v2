@@ -1405,3 +1405,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1411,2026-10-21,Deiby,Clinivet,agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1412,2026-10-16,Esneyder,Monkey,Local,Fundacion Higea,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1413,2026-10-16,Esneyder,Monkey,Local,32 con 25,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+1414,2026-10-21,Deiby,Adrys,casa,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
