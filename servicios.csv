@@ -1428,3 +1428,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1434,2026-10-24,DanielG,Monkey,Local,Pablo Rojas,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1435,2026-10-22,Deiby,Harmonia Skarlet,gimnasio fitness plaza,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1436,2026-10-25,Esneyder,Monkey,Local,San Jacinto,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
+1437,2026-10-25,Esneyder,Monkey,Local,San Benito,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
