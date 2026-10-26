@@ -1276,7 +1276,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1282,2026-10-18,DanielG,1313Bqto,Local,23 de Enero,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1283,2026-10-18,DanielG,1313Bqto,Local,Macuto,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1284,2026-10-14,Deiby,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1285,2026-10-17,Deiby,1313Bqto,Local,Transporte DIana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1285,2026-10-17 12:00,Deiby,1313Bqto,Local,Transporte DIana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1286,2026-10-18,Deiby,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1287,2026-10-15,DanielG,1313Bqto,Local,Transporte DIana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1288,2026-10-16,DanielG,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -1369,12 +1369,12 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1375,2026-10-17,Deiby,Dr David Colmenarez,Local,laboratorio,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1376,2026-10-17,Deiby,Monkey,Local,21 entre 29 y 30,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1377,2026-10-17,Deiby,Monkey,Local,merpolara,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1378,2026-10-17,Deiby,1313Bqto,Local,las trinitarias,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1378,2026-10-17 12:00,Deiby,1313Bqto,Local,las trinitarias,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1379,2026-10-17,Deiby,Patricia Bello,parque libertadores,hospital,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1380,2026-10-17,Deiby,1313Bqto,Local,el trigal,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-1381,2026-10-17,Deiby,1313Bqto,Local,23 de enero,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1382,2026-10-17,Deiby,1313Bqto,Local,barrio unión,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-1383,2026-10-17,Deiby,1313Bqto,Local,los rastrojos,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-1384,2026-10-17,Deiby,1313Bqto,pollera de la 13,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1380,2026-10-17 12:00,Deiby,1313Bqto,Local,el trigal,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1381,2026-10-17 12:00,Deiby,1313Bqto,Local,23 de enero,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1382,2026-10-17 12:00,Deiby,1313Bqto,Local,barrio unión,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1383,2026-10-17 12:00,DanielG,1313Bqto,Local,los rastrojos,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+1384,2026-10-17 12:00,Deiby,1313Bqto,pollera de la 13,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1385,2026-10-18,Deiby,Monkey,Local,zanjon barrera,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1386,2026-10-18,Deiby,Pizzería Nels,Local,35 entre 28 y 29,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
