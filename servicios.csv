@@ -1318,3 +1318,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1324,2026-10-12,Deiby,1313Bqto,Local,23 de enero,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1325,2026-10-12,Deiby,Monkey,Local,Andres Eloy Blanco,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 1326,2026-10-12,Deiby,1313Bqto,Local,40 entre 17 y 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1327,2026-10-12,Deiby,1313Bqto,Local,transporte retrasada,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
