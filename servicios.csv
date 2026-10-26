@@ -1402,3 +1402,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1408,2026-10-14,Esneyder,Monkey,Local,Chucho Briceño,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 1409,2026-10-21,Deiby,Cliente Eventual,callejon 16 entre 12 y 13,andres bello con 29,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1410,2026-10-21,Deiby,Harmonia Skarlet,Local,hospital adventista,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1411,2026-10-21,Deiby,Clinivet,agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
