@@ -1400,3 +1400,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1406,2026-10-20,Deiby,1313Bqto,Local,nueva segovia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1407,2026-10-20,Deiby,1313Bqto,Local,patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1408,2026-10-14,Esneyder,Monkey,Local,Chucho Briceño,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
+1409,2026-10-21,Deiby,Cliente Eventual,callejon 16 entre 12 y 13,andres bello con 29,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
