@@ -1492,3 +1492,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1499,2026-10-22,DanielG,Chalong Case,Local,colinas del viento,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1500,2026-10-22,DanielG,Chalong Case,Local,colinas del viento,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1501,2026-10-22,DanielG,Andrés Escurra,madetor,Local,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1502,2026-10-22,DanielG,Chalong Detalles,Local,urb monte real,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
