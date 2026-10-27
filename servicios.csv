@@ -944,7 +944,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 945,2026-01-10 12:00,DanielG,Ana Karina,Bequito,Local,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 946,2026-01-10 12:00,DanielG,Candy Cakes Michelle,Local,Babilon,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 947,2026-01-10 12:00,DanielG,Chalong Case,Local,CC Los Próceres,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
-948,2026-10-01 12:00,DanielG,Candy Cakes Michelle,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+948,2026-01-10 12:00,DanielG,Candy Cakes Michelle,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 949,2026-10-01 12:00,DanielG,Cliente Eventual,Torre Higea (Luisana),36 con 19 (Dinero),,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 950,2026-10-01 12:00,DanielG,1313Bqto,Local,36 con 19,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 951,2026-10-01 12:00,DanielG,1313Bqto,Local,Nueva Segovia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -1040,7 +1040,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1041,2026-09-30 12:00,Deiby,1313Bqto,Local,Aeropuerto,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pagado
 1042,2026-09-30 12:00,Deiby,1313Bqto,Local,Calle 13,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
 1043,2026-09-30 12:00,Deiby,1313Bqto,Local,Hospital Militar,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
-1044,2026-10-01,Deiby,Candy Cakes Michelle,Local,Colinas San Lorenzo,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
+1044,2026-10-01 12:00,Deiby,Candy Cakes Michelle,Local,Colinas San Lorenzo,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pagado
 1045,2026-01-10 12:00,Deiby,Chalong Case,Local,Zona III,,6.0,70.0,4.2,1.8,Validado,Pagado,Pagado
 1046,2026-10-01,Deiby,Andrés Escurra,Metropolis,Local,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
 1047,2026-01-10 12:00,Deiby,Chalong Case,Local,Carr 28 entre 19 y 20,,2.5,70.0,1.75,0.75,Validado,Pagado,Pagado
@@ -1226,7 +1226,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1232,2026-10-13,DanielG,Yrene Ortega,Local,Convaca,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1233,2026-10-13,DanielG,Monkey,Compras Sanareños,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1234,2026-10-13,DanielG,1313Bqto,Local,Eliecer,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-1235,2026-10-14,DanielG,Candy Cakes Michelle,Local,Av 20 con 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1235,2026-10-14 12:00,DanielG,Candy Cakes Michelle,Local,Av 20 con 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1236,2026-10-14,DanielG,Harmonia Skarlet,Local,Cosmos,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1237,2026-10-14,DanielG,1313Bqto,Local,13 con 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1238,2026-10-14,DanielG,Harmonia Skarlet,Cosmos,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -1488,7 +1488,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1495,2026-10-22,DanielG,Chalong Detalles,Local,av venezuela entre los proceres y banco,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1496,2026-10-22,DanielG,Dhamilet Ramírez,av vargas con 21,calle 14 entre 17 y 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1497,2026-10-22,DanielG,Jhoseany Volcanes,inter 19 con 12,inter cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-1498,2026-10-22,DanielG,Candy Cakes Michelle,Local,calle 36 con 27 y 28,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1498,2026-10-22 12:00,DanielG,Candy Cakes Michelle,Local,calle 36 con 27 y 28,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1499,2026-10-22,DanielG,Chalong Case,Local,colinas del viento,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1500,2026-10-22,DanielG,Chalong Case,Local,colinas del viento,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1501,2026-10-22,DanielG,Andrés Escurra,madetor,Local,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
@@ -1512,7 +1512,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1519,2026-10-24,DanielG,Chalong Case,Local,urb gil fortoul,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1520,2026-10-24,DanielG,Dra Gabriela Rizzotto,carr 23 entre 10 y 11,indio manaure,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1521,2026-10-24,DanielG,Chalong Detalles,Local,av fuerzas armadas con 62,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-1522,2026-10-24,DanielG,Candy Cakes Michelle,Local,urb la concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1522,2026-10-24 12:00,DanielG,Candy Cakes Michelle,Local,urb la concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1523,2026-10-24,DanielG,Damaris Altuve,urb gil fortuol,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1524,2026-10-25,DanielG,Damaris Altuve,urb gil fortoul,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1525,2026-10-25,DanielG,Damaris Altuve,la pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
