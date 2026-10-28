@@ -1157,7 +1157,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1163,2026-10-10 12:00,DanielG,Chalong Detalles,Local,Pueblo Nuevo,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pendiente
 1164,2026-10-13,DanielG,Chalong Detalles,Local,Los Sanareños,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1165,2026-10-14,DanielG,Chalong Detalles,Local,Carr 28 con 44 y 45,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-1166,2026-10-15,Deiby,Chalong Detalles,Local,Panadería del Este,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1166,2026-10-15 12:00,Deiby,Chalong Detalles,Local,Panadería del Este,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1167,2026-10-15,Esneyder,Chalong Detalles,Local,Zona Industrial 1,,4.5,100.0,4.5,0.0,Validado,Pendiente,Pendiente
 1168,2026-10-16 12:00,Deiby,Chalong Detalles,Local,Gil Fortoul,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1169,2026-10-16 12:00,Deiby,Chalong Detalles,Local,Hospital,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
@@ -1180,7 +1180,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1186,2026-10-08 12:00,DanielG,Adrys,Local,Barici,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1187,2026-10-13,DanielG,Adrys,Local,Agencia LAE,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1188,2026-10-14,DanielG,Adrys,Local,Clínica Díaz Carrera,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1189,2026-10-15,Deiby,Adrys,Local,Zona III,,5.5,70.0,3.85,1.65,Validado,Pendiente,Pendiente
+1189,2026-10-15 12:00,Deiby,Adrys,Local,Zona III,,5.5,70.0,3.85,1.65,Validado,Pendiente,Pendiente
 1190,2026-10-19,Esneyder,Adrys,Local,Acosta Ortiz,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 1191,2026-10-05,DanielG,Dennys Rivas,Pintapeg,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1192,2026-10-05,DanielG,Clinivet,Agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -1342,11 +1342,11 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1349,2026-10-14 12:00,Deiby,1313Bqto,Local,9 entre 23 y 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1350,2026-10-14 12:00,Deiby,1313Bqto,farmatodo,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1352,2026-10-14 12:00,Deiby,1313Bqto,Local,barrio la feria,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1353,2026-10-15,Deiby,Cliente Eventual,nueva segovia,barquicenter,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1354,2026-10-15,Deiby,Cliente Eventual,24 entre 37 y 38,torre milenium,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-1355,2026-10-15,Deiby,1313Bqto,Local,manzano,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-1356,2026-10-15,Deiby,1313Bqto,Local,13 entre 33 y 34,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1357,2026-10-15,Deiby,1313Bqto,Local,hotel yacambu,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1353,2026-10-15 12:00,Deiby,Cliente Eventual,nueva segovia,barquicenter,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1354,2026-10-15 12:00,Deiby,Cliente Eventual,24 entre 37 y 38,torre milenium,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1355,2026-10-15 12:00,Deiby,1313Bqto,Local,manzano,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1356,2026-10-15 12:00,Deiby,1313Bqto,Local,13 entre 33 y 34,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1357,2026-10-15 12:00,Deiby,1313Bqto,Local,hotel yacambu,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1358,2026-10-16 12:00,Deiby,Clinivet,agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1359,2026-10-16,Deiby,Distribuidora Gpar,tealca de la 22,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1360,2026-10-16,Deiby,1313Bqto,Local,UNES,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
