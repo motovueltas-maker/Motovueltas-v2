@@ -1146,7 +1146,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1152,2026-10-13 12:00,Esneyder,Chalong Case,Local,MRW y Zoom,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
 1153,2026-10-14,DanielG,Chalong Case,Local,Ciudad Roca,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
 1154,2026-10-15,Esneyder,Chalong Case,Local,MRW y Zoom,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
-1155,2026-10-16 12:00,Deiby,Chalong Case,Local,Las Acacias,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
+1155,2026-10-16 12:00,Deiby,Chalong Case,Local,Las Acacias,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
 1156,2026-10-16 12:00,Deiby,Chalong Case,Local,Casa de las Papas,,3.5,70.0,2.45,1.05,Validado,Pagado,Pendiente
 1157,2026-10-16 12:00,Deiby,Chalong Case,Local,Santa Elena,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
 1158,2026-10-17 12:00,DanielG,Chalong Case,Local,Carr 21 con Vargas,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
