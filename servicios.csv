@@ -1436,19 +1436,19 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1446,2026-10-23 12:00,Deiby,1313Bqto,bolsa de hielo,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1447,2026-10-23 12:00,Deiby,1313Bqto,Local,24 entre 36 y 37,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1448,2026-10-23 12:00,Deiby,Cliente Eventual,13 a entre 54 y 55,cabudare,,7.0,70.0,4.9,2.1,Validado,Pendiente,Pendiente
-1449,2026-10-24,Deiby,Cielo Isamar Mendoza,18 con 28,torre bell,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1450,2026-10-24,Deiby,KingSport Maricela,centro,28 entre 36 y 37,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1449,2026-10-24 12:00,Deiby,Cielo Isamar Mendoza,18 con 28,Torre Bel,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1450,2026-10-24 12:00,Deiby,KingSport Maricela,centro,28 entre 36 y 37,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1451,2026-10-24 12:00,Deiby,Monkey,molino del trigo,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1453,2026-10-20 12:00,DanielG,Monkey,Compra Sanareños,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1454,2026-10-24,Deiby,Chalong Detalles,Local,carrera 30 con 33,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-1455,2026-10-24,Deiby,Dr David Colmenarez,Local,av vargas,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1454,2026-10-24 12:00,Deiby,Chalong Detalles,Local,carrera 30 con 33,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1455,2026-10-24 12:00,Deiby,Dr David Colmenarez,Local,av vargas,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1456,2026-10-25,DanielG,Monkey,Compra Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1457,2026-10-25,DanielG,Monkey,La Casa del Pollo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1458,2026-10-24,Deiby,1313Bqto,Local,urb los samanes,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1459,2026-10-24,Deiby,1313Bqto,Local,res. arca del norte,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1460,2026-10-24,Deiby,1313Bqto,Local,16 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1461,2026-10-24,Deiby,1313Bqto,Local,av vargas con 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1462,2026-10-24,Deiby,1313Bqto,Local,carr 33 entre 23 y 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1458,2026-10-24 12:00,Deiby,1313Bqto,Local,urb los samanes,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1459,2026-10-24 12:00,Deiby,1313Bqto,Local,res. arca del norte,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1460,2026-10-24 12:00,Deiby,1313Bqto,Local,16 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1461,2026-10-24 12:00,Deiby,1313Bqto,Local,av vargas con 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1462,2026-10-24 12:00,Deiby,1313Bqto,Local,carr 33 entre 23 y 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1463,2026-10-25,Deiby,1313Bqto,Local,hospital central,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1464,2026-10-25,Deiby,1313Bqto,Local,tierra negra,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1465,2026-10-25,Deiby,1313Bqto,Local,35 con av 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -1456,7 +1456,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1467,2026-10-25,Deiby,1313Bqto,Local,edif gloria,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1468,2026-10-25,Deiby,1313Bqto,pollera de la 13,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1469,2026-10-22 12:00,Deiby,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1470,2026-10-24,Deiby,1313Bqto,Local,transporte sindrome,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1470,2026-10-24 12:00,Deiby,1313Bqto,Local,transporte sindrome,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1471,2026-10-19,DanielG,Greychit Contreras,1313,metropolitano javier,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1472,2026-10-19,DanielG,Monkey,Local,cyber cafe,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1473,2026-10-19,DanielG,1313Bqto,Local,calle 26 entre 24 y 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
