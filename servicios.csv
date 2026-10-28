@@ -1421,7 +1421,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1430,2026-10-24 12:00,Deiby,Monkey,Compra Molino,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1431,2026-10-22 12:00,Deiby,Antojitos,Local,Zona II,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 1432,2026-10-24 12:00,Deiby,Monkey,Local,Rosaleda,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1433,2026-10-22 12:00,Deiby,Clinivet,katherine pire,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1433,2026-10-22 12:00,Deiby,Clinivet,Dra Pire,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1434,2026-10-24 12:00,DanielG,Monkey,Local,Pablo Rojas,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1435,2026-10-22 12:00,Deiby,Harmonia Skarlet,gimnasio fitness plaza,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1436,2026-10-25,Esneyder,Monkey,Local,San Jacinto,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
