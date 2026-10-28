@@ -1275,7 +1275,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1281,2026-10-18,DanielG,Monkey,Compra Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1282,2026-10-18,DanielG,1313Bqto,Local,23 de Enero,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1283,2026-10-18,DanielG,1313Bqto,Local,Macuto,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1284,2026-10-14,Deiby,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1284,2026-10-14 12:00,Deiby,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1285,2026-10-17 12:00,Deiby,1313Bqto,Local,Transporte DIana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1286,2026-10-18,Deiby,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1287,2026-10-15,DanielG,1313Bqto,Local,Transporte DIana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -1329,20 +1329,20 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1336,2026-10-13 12:00,Deiby,Renatta Alvarez,Local,mrw,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1337,2026-10-13 12:00,Deiby,Dennys Rivas,barquicenter,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1338,2026-10-13 12:00,Deiby,1313Bqto,Local,24 entre 15 y 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1339,2026-10-14,Deiby,Distribuidora Gpar,HH,Local,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1340,2026-10-14,Deiby,Distribuidora Gpar,tealca,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1341,2026-10-14,Deiby,Distribuidora Gpar,mg av venezuela con 39,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-1342,2026-10-14,Deiby,Distribuidora Gpar,roditrans 29 entre 41 y 42,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1343,2026-10-14,Deiby,Mundo de Regalos Luz,Local,40 entre 24 y 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1344,2026-10-14,Deiby,Freddy Camejo,nueva segovia,mrw,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1345,2026-10-14,Deiby,1313Bqto,Local,ruezga sur,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1346,2026-10-14,Deiby,1313Bqto,Local,san francisco,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pendiente
-1347,2026-10-14,Deiby,1313Bqto,Local,15 entre 21 y 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1348,2026-10-14,Deiby,1313Bqto,Local,14 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1349,2026-10-14,Deiby,1313Bqto,Local,9 entre 23 y 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1350,2026-10-14,Deiby,1313Bqto,farmatodo,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-1351,2026-10-14,Deiby,1313Bqto,mercafur,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1352,2026-10-14,Deiby,1313Bqto,Local,barrio la feria,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1339,2026-10-14 12:00,Deiby,Distribuidora Gpar,HH,Local,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1340,2026-10-14 12:00,Deiby,Distribuidora Gpar,tealca,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1341,2026-10-14 12:00,Deiby,Distribuidora Gpar,mg av venezuela con 39,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1342,2026-10-14 12:00,Deiby,Distribuidora Gpar,roditrans 29 entre 41 y 42,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1343,2026-10-14 12:00,Deiby,Mundo de Regalos Luz,Local,40 entre 24 y 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1344,2026-10-14 12:00,Deiby,Freddy Camejo,nueva segovia,mrw,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1345,2026-10-14 12:00,Deiby,1313Bqto,Local,ruezga sur,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1346,2026-10-14 12:00,Deiby,1313Bqto,Local,san francisco,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pendiente
+1347,2026-10-14 12:00,Deiby,1313Bqto,Local,15 entre 21 y 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1348,2026-10-14 12:00,Deiby,1313Bqto,Local,14 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1349,2026-10-14 12:00,Deiby,1313Bqto,Local,9 entre 23 y 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1350,2026-10-14 12:00,Deiby,1313Bqto,farmatodo,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1351,2026-10-14 12:00,Deiby,1313Bqto,mercafur,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1352,2026-10-14 12:00,Deiby,1313Bqto,Local,barrio la feria,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1353,2026-10-15,Deiby,Cliente Eventual,nueva segovia,barquicenter,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1354,2026-10-15,Deiby,Cliente Eventual,24 entre 37 y 38,torre milenium,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1355,2026-10-15,Deiby,1313Bqto,Local,manzano,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
