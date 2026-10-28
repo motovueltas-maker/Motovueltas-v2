@@ -1180,7 +1180,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1186,2026-10-08 12:00,DanielG,Adrys,Local,Barici,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1187,2026-10-13,DanielG,Adrys,Local,Agencia LAE,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1188,2026-10-14,DanielG,Adrys,Local,Clínica Díaz Carrera,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1189,2026-10-15 12:00,Deiby,Adrys,Local,Zona III,,5.5,70.0,3.85,1.65,Validado,Pendiente,Pendiente
+1189,2026-10-15 12:00,Deiby,Adrys,Local,Zona III,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 1190,2026-10-19,Esneyder,Adrys,Local,Acosta Ortiz,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 1191,2026-10-05,DanielG,Dennys Rivas,Pintapeg,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1192,2026-10-05,DanielG,Clinivet,Agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
