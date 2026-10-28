@@ -1320,15 +1320,15 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1326,2026-12-10 12:00,Deiby,1313Bqto,Local,40 entre 17 y 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1327,2026-12-10 12:00,Deiby,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1328,2026-10-13 12:00,Deiby,KingSport Maricela,centro,colegio de médicos,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1330,2026-10-13,Deiby,Dr David Colmenarez,Local,laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1331,2026-10-13,Deiby,Andrés Escurra,la concordia,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-1332,2026-10-13,Deiby,Clinivet,Local,dra katerin,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1333,2026-10-13,Deiby,Freddy Camejo,13,mrw,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1334,2026-10-13,Deiby,Chalong Case,Local,mrw y zoom,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1335,2026-10-13,Deiby,Andrés Escurra,da'rosetta,ciudad roca,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1336,2026-10-13,Deiby,Renatta Alvarez,Local,mrw,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1337,2026-10-13,Deiby,Dennys Rivas,barquicenter,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1338,2026-10-13,Deiby,1313Bqto,Local,24 entre 15 y 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1330,2026-10-13 12:00,Deiby,Dr David Colmenarez,Local,laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1331,2026-10-13 12:00,Deiby,Andrés Escurra,la concordia,Local,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1332,2026-10-13 12:00,Deiby,Clinivet,Local,dra katerin,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1333,2026-10-13 12:00,Deiby,Freddy Camejo,13,mrw,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1334,2026-10-13 12:00,Deiby,Chalong Case,Local,mrw y zoom,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1335,2026-10-13 12:00,Deiby,Andrés Escurra,da'rosetta,ciudad roca,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1336,2026-10-13 12:00,Deiby,Renatta Alvarez,Local,mrw,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1337,2026-10-13 12:00,Deiby,Dennys Rivas,barquicenter,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1338,2026-10-13 12:00,Deiby,1313Bqto,Local,24 entre 15 y 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1339,2026-10-14,Deiby,Distribuidora Gpar,HH,Local,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1340,2026-10-14,Deiby,Distribuidora Gpar,tealca,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1341,2026-10-14,Deiby,Distribuidora Gpar,mg av venezuela con 39,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
