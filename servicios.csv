@@ -1146,9 +1146,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1152,2026-10-13 12:00,Esneyder,Chalong Case,Local,MRW y Zoom,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
 1153,2026-10-14,DanielG,Chalong Case,Local,Ciudad Roca,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
 1154,2026-10-15,Esneyder,Chalong Case,Local,MRW y Zoom,,3.0,100.0,3.0,0.0,Validado,Pagado,Pendiente
-1155,2026-10-16,Deiby,Chalong Case,Local,Las Acacias,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
-1156,2026-10-16,Deiby,Chalong Case,Local,Casa de las Papas,,3.5,70.0,2.45,1.05,Validado,Pagado,Pendiente
-1157,2026-10-16,Deiby,Chalong Case,Local,Santa Elena,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
+1155,2026-10-16 12:00,Deiby,Chalong Case,Local,Las Acacias,,3.0,70.0,2.1,0.9,Validado,Pagado,Pendiente
+1156,2026-10-16 12:00,Deiby,Chalong Case,Local,Casa de las Papas,,3.5,70.0,2.45,1.05,Validado,Pagado,Pendiente
+1157,2026-10-16 12:00,Deiby,Chalong Case,Local,Santa Elena,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
 1158,2026-10-17 12:00,DanielG,Chalong Case,Local,Carr 21 con Vargas,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
 1159,2026-10-17 12:00,Deiby,Chalong Case,Local,Rosaleda,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
 1160,2026-10-08 12:00,DanielG,Chalong Detalles,Local,Calle 32 con 22,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
@@ -1280,10 +1280,10 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1286,2026-10-18,Deiby,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1287,2026-10-15,DanielG,1313Bqto,Local,Transporte DIana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1288,2026-10-16,DanielG,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1289,2026-10-16,Deiby,Fresas Delivery Rebeca,Local,Los Camagos (Adami),,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1290,2026-10-16,Deiby,Fresas Delivery Rebeca,Local,Urb Ribereña Cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-1291,2026-10-16,Deiby,Fresas Delivery Rebeca,Local,Av La Mata Cabudare (Mimi),,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
-1292,2026-10-16,Deiby,Fresas Delivery Rebeca,Local,La Rosaleda (Ivette),,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1289,2026-10-16 12:00,Deiby,Fresas Delivery Rebeca,Local,Los Camagos (Adami),,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1290,2026-10-16 12:00,Deiby,Fresas Delivery Rebeca,Local,Urb Ribereña Cabudare,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1291,2026-10-16 12:00,Deiby,Fresas Delivery Rebeca,Local,Av La Mata Cabudare (Mimi),,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1292,2026-10-16 12:00,Deiby,Fresas Delivery Rebeca,Local,La Rosaleda (Ivette),,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1293,2026-10-23,Deiby,Fresas Delivery Rebeca,Local,Los Camagos (Adami),,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1294,2026-10-23,Deiby,Fresas Delivery Rebeca,Local,La Veguita (Claudia),,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1295,2026-10-23,Deiby,Fresas Delivery Rebeca,Local,Barici (Rosangela),,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
@@ -1348,20 +1348,20 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1356,2026-10-15 12:00,Deiby,1313Bqto,Local,13 entre 33 y 34,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1357,2026-10-15 12:00,Deiby,1313Bqto,Local,hotel yacambu,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1358,2026-10-16 12:00,Deiby,Clinivet,agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1359,2026-10-16,Deiby,Distribuidora Gpar,tealca de la 22,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1360,2026-10-16,Deiby,1313Bqto,Local,UNES,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1361,2026-10-16,Deiby,KingSport Maricela,centro,19 entre 24 y 25,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1362,2026-10-16,Deiby,Monkey,Local,19 entre 24 y 25,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-1363,2026-10-16,Deiby,Monkey,Local,25 entre 15 y  16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1364,2026-10-16,Deiby,Monkey,Local,flor de venezuela,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1359,2026-10-16 12:00,Deiby,Distribuidora Gpar,tealca de la 22,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1360,2026-10-16 12:00,Deiby,1313Bqto,Local,UNES,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1361,2026-10-16 12:00,Deiby,KingSport Maricela,centro,19 entre 24 y 25,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1362,2026-10-16 12:00,Deiby,Monkey,Local,19 entre 24 y 25,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1363,2026-10-16 12:00,Deiby,Monkey,Local,25 entre 15 y  16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1364,2026-10-16 12:00,Deiby,Monkey,Local,flor de venezuela,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1365,2026-09-23,Esneyder,Monkey,Local,18 con 24,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 1366,2026-09-24,Esneyder,Monkey,Local,Calle 9 con 22,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 1367,2026-09-24,Esneyder,Monkey,Local,Wiz Lómez Popez,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-1368,2026-10-16,Deiby,1313Bqto,Local,27 con 13,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1369,2026-10-16,Deiby,1313Bqto,vuelta hielo y botellones,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1370,2026-10-16,Deiby,1313Bqto,Local,21 entre 28 y 29,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1371,2026-10-16,Deiby,1313Bqto,Local,trigal cbudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-1372,2026-10-16,Deiby,Monkey,Local,agua viva,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1368,2026-10-16 12:00,Deiby,1313Bqto,Local,27 con 13,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1369,2026-10-16 12:00,Deiby,1313Bqto,vuelta hielo y botellones,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1370,2026-10-16 12:00,Deiby,1313Bqto,Local,21 entre 28 y 29,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1371,2026-10-16 12:00,Deiby,1313Bqto,Local,trigal cbudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1372,2026-10-16 12:00,Deiby,Monkey,Local,agua viva,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1373,2026-09-25,Esneyder,Monkey,Local,Torre Changó,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1374,2026-09-25,Esneyder,Monkey,Local,Ascardio,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 1375,2026-10-17,Deiby,Dr David Colmenarez,Local,laboratorio,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
