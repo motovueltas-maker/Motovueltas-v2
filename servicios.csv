@@ -1388,14 +1388,14 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1397,2026-10-19 12:00,Deiby,1313Bqto,Local,UNES,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1398,2026-10-19 12:00,Deiby,1313Bqto,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1399,2026-10-19 12:00,Deiby,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1400,2026-10-20,Deiby,Dorirtza,tarabana,urb villa campestre,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-1401,2026-10-20,Deiby,Cliente Eventual,torre financiera,36 entre 18 y 19 \ el molino,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1402,2026-10-20,Deiby,Cliente Eventual,quincalla 13,27 entre 35 y 36,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1400,2026-10-20 12:00,Deiby,Dorirtza,tarabana,urb villa campestre,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1401,2026-10-20 12:00,Deiby,Cliente Eventual,torre financiera,36 entre 18 y 19 \ el molino,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1402,2026-10-20 12:00,Deiby,Cliente Eventual,quincalla 13,27 entre 35 y 36,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1403,2026-10-03,Esneyder,Monkey,Local,Casa de Migdalia,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-1404,2026-10-20,Deiby,Distribuidora Gpar,hh av venezuela con 8,Local,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1405,2026-10-20,Deiby,Chalong Detalles,Local,los luises,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-1406,2026-10-20,Deiby,1313Bqto,Local,nueva segovia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1407,2026-10-20,Deiby,1313Bqto,Local,patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1404,2026-10-20 12:00,Deiby,Distribuidora Gpar,HH,Local,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1405,2026-10-20 12:00,Deiby,Chalong Detalles,Local,los luises,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1406,2026-10-20 12:00,Deiby,1313Bqto,Local,nueva segovia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1407,2026-10-20 12:00,Deiby,1313Bqto,Local,patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1408,2026-10-14,Esneyder,Monkey,Local,Chucho Briceño,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 1409,2026-10-21,Deiby,Cliente Eventual,callejon 16 entre 12 y 13,andres bello con 29,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1410,2026-10-21,Deiby,Harmonia Skarlet,Local,hospital adventista,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
