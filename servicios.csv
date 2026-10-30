@@ -1473,8 +1473,8 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1485,2026-10-20,DanielG,1313Bqto,Local,34 entre 23 y 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1486,2026-10-20,DanielG,1313Bqto,Local,transporte retrasada,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1487,2026-10-21,DanielG,Marianelin Carrasco Contadora,carr 25 entre calles 34 y 35,luis miguel abc,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-1488,2026-10-21 12:00,DanielG,Chalong Detalles,Local,sambil,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-1489,2026-10-21 12:00,DanielG,Chalong Detalles,Local,fundalara,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1488,2026-10-21 12:00,DanielG,Chalong Detalles,Local,Sambil,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1489,2026-10-21 12:00,DanielG,Chalong Detalles,Local,Fundalara,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1490,2026-10-21,DanielG,1313Bqto,Local,gabriela hernandez,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1491,2026-10-21,DanielG,1313Bqto,Local,los cardones,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1492,2026-10-21,DanielG,1313Bqto,Local,riberena con 21,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
