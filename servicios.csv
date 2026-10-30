@@ -1484,8 +1484,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1496,2026-10-22,DanielG,Dhamilet Ramírez,av vargas con 21,calle 14 entre 17 y 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1497,2026-10-22,DanielG,Jhoseany Volcanes,inter 19 con 12,inter cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1498,2026-10-22 12:00,DanielG,Candy Cakes Michelle,Local,calle 36 con 27 y 28,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1499,2026-10-22,DanielG,Chalong Case,Local,colinas del viento,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1500,2026-10-22,DanielG,Chalong Case,Local,colinas del viento,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1500,2026-10-22 12:00,DanielG,Chalong Case,Local,colinas del viento,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1501,2026-10-22,DanielG,Andrés Escurra,madetor,Local,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1502,2026-10-22,DanielG,Chalong Detalles,Local,urb monte real,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1503,2026-10-22,DanielG,Chalong Detalles,Local,res. la roca,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
