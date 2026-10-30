@@ -1405,7 +1405,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1414,2026-10-21 12:00,Deiby,Adrys,casa,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1415,2026-10-21 12:00,Deiby,Distribuidora Gpar,tealca de la 22,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1416,2026-10-21 12:00,Deiby,Distribuidora Gpar,18 con 36,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-1417,2026-10-21 12:00,Deiby,Chalong Case,Local,Churun,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1417,2026-10-21 12:00,Deiby,Chalong Case,Local,Churun,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1418,2026-10-21 12:00,Deiby,Chalong Detalles,Local,25 con 20 y 21,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1419,2026-10-21 12:00,Deiby,Chalong Detalles,Local,Torre Bel,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1420,2026-10-19,DanielG,Monkey,Local,Cyber Cafe,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
