@@ -1502,8 +1502,8 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1515,2026-10-23,DanielG,1313Bqto,Local,al lado del luis gomez lopez,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1516,2026-10-23,DanielG,1313Bqto,Local,transporte sindrome,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1517,2026-10-24,DanielG,KingSport Maricela,Local,agua viva,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
-1518,2026-10-24,DanielG,Chalong Case,Local,carr 199 con 32,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1519,2026-10-24,DanielG,Chalong Case,Local,urb gil fortoul,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1518,2026-10-24 12:00,DanielG,Chalong Case,Local,Farmatodo Call 32,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1519,2026-10-24 12:00,DanielG,Chalong Case,Local,Gil Fortoul,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1520,2026-10-24,DanielG,Dra Gabriela Rizzotto,carr 23 entre 10 y 11,indio manaure,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1521,2026-10-24,DanielG,Chalong Detalles,Local,av fuerzas armadas con 62,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1522,2026-10-24 12:00,DanielG,Candy Cakes Michelle,Local,urb la concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
