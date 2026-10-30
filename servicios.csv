@@ -198,14 +198,14 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 202,,Omar,Fresas Delivery Rebeca,Local,Marie Claire (Celene),,2.0,66.66,1.33,0.67,Validado,Pagado,Pagado
 203,,Omar,Fresas Delivery Rebeca,Local,Monte Real (Desire),,2.0,66.66,1.33,0.67,Validado,Pagado,Pagado
 204,,Jhoiner,Greychit Contreras,Entrega de Dinero,Local,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
-205,,Jhoiner,Harmonia Skarlet,Carr 22 con 34,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+205,nan,Jhoiner,Harmonia Skarlet,Carr 22 con 34,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 206,,Jhoiner,Monkey,Local,Calle 14 con 20,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
 207,,Jhoiner,Monkey,Local,Av Lara,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 208,,Jhoiner,Chalong Case,Local,Centro Ejec Los Leones,,1.0,33.33,0.33,0.67,Validado,Pagado,Pagado
 209,,Jhoiner,Chalong Case,Local,Corpoelec Av Carabobo,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
 210,,Jhoiner,Chalong Case,Local,Arca del Norte,,2.0,33.33,0.67,1.33,Validado,Pagado,Pagado
 211,,Jhoiner,Chalong Case,Local,MRW/Zoom,,3.0,33.33,1.0,2.0,Validado,Pagado,Pagado
-212,,Jhoiner,Harmonia Skarlet,Local,Insuservi,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+212,nan,Jhoiner,Harmonia Skarlet,Local,Insuservi,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 213,,Jhoiner,Acor Daniela,Local,Dusa,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 214,,Jhoiner,1313Bqto,Local,Cabudare,,4.0,33.33,1.33,2.67,Validado,Pendiente,Pagado
 215,,Jhoiner,1313Bqto,Local,Calle 28 cono 15,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
@@ -324,13 +324,13 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 325,,Jhoiner,Greychit Contreras,Stiffano,Local,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 326,,Jhoiner,Monkey,Compras Uniprec,Local,,1.5,33.33,0.5,1.0,Validado,Pendiente,Pagado
 327,,Jhoiner,Dennys Rivas,44 con 19,Local,,3.0,33.33,1.0,2.0,Validado,Pendiente,Pagado
-328,,Jhoiner,Harmonia Skarlet,Local,Todo Salud,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+328,nan,Jhoiner,Harmonia Skarlet,Local,Todo Salud,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 329,,Jhoiner,Acor Daniela,Calle 13,Local,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
 330,,Jhoiner,1313Bqto,Local,Luis Gomez Lopez,,1.0,33.33,0.33,0.67,Validado,Pagado,Pagado
 330,2026-08-17 14:06,Jhoiner,1313Bqto,Local,Luis Gomez Lopez,,1.0,66.66,0.67,0.33,Validado,Pagado,Pagado
 331,,Jhoiner,1313Bqto,Local,23 Enero,,1.5,33.33,0.5,1.0,Validado,Pendiente,Pagado
 332,,Jhoiner,Chalong Case,Local,Vzla con 20,,2.5,33.33,0.83,1.67,Validado,Pagado,Pagado
-333,,Jhoiner,Harmonia Skarlet,Local,Rio Lama,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
+333,nan,Jhoiner,Harmonia Skarlet,Local,Rio Lama,,2.0,33.33,0.67,1.33,Validado,Pendiente,Pagado
 334,,Jhoiner,Acor Daniela,Calle 13,Local,,1.0,33.33,0.33,0.67,Validado,Pendiente,Pagado
 335,,Jhoiner,Chalong Case,Local,CC El Recreo,,4.0,33.33,1.33,2.67,Validado,Pagado,Pagado
 336,,Jhoiner,KingSport Maricela,Centro,Libertador con 30,,2.5,33.33,0.83,1.67,Validado,Pendiente,Pagado
@@ -478,7 +478,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 481,,Deiby,Cliente Eventual,Calle 8 con 25,Calle 21 con 16,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 482,,Deiby,Clinivet,Dra Katherine Pire,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
 483,,Deiby,Catas Food,Local,Capital,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-484,,Deiby,Harmonia Skarlet,Local,Insuservi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+484,nan,Deiby,Harmonia Skarlet,Local,Insuservi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 485,,Deiby,Clinivet,VidaPets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 486,,Deiby,Adrys,Comercial Castillo,Calle 13,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 487,,Deiby,1313Bqto,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
@@ -496,7 +496,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 499,,Deiby,Monkey,Local,Calle 22 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
 500,2026-09-01 12:00,Esneyder,Dr David Colmenarez,Local,Laboratorio,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 501,,Deiby,Mundo de Regalos Luz,Local,40 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-502,,Deiby,Harmonia Skarlet,Local,Todo Salud,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+502,nan,Deiby,Harmonia Skarlet,Local,Todo Salud,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 503,,Deiby,Marijo UEMICA,Uniformes Lara,Local,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
 504,,Deiby,Candy Cakes Michelle,Local,Pedregal,,3.0,70.0,2.1,0.9,Validado,Pagado,Pagado
 505,,Deiby,Marianella K Beauty,Local,Parque La Música,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pagado
@@ -510,7 +510,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 513,,Deiby,1313Bqto,Local,Calle 28 con 17,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 514,,Deiby,Adrys,Local,MRW y Zoom,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 515,,Deiby,Cliente Eventual,Clinivet,El Carmen,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pagado
-516,,Deiby,Harmonia Skarlet,Local,Av 20 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+516,nan,Deiby,Harmonia Skarlet,Local,Av 20 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
 517,,Deiby,1313Bqto,Local,Luis Gomez Lopez,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
 518,,Deiby,1313Bqto,Local,Urb Terepaima,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 519,,Deiby,Rep Arteaga Norexi,Local,Zoom,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
@@ -561,7 +561,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 564,2026-08-27 12:00,Deiby,Pinpanpon Vanessa Barraez,Local,Cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pagado
 563,2026-08-27 00:58,Deiby,Cielo Isamar Mendoza,Parque Real,Segradi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 564,2026-08-27 01:00,Deiby,Pinpanpon Vanessa Barraez,Local,Cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pagado
-565,,Deiby,Harmonia Skarlet,Local,Canabal y Orthomed,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
+565,nan,Deiby,Harmonia Skarlet,Local,Canabal y Orthomed,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
 566,2026-09-08 12:00,Esneyder,Dr David Colmenarez,Local,Laboratorio,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 567,,Omar,Fresas Delivery Rebeca,Local,Los Camagos (Adami),,2.5,66.66,1.67,0.83,Validado,Pendiente,Pagado
 568,,Omar,Fresas Delivery Rebeca,Local,La Veguita (Claudia),,2.5,66.66,1.67,0.83,Validado,Pendiente,Pagado
@@ -1074,13 +1074,13 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1075,2026-10-06 12:00,Deiby,1313Bqto,Local,Clinica Santa Fe,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
 1076,2026-10-06 12:00,Deiby,1313Bqto,Local,Yacural,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
 1077,2026-10-06 12:00,Deiby,1313Bqto,Local,La Trinidad,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
-1078,2026-10-07,Deiby,Harmonia Skarlet,Ferchemical,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+1078,2026-10-07 12:00,Deiby,Harmonia Skarlet,Ferchemical,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 1079,2026-10-07,Deiby,Adrys,Local,Plaza San José,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
 1080,2026-10-07,Deiby,Chalong Case,Local,La Bombonera,,2.0,70.0,1.4,0.6,Validado,Pagado,Pagado
 1081,2026-10-07,Deiby,Chalong Case,Local,Universidad Simon Rodriguez,,2.0,70.0,1.4,0.6,Validado,Pagado,Pagado
 1082,2026-10-07,Deiby,Chalong Case,Local,Carr 21 con 17,,2.0,70.0,1.4,0.6,Validado,Pagado,Pagado
 1083,2026-10-07 12:00,Deiby,Chalong Detalles,Local,Macias Mujica,,5.0,70.0,3.5,1.5,Validado,Pagado,Pagado
-1084,2026-10-07,Deiby,Harmonia Skarlet,Local,Carr 21 con 35,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+1084,2026-10-07 12:00,Deiby,Harmonia Skarlet,Local,Carr 21 con 35,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 1085,2026-10-07,Deiby,Monkey,Local,Ciudad Roca,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
 1086,2026-10-08 12:00,Deiby,Harmonia Skarlet,Local,Consulmedica,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pagado
 1087,2026-10-08 12:00,Deiby,Cielo Isamar Mendoza,Laser Color/Segradi,22 con Vzla,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
@@ -1226,9 +1226,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1233,2026-10-13,DanielG,Monkey,Compras Sanareños,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1234,2026-10-13,DanielG,1313Bqto,Local,Eliecer,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1235,2026-10-14 12:00,DanielG,Candy Cakes Michelle,Local,Av 20 con 17,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1236,2026-10-14,DanielG,Harmonia Skarlet,Local,Cosmos,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1236,2026-10-14 12:00,DanielG,Harmonia Skarlet,Local,Cosmos,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1237,2026-10-14,DanielG,1313Bqto,Local,13 con 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1238,2026-10-14,DanielG,Harmonia Skarlet,Cosmos,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1238,2026-10-14 12:00,DanielG,Harmonia Skarlet,Cosmos,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1239,2026-10-14,DanielG,Monkey,La Casa del Pollo,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1240,2026-10-14,DanielG,Monkey,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1241,2026-10-14,DanielG,1313Bqto,Local,Luis Gomez Lopez,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -1529,13 +1529,13 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1544,2026-10-28,Esneyder,Chalong Detalles,Local,Florencio Jimenez,,5.5,100.0,5.5,0.0,Validado,Pagado,Pendiente
 1545,2026-10-28,Esneyder,Chalong Detalles,Local,Chucho Briceño,,4.0,100.0,4.0,0.0,Validado,Pagado,Pendiente
 1546,2026-10-29,Esneyder,Chalong Detalles,Local,Indio Manaure,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
-1547,2026-09-01,Esneyder,Harmonia Skarlet,Local,Clinica Canabal,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-1548,2026-09-01,Esneyder,Harmonia Skarlet,Local,Promedical,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-1549,2026-09-02,Esneyder,Harmonia Skarlet,Local,Promedical,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-1550,2026-09-03,Esneyder,Harmonia Skarlet,Local,Insuservi,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-1551,2026-09-07,Esneyder,Harmonia Skarlet,Local,Todo Salud,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
-1552,2026-09-10,Esneyder,Harmonia Skarlet,Local,CC Rio Lama,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
-1553,2026-09-11,Esneyder,Harmonia Skarlet,Local,Edif Centro 20,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-1554,2026-09-14,Esneyder,Harmonia Skarlet,Local,Todo Salud,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
-1555,2026-09-26,Esneyder,Harmonia Skarlet,Local,Endofem,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-1556,2026-09-28,Esneyder,Harmonia Skarlet,Insuservi,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+1547,2026-09-01 12:00,Esneyder,Harmonia Skarlet,Local,Clinica Canabal,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+1548,2026-09-01 12:00,Esneyder,Harmonia Skarlet,Local,Promedical,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+1549,2026-09-02 12:00,Esneyder,Harmonia Skarlet,Local,Promedical,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+1550,2026-09-03 12:00,Esneyder,Harmonia Skarlet,Local,Insuservi,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+1551,2026-09-07 12:00,Esneyder,Harmonia Skarlet,Local,Todo Salud,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
+1552,2026-09-10 12:00,Esneyder,Harmonia Skarlet,Local,CC Rio Lama,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+1553,2026-09-11 12:00,Esneyder,Harmonia Skarlet,Local,Edif Centro 20,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+1554,2026-09-14 12:00,Esneyder,Harmonia Skarlet,Local,Todo Salud,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
+1555,2026-09-28 12:00,Esneyder,Harmonia Skarlet,Local,Endofem,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+1556,2026-09-28 12:00,Esneyder,Harmonia Skarlet,Insuservi,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
