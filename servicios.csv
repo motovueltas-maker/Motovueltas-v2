@@ -1551,3 +1551,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1566,2026-10-31,DiegoA,1313Bqto,Local,La Puerta,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 1567,2026-10-31,DiegoA,1313Bqto,Local,Cotolengo,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1568,2026-10-31,DiegoA,1313Bqto,Local,Calle 22 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1569,2026-11-01,DiegoA,KingSport Maricela,Centro,Torre Boom,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
