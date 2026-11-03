@@ -1548,3 +1548,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1563,2026-10-31,DiegoA,1313Bqto,Local,Hotel American,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1564,2026-10-31,DiegoA,1313Bqto,Local,Calle 14 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1565,2026-10-31,DiegoA,1313Bqto,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1566,2026-10-31,DiegoA,1313Bqto,Local,La Puerta,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
