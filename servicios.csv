@@ -1546,3 +1546,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1561,2026-10-31,DiegoA,Monkey,La Casa del Pollo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1562,2026-10-31,DiegoA,1313Bqto,Local,Calle 35 con 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1563,2026-10-31,DiegoA,1313Bqto,Local,Hotel American,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1564,2026-10-31,DiegoA,1313Bqto,Local,Calle 14 con 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
