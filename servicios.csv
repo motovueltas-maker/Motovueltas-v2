@@ -1464,12 +1464,12 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1478,2026-10-19 12:00,DanielG,1313Bqto,Local,48  por la riberena,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1479,2026-10-20 12:00,DanielG,Chalong Detalles,Local,Terminal,,3.5,70.0,2.45,1.05,Validado,Pagado,Pendiente
 1480,2026-10-20 12:00,DanielG,Chalong Detalles,Local,24 con 9,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
-1481,2026-10-20,DanielG,Angeles Guanipa,cosmos,torre bell,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1482,2026-10-20,DanielG,Chalong Case,Local,urb terepaima,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-1483,2026-10-20,DanielG,1313Bqto,Local,carr 21 entre 15 y 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1484,2026-10-20,DanielG,1313Bqto,Local,22 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1485,2026-10-20,DanielG,1313Bqto,Local,34 entre 23 y 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1486,2026-10-20,DanielG,1313Bqto,Local,transporte retrasada,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1481,2026-10-20 12:00,DanielG,Angeles Guanipa,Cosmos,Torre Bell,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1482,2026-10-20 12:00,DanielG,Chalong Case,Local,Urb Terepaima,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1483,2026-10-20 12:00,DanielG,1313Bqto,Local,carr 21 entre 15 y 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1484,2026-10-20 12:00,DanielG,1313Bqto,Local,22 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1485,2026-10-20 12:00,DanielG,1313Bqto,Local,34 entre 23 y 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1486,2026-10-20 12:00,DanielG,1313Bqto,Local,transporte retrasada,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1487,2026-10-21,DanielG,Marianelin Carrasco Contadora,carr 25 entre calles 34 y 35,luis miguel abc,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1488,2026-10-21 12:00,DanielG,Chalong Detalles,Local,Sambil,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
 1489,2026-10-21 12:00,DanielG,Chalong Detalles,Local,Fundalara,,1.5,70.0,1.05,0.45,Validado,Pagado,Pendiente
