@@ -1291,7 +1291,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1298,2026-10-23,Alirio,Fresas Delivery Rebeca,Local,La Rosaleda (Liz),,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1299,2026-10-23,Alirio,Fresas Delivery Rebeca,Local,Urb Ribereña Cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1300,2026-10-23,Alirio,Fresas Delivery Rebeca,Local,Av La Mata Cabudare (Mimi),,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
-1301,2026-10-23,DanielG,Fresas Delivery Rebeca,Local,Calle 55 con Libertador (Cordero),,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1301,2026-10-23 12:00,DanielG,Fresas Delivery Rebeca,Local,Calle 55 con Libertador (Cordero),,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1302,2026-10-23 12:00,Alirio,Harmonia Skarlet,Local,Calle 20 con 33,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1303,2026-10-23,Alirio,Monkey,Local,Torre Changan,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1304,2026-10-23,Alirio,Monkey,Local,Calle 10 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -1489,15 +1489,15 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1505,2026-10-22 12:00,DanielG,1313Bqto,Local,Atapaima,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
 1506,2026-10-22 12:00,DanielG,1313Bqto,Local,La Concordia,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1507,2026-10-22 12:00,DanielG,1313Bqto,Local,23 de enero,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1508,2026-10-23 12:00,DanielG,Chalong Case,Local,carr 18 con 16,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1508,2026-10-23 12:00,DanielG,Chalong Case,Local,Carr 18 con 16,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1509,2026-10-23 12:00,DanielG,Chalong Detalles,Local,Cosmos,,2.5,70.0,1.75,0.75,Validado,Pagado,Pendiente
 1510,2026-10-23 12:00,DanielG,Chalong Case,Local,Patarata,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1511,2026-10-23 12:00,DanielG,Chalong Case,Local,Garabatal,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-1512,2026-10-23,DanielG,Rep Arteaga Norexi,Local,churum meru,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1512,2026-10-23 12:00,DanielG,Rep Arteaga Norexi,Local,Churun,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1513,2026-10-23 12:00,DanielG,Chalong Detalles,Local,19 con 12,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
 1514,2026-10-23 12:00,DanielG,Chalong Detalles,Local,Merpolara,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
-1515,2026-10-23,DanielG,1313Bqto,Local,al lado del luis gomez lopez,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1516,2026-10-23,DanielG,1313Bqto,Local,transporte sindrome,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1515,2026-10-23 12:00,DanielG,1313Bqto,Local,Luis Gomez Lopez,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1516,2026-10-23 12:00,DanielG,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1517,2026-10-24,DanielG,KingSport Maricela,Local,agua viva,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
 1518,2026-10-24 12:00,DanielG,Chalong Case,Local,Farmatodo Call 32,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1519,2026-10-24 12:00,DanielG,Chalong Case,Local,Gil Fortoul,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
