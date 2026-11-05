@@ -1427,9 +1427,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1436,2026-10-25,Esneyder,Monkey,Local,San Jacinto,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
 1437,2026-10-25,Esneyder,Monkey,Local,San Benito,,3.5,100.0,3.5,0.0,Validado,Pendiente,Pendiente
 1438,2026-10-22 12:00,Deiby,Andrés Escurra,Local,Metrópolis,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1439,2026-10-25,DanielG,Monkey,Local,36 con 12,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1440,2026-10-25,DanielG,Monkey,Local,21 con 21,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1441,2026-10-25,DanielG,Monkey,Local,Barrio Union,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1439,2026-10-25 12:00,DanielG,Monkey,Local,36 con 12,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1440,2026-10-25 12:00,DanielG,Monkey,Local,21 con 21,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1441,2026-10-25 12:00,DanielG,Monkey,Local,Barrio Union,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1443,2026-10-23 12:00,Deiby,KingSport Maricela,centro,La Hacienda,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1444,2026-10-23 12:00,Deiby,Chalong Detalles,Local,Euro Hotel,,5.0,70.0,3.5,1.5,Validado,Pagado,Pendiente
 1445,2026-09-24,Esneyder,Monkey,Tu Punto Inca,Local,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
@@ -1441,8 +1441,8 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1453,2026-10-20 12:00,DanielG,Monkey,Compra Sanareños,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1454,2026-10-24 12:00,Deiby,Chalong Detalles,Local,30 con 33,,3.5,70.0,2.45,1.05,Validado,Pagado,Pendiente
 1455,2026-10-24 12:00,Deiby,Dr David Colmenarez,Local,av vargas,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1456,2026-10-25,DanielG,Monkey,Compra Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1457,2026-10-25,DanielG,Monkey,La Casa del Pollo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1456,2026-10-25 12:00,DanielG,Monkey,Compra Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1457,2026-10-25 12:00,DanielG,Monkey,La Casa del Pollo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1458,2026-10-24 12:00,Deiby,1313Bqto,Local,Los Samanes,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1459,2026-10-24 12:00,Deiby,1313Bqto,Local,Arca del Norte,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1460,2026-10-24 12:00,Deiby,1313Bqto,Local,16 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -1505,10 +1505,10 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1521,2026-10-24 12:00,DanielG,Chalong Detalles,Local,Fzas Armadas,,4.0,70.0,2.8,1.2,Validado,Pagado,Pendiente
 1522,2026-10-24 12:00,DanielG,Candy Cakes Michelle,Local,La Concordia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1523,2026-10-24 12:00,DanielG,Damaris Altuve,Gil Fortoul,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1524,2026-10-25,DanielG,Damaris Altuve,urb gil fortoul,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1525,2026-10-25,DanielG,Damaris Altuve,la pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1526,2026-10-25,DanielG,1313Bqto,Local,av 20 con calle 26,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1527,2026-10-25,DanielG,1313Bqto,Local,transporte sindrome,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1524,2026-10-25 12:00,DanielG,Damaris Altuve,Gil Fortoul,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1525,2026-10-25 12:00,DanielG,Damaris Altuve,La Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1526,2026-10-25 12:00,DanielG,1313Bqto,Local,20 con 26,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1527,2026-10-25 12:00,DanielG,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1528,2026-10-06,Esneyder,Candy Cakes Michelle,Vzla con 12,Local,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 1529,2026-10-26,Deiby,Candy Cakes Michelle,Vzla con 12,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1530,2026-10-01,Esneyder,Candy Cakes Michelle,Local,Colinas de San Lorenzo,,5.0,100.0,5.0,0.0,Validado,Pendiente,Pendiente
