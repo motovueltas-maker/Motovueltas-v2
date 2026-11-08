@@ -1630,3 +1630,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1647,2026-11-01,DanielG,1313Bqto,Local,Carrera 18 entre 22 y 23,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1648,2026-11-01,DanielG,Monkey,Local,Vargas con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1649,2026-11-01,DanielG,1313Bqto,Local,16 entre 13 y 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1650,2026-11-01,DanielG,1313Bqto,Local,23 entre 16 y 17,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
