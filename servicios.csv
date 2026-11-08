@@ -1653,3 +1653,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1670,2026-11-05,DanielG,Chalong Case,Local,Calle 4 con carrera 1 y 2,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1671,2026-11-05,DanielG,Monkey,Local,San José,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1672,2026-11-05,DanielG,Clinivet,Local,24 con calle 8,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1673,2026-11-05,DanielG,Monkey,Local,21 con 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
