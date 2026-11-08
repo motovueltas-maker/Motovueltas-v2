@@ -1581,21 +1581,21 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1598,2026-10-29,Alirio,1313Bqto,Local,Calle 37 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1599,2026-10-29,Alirio,1313Bqto,Local,Calle 16 con 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1600,2026-10-29,Alirio,1313Bqto,Local,Transporte DIana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1601,2026-10-30,Alirio,Chalong Detalles,Local,Farmatodo Av Lara,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1602,2026-10-30,Alirio,Dennys Rivas,Su Pollito,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-1603,2026-10-30,Alirio,Monkey,Local,33 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1604,2026-10-30,Alirio,Monkey,Local,24 con 30,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1605,2026-10-30,Alirio,Monkey,Local,Vargas con 23,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1606,2026-10-30,Alirio,Renatta Alvarez,Calle 28 con 18,Luis Miguel,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1607,2026-10-30,Alirio,Freddy Camejo,Local,MRW,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1608,2026-10-30,Alirio,Monkey,Compra Sanareños,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1609,2026-10-30,Alirio,Chalong Case,Local,Ciudad Roca,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1610,2026-10-30,Alirio,Monkey,Local,17 con 27,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1611,2026-10-30,Alirio,Monkey,Local,Santa Isabel,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
-1612,2026-10-30,Alirio,Cliente Eventual,Calle 12,Ribereña,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1613,2026-10-30,Alirio,Monkey,Compras Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1614,2026-10-30,Alirio,Monkey,Local,Cuesta Lara,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-1615,2026-10-30,Alirio,Monkey,Local,Calle 19 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1616,2026-10-30,Alirio,1313Bqto,Local,Carr 13 con 34,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1617,2026-10-30,Alirio,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1618,2026-10-30 12:00,Alirio,Rep Arteaga Norexi,Local,Zona I,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1601,2026-10-30 12:00,Alirio,Chalong Detalles,Local,Farmatodo Av Lara,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1602,2026-10-30 12:00,Alirio,Dennys Rivas,Su Pollito,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1603,2026-10-30 12:00,Alirio,Monkey,Local,33 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1604,2026-10-30 12:00,Alirio,Monkey,Local,24 con 30,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1605,2026-10-30 12:00,Alirio,Monkey,Local,Vargas con 23,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1606,2026-10-30 12:00,Alirio,Renatta Alvarez,Calle 28 con 18,Luis Miguel,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1607,2026-10-30 12:00,Alirio,Freddy Camejo,Local,MRW,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1608,2026-10-30 12:00,Alirio,Monkey,Compra Sanareños,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1609,2026-10-30 12:00,Alirio,Chalong Case,Local,Ciudad Roca,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1610,2026-10-30 12:00,Alirio,Monkey,Local,17 con 27,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1611,2026-10-30 12:00,Alirio,Monkey,Local,Santa Isabel,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
+1612,2026-10-30 12:00,Alirio,Cliente Eventual,Calle 12,Ribereña,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1613,2026-10-30 12:00,Alirio,Monkey,Compras Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1614,2026-10-30 12:00,Alirio,Monkey,Local,Cuesta Lara,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1615,2026-10-30 12:00,Alirio,Monkey,Local,Calle 19 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1616,2026-10-30 12:00,Alirio,1313Bqto,Local,Carr 13 con 34,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1617,2026-10-30 12:00,Alirio,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1618,2026-10-31 12:00,Alirio,Rep Arteaga Norexi,Local,Zona I,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
