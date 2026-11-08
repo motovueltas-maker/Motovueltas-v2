@@ -1597,3 +1597,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1614,2026-10-30,Alirio,Monkey,Local,Cuesta Lara,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1615,2026-10-30,Alirio,Monkey,Local,Calle 19 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1616,2026-10-30,Alirio,1313Bqto,Local,Carr 13 con 34,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1617,2026-10-30,Alirio,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
