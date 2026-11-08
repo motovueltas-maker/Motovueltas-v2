@@ -1521,12 +1521,12 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1538,2026-10-22 12:00,DanielG,Chalong Case,Local,Edif La Roca,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1539,2026-10-28 12:00,Alirio,Chalong Case,Local,Valle Sol,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1540,2026-10-28 12:00,Esneyder,Chalong Case,Local,Agua Viva,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
-1541,2026-10-29,Esneyder,Chalong Case,Local,Edif Nacional,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
-1542,2026-10-29,Esneyder,Chalong Case,Local,Clinica Acosta Ortiz,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
+1541,2026-10-29 12:00,DanielG,Chalong Case,Local,Edif Nacional,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1542,2026-10-29 12:00,Esneyder,Chalong Case,Local,Clinica Acosta Ortiz,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
 1543,2026-10-24,Esneyder,Chalong Detalles,Local,Florencio Jimenez,,5.5,100.0,5.5,0.0,Validado,Pagado,Pendiente
 1544,2026-10-28 12:00,DanielG,Chalong Detalles,Local,Florencio Jimenez,,5.5,70.0,3.85,1.65,Validado,Pagado,Pendiente
 1545,2026-10-28 12:00,DanielG,Chalong Detalles,Local,Chucho Briceño,,4.0,70.0,2.8,1.2,Validado,Pagado,Pendiente
-1546,2026-10-29,Esneyder,Chalong Detalles,Local,Indio Manaure,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
+1546,2026-10-29 12:00,Esneyder,Chalong Detalles,Local,Indio Manaure,,3.5,100.0,3.5,0.0,Validado,Pagado,Pendiente
 1547,2026-09-01 12:00,Esneyder,Harmonia Skarlet,Local,Clinica Canabal,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1548,2026-09-01 12:00,Esneyder,Harmonia Skarlet,Local,Promedical,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1549,2026-09-02 12:00,Esneyder,Harmonia Skarlet,Local,Promedical,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
@@ -1538,7 +1538,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1555,2026-10-27 12:00,Esneyder,Harmonia Skarlet,Local,Endofem,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 1556,2026-10-26 12:00,Esneyder,Harmonia Skarlet,Insuservi,Local,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1557,2026-10-27,Esneyder,Harmonia Skarlet,Local,Urb Obelisco,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
-1558,2026-10-29,Esneyder,Harmonia Skarlet,Local,Insuservi,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+1558,2026-10-29 12:00,Esneyder,Harmonia Skarlet,Local,Insuservi,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1559,2026-10-31 12:00,DiegoA,Chalong Case,Local,Carr 27 con 32,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1560,2026-10-31 12:00,DiegoA,Monkey,Local,La Peña,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 1561,2026-10-31 12:00,DiegoA,Monkey,La Casa del Pollo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
@@ -1571,16 +1571,16 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1588,2026-10-28 12:00,Alirio,Dra Gabriela Rizzotto,Calle 28,Mercado Terepaima,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1589,2026-10-28 12:00,Alirio,Monkey,Local,32 con 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1590,2026-10-28 12:00,Alirio,Monkey,Local,32 con 24 y 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1591,2026-10-29,Alirio,KingSport Maricela,Este,Col Rio Claro,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1592,2026-10-29,Alirio,1313Bqto,Local,20 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1593,2026-10-29,Alirio,Distribuidora Gpar,HH,Local,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1594,2026-10-29,Alirio,Freddy Camejo,Ciudad Traki,Local,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-1595,2026-10-29,Alirio,1313Bqto,Local,Carr 24 con 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1596,2026-10-29,Alirio,1313Bqto,Local,Las Acacias,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1597,2026-10-29,Alirio,1313Bqto,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1598,2026-10-29,Alirio,1313Bqto,Local,Calle 37 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1599,2026-10-29,Alirio,1313Bqto,Local,Calle 16 con 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1600,2026-10-29,Alirio,1313Bqto,Local,Transporte DIana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1591,2026-10-29 12:00,Alirio,KingSport Maricela,Este,Col Rio Claro,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1592,2026-10-29 12:00,Alirio,1313Bqto,Local,20 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1593,2026-10-29 12:00,Alirio,Distribuidora Gpar,HH,Local,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1594,2026-10-29 12:00,Alirio,Freddy Camejo,Ciudad Traki,Local,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+1595,2026-10-29 12:00,Alirio,1313Bqto,Local,Carr 24 con 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1596,2026-10-29 12:00,Alirio,1313Bqto,Local,Las Acacias,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1597,2026-10-29 12:00,Alirio,1313Bqto,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1598,2026-10-29 12:00,Alirio,1313Bqto,Local,Calle 37 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1599,2026-10-29 12:00,Alirio,1313Bqto,Local,Calle 16 con 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1600,2026-10-29 12:00,Alirio,1313Bqto,Local,Transporte DIana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1601,2026-10-30 12:00,Alirio,Chalong Detalles,Local,Farmatodo Av Lara,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1602,2026-10-30 12:00,Alirio,Dennys Rivas,Su Pollito,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1603,2026-10-30 12:00,Alirio,Monkey,Local,33 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
