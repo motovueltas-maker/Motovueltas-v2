@@ -1651,3 +1651,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1668,2026-11-05,DanielG,Cliente Eventual,Local,Clinivet,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1669,2026-11-05,DanielG,Chalong Detalles,Local,Pedro león torres entre 59 y 60,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1670,2026-11-05,DanielG,Chalong Case,Local,Calle 4 con carrera 1 y 2,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1671,2026-11-05,DanielG,Monkey,Local,San José,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
