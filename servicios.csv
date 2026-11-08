@@ -1595,3 +1595,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1612,2026-10-30,Alirio,Cliente Eventual,Calle 12,Ribereña,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1613,2026-10-30,Alirio,Monkey,Compras Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1614,2026-10-30,Alirio,Monkey,Local,Cuesta Lara,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1615,2026-10-30,Alirio,Monkey,Local,Calle 19 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
