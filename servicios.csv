@@ -1522,7 +1522,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1539,2026-10-28 12:00,Alirio,Chalong Case,Local,Valle Sol,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1540,2026-10-28 12:00,Esneyder,Chalong Case,Local,Agua Viva,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
 1541,2026-10-29 12:00,DanielG,Chalong Case,Local,Edif Nacional,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1542,2026-10-29 12:00,Esneyder,Chalong Case,Local,Clinica Acosta Ortiz,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
+1542,2026-10-29 12:00,DanielG,Chalong Case,Local,Clinica Acosta Ortiz,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1543,2026-10-24,Esneyder,Chalong Detalles,Local,Florencio Jimenez,,5.5,100.0,5.5,0.0,Validado,Pagado,Pendiente
 1544,2026-10-28 12:00,DanielG,Chalong Detalles,Local,Florencio Jimenez,,5.5,70.0,3.85,1.65,Validado,Pagado,Pendiente
 1545,2026-10-28 12:00,DanielG,Chalong Detalles,Local,Chucho Briceño,,4.0,70.0,2.8,1.2,Validado,Pagado,Pendiente
