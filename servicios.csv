@@ -1580,3 +1580,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1597,2026-10-29,Alirio,1313Bqto,Local,Cruz Blanca,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1598,2026-10-29,Alirio,1313Bqto,Local,Calle 37 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1599,2026-10-29,Alirio,1313Bqto,Local,Calle 16 con 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1600,2026-10-29,Alirio,1313Bqto,Local,Transporte DIana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
