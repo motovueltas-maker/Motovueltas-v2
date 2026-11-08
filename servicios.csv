@@ -1652,3 +1652,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1672,2026-06-11 12:00,DanielG,Clinivet,Local,24 con calle 8,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1673,2026-06-11 12:00,DanielG,Monkey,Local,21 con 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1674,2026-06-11 12:00,DanielG,Chalong Detalles,Local,Vargas con 18,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1675,2026-11-07,DanielG,Chalong Detalles,Local,55 con 13A,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
