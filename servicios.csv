@@ -1606,3 +1606,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1623,2026-10-29 12:00,DanielG,Monkey,Local,19 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1624,2026-10-29 12:00,DanielG,Adrys,Local,Venezuela con 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1625,2026-10-30,DanielG,Marianelin Carrasco Contadora,Local,Calle 48 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1626,2026-10-30,DanielG,Fresas Delivery Rebeca,Local,Clínica adventista,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
