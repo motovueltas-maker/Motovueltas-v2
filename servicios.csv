@@ -1570,3 +1570,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1587,2026-10-27,Alirio,1313Bqto,Local,Carr 16 con 13,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1588,2026-10-28,Alirio,Dra Gabriela Rizzotto,Calle 28,Mercado Terepaima,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1589,2026-10-28,Alirio,Monkey,Local,32 con 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1590,2026-10-28,Alirio,Monkey,Local,32 con 24 y 25,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
