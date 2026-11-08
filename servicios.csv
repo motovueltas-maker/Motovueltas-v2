@@ -1582,3 +1582,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1599,2026-10-29,Alirio,1313Bqto,Local,Calle 16 con 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1600,2026-10-29,Alirio,1313Bqto,Local,Transporte DIana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1601,2026-10-30,Alirio,Chalong Detalles,Local,Farmatodo Av Lara,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1602,2026-10-30,Alirio,Dennys Rivas,Su Pollito,Local,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
