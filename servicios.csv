@@ -1644,14 +1644,14 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1661,2026-11-03 12:00,DanielG,Chalong Case,Local,Cabudare,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1662,2026-11-03 12:00,DanielG,1313Bqto,Local,32 entre 37 y 38,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1663,2026-11-03 12:00,DanielG,1313Bqto,Local,Morán con 21,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1667,2026-11-06 12:00,DanielG,Chalong Case,Local,19 con 24,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1668,2026-11-06 12:00,DanielG,Clinivet,Medivet,Clinivet,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1669,2026-11-06 12:00,DanielG,Chalong Detalles,Local,Pedro león torres entre 59 y 60,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1670,2026-11-06 12:00,DanielG,Chalong Case,Local,Calle 4 con carrera 1 y 2,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1671,2026-11-06 12:00,DanielG,Monkey,Local,San José,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1672,2026-11-06 12:00,DanielG,Clinivet,Local,24 con calle 8,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1673,2026-11-06 12:00,DanielG,Monkey,Local,21 con 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1674,2026-11-06 12:00,DanielG,Chalong Detalles,Local,Vargas con 18,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1667,2026-06-11 12:00,DanielG,Chalong Case,Local,19 con 24,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1668,2026-06-11 12:00,DanielG,Clinivet,Medivet,Clinivet,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1669,2026-06-11 12:00,DanielG,Chalong Detalles,Local,Pedro león torres entre 59 y 60,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1670,2026-06-11 12:00,DanielG,Chalong Case,Local,Calle 4 con carrera 1 y 2,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1671,2026-06-11 12:00,DanielG,Monkey,Local,San José,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1672,2026-06-11 12:00,DanielG,Clinivet,Local,24 con calle 8,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1673,2026-06-11 12:00,DanielG,Monkey,Local,21 con 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1674,2026-06-11 12:00,DanielG,Chalong Detalles,Local,Vargas con 18,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1675,2026-11-07 12:00,DanielG,Chalong Detalles,Local,55 con 13A,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1676,2026-11-07 12:00,DanielG,Fresas Delivery Rebeca,Local,Cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1677,2026-11-07 12:00,DanielG,Chalong Case,Local,Cc rio lama,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
