@@ -1599,3 +1599,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1616,2026-10-30 12:00,Alirio,1313Bqto,Local,Carr 13 con 34,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1617,2026-10-30 12:00,Alirio,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1618,2026-10-31 12:00,Alirio,Rep Arteaga Norexi,Local,Zona I,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1619,2026-10-28,DanielG,Monkey,Local,Andrés bello con 25,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
