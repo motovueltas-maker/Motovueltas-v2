@@ -1615,3 +1615,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1632,2026-10-30,DanielG,1313Bqto,Local,14 entre 18 y 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1633,2026-10-31,DanielG,Adrys,Local,Moran con Venezuela,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1634,2026-10-31,DanielG,Chalong Detalles,Local,Patarata,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1635,2026-10-31,DanielG,Cliente Eventual,Local,Clinivet,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
