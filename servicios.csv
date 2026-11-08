@@ -1667,3 +1667,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1687,2026-11-07 12:00,DanielG,1313Bqto,Local,Luis Gómez López,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1688,2026-11-08 12:00,DanielG,Monkey,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1689,2026-11-08 12:00,DanielG,1313Bqto,Local,16 con 39 y 40,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1690,2026-11-05,DanielG,1313Bqto,Local,18 entre 22 y 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
