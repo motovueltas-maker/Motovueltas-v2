@@ -1486,7 +1486,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1501,2026-10-22 12:00,DanielG,Andrés Escurra,Madetor,Local,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1502,2026-10-22 12:00,DanielG,Chalong Detalles,Local,Monte Real,,2.0,70.0,1.4,0.6,Validado,Pagado,Pendiente
 1504,2026-10-22 12:00,DanielG,1313Bqto,Local,Edif El Parque,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1505,2026-10-22 12:00,DanielG,1313Bqto,Local,Atapaima,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
+1505,2026-10-22 12:00,DanielG,1313Bqto,Local,Atapaima,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1506,2026-10-22 12:00,DanielG,1313Bqto,Local,La Concordia,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1507,2026-10-22 12:00,DanielG,1313Bqto,Local,23 de enero,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1508,2026-10-23 12:00,DanielG,Chalong Case,Local,Carr 18 con 16,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
