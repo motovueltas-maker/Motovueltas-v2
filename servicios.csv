@@ -1733,3 +1733,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1753,2026-11-07,Alirio,1313Bqto,Local,12 con ribereña,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1754,2026-11-07,Alirio,Monkey,Local,42 con 32A,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1755,2026-11-07,Alirio,Monkey,Local,18 entre 28 y 29,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1756,2026-11-08,Alirio,Cliente Eventual,Local,28 entre 19 y 20 antiguo becco,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
