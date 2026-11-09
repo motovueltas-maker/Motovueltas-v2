@@ -1520,7 +1520,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1537,2026-10-19,Esneyder,Chalong Case,Local,Carr 18 con 32,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
 1538,2026-10-22 12:00,DanielG,Chalong Case,Local,Edif La Roca,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1539,2026-10-28 12:00,Alirio,Chalong Case,Local,Valle Sol,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1540,2026-10-28 12:00,Esneyder,Chalong Case,Local,Agua Viva,,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
+1540,2026-10-28 12:00,DanielG,Chalong Case,Local,Agua Viva,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1541,2026-10-29 12:00,DanielG,Chalong Case,Local,Edif Nacional,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1542,2026-10-29 12:00,DanielG,Chalong Case,Local,Clinica Acosta Ortiz,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1543,2026-10-24,Esneyder,Chalong Detalles,Local,Florencio Jimenez,,5.5,100.0,5.5,0.0,Validado,Pagado,Pendiente
