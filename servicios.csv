@@ -1677,14 +1677,14 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1698,2026-11-06 12:00,DanielG,1313Bqto,Local,Santa Elena,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1699,2026-11-06 12:00,DanielG,1313Bqto,Local,Calle 12 con carrera 23  024,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1700,2026-11-06 12:00,DanielG,1313Bqto,Local,22 con calle 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1701,2026-02-11 12:00,Alirio,Rep Arteaga Norexi,Local,Zona I,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1702,2026-02-11 12:00,Alirio,Harmonia Skarlet,Insuservi,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1703,2026-02-11 12:00,Alirio,Chalong Case,Local,Calle 32 entre 22 y 23,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1704,2026-02-11 12:00,Alirio,1313Bqto,Local,El manzano,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pendiente
-1705,2026-02-11 12:00,Alirio,Monkey,Local,Calle 8 entre 23 y 24,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1706,2026-02-11 12:00,Alirio,Monkey,Local,19 con 8,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1707,2026-02-11 12:00,Alirio,Monkey,Local,Calle 11 entre 21 y 22,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1708,2026-02-11 12:00,Alirio,1313Bqto,Local,Las Mercedes,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1701,2026-11-02 12:00,Alirio,Rep Arteaga Norexi,Local,Zona I,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1702,2026-11-02 12:00,Alirio,Harmonia Skarlet,Insuservi,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1703,2026-11-02 12:00,Alirio,Chalong Case,Local,Calle 32 entre 22 y 23,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1704,2026-11-02 12:00,Alirio,1313Bqto,Local,El manzano,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pendiente
+1705,2026-11-02 12:00,Alirio,Monkey,Local,Calle 8 entre 23 y 24,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1706,2026-11-02 12:00,Alirio,Monkey,Local,19 con 8,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1707,2026-11-02 12:00,Alirio,Monkey,Local,Calle 11 entre 21 y 22,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1708,2026-11-02 12:00,Alirio,1313Bqto,Local,Las Mercedes,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1709,2026-03-11 12:00,Alirio,Chalong Detalles,Local,Urb los crepúsculos sector 1,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 1710,2026-03-11 12:00,Alirio,Rori,Local,Parque industrial del oeste,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 1711,2026-03-11 12:00,Alirio,KingSport Maricela,Centro,Cc cosmo,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
