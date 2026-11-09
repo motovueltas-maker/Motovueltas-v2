@@ -1743,3 +1743,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1763,2026-11-08,Alirio,1313Bqto,Local,17 entre 57 y 57A,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1764,2026-11-08,Alirio,Pizzería Nels,Local,Av 20 con C.30,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1765,2026-11-08,Alirio,1313Bqto,Local,37 con carrera 17,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1766,2026-11-08,Alirio,1313Bqto,Local,Calle 15 con 21 y 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
