@@ -1751,3 +1751,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1772,2026-11-03 12:00,DanielG,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1773,2026-11-05 12:00,DanielG,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1774,2026-11-04,Alirio,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1775,2026-11-03,Alirio,1313Bqto,Local,14 con carrera 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
