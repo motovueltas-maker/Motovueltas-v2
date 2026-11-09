@@ -1721,3 +1721,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1741,2026-06-11 12:00,Alirio,Fresas Delivery Rebeca,Local,Terminal de pasajeros 24 con 45,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1742,2026-06-11 12:00,Alirio,KingSport Maricela,Este,Terminal,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1743,2026-06-11 12:00,Alirio,Antojitos,Local,Carrera 13 A entre 54 y 55,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1744,2026-11-06,Alirio,Dra Gabriela Rizzotto,Local,Mercado terepaima,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
