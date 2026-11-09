@@ -1614,15 +1614,15 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1632,2026-10-30 12:00,DanielG,1313Bqto,Local,14 entre 18 y 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1633,2026-10-31 12:00,DanielG,Adrys,Local,Moran con Venezuela,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1634,2026-10-31 12:00,DanielG,Chalong Detalles,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1635,2026-10-31 12:00,DanielG,Clinivet,Agromascotas,Local,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1635,2026-10-31 12:00,DanielG,Clinivet,Agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1636,2026-10-31 12:00,DanielG,Chalong Case,Local,19 con calle 23,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1637,2026-10-31 12:00,DanielG,Chalong Case,Local,Vargas con carrera 21,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1638,2026-10-31 12:00,DanielG,Chalong Detalles,Local,Cabudare,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1639,2026-10-31 12:00,DanielG,Chalong Detalles,Local,19 con Vargas,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1640,2026-10-31 12:00,DanielG,KingSport Maricela,Este,Urb petirrojo,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1641,2026-10-31 12:00,DanielG,Chalong Detalles,Local,Sambil,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1642,2026-10-31 12:00,DanielG,Cliente Eventual,Local,Urb Roca nostra,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1643,2026-10-31 12:00,DanielG,Chalong Detalles,Local,62 con carrera 14,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1637,2026-10-31 12:00,DanielG,Chalong Case,Local,Vargas con 21,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1638,2026-10-31 12:00,DanielG,Chalong Detalles,Local,Cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1639,2026-10-31 12:00,DanielG,Chalong Detalles,Local,19 con Vargas,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1640,2026-10-31 12:00,DanielG,KingSport Maricela,Este,Petirrojo,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1641,2026-10-31 12:00,DanielG,Chalong Detalles,Local,Sambil,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1642,2026-10-31 12:00,DanielG,Chalong Case,Local,Urb Roca nostra,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1643,2026-10-31 12:00,DanielG,Chalong Detalles,Local,62 con carrera 14,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1644,2026-10-31 12:00,DanielG,1313Bqto,Local,El manzano,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1645,2026-11-01 12:00,DanielG,1313Bqto,Local,Carrera 21 entre 14 y 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1646,2026-11-01 12:00,DanielG,1313Bqto,Local,Urb las acacias,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
