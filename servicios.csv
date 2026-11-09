@@ -1732,3 +1732,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1752,2026-11-07,Alirio,Pizzería Nels,Local,25 entre 23 y 24,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1753,2026-11-07,Alirio,1313Bqto,Local,12 con ribereña,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1754,2026-11-07,Alirio,Monkey,Local,42 con 32A,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1755,2026-11-07,Alirio,Monkey,Local,18 entre 28 y 29,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
