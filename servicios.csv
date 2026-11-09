@@ -1713,3 +1713,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1733,2026-05-11 12:00,Alirio,Clinivet,Local,Agro mascotas,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1734,2026-11-05,Alirio,Candy Cakes Michelle,Local,Urb Pedregal,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1735,2026-11-05,Alirio,Monkey,Local,Carrara 15 con 47 y 48,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1736,2026-11-05,Alirio,Monkey,Local,Residencias Luis Miguel,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
