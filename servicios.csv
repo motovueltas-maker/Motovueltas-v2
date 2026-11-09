@@ -1705,11 +1705,11 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1726,2026-11-04 12:00,Alirio,1313Bqto,Local,Agua viva,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1727,2026-11-04 12:00,Alirio,1313Bqto,Local,14 entre 16 y 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1728,2026-11-05,Alirio,Antojitos,Local,Zona 2,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1729,2026-05-11 12:00,Alirio,Cliente Eventual,Local,Torre David,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1730,2026-05-11 12:00,Alirio,Cliente Eventual,Local,Cc plaza Sevilla,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1731,2026-05-11 12:00,Alirio,Cliente Eventual,Local,Lara con leones,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-1732,2026-05-11 12:00,Alirio,Chalong Detalles,Local,Frente a la flor de Venezuela,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1733,2026-05-11 12:00,Alirio,Clinivet,Local,Agro mascotas,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1729,2026-11-05 12:00,Alirio,Cliente Eventual,Local,Torre David,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1730,2026-11-05 12:00,Alirio,Cliente Eventual,Local,Cc plaza Sevilla,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1731,2026-11-05 12:00,Alirio,Cliente Eventual,Local,Lara con leones,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1732,2026-11-05 12:00,Alirio,Chalong Detalles,Local,Frente a la flor de Venezuela,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1733,2026-11-05 12:00,Alirio,Clinivet,Agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1734,2026-11-05,Alirio,Candy Cakes Michelle,Local,Urb Pedregal,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1735,2026-11-05,Alirio,Monkey,Local,Carrara 15 con 47 y 48,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1736,2026-11-05,Alirio,Monkey,Local,Residencias Luis Miguel,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
