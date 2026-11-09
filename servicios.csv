@@ -1725,12 +1725,12 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1747,2026-11-06 12:00,Alirio,Freddy Camejo,El jebe,1313,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1748,2026-11-06 12:00,Alirio,1313Bqto,Local,Ribereña con 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1749,2026-11-06 12:00,Alirio,Ari Perrarina,Mc Donald de la Lara,Yacural,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1750,2026-07-11 12:00,Alirio,Ari Perrarina,Local,Villas de yacural,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1751,2026-07-11 12:00,Alirio,1313Bqto,Local,Edi Gloria,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1752,2026-07-11 12:00,Alirio,Pizzería Nels,Local,25 entre 23 y 24,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-1753,2026-07-11 12:00,Alirio,1313Bqto,Local,12 con ribereña,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1754,2026-07-11 12:00,Alirio,Monkey,Local,42 con 32A,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1755,2026-07-11 12:00,Alirio,Monkey,Local,18 entre 28 y 29,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1750,2026-11-07 12:00,Alirio,Ari Perrarina,Local,Villas de yacural,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1751,2026-11-07 12:00,Alirio,1313Bqto,Local,Edi Gloria,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1752,2026-11-07 12:00,Alirio,Pizzería Nels,Local,25 entre 23 y 24,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1753,2026-11-07 12:00,Alirio,1313Bqto,Local,12 con ribereña,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1754,2026-11-07 12:00,Alirio,Monkey,Local,42 con 32A,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1755,2026-11-07 12:00,Alirio,Monkey,Local,18 entre 28 y 29,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1756,2026-11-08,Alirio,Cliente Eventual,Local,28 entre 19 y 20 antiguo becco,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1757,2026-11-08,Alirio,Cliente Eventual,Villas de yacural,Ujano,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1758,2026-11-08,Alirio,Monkey,Local,18 con 24,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
