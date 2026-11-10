@@ -1771,3 +1771,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1793,2026-10-28,Deiby,1313Bqto,Local,Luis Gómez López,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1794,2026-10-29,Deiby,Cliente Eventual,Roditrans,42 con 29,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1795,2026-10-29,Deiby,Greychit Contreras,Residencias Sahara,Local,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1796,2026-10-29,Deiby,Cliente Eventual,Calle 15 con 22 y 23,Insulservi,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
