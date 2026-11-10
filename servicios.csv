@@ -1793,3 +1793,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1815,2026-11-04,Deiby,Chalong Case,Local,19 esquina calle 24,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1816,2026-11-09,Ray,Chalong Case,Local,Santa Elena,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
 1817,2026-11-09,Ray,Chalong Case,Local,Calle 15 con 22,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
+1818,2026-11-09,Ray,Cliente Eventual,Kingsport Este,MRW Calle 15,,3.0,66.66,2.0,1.0,Validado,Pendiente,Pendiente
