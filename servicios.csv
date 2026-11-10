@@ -1651,19 +1651,19 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1672,2026-11-06 12:00,DanielG,Clinivet,Local,24 con calle 8,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1673,2026-11-06 12:00,DanielG,Monkey,Local,21 con 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1674,2026-11-06 12:00,DanielG,Chalong Detalles,Local,Vargas con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1675,2026-07-11 12:00,DanielG,Chalong Detalles,Local,55 con 13A,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1676,2026-07-11 12:00,DanielG,Fresas Delivery Rebeca,Local,Cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-1677,2026-07-11 12:00,DanielG,Chalong Case,Local,Cc rio lama,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1678,2026-07-11 12:00,DanielG,Chalong Detalles,Local,Urb la concordia,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1679,2026-07-11 12:00,DanielG,Chalong Detalles,Local,Venezuela con 36,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1680,2026-07-11 12:00,DanielG,Cliente Eventual,Local,Clivinet,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1681,2026-07-11 12:00,DanielG,Monkey,Carrera 1 con 4,Monkey,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1682,2026-07-11 12:00,DanielG,1313Bqto,Local,Vargas con 17,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1683,2026-07-11 12:00,DanielG,1313Bqto,Local,33 con calle 23 y 24,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1684,2026-07-11 12:00,DanielG,1313Bqto,Local,Veragacha,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1685,2026-07-11 12:00,DanielG,1313Bqto,Local,16 con calle 17,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1686,2026-07-11 12:00,DanielG,1313Bqto,Local,19 con Vargas,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1687,2026-07-11 12:00,DanielG,1313Bqto,Local,Luis Gómez López,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1675,2026-11-07 12:00,DanielG,Chalong Detalles,Local,55 con 13A,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1676,2026-11-07 12:00,DanielG,Fresas Delivery Rebeca,Local,Cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1677,2026-11-07 12:00,DanielG,Chalong Case,Local,Cc rio lama,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1678,2026-11-07 12:00,DanielG,Chalong Detalles,Local,Urb la concordia,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1679,2026-11-07 12:00,DanielG,Chalong Detalles,Local,Venezuela con 36,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1680,2026-11-07 12:00,DanielG,Clinivet,Agromascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1681,2026-11-07 12:00,DanielG,Monkey,Compras Panes,Monkey,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1682,2026-11-07 12:00,DanielG,1313Bqto,Local,Vargas con 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1683,2026-11-07 12:00,DanielG,1313Bqto,Local,33 con calle 23 y 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1684,2026-11-07 12:00,DanielG,1313Bqto,Local,Veragacha,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pendiente
+1685,2026-11-07 12:00,DanielG,1313Bqto,Local,16 con calle 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1686,2026-11-07 12:00,DanielG,1313Bqto,Local,19 con Vargas,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1687,2026-11-07 12:00,DanielG,1313Bqto,Local,Luis Gómez López,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1688,2026-08-11 12:00,DanielG,Monkey,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1689,2026-08-11 12:00,DanielG,1313Bqto,Local,16 con 39 y 40,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1690,2026-11-05 12:00,DanielG,1313Bqto,Local,18 entre 22 y 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -1746,7 +1746,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1768,2026-11-08,Alirio,1313Bqto,Local,Urb las colinas,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1769,2026-10-27,Deiby,KingSport Maricela,Centro,Local,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1770,2026-10-27,Deiby,Clinivet,Katerine puré,Clinivet,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1771,2026-07-11 12:00,DanielG,Chalong Case,Local,19 con calle 22,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1771,2026-11-07 12:00,DanielG,Chalong Case,Local,19 con calle 22,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1772,2026-11-03 12:00,DanielG,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1773,2026-11-05 12:00,DanielG,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1774,2026-11-04 12:00,Alirio,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
