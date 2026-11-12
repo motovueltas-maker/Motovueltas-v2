@@ -1762,9 +1762,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1788,2026-10-27 12:00,Deiby,Rep Arteaga Norexi,Arteaga,Carrera 12 con 50 y 51,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1789,2026-10-27 12:00,Deiby,Distribuidora Gpar,Local,Av Florencio Giménez con vereda 1,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1790,2026-10-27 12:00,Deiby,Cliente Eventual,Local,Monterreal,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1791,2026-10-28,Deiby,Monkey,Molino de trigo y la pollera,Local,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1792,2026-10-28,Deiby,Pizzería Nels,Local,24 con 24 y 23,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1793,2026-10-28,Deiby,1313Bqto,Local,Luis Gómez López,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1791,2026-10-28 12:00,Deiby,Monkey,Molino de trigo y la pollera,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1792,2026-10-28 12:00,Deiby,Pizzería Nels,Local,24 con 24 y 23,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+1793,2026-10-28 12:00,Deiby,1313Bqto,Local,Luis Gómez López,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1794,2026-10-29,Deiby,Cliente Eventual,Roditrans,42 con 29,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1795,2026-10-29,Deiby,Greychit Contreras,Residencias Sahara,Local,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1796,2026-10-29,Deiby,Cliente Eventual,Calle 15 con 22 y 23,Insulservi,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
