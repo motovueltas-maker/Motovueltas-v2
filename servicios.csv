@@ -1830,3 +1830,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1856,2026-05-11 12:00,Deiby,1313Bqto,Local,29 con 15 y 16,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1857,2026-05-11 12:00,Deiby,1313Bqto,Local,Urb la concordia,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1858,2026-06-11 12:00,Deiby,1313Bqto,Local,Fundalara,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1859,2026-11-06,Deiby,Monkey,Local,Urb terepaima,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
