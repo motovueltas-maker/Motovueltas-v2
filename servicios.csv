@@ -1824,3 +1824,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1850,2026-11-10,Deiby,1313Bqto,Local,Barrio San Antonio,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1851,2026-10-26 12:00,Deiby,Distribuidora Gpar,40 con 27,Gpar,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1852,2026-10-27 12:00,Deiby,Damaris Altuve,Bararida,Colegio divina pastora,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1853,2026-01-03,Deiby,1313Bqto,Local,19 con 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
