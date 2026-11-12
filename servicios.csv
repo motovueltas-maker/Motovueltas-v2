@@ -1765,10 +1765,10 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1791,2026-10-28 12:00,Deiby,Monkey,Molino de trigo y la pollera,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1792,2026-10-28 12:00,Deiby,Pizzería Nels,Local,24 con 24 y 23,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1793,2026-10-28 12:00,Deiby,1313Bqto,Local,Luis Gómez López,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1794,2026-10-29,Deiby,Cliente Eventual,Roditrans,42 con 29,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1795,2026-10-29,Deiby,Greychit Contreras,Residencias Sahara,Local,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1796,2026-10-29,Deiby,Cliente Eventual,Calle 15 con 22 y 23,Insulservi,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1797,2026-10-29,Deiby,1313Bqto,Local,Metropolitano Javier,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1794,2026-10-29 12:00,Deiby,Distribuidora Gpar,Roditrans,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1795,2026-10-29 12:00,Deiby,Greychit Contreras,Nueva Segovia,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1796,2026-10-29 12:00,Deiby,Harmonia Skarlet,Local,Insuservi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1797,2026-10-29 12:00,Deiby,1313Bqto,Local,Metropolitano Javier,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1798,2026-10-30,Deiby,Fresas Delivery Rebeca,Calle los comangos 27a,Local,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1799,2026-10-30,Deiby,Fresas Delivery Rebeca,Local,Av terepaima urb la vaquita,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1800,2026-10-30,Deiby,Clinivet,Agro mascotas,Local,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
