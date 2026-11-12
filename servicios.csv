@@ -1813,9 +1813,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1839,2026-07-11 12:00,Deiby,Pizzería Nels,Local,42 con 21 y 22,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1840,2026-06-11 12:00,Deiby,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1841,2026-07-11 12:00,Deiby,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1842,2026-11-08,Deiby,1313Bqto,Local,Macuto,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1843,2026-11-08,Deiby,1313Bqto,Local,28 con calle 14 y 15,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1844,2026-11-08,Deiby,Monkey,Local,19 con 24 y 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1842,2026-08-11 12:00,Deiby,1313Bqto,Local,Macuto,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1843,2026-08-11 12:00,Deiby,1313Bqto,Local,28 con calle 14 y 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1844,2026-08-11 12:00,Deiby,Monkey,Local,19 con 24 y 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1845,2026-11-09,Deiby,Chalong Detalles,Local,Av Morán,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1846,2026-11-10,Deiby,Dr David Colmenarez,Local,Laboratorio,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1847,2026-11-10,Deiby,Andrés Escurra,Medetor ferretería,Casa,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
