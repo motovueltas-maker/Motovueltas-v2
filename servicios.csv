@@ -1772,10 +1772,10 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1798,2026-10-30 12:00,Deiby,Fresas Delivery Rebeca,Local,Los Camagos,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1799,2026-10-30 12:00,Deiby,Fresas Delivery Rebeca,Local,La Veguita,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1800,2026-10-30 12:00,Deiby,Clinivet,Agro mascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1801,2026-10-30 12:00,Deiby,Chalong Detalles,Local,Metropolitano Cabudare,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1802,2026-10-30 12:00,Deiby,Chalong Detalles,Local,Carrera 13B con 61 y 62,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1803,2026-10-30 12:00,Deiby,Chalong Detalles,Local,Calle 16 con 24 y 25 santa Elena,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1804,2026-10-30 12:00,Deiby,Candy Cakes Michelle,Local,Carrera 14 con 24 y 25,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1801,2026-10-30 12:00,Deiby,Chalong Detalles,Local,Metropolitano Cabudare,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
+1802,2026-10-30 12:00,Deiby,Chalong Detalles,Local,Carrera 13B con 61 y 62,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+1803,2026-10-30 12:00,Deiby,Chalong Detalles,Local,16 con 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1804,2026-10-30 12:00,Deiby,Candy Cakes Michelle,Local,Carrera 14 con 24 y 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1805,2026-10-30 12:00,Deiby,Monkey,Local,Patarata || residencias roca amazonas,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1806,2026-10-30 12:00,Deiby,Monkey,Local,Comisaria de patapalo,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1807,2026-10-31,Deiby,Pizzería Nels,Local,42 con 22 y 21,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
