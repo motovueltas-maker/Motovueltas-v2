@@ -1635,8 +1635,8 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1653,2026-11-01 12:00,DanielG,Monkey,Local,16 con Vargas,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1654,2026-11-02 12:00,DanielG,1313Bqto,Local,Veragacha,,8.0,70.0,5.6,2.4,Validado,Pendiente,Pendiente
 1655,2026-11-02 12:00,DanielG,1313Bqto,Local,17 con 32,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1656,2026-11-02 12:00,DanielG,Monkey,Local,17 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1657,2026-11-02 12:00,DanielG,Monkey,Local,La auténtica,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1656,2026-02-11 12:00,DanielG,Monkey,Local,17 con 19,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1657,2026-02-11 12:00,DanielG,Monkey,Local,La auténtica,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1658,2026-11-03 12:00,DanielG,Clinivet,Local,Contadora,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1659,2026-11-03 12:00,DanielG,Adrys,Local,Terminal,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1660,2026-11-03 12:00,DanielG,Clinivet,Vidapets,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -1681,9 +1681,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1702,2026-11-02 12:00,Alirio,Harmonia Skarlet,Insuservi,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1703,2026-11-02 12:00,Alirio,Chalong Case,Local,Calle 32 entre 22 y 23,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1704,2026-11-02 12:00,Alirio,1313Bqto,Local,El manzano,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pendiente
-1705,2026-11-02 12:00,Alirio,Monkey,Local,Calle 8 entre 23 y 24,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1706,2026-11-02 12:00,Alirio,Monkey,Local,19 con 8,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1707,2026-11-02 12:00,Alirio,Monkey,Local,Calle 11 entre 21 y 22,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1705,2026-02-11 12:00,Alirio,Monkey,Local,Calle 8 entre 23 y 24,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1706,2026-02-11 12:00,Alirio,Monkey,Local,19 con 8,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1707,2026-02-11 12:00,Alirio,Monkey,Local,Calle 11 entre 21 y 22,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1708,2026-11-02 12:00,Alirio,1313Bqto,Local,Las Mercedes,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1709,2026-11-03 12:00,Alirio,Chalong Detalles,Local,Urb los crepúsculos sector 1,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 1710,2026-11-03 12:00,Alirio,Rori,Local,Parque industrial del oeste,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
@@ -1834,4 +1834,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1860,2026-07-11 12:00,Deiby,Chalong Detalles,Local,Merpolara,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1861,2026-10-31,Esneyder,Monkey,Local,Cuesta Lara,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 1862,2026-10-31,Esneyder,Monkey,Local,19 con 11,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-1863,2026-11-02,Esneyder,Monkey,Local,Calle 3-A,,5.5,100.0,5.5,0.0,Validado,Pendiente,Pendiente
+1863,2026-11-02 12:00,Esneyder,Monkey,Local,Calle 3-A,,5.5,100.0,5.5,0.0,Validado,Pendiente,Pendiente
