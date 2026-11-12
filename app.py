@@ -526,7 +526,7 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
             with col_f2:
                 f_hasta_c = st.date_input("Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", key="f_hasta_corte")
 
-            # Conversión robusta a texto AAAA-MM-DD para comparar limpiamente
+            # Conversión robusta estricta con dayfirst=True
             fechas_str_c = pd.to_datetime(df_cli_all['fecha'], dayfirst=True, errors='coerce').dt.strftime('%Y-%m-%d').fillna(df_cli_all['fecha'].astype(str).str[:10])
 
             if f_desde_c and f_hasta_c:
@@ -541,7 +541,7 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
             def formatear_dd_mm(val):
                 if pd.isna(val) or not str(val).strip() or str(val).lower() == 'none': return ""
                 try:
-                    dt = pd.to_datetime(val, errors='coerce')
+                    dt = pd.to_datetime(val, dayfirst=True, errors='coerce')
                     if pd.notnull(dt): return dt.strftime('%d/%m')
                     parts = str(val)[:10].split('-')
                     if len(parts) == 3: return f"{parts[2]}/{parts[1]}"
@@ -577,11 +577,16 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
                 st.dataframe(pendientes[['id', 'fecha_corta', 'motorizado', 'origen', 'destino', 'precio_cliente', 'estado_cliente']], use_container_width=True)
 
             total_neto = max(0.0, total_deuda - abono_cliente)
+            
+            # Ordenamiento cronológico estricto para el mensaje de WhatsApp
+            pendientes['fecha_dt_ord'] = pd.to_datetime(pendientes['fecha'], dayfirst=True, errors='coerce')
+            pendientes_ordenadas = pendientes.sort_values(by='fecha_dt_ord', ascending=True)
+
             msg_whatsapp = f"🧾 *REPORTE DE CUENTA - MOTOVUELTAS*\nCliente: *{cliente_sel}*\n\n"
-            for f_corta in pendientes['fecha_corta'].unique():
+            for f_corta in pendientes_ordenadas['fecha_corta'].unique():
                 if f_corta:
                     msg_whatsapp += f"📅 *{f_corta}*\n"
-                    for _, r in pendientes[pendientes['fecha_corta'] == f_corta].iterrows():
+                    for _, r in pendientes_ordenadas[pendientes_ordenadas['fecha_corta'] == f_corta].iterrows():
                         msg_whatsapp += f"▪ {r['origen']} ➡️ {r['destino']} = *${float(r['precio_cliente']):.2f}*\n"
                     msg_whatsapp += "\n"
             msg_whatsapp += "───────────────\n"
@@ -664,6 +669,7 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
                             if not idx_orig.empty:
                                 i = idx_orig[0]
                                 fecha_editada = str(row['fecha_real']).strip()
+                                # Preservar el formato real sin inversión de mes/día
                                 if len(fecha_editada) == 10: 
                                     fecha_editada += " 12:00"
                                 df_servicios.at[i, 'fecha'] = fecha_editada
@@ -709,6 +715,7 @@ elif opcion_menu == "Corte Motorizados":
 
         df_mot_serv = df_servicios[(df_servicios['motorizado'].astype(str).str.strip().str.lower() == str(moto_sel).strip().lower())].copy()
         
+        # Conversión estricta con dayfirst=True para motorizados
         fechas_mot_str = pd.to_datetime(df_mot_serv['fecha'], dayfirst=True, errors='coerce').dt.strftime('%Y-%m-%d').fillna(df_mot_serv['fecha'].astype(str).str[:10])
 
         if f_desde_m and f_hasta_m:
@@ -854,14 +861,15 @@ elif opcion_menu == "Corte Motorizados":
                 if not m_info.empty:
                     tel_moto = str(m_info.iloc[0]['telefono']).replace("+", "").replace(" ", "").replace("-", "")
 
-            vueltas_mo['fecha_dt'] = pd.to_datetime(vueltas_mo['fecha'], errors='coerce')
-            vueltas_mo = vueltas_mo.sort_values(by='fecha_dt', ascending=True)
+            # Orden cronológico estricto para motorizados
+            vueltas_mo['fecha_dt'] = pd.to_datetime(vueltas_mo['fecha'], dayfirst=True, errors='coerce')
+            vueltas_mo_ordenadas = vueltas_mo.sort_values(by='fecha_dt', ascending=True)
 
             msg_wa_m = f"🧾 *CORTE DE CUENTA - MOTOVUELTAS*\nMotorizado: *{moto_sel}*\n\n"
-            for f_corta in vueltas_mo['fecha_corta'].unique():
+            for f_corta in vueltas_mo_ordenadas['fecha_corta'].unique():
                 if f_corta:
                     msg_wa_m += f"📅 *{f_corta}*\n"
-                    for _, r in vueltas_mo[vueltas_mo['fecha_corta'] == f_corta].iterrows():
+                    for _, r in vueltas_mo_ordenadas[vueltas_mo_ordenadas['fecha_corta'] == f_corta].iterrows():
                         msg_wa_m += f"▪ {r['origen']} ➡️ {r['destino']} = *${float(r['precio_cliente']):.2f}*\n"
                     msg_wa_m += "\n"
             
