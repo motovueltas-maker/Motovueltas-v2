@@ -1763,7 +1763,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1787,2026-10-27 12:00,Deiby,Harmonia Skarlet,Calle 15 con 22 y 23,Clínica ONG,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1788,2026-10-27 12:00,Deiby,Rep Arteaga Norexi,Arteaga,Carrera 12 con 50 y 51,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1789,2026-10-27 12:00,Deiby,Distribuidora Gpar,Local,Av Florencio Giménez con vereda 1,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1790,2026-10-27 12:00,Deiby,Monkey,Local,Monterreal,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1790,2026-10-27 12:00,Deiby,Cliente Eventual,Local,Monterreal,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1791,2026-10-28,Deiby,Monkey,Molino de trigo y la pollera,Local,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1792,2026-10-28,Deiby,Pizzería Nels,Local,24 con 24 y 23,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1793,2026-10-28,Deiby,1313Bqto,Local,Luis Gómez López,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
