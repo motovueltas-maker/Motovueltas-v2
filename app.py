@@ -42,12 +42,17 @@ def cargar_csv_desde_github(file_path):
         from io import StringIO
         df = pd.read_csv(StringIO(content))
         df.columns = [c.strip().lower() for c in df.columns]
+        # Estandarizar la columna fecha como texto plano AAAA-MM-DD si existe
+        if 'fecha' in df.columns:
+            df['fecha'] = df['fecha'].astype(str).str.strip().str[:10]
         return df, r.json()['sha']
     else:
         return pd.DataFrame(), None
 
 def guardar_csv_en_github(file_path, df, sha_actual, mensaje_commit):
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{file_path}"
+    if 'fecha' in df.columns:
+        df['fecha'] = df['fecha'].astype(str).str.strip().str[:10]
     csv_data = df.to_csv(index=False)
     encoded_content = base64.b64encode(csv_data.encode('utf-8')).decode('utf-8')
     data = {
@@ -410,7 +415,7 @@ elif opcion_menu == "Validar Vueltas":
 
         df_filtrado = df_servicios.copy()
         if f_desde_val or f_hasta_val:
-            fechas_str_val = pd.to_datetime(df_filtrado['fecha'], dayfirst=True, errors='coerce').dt.strftime('%Y-%m-%d').fillna(df_filtrado['fecha'].astype(str).str[:10])
+            fechas_str_val = df_filtrado['fecha'].astype(str).str.strip().str[:10]
             if f_desde_val and f_hasta_val:
                 df_filtrado = df_filtrado[(fechas_str_val >= f_desde_val.strftime('%Y-%m-%d')) & (fechas_str_val <= f_hasta_val.strftime('%Y-%m-%d'))]
             elif f_desde_val:
@@ -526,8 +531,8 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
             with col_f2:
                 f_hasta_c = st.date_input("Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", key="f_hasta_corte")
 
-            # Conversión robusta estricta con dayfirst=True
-            fechas_str_c = pd.to_datetime(df_cli_all['fecha'], dayfirst=True, errors='coerce').dt.strftime('%Y-%m-%d').fillna(df_cli_all['fecha'].astype(str).str[:10])
+            # Extracción segura de la fecha YYYY-MM-DD sin inversión
+            fechas_str_c = df_cli_all['fecha'].astype(str).str.strip().str[:10]
 
             if f_desde_c and f_hasta_c:
                 pendientes = df_cli_all[(fechas_str_c >= f_desde_c.strftime('%Y-%m-%d')) & (fechas_str_c <= f_hasta_c.strftime('%Y-%m-%d'))].copy()
@@ -539,14 +544,11 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
                 pendientes = df_cli_all[df_cli_all['estado_cliente'] == 'Pendiente'].copy()
 
             def formatear_dd_mm(val):
-                if pd.isna(val) or not str(val).strip() or str(val).lower() == 'none': return ""
-                try:
-                    dt = pd.to_datetime(val, dayfirst=True, errors='coerce')
-                    if pd.notnull(dt): return dt.strftime('%d/%m')
-                    parts = str(val)[:10].split('-')
-                    if len(parts) == 3: return f"{parts[2]}/{parts[1]}"
-                    return str(val)[:5]
-                except: return str(val)[:5]
+                s = str(val).strip()[:10]
+                parts = s.split('-')
+                if len(parts) == 3:
+                    return f"{parts[2]}/{parts[1]}"
+                return s
 
             pendientes['fecha_corta'] = pendientes['fecha'].apply(formatear_dd_mm)
             total_deuda = pendientes['precio_cliente'].astype(float).sum()
@@ -578,9 +580,8 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
 
             total_neto = max(0.0, total_deuda - abono_cliente)
             
-            # Ordenamiento cronológico estricto para el mensaje de WhatsApp
-            pendientes['fecha_dt_ord'] = pd.to_datetime(pendientes['fecha'], dayfirst=True, errors='coerce')
-            pendientes_ordenadas = pendientes.sort_values(by='fecha_dt_ord', ascending=True)
+            # Orden cronológico estricto por fecha real
+            pendientes_ordenadas = pendientes.sort_values(by='fecha', ascending=True)
 
             msg_whatsapp = f"🧾 *REPORTE DE CUENTA - MOTOVUELTAS*\nCliente: *{cliente_sel}*\n\n"
             for f_corta in pendientes_ordenadas['fecha_corta'].unique():
@@ -623,7 +624,7 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
                     f_hasta = st.date_input("Fecha Hasta (Opcional):", value=None, format="DD/MM/YYYY", key="fh_tab2")
 
                 df_filtrado = df_servicios.copy()
-                fechas_str_tab2 = pd.to_datetime(df_filtrado['fecha'], dayfirst=True, errors='coerce').dt.strftime('%Y-%m-%d').fillna(df_filtrado['fecha'].astype(str).str[:10])
+                fechas_str_tab2 = df_filtrado['fecha'].astype(str).str.strip().str[:10]
 
                 if f_desde and f_hasta:
                     df_filtrado = df_filtrado[(fechas_str_tab2 >= f_desde.strftime('%Y-%m-%d')) & (fechas_str_tab2 <= f_hasta.strftime('%Y-%m-%d'))]
@@ -637,8 +638,7 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
                 if filtro_mot and filtro_mot != "Todos":
                     df_filtrado = df_filtrado[df_filtrado['motorizado'].astype(str).str.strip().str.lower() == filtro_mot.strip().lower()]
 
-                fechas_dt_tabla = pd.to_datetime(df_filtrado['fecha'], dayfirst=True, errors='coerce')
-                df_filtrado['fecha_real'] = fechas_dt_tabla.dt.strftime('%Y-%m-%d').fillna(df_filtrado['fecha'].astype(str).str.strip().str[:10])
+                df_filtrado['fecha_real'] = df_filtrado['fecha'].astype(str).str.strip().str[:10]
                 df_filtrado['eliminar'] = False
                 st.markdown(f"**Vueltas encontradas:** {len(df_filtrado)}")
 
@@ -646,7 +646,7 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
                     column_config = {
                         "eliminar": st.column_config.CheckboxColumn("🗑️ Borrar", default=False),
                         "id": st.column_config.NumberColumn("ID", disabled=True),
-                        "fecha_real": st.column_config.TextColumn("Fecha (AAAA-MM-DD)", help="Ejemplo: 2026-08-07"),
+                        "fecha_real": st.column_config.TextColumn("Fecha (AAAA-MM-DD)", help="Ejemplo: 2026-11-12"),
                         "cliente": st.column_config.SelectboxColumn("Cliente", options=nom_cli_l, required=True),
                         "motorizado": st.column_config.SelectboxColumn("Motorizado", options=nom_motos_l, required=True),
                         "origen": st.column_config.TextColumn("Desde"),
@@ -668,10 +668,8 @@ elif "Corte Clientes" in opcion_menu or "Cuentas" in opcion_menu:
                             idx_orig = df_servicios[df_servicios['id'] == id_v].index
                             if not idx_orig.empty:
                                 i = idx_orig[0]
-                                fecha_editada = str(row['fecha_real']).strip()
-                                # Preservar el formato real sin inversión de mes/día
-                                if len(fecha_editada) == 10: 
-                                    fecha_editada += " 12:00"
+                                # Guardar estrictamente en formato plano AAAA-MM-DD sin alterar días y meses
+                                fecha_editada = str(row['fecha_real']).strip()[:10]
                                 df_servicios.at[i, 'fecha'] = fecha_editada
                                 df_servicios.at[i, 'cliente'] = row['cliente']
                                 df_servicios.at[i, 'motorizado'] = row['motorizado']
@@ -715,8 +713,7 @@ elif opcion_menu == "Corte Motorizados":
 
         df_mot_serv = df_servicios[(df_servicios['motorizado'].astype(str).str.strip().str.lower() == str(moto_sel).strip().lower())].copy()
         
-        # Conversión estricta con dayfirst=True para motorizados
-        fechas_mot_str = pd.to_datetime(df_mot_serv['fecha'], dayfirst=True, errors='coerce').dt.strftime('%Y-%m-%d').fillna(df_mot_serv['fecha'].astype(str).str[:10])
+        fechas_mot_str = df_mot_serv['fecha'].astype(str).str.strip().str[:10]
 
         if f_desde_m and f_hasta_m:
             df_mot_serv = df_mot_serv[(fechas_mot_str >= f_desde_m.strftime('%Y-%m-%d')) & (fechas_mot_str <= f_hasta_m.strftime('%Y-%m-%d'))]
@@ -733,14 +730,11 @@ elif opcion_menu == "Corte Motorizados":
             vueltas_mo = df_mot_serv.copy()
 
         def formatear_dd_mm(val):
-            if pd.isna(val) or not str(val).strip() or str(val).lower() == 'none': return ""
-            try:
-                dt = pd.to_datetime(val, dayfirst=True, errors='coerce')
-                if pd.notnull(dt): return dt.strftime('%d/%m')
-                parts = str(val)[:10].split('-')
-                if len(parts) == 3: return f"{parts[2]}/{parts[1]}"
-                return str(val)[:5]
-            except: return str(val)[:5]
+            s = str(val).strip()[:10]
+            parts = s.split('-')
+            if len(parts) == 3:
+                return f"{parts[2]}/{parts[1]}"
+            return s
 
         vueltas_mo['fecha_corta'] = vueltas_mo['fecha'].apply(formatear_dd_mm)
         total_comision = vueltas_mo['monto_motorizado'].astype(float).sum()
@@ -773,7 +767,7 @@ elif opcion_menu == "Corte Motorizados":
         df_avances_moto = df_avances[(df_avances['motorizado'].astype(str).str.strip().str.lower() == str(moto_sel).strip().lower())].copy() if not df_avances.empty else pd.DataFrame()
         
         if not df_avances_moto.empty:
-            av_str = pd.to_datetime(df_avances_moto['fecha'], errors='coerce').dt.strftime('%Y-%m-%d').fillna(df_avances_moto['fecha'].astype(str).str[:10])
+            av_str = df_avances_moto['fecha'].astype(str).str.strip().str[:10]
 
             if f_desde_m and f_hasta_m:
                 df_avances_moto = df_avances_moto[(av_str >= f_desde_m.strftime('%Y-%m-%d')) & (av_str <= f_hasta_m.strftime('%Y-%m-%d'))]
@@ -861,9 +855,7 @@ elif opcion_menu == "Corte Motorizados":
                 if not m_info.empty:
                     tel_moto = str(m_info.iloc[0]['telefono']).replace("+", "").replace(" ", "").replace("-", "")
 
-            # Orden cronológico estricto para motorizados
-            vueltas_mo['fecha_dt'] = pd.to_datetime(vueltas_mo['fecha'], dayfirst=True, errors='coerce')
-            vueltas_mo_ordenadas = vueltas_mo.sort_values(by='fecha_dt', ascending=True)
+            vueltas_mo_ordenadas = vueltas_mo.sort_values(by='fecha', ascending=True)
 
             msg_wa_m = f"🧾 *CORTE DE CUENTA - MOTOVUELTAS*\nMotorizado: *{moto_sel}*\n\n"
             for f_corta in vueltas_mo_ordenadas['fecha_corta'].unique():
