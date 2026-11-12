@@ -1800,12 +1800,12 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1826,2026-11-04 12:00,Deiby,1313Bqto,Local,Calle 36 con 18 y 19,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1827,2026-05-11 12:00,Deiby,Monkey,Local,Cottolengo don orione,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1828,2026-05-11 12:00,Deiby,1313Bqto,Local,Calle 44 entre 17 y 18,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-1829,2026-06-11 12:00,Deiby,Fresas Delivery Rebeca,Local,Pedregal Maria,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1830,2026-06-11 12:00,Deiby,Fresas Delivery Rebeca,Local,Terepaima,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1831,2026-06-11 12:00,Deiby,Fresas Delivery Rebeca,Local,Urb Pedregal jardin Marie Claire,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1832,2026-06-11 12:00,Deiby,Fresas Delivery Rebeca,Local,"Urba Pedregal, Resid cantalicia",,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1833,2026-06-11 12:00,Deiby,Monkey,Local,Av Simón Rodríguez con 30,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1834,2026-06-11 12:00,Deiby,Monkey,Local,Av 20 con 28 y 29,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1829,2026-11-06 12:00,Deiby,Fresas Delivery Rebeca,Local,Los Camagos,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1830,2026-11-06 12:00,Deiby,Fresas Delivery Rebeca,Local,La Veguita,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1831,2026-11-06 12:00,Deiby,Fresas Delivery Rebeca,Local,Marie Claire,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1832,2026-11-06 12:00,Deiby,Fresas Delivery Rebeca,Local,Cantalicia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1833,2026-11-06 12:00,Deiby,Monkey,Local,Av Simón Rodríguez con 30,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1834,2026-11-06 12:00,Deiby,Monkey,Local,Av 20 con 28 y 29,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1835,2026-11-06 12:00,Deiby,Monkey,Local,Garabatal,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1836,2026-11-07,Deiby,Clinivet,Local,8 con 24 y 25,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 1837,2026-11-07,Deiby,KingSport Maricela,Este,15 con 21,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
