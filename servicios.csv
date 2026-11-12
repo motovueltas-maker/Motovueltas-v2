@@ -1840,4 +1840,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1866,2026-11-09,Esneyder,Monkey,Local,13 con 28,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 1867,2026-11-10,Esneyder,Monkey,Local,Calle 17 con 17,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
 1868,2026-11-11,Esneyder,Monkey,Local,Merpolara,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-1869,2026-11-12,Esneyder,Monkey,Local,Barquicenter,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
+1869,2026-11-12,DanielG,Monkey,Local,Barquicenter,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
