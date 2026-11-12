@@ -1591,7 +1591,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1608,2026-10-30 12:00,Alirio,Monkey,Compra Sanareños,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1609,2026-10-30 12:00,Alirio,Chalong Case,Local,Ciudad Roca,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1610,2026-10-30 12:00,Alirio,Monkey,Local,17 con 27,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1611,2026-10-30 12:00,Alirio,Monkey,Local,Santa Isabel,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
+1611,2026-10-30 12:00,Alirio,Monkey,Local,cc cristal,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
 1612,2026-10-30 12:00,Alirio,Cliente Eventual,Calle 12,Ribereña,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1613,2026-10-30 12:00,Alirio,Monkey,Compras Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1614,2026-10-30 12:00,Alirio,Monkey,Local,Cuesta Lara,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
@@ -1749,7 +1749,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1773,2026-11-05 12:00,DanielG,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1774,2026-11-04 12:00,Alirio,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1775,2026-11-03,Alirio,1313Bqto,Local,14 con carrera 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1776,2026-10-30,DanielG,Monkey,Local,18 con 26,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1776,2026-10-30 12:00,DanielG,Monkey,Local,18 con 26,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1777,2026-11-08 12:00,DanielG,1313Bqto,Local,30 con23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1778,2026-11-08 12:00,DanielG,1313Bqto,Local,Vzla con 41,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1779,2026-11-08 12:00,DanielG,Monkey,Compra Pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
