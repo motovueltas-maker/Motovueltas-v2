@@ -1876,3 +1876,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1902,2026-11-09,Alirio,Chalong Case,Local,Sotavento,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1903,2026-11-09,Alirio,Chalong Detalles,Local,Ruiz Pineda,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1904,2026-11-09,Alirio,Freddy Camejo,Colegio Rio Claro,MRW,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+1905,2026-11-09,Alirio,Cliente Eventual,Merpolara,1313,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
