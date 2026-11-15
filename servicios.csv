@@ -1604,7 +1604,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1623,2026-10-29,DanielG,Monkey,Local,19 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1624,2026-10-29,DanielG,Adrys,Local,Venezuela con 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1625,2026-10-30,DanielG,Marianelin Carrasco Contadora,Local,Calle 48 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1626,2026-10-30,DanielG,Fresas Delivery Rebeca,Local,Clínica adventista,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1626,2026-10-30,DanielG,Fresas Delivery Rebeca,Local,Clin Adventista (Bonellys),,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1627,2026-10-30,DanielG,KingSport Maricela,Centro,Cabudare,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 1628,2026-10-30,DanielG,Chalong Detalles,Local,Cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1629,2026-10-30,DanielG,Monkey,Local,31 con 18,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
@@ -1767,8 +1767,8 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1795,2026-10-29,Deiby,Greychit Contreras,Nueva Segovia,Local,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1796,2026-10-29,Deiby,Harmonia Skarlet,Local,Insuservi,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1797,2026-10-29,Deiby,1313Bqto,Local,Metropolitano Javier,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-1798,2026-10-30,Deiby,Fresas Delivery Rebeca,Local,Los Camagos,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1799,2026-10-30,Deiby,Fresas Delivery Rebeca,Local,La Veguita,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1798,2026-10-30,Deiby,Fresas Delivery Rebeca,Local,Los Camagos (Adami),,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1799,2026-10-30,Deiby,Fresas Delivery Rebeca,Local,La Veguita (Claudia),,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1800,2026-10-30,Deiby,Clinivet,Agro mascotas,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1801,2026-10-30,Deiby,Chalong Detalles,Local,Metropolitano Cabudare,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 1802,2026-10-30,Deiby,Chalong Detalles,Local,Carrera 13B con 61 y 62,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
@@ -1924,7 +1924,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1955,2026-11-14,Alirio,1313Bqto,Local,17 con 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1956,2026-11-14,Alirio,1313Bqto,Local,Edif Gloria,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1957,2026-11-14,Alirio,1313Bqto,Local,Transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1958,2026-10-30,Esneyder,Fresas Delivery Rebeca,Local,Ascardio,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+1958,2026-10-30,Esneyder,Fresas Delivery Rebeca,Local,Ascardio (Raquel),,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1959,2026-11-06,Esneyder,Fresas Delivery Rebeca,Local,Los Camagos (Adami),,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 1960,2026-11-06,Esneyder,Fresas Delivery Rebeca,Local,La Veguita (Claudia),,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 1961,2026-11-06,Esneyder,Fresas Delivery Rebeca,Local,Marie Claire (Celene),,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
