@@ -1887,3 +1887,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1913,2026-11-10,Alirio,1313Bqto,Local,Cabudare,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
 1914,2026-11-10,Alirio,Cliente Eventual,Valle Hondo,Calle 13,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 1915,2026-11-11,Alirio,Monkey,Local,Merpolara,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1916,2026-11-11,Alirio,Chalong Case,Local,Universidad Simon R,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
