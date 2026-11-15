@@ -1907,3 +1907,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1933,2026-11-13,Alirio,Fresas Delivery Rebeca,Local,Ciudad Roca,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 1934,2026-11-13,Alirio,Fresas Delivery Rebeca,Local,Calle 40 con Vzla,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1935,2026-11-13,Alirio,Greychit Contreras,Ida y Vuelta,35 con 13,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1936,2026-11-13,Alirio,Monkey,Local,Cuesta Lara,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
