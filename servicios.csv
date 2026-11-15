@@ -1732,14 +1732,14 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1754,2026-11-07,Alirio,Monkey,Local,42 con 32A,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 1755,2026-11-07,Alirio,Monkey,Local,18 entre 28 y 29,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1756,2026-11-08,Alirio,Cliente Eventual,Local,28 con 20,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1757,2026-11-08,Alirio,Cliente Eventual,Villas de yacural,Ujano,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1757,2026-11-08,Alirio,Cliente Eventual,Villas de yacural,Ujano,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1758,2026-11-08,Alirio,Monkey,Local,18 con 24,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1759,2026-11-08,Alirio,Monkey,Local,Carrera 21A con 9,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-1760,2026-11-08,Alirio,Monkey,Casa de el pollo,Monkey,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1761,2026-11-08,Alirio,Pizzería Nels,Local,42 con calle 21 y 22,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1760,2026-11-08,Alirio,Monkey,Casa de el pollo,Monkey,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+1761,2026-11-08,Alirio,Pizzería Nels,Local,42 con calle 21 y 22,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1762,2026-11-08,Alirio,1313Bqto,Local,Calle 35 entre 27 y 28,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1763,2026-11-08,Alirio,1313Bqto,Local,17 entre 57 y 57A,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-1764,2026-11-08,Alirio,Pizzería Nels,Local,Av 20 con C.30,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1763,2026-11-08,Alirio,1313Bqto,Local,17 entre 57 y 57A,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+1764,2026-11-08,Alirio,Pizzería Nels,Local,Av 20 con C.30,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 1765,2026-11-08,Alirio,1313Bqto,Local,37 con carrera 17,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1766,2026-11-08,Alirio,1313Bqto,Local,Calle 15 con 21 y 22,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1767,2026-11-08,Alirio,Monkey,Local,Santa Elena,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
