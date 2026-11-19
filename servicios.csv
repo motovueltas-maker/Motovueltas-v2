@@ -1997,7 +1997,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2038,2026-11-13,DanielG,Chalong Case,Local,19 con 24,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 2039,2026-11-13,DanielG,Candy Cakes Michelle,Local,yacural,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 2040,2026-11-13,DanielG,Dhamilet Ramírez,Charcuteria San Miguel,14 con 18,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2041,2026-11-13,DanielG,Monkey,casa del pollo,Local,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2041,2026-11-13,DanielG,Monkey,casa del pollo,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2042,2026-11-13,DanielG,Monkey,Local,Urb bararida,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2043,2026-11-13,DanielG,Monkey,Local,Andres bello con 32 y 33,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2044,2026-11-13,DanielG,Monkey,Local,nueva segovia,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
