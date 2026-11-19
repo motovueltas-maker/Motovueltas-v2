@@ -1932,8 +1932,8 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1971,2026-11-13,Esneyder,Fresas Delivery Rebeca,Local,La Veguita (Claudia(,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 1972,2026-11-12,Esneyder,Monkey,Local,el malecon,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1973,2026-11-12,DanielG,Monkey,Local,ruezga norte,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-1974,2026-11-13,Esneyder,Monkey,Local,19 con 16,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
-1975,2026-11-13,Esneyder,Monkey,Local,19 c0n 16 y 17,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+1974,2026-11-13,DanielG,Monkey,Local,19 con 16,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
+1975,2026-11-13,DanielG,Monkey,Local,19 c0n 16 y 17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 1976,2026-11-13,Esneyder,Monkey,Local,fundalara,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 1977,2026-11-13,Esneyder,Monkey,Local,c. naricual,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 1978,2026-11-13,Esneyder,Monkey,Local,cuesta lara,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
@@ -1962,7 +1962,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2003,2026-11-12,DanielG,Chalong Detalles,Local,delegacion municipal de san juan,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 2004,2026-11-12,DanielG,Chalong Detalles,Local,estacion de servicio san luis,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 2005,2026-11-12,DanielG,Chalong Detalles,Local,Residencias arca del norte,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2006,2026-11-13,Esneyder,Chalong Detalles,Local,Av. los Leones Edif Inter,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
+2006,2026-11-13,DanielG,Chalong Detalles,Local,Av. los Leones Edif Inter,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 2007,2026-11-13,Esneyder,Chalong Detalles,Local,Los Leones (diagonal a torre mileniun,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 2008,2026-11-13,Esneyder,Chalong Detalles,Local,Campo de Basseball fundalara,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 2009,2026-11-16,Esneyder,Chalong Detalles,Local,farmacelina san benito,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
