@@ -1968,7 +1968,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2010,2026-11-16,Esneyder,Chalong Detalles,Local,22 con 26,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 2011,2026-11-16,Alirio,Chalong Detalles,Local,Av vnzl con leones,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 2012,2026-11-16,Esneyder,Chalong Detalles,Local,Arca 24,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
-2013,2026-11-17,DanielG,Chalong Detalles,Local,Torre finaciera,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2013,2026-11-17,DanielG,Chalong Detalles,Local,Torre finaciera,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 2014,2026-11-17,Esneyder,Chalong Detalles,Local,Polideportivo,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 2015,2026-11-17,Esneyder,Chalong Detalles,Local,Resd Parque Jardin,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 2016,2026-11-09,DanielG,Monkey,Local,12 con 15,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -2041,16 +2041,16 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2083,2026-11-16,DanielG,1313Bqto,Local,cale 41 con 12,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2084,2026-11-16,DanielG,1313Bqto,Local,ribereña,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 2085,2026-11-16,DanielG,1313Bqto,Local,27 con 30,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-2086,2026-11-17,DanielG,Clinivet,Agromascotas,local,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2086,2026-11-17,DanielG,Clinivet,Agromascotas,local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2087,2026-11-17,DanielG,KingSport Maricela,centro,Vnzl con 32 y 33,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 2089,2026-11-17,DanielG,Cliente Eventual,Inter 19 con 12,Inter Cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 2090,2026-11-17,DanielG,Monkey,Local,Garabatal,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-2091,2026-11-17,DanielG,Candy Cakes Michelle,Local,Vecemos,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2091,2026-11-17,DanielG,Candy Cakes Michelle,Local,juan sanchez,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 2092,2026-11-17,DanielG,1313Bqto,Local,15 con 30,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2093,2026-11-17,DanielG,1313Bqto,Local,hospital central,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2094,2026-11-17,DanielG,Cliente Eventual,Sambil,Hospital central,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2095,2026-11-17,DanielG,1313Bqto,Local,pualina,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2096,2026-11-17,DanielG,1313Bqto,Local,callejon 12b,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2096,2026-11-17,DanielG,1313Bqto,Local,callejon 12b,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 2097,2026-11-13,DanielG,1313Bqto,Local,transporte de Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2098,2026-11-09,DanielG,1313Bqto,Local,transporte,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2099,2026-11-09,Deiby,Chalong Case,Local,colinas del viento,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
