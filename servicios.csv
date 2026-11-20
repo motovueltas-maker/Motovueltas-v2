@@ -1975,11 +1975,11 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2017,2026-11-09,DanielG,1313Bqto,Local,15 con 31,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2018,2026-11-09,DanielG,1313Bqto,Local,18 con 15,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2019,2026-11-09,DanielG,Monkey,Local,28 con 13,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-2020,2026-11-10,DanielG,Adrys,Local,22 con 36,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2021,2026-11-10,DanielG,Monkey,casa del pollo,monkey,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2022,2026-11-10,DanielG,Angeles Guanipa,ribereña,valle hondo 1313,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2023,2026-11-10,DanielG,1313Bqto,Local,18 con 24,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2024,2026-11-10,DanielG,Cliente Eventual,countri clud,Ricidencias Mariclear,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2020,2026-11-10,DanielG,Adrys,Local,22 con 36,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+2021,2026-11-10,DanielG,Monkey,casa del pollo,monkey,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+2022,2026-11-10,DanielG,Angeles Guanipa,ribereña,valle hondo 1313,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+2023,2026-11-10,DanielG,1313Bqto,Local,18 con 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+2024,2026-11-10,DanielG,Cliente Eventual,countri clud,Ricidencias Mariclear,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 2025,2026-11-10,DanielG,1313Bqto,Local,Hospital central,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2026,2026-11-11,DanielG,1313Bqto,Local,concordia,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 2027,2026-11-11,DanielG,1313Bqto,Local,14 con 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
