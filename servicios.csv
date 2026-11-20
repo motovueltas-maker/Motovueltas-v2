@@ -1854,7 +1854,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1890,2026-11-06,Esneyder,Chalong Case,Local,Garege chilling,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 1891,2026-11-09,Esneyder,Chalong Case,Local,Rsd sotavento,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 1893,2026-11-11,Esneyder,Chalong Case,Local,Ucla de la 8,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
-1894,2026-11-12,DanielG,Chalong Case,Local,Av 20 con 29,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1894,2026-11-12,DanielG,Chalong Case,Local,Av 20 con 29,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1895,2026-11-12,Esneyder,Chalong Case,Local,Gastro bar (Flor de Vnzl),,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 1896,2026-11-12,Esneyder,Chalong Case,Local,Av Lara cc del este,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 1897,2026-11-13,Ray,Clinivet,Agromascotas,Local,,2.0,66.66,1.33,0.67,Validado,Pendiente,Pendiente
@@ -1958,9 +1958,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2000,2026-07-30,Esneyder,Greychit Contreras,coquetas Av 20 con 40,Local,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 2001,2026-08-01,Esneyder,Greychit Contreras,Dr Rizzoto ( Ujano),Local,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 2002,2026-11-07,Esneyder,Chalong Detalles,Local,18 con vargas (merpolara),,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
-2003,2026-11-12,DanielG,Chalong Detalles,Local,delegacion municipal de san juan,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2004,2026-11-12,DanielG,Chalong Detalles,Local,estacion de servicio san luis,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2005,2026-11-12,DanielG,Chalong Detalles,Local,Residencias arca del norte,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2003,2026-11-12,DanielG,Chalong Detalles,Local,delegacion municipal de san juan,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+2004,2026-11-12,DanielG,Chalong Detalles,Local,estacion de servicio san luis,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+2005,2026-11-12,DanielG,Chalong Detalles,Local,Residencias arca del norte,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2006,2026-11-13,DanielG,Chalong Detalles,Local,Av. los Leones Edif Inter,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 2007,2026-11-13,DanielG,Chalong Detalles,Local,Los Leones (diagonal a torre mileniun,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 2008,2026-11-13,Esneyder,Chalong Detalles,Local,Campo de Basseball fundalara,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
@@ -1985,11 +1985,11 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2027,2026-11-11,DanielG,1313Bqto,Local,14 con 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 2028,2026-11-11,DanielG,1313Bqto,Local,san benito,,3.6,70.0,2.52,1.08,Validado,Pendiente,Pendiente
 2029,2026-11-11,DanielG,1313Bqto,Local,Barrio union 3 con 3 y 4,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-2030,2026-11-12,DanielG,Cliente Eventual,15 con 23,Insulservi 34 con 25,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2031,2026-11-12,DanielG,Rep Arteaga Norexi,19 con 38,Arteaga,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2032,2026-11-12,DanielG,Cliente Eventual,Frigorifico Santa Elena,Av. Uruguay,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2033,2026-11-12,DanielG,Pizzería Nels,Local,27 con 25,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2034,2026-11-12,DanielG,Cliente Eventual,1313,las mercedes Cbdr,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2030,2026-11-12,DanielG,Harmonia Skarlet,15 con 23,Insulservi 34 con 25,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+2031,2026-11-12,DanielG,Rep Arteaga Norexi,,Arteaga,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+2032,2026-11-12,DanielG,Cliente Eventual,Frigorifico Santa Elena,Av. Uruguay,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+2033,2026-11-12,DanielG,Pizzería Nels,Local,27 con 25,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+2034,2026-11-12,DanielG,1313Bqto,1313,las mercedes Cbdr,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 2035,2026-11-12,DanielG,Monkey,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2036,2026-11-13,DanielG,Adrys,Local,17 con 12 barrio la feria,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 2037,2026-11-13,DanielG,Chalong Case,Local,19 con 11,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
