@@ -2064,10 +2064,10 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2107,2026-11-12,Deiby,1313Bqto,Local,Torres de Arca,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2108,2026-11-12,Deiby,1313Bqto,Local,C. El Saman,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2109,2026-11-12,Deiby,1313Bqto,Local,transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2110,2026-11-13,Deiby,Cliente Eventual,cerrajones,Urb Villa Campestre Este,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2110,2026-11-13,Deiby,Cliente Eventual,cerrajones,Urb Villa Campestre Este,,8.0,70.0,5.6,2.4,Validado,Pendiente,Pendiente
 2111,2026-11-13,Deiby,1313Bqto,Local,parque del este,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2112,2026-11-13,Deiby,Chalong Case,Local,15 con 23,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2113,2026-11-13,Deiby,Chalong Case,Local,Vargas con 21 y 17,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2112,2026-11-13,Deiby,Chalong Case,Local,15 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+2113,2026-11-13,Deiby,Chalong Case,Local,Vargas con 21 y 17,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2114,2026-11-13,Deiby,Monkey,Local,Urb los Apamantes,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 2115,2026-11-13,Deiby,1313Bqto,Local,C. Los Pinos,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2116,2026-11-13,Deiby,Monkey,Local,parrila,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
