@@ -2115,3 +2115,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2159,2026-11-22,Deiby,1313Bqto,Local,barrio san antonio,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
 2160,2026-11-22,Deiby,Angeles Guanipa,barrio union,la 13,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 2161,2026-11-20,Deiby,1313Bqto,Local,transpoe\,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2162,2026-11-20,Deiby,1313Bqto,Local,transporte diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
