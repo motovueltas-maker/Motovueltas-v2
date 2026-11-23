@@ -2154,3 +2154,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2198,2026-11-15,Alirio,Monkey,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2199,2026-11-15,Alirio,Pizzería Nels,Local,Andres bello con 28,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 2200,2026-11-15,Alirio,Pizzería Nels,Local,bonbona 23 de enero,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2201,2026-11-15,Alirio,Pizzería Nels,pollera,Local,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
