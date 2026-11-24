@@ -1846,12 +1846,11 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1883,2026-11-11,Esneyder,Chalong Detalles,Local,Concesionario Jack,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
 1884,2026-11-11,Esneyder,Chalong Detalles,Local,Colinas de santa Elena,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 1885,2026-11-11,DanielG,Chalong Detalles,Local,Plaza de los abuelos,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-1886,2026-10-30,Esneyder,Chalong Case,Local,Av Francia (Urb santa Elena),,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
-1887,2026-10-31,Esneyder,Chalong Case,Local,Cc rio lama,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
-1888,2026-11-04,Esneyder,Chalong Case,Local,Dorado market,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
-1889,2026-11-05,Esneyder,Chalong Case,Local,Urb ciudad roca,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
-1890,2026-11-06,Esneyder,Chalong Case,Local,Garege chilling,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
-1891,2026-11-09,Esneyder,Chalong Case,Local,Rsd sotavento,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
+1886,2026-10-30,Esneyder,Chalong Case,Local,Av Francia (Urb santa Elena),,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
+1887,2026-10-31,Esneyder,Chalong Case,Local,Cc rio lama,,1.0,100.0,1.0,0.0,Validado,Pendiente,Pendiente
+1888,2026-11-04,Esneyder,Chalong Case,Local,Dorado market,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
+1889,2026-11-05,Esneyder,Chalong Case,Local,Urb ciudad roca,,3.0,100.0,3.0,0.0,Validado,Pendiente,Pendiente
+1890,2026-11-06,Esneyder,Chalong Case,Local,Garege chilling,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
 1893,2026-11-11,Esneyder,Chalong Case,Local,Ucla de la 8,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 1894,2026-11-12,DanielG,Chalong Case,Local,Av 20 con 29,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 1895,2026-11-12,Esneyder,Chalong Case,Local,Gastro bar (Flor de Vnzl),,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
