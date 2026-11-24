@@ -1950,7 +1950,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1996,2026-11-10,Esneyder,Monkey,Local,casa del pollo,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 1997,2026-11-14,sebastian,Monkey,Local,casa del pollo,,2.0,30.0,0.6,1.4,Validado,Pendiente,Pendiente
 1998,2026-10-26,Esneyder,Distribuidora Gpar,Gpar,arichuna,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
-1999,2026-11-16,Alirio,Distribuidora Gpar,tealca,gpar,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+1999,2026-11-16,Alirio,Distribuidora Gpar,tealca,gpar,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2000,2026-07-30,Esneyder,Greychit Contreras,coquetas Av 20 con 40,Local,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 2001,2026-08-01,Esneyder,Greychit Contreras,Dr Rizzoto ( Ujano),Local,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 2002,2026-11-07,Esneyder,Chalong Detalles,Local,18 con vargas (merpolara),,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
@@ -1960,9 +1960,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2006,2026-11-13,DanielG,Chalong Detalles,Local,Av. los Leones Edif Inter,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 2007,2026-11-13,DanielG,Chalong Detalles,Local,Los Leones (diagonal a torre mileniun,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 2008,2026-11-13,Esneyder,Chalong Detalles,Local,Campo de Basseball fundalara,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
-2009,2026-11-16,Alirio,Chalong Detalles,Local,farmacelina san benito,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2010,2026-11-16,Alirio,Chalong Detalles,Local,22 con 26,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2011,2026-11-16,Alirio,Chalong Detalles,Local,Av vnzl con leones,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2009,2026-11-16,Alirio,Chalong Detalles,Local,farmacelina san benito,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
+2010,2026-11-16,Alirio,Chalong Detalles,Local,22 con 26,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+2011,2026-11-16,Alirio,Chalong Detalles,Local,Av vnzl con leones,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2012,2026-11-16,Esneyder,Chalong Detalles,Local,Arca 24,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 2013,2026-11-17,DanielG,Chalong Detalles,Local,Torre finaciera,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 2014,2026-11-17,Esneyder,Chalong Detalles,Local,Polideportivo,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
@@ -2147,9 +2147,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2196,2026-11-15,Alirio,1313Bqto,Local,24 con 36,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2197,2026-11-15,Alirio,Monkey,Local,Pedragal,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
 2198,2026-11-15,Alirio,Monkey,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2199,2026-11-15,Alirio,Pizzería Nels,Local,Andres bello con 28,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2200,2026-11-15,Alirio,Pizzería Nels,Local,bonbona 23 de enero,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2201,2026-11-15,Alirio,Pizzería Nels,pollera,Local,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2199,2026-11-15,Alirio,Pizzería Nels,Local,Andres bello con 28,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+2200,2026-11-15,Alirio,Monkey,Local,bonbona 23 de enero,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+2201,2026-11-15,Alirio,Monkey,pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 2202,2026-11-15,Alirio,1313Bqto,Local,30 c0n 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2203,2026-11-15,Alirio,1313Bqto,Local,C.17 con 24,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 2204,2026-11-15,Alirio,Monkey,Local,17 con 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
