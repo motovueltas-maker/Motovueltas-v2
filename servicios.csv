@@ -1842,9 +1842,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1877,2026-11-02,Esneyder,Clinivet,Katerine pire,Local,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 1878,2026-11-10,Esneyder,Clinivet,Lisbeth,Local,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 1880,2026-11-09,Esneyder,Chalong Detalles,Local,Av Florencio Giménez (Vereda 5),,4.0,100.0,4.0,0.0,Validado,Pendiente,Pendiente
-1882,2026-11-11,Esneyder,Chalong Detalles,Local,Universidad Simón Rodríguez,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
-1883,2026-11-11,Esneyder,Chalong Detalles,Local,Concesionario Jack,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
-1884,2026-11-11,Esneyder,Chalong Detalles,Local,Colinas de santa Elena,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
+1882,2026-11-11,Esneyder,Chalong Detalles,Local,Universidad Simón Rodríguez,,1.5,100.0,1.5,0.0,Validado,Pendiente,Pendiente
+1883,2026-11-11,Esneyder,Chalong Detalles,Local,Concesionario Jack,,2.0,100.0,2.0,0.0,Validado,Pendiente,Pendiente
+1884,2026-11-11,Esneyder,Chalong Detalles,Local,Colinas de santa Elena,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 1885,2026-11-11,DanielG,Chalong Detalles,Local,Plaza de los abuelos,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 1886,2026-10-30,Esneyder,Chalong Case,Local,Av Francia (Urb santa Elena),,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
 1887,2026-10-31,Esneyder,Chalong Case,Local,Cc rio lama,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
