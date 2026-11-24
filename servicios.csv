@@ -2092,13 +2092,13 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2139,2026-11-18,Deiby,1313Bqto,Local,40 con 19,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2140,2026-11-17,Deiby,1313Bqto,Local,transporte Diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2141,2026-11-15,Esneyder,Monkey,molino de trigo,Local,,14.57,100.0,14.57,0.0,Validado,Pendiente,Pendiente
-2142,2026-11-19,Deiby,Chalong Case,Local,Zoom,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2143,2026-11-19,Deiby,Cliente Eventual,Local,Zona industrial ||,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2142,2026-11-19,Deiby,Chalong Case,Local,Zoom,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
+2143,2026-11-19,Deiby,Cliente Eventual,Local,Zona industrial ||,,6.0,70.0,4.2,1.8,Validado,Pendiente,Pendiente
 2144,2026-11-19,Deiby,1313Bqto,Local,18 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2145,2026-11-20,Deiby,Fresas Delivery Rebeca,Local,ciudad roca,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2146,2026-11-20,Deiby,Fresas Delivery Rebeca,Local,Villa del este 2,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2147,2026-11-20,Deiby,Fresas Delivery Rebeca,Local,Urb  Ciudad roca casa 10,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2148,2026-11-20,Deiby,Fresas Delivery Rebeca,Local,colinas de la rosaleda,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2145,2026-11-20,Deiby,Fresas Delivery Rebeca,Local,ciudad roca,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+2146,2026-11-20,Deiby,Fresas Delivery Rebeca,Local,Villa del este 2,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
+2147,2026-11-20,Deiby,Fresas Delivery Rebeca,Local,Urb  Ciudad roca casa 10,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+2148,2026-11-20,Deiby,Fresas Delivery Rebeca,Local,colinas de la rosaleda,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
 2149,2026-11-20,Deiby,1313Bqto,Local,C.c Sambil,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2150,2026-11-20,Deiby,1313Bqto,Local,Cruz Blanca,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 2151,2026-11-20,Deiby,1313Bqto,Local,vargas con 23,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
@@ -2109,10 +2109,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2157,2026-11-21,Deiby,1313Bqto,Local,la 12,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
 2158,2026-11-21,Deiby,1313Bqto,Local,cabudare,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
 2159,2026-11-22,Deiby,1313Bqto,Local,barrio san antonio,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-2160,2026-11-22,Deiby,Angeles Guanipa,barrio union,la 13,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
-2161,2026-11-20,Deiby,1313Bqto,Local,transpoe\,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2160,2026-11-22,Deiby,Angeles Guanipa,barrio union,la 13,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+2161,2026-11-20,Deiby,1313Bqto,Local,transpoe\,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2162,2026-11-20,Deiby,1313Bqto,Local,transporte diana,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2163,2026-11-18,Deiby,Chalong Case,Local,Rsd JK,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 2164,2026-11-18,DanielG,1313Bqto,Local,21 con 30,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2165,2026-11-18,DanielG,1313Bqto,Local,20 con 17,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
 2166,2026-11-18,DanielG,1313Bqto,Local,12 con riberena,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
