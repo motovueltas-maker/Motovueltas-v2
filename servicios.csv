@@ -1948,7 +1948,7 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 1996,2026-11-10,sebastian,Monkey,Local,casa del pollo,,2.5,30.0,0.75,1.75,Validado,Pendiente,Pendiente
 1997,2026-11-14,sebastian,Monkey,Local,casa del pollo,,2.0,30.0,0.6,1.4,Validado,Pendiente,Pendiente
 1998,2026-10-26,Esneyder,Distribuidora Gpar,Gpar,arichuna,,0.0,100.0,0.0,0.0,Validado,Pendiente,Pendiente
-1999,2026-11-16,Alirio,Distribuidora Gpar,tealca,gpar,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+1999,2026-11-16,Alirio,Distribuidora Gpar,tealca,gpar,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 2000,2026-07-30,Esneyder,Greychit Contreras,coquetas Av 20 con 40,Local,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 2001,2026-08-01,Esneyder,Greychit Contreras,Dr Rizzoto ( Ujano),Local,,4.5,100.0,4.5,0.0,Validado,Pendiente,Pendiente
 2002,2026-11-07,Esneyder,Chalong Detalles,Local,18 con vargas (merpolara),,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
@@ -1958,9 +1958,9 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2006,2026-11-13,DanielG,Chalong Detalles,Local,Av. los Leones Edif Inter,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pagado
 2007,2026-11-13,DanielG,Chalong Detalles,Local,Los Leones (diagonal a torre mileniun,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
 2008,2026-11-13,sebastian,Chalong Detalles,Local,Campo de Basseball fundalara,,2.0,30.0,0.6,1.4,Validado,Pendiente,Pendiente
-2009,2026-11-16,Alirio,Chalong Detalles,Local,farmacelina san benito,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-2010,2026-11-16,Alirio,Chalong Detalles,Local,22 con 26,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-2011,2026-11-16,Alirio,Chalong Detalles,Local,Av vnzl con leones,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+2009,2026-11-16,Alirio,Chalong Detalles,Local,farmacelina san benito,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pagado
+2010,2026-11-16,Alirio,Chalong Detalles,Local,22 con 26,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+2011,2026-11-16,Alirio,Chalong Detalles,Local,Av vnzl con leones,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 2012,2026-11-16,Esneyder,Chalong Detalles,Local,Arca 24,,2.5,100.0,2.5,0.0,Validado,Pendiente,Pendiente
 2013,2026-11-17,DanielG,Chalong Detalles,Local,Torre finaciera,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pagado
 2014,2026-11-17,sebastian,Chalong Detalles,Local,Polideportivo,,2.5,30.0,0.75,1.75,Validado,Pendiente,Pendiente
@@ -2142,63 +2142,63 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2193,2026-11-22,DanielG,1313Bqto,Local,18 con 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 2194,2026-11-22,DanielG,1313Bqto,Local,funfadora,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 2195,2026-11-22,DanielG,1313Bqto,Local,17,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
-2196,2026-11-15,Alirio,1313Bqto,Local,24 con 36,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2197,2026-11-15,Alirio,Monkey,Local,Pedragal,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-2198,2026-11-15,Alirio,Monkey,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2199,2026-11-15,Alirio,Pizzería Nels,Local,Andres bello con 28,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-2200,2026-11-15,Alirio,Monkey,Local,bonbona 23 de enero,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2201,2026-11-15,Alirio,Monkey,pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2202,2026-11-15,Alirio,1313Bqto,Local,30 c0n 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2203,2026-11-15,Alirio,1313Bqto,Local,C.17 con 24,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2204,2026-11-15,Alirio,Monkey,Local,17 con 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2205,2026-11-15,Alirio,1313Bqto,pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2206,2026-11-15,Alirio,Monkey,Local,27 con 30,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2207,2026-11-15,Alirio,1313Bqto,Local,Luis Gomez Lopez,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2208,2026-11-16,Alirio,Chalong Case,Local,Asia center,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-2209,2026-11-16,Alirio,Distribuidora Gpar,Tealca,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2210,2026-11-16,Alirio,Distribuidora Gpar,18 con 36,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
+2196,2026-11-15,Alirio,1313Bqto,Local,24 con 36,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+2197,2026-11-15,Alirio,Monkey,Local,Pedragal,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+2198,2026-11-15,Alirio,Monkey,Local,Patarata,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+2199,2026-11-15,Alirio,Pizzería Nels,Local,Andres bello con 28,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pagado
+2200,2026-11-15,Alirio,Monkey,Local,bonbona 23 de enero,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+2201,2026-11-15,Alirio,Monkey,pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2202,2026-11-15,Alirio,1313Bqto,Local,30 c0n 23,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+2203,2026-11-15,Alirio,1313Bqto,Local,C.17 con 24,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2204,2026-11-15,Alirio,Monkey,Local,17 con 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2205,2026-11-15,Alirio,1313Bqto,pollera,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2206,2026-11-15,Alirio,Monkey,Local,27 con 30,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+2207,2026-11-15,Alirio,1313Bqto,Local,Luis Gomez Lopez,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2208,2026-11-16,Alirio,Chalong Case,Local,Asia center,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
+2209,2026-11-16,Alirio,Distribuidora Gpar,Tealca,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+2210,2026-11-16,Alirio,Distribuidora Gpar,18 con 36,Local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 2211,2026-11-23,Omar,Rori,Local,parque industrial del oeste,,0.0,66.66,0.0,0.0,Validado,Pendiente,Pendiente
-2212,2026-11-16,Alirio,Ari Perrarina,compras farmatodo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-2213,2026-11-16,Alirio,KingSport Maricela,centro,av vargas,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-2214,2026-11-16,Alirio,Clinivet,Rizzoto,local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2215,2026-11-16,Alirio,Clinivet,Dr Ksterine pire,local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-2216,2026-11-16,Alirio,Monkey,Local,CC Santiago Plaza,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2217,2026-11-16,Alirio,Monkey,Local,barrio la feria,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2218,2026-11-16,Alirio,1313Bqto,Local,Patarata (Ruezga),,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2219,2026-11-16,Alirio,1313Bqto,Local,calle 14,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2220,2026-11-16,Alirio,1313Bqto,Local,la 27,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2221,2026-11-16,Alirio,1313Bqto,Local,Autolavado de la 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2222,2026-11-16,Alirio,Monkey,la pollera (Vasos),Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2223,2026-11-16,Alirio,Monkey,Local,14 con 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2224,2026-11-16,Alirio,Angeles Guanipa,Barrio union (la pastora),la 13 con 13,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-2225,2026-11-17,Alirio,KingSport Maricela,Este,yaritagua,,10.0,70.0,7.0,3.0,Validado,Pendiente,Pendiente
-2226,2026-11-18,Alirio,Yrene Ortega,13 con 27 ,Aeropuerto,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-2227,2026-11-18,Alirio,Pinpanpon Vanessa Barraez,sotano del rio lama,28 con 10,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-2228,2026-11-18,Alirio,Clinivet,15 con 28 local 1,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2229,2026-11-18,Alirio,Candy Cakes Michelle,Local,santa elena,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
-2230,2026-11-18,Alirio,1313Bqto,Local,Av. libertador con 37,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2231,2026-11-18,Alirio,Adrys,Local,zoom,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-2232,2026-11-18,Alirio,Adrys,Local,mrw,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2233,2026-11-18,Alirio,Chalong Detalles,Local,24 con 21,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-2234,2026-11-18,Alirio,Chalong Detalles,Local,43 con 31,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-2235,2026-11-18,Alirio,Chalong Case,Local,barrio union ,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-2236,2026-11-18,Alirio,Andrés Escurra,19A con 59,Urb el pedregal,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pendiente
-2237,2026-11-18,Alirio,Angeles Guanipa,torre bel,urget care,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2238,2026-11-18,Alirio,Angeles Guanipa,vargas con 18,13 con 13,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2239,2026-11-18,Alirio,1313Bqto,Local,barrio la feria,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2240,2026-11-19,Alirio,Greychit Contreras,23 con 39 (200$) (ropa),local,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-2241,2026-11-20,Alirio,Chalong Case,Local,27 con 25,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
-2242,2026-11-20,Alirio,1313Bqto,Local,Av. 20 con 37,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2243,2026-11-21,Alirio,Monkey,Local,banquicenter,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-2244,2026-11-21,Alirio,Dhamilet Ramírez,Local,pollo market,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pendiente
-2245,2026-11-21,Alirio,KingSport Maricela,centro,21 con 14,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2246,2026-11-21,Alirio,Monkey,Local,25con 32,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2247,2026-11-21,Alirio,1313Bqto,Local,Av.Rotaria con 18,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pendiente
-2248,2026-11-21,Alirio,1313Bqto,Local,colinas del viento,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
-2249,2026-11-21,Alirio,1313Bqto,Local,Urb Ernesto,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pendiente
-2250,2026-11-21,Alirio,Angeles Guanipa,compras farmatodo,13 con 13,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pendiente
-2251,2026-11-22,Alirio,1313Bqto,Local,Av. 20 con 37,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
-2252,2026-11-22,Alirio,Angeles Guanipa,la 13,barrio union,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pendiente
+2212,2026-11-16,Alirio,Ari Perrarina,compras farmatodo,Local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+2213,2026-11-16,Alirio,KingSport Maricela,centro,av vargas,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pagado
+2214,2026-11-16,Alirio,Clinivet,Rizzoto,local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2215,2026-11-16,Alirio,Clinivet,Dr Ksterine pire,local,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+2216,2026-11-16,Alirio,Monkey,Local,CC Santiago Plaza,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2217,2026-11-16,Alirio,Monkey,Local,barrio la feria,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2218,2026-11-16,Alirio,1313Bqto,Local,Patarata (Ruezga),,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+2219,2026-11-16,Alirio,1313Bqto,Local,calle 14,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2220,2026-11-16,Alirio,1313Bqto,Local,la 27,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+2221,2026-11-16,Alirio,1313Bqto,Local,Autolavado de la 24,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+2222,2026-11-16,Alirio,Monkey,la pollera (Vasos),Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2223,2026-11-16,Alirio,Monkey,Local,14 con 18,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2224,2026-11-16,Alirio,Angeles Guanipa,Barrio union (la pastora),la 13 con 13,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
+2225,2026-11-17,Alirio,KingSport Maricela,Este,yaritagua,,10.0,70.0,7.0,3.0,Validado,Pendiente,Pagado
+2226,2026-11-18,Alirio,Yrene Ortega,13 con 27 ,Aeropuerto,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pagado
+2227,2026-11-18,Alirio,Pinpanpon Vanessa Barraez,sotano del rio lama,28 con 10,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+2228,2026-11-18,Alirio,Clinivet,15 con 28 local 1,Local,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2229,2026-11-18,Alirio,Candy Cakes Michelle,Local,santa elena,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pagado
+2230,2026-11-18,Alirio,1313Bqto,Local,Av. libertador con 37,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+2231,2026-11-18,Alirio,Adrys,Local,zoom,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pagado
+2232,2026-11-18,Alirio,Adrys,Local,mrw,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2233,2026-11-18,Alirio,Chalong Detalles,Local,24 con 21,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+2234,2026-11-18,Alirio,Chalong Detalles,Local,43 con 31,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
+2235,2026-11-18,Alirio,Chalong Case,Local,barrio union ,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pagado
+2236,2026-11-18,Alirio,Andrés Escurra,19A con 59,Urb el pedregal,,4.5,70.0,3.15,1.35,Validado,Pendiente,Pagado
+2237,2026-11-18,Alirio,Angeles Guanipa,torre bel,urget care,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2238,2026-11-18,Alirio,Angeles Guanipa,vargas con 18,13 con 13,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2239,2026-11-18,Alirio,1313Bqto,Local,barrio la feria,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2240,2026-11-19,Alirio,Greychit Contreras,23 con 39 (200$) (ropa),local,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
+2241,2026-11-20,Alirio,Chalong Case,Local,27 con 25,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pagado
+2242,2026-11-20,Alirio,1313Bqto,Local,Av. 20 con 37,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+2243,2026-11-21,Alirio,Monkey,Local,banquicenter,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pagado
+2244,2026-11-21,Alirio,Dhamilet Ramírez,Local,pollo market,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
+2245,2026-11-21,Alirio,KingSport Maricela,centro,21 con 14,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+2246,2026-11-21,Alirio,Monkey,Local,25con 32,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+2247,2026-11-21,Alirio,1313Bqto,Local,Av.Rotaria con 18,,4.0,70.0,2.8,1.2,Validado,Pendiente,Pagado
+2248,2026-11-21,Alirio,1313Bqto,Local,colinas del viento,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
+2249,2026-11-21,Alirio,1313Bqto,Local,Urb Ernesto,,5.0,70.0,3.5,1.5,Validado,Pendiente,Pagado
+2250,2026-11-21,Alirio,Angeles Guanipa,compras farmatodo,13 con 13,,1.5,70.0,1.05,0.45,Validado,Pendiente,Pagado
+2251,2026-11-22,Alirio,1313Bqto,Local,Av. 20 con 37,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
+2252,2026-11-22,Alirio,Angeles Guanipa,la 13,barrio union,,3.5,70.0,2.45,1.05,Validado,Pendiente,Pagado
 2254,2026-11-17,DanielG,Monkey,chino de la 12,local,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pagado
 2255,2026-11-18,DanielG,Chalong Case,Local,Residencias Kanigua ,,1.0,70.0,0.7,0.3,Validado,Pendiente,Pagado
 2256,2026-11-15,sebastian,Monkey,Local,barrion union,,3.0,30.0,0.9,2.1,Validado,Pendiente,Pendiente
