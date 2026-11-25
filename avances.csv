@@ -21,5 +21,5 @@ id,fecha,motorizado,monto,concepto,estado_avance
 20,2026-08-20,Jhoiner,7.0,2 Hamburguesas Crispi 1313,Pagado
 21,2026-11-09,Alirio,5.0,Salchipapas 1313,Pendiente
 22,2026-11-12,Alirio,10.0,"9.044,49",Pendiente
-23,2026-11-17,Alirio,10.0,"Avance de 9.166,48",Pendiente
-24,2026-11-22,Alirio,20.0,"Avance de 18.375,32",Pendiente
+23,2026-11-17,Alirio,10.0,"Avance de 9.166,48",Pagado
+24,2026-11-22,Alirio,20.0,"Avance de 18.375,32",Pagado
