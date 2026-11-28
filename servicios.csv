@@ -2247,3 +2247,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2300,2026-11-26,DanielG,1313Bqto,Local,38 con 39,,2.0,70.0,1.4,0.6,Validado,Pendiente,Pendiente
 2301,2026-11-27,DanielG,Cliente Eventual,parque del este,19 con av lara,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 2302,2026-11-27,DanielG,Chalong Case,Local,"Envios (Mrw, Zoom y Lae)",,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
+2303,2026-11-27,DanielG,Monkey,Local,Barrio Union,,3.0,70.0,2.1,0.9,Validado,Pendiente,Pendiente
