@@ -2262,3 +2262,4 @@ id,fecha,motorizado,cliente,origen,destino,detalle,precio_cliente,porcentaje_com
 2315,2026-11-25,Alirio,Clinivet,local,Zoomedical,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 2316,2026-11-25,Alirio,Clinivet,Local,calle 6 con 19,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
 2317,2026-11-25,Alirio,Cliente Eventual,28 con 17,CC rio lama,,2.5,70.0,1.75,0.75,Validado,Pendiente,Pendiente
+2318,2026-11-25,Alirio,Chalong Case,Local,25 con Av 20,,0.0,70.0,0.0,0.0,Validado,Pendiente,Pendiente
